@@ -1,0 +1,18 @@
+{
+ "id": "2509.15774",
+ "title": "Affective Air Quality Dataset: Personal Chemical Emissions from Emotional Videos",
+ "authors": [
+  "Jas Brooks",
+  "Javier Hernandez",
+  "Mary Czerwinski",
+  "Judith Amores"
+ ],
+ "v1_date": "2025-09-19",
+ "latest_version": 1,
+ "latest_date": "2025-09-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "11 pages, 4 figures",
+ "abstract": "Inspired by the role of chemosignals in conveying emotional states, this paper introduces the Affective Air Quality (AAQ) dataset, a novel dataset collected to explore the potential of volatile odor compound and gas sensor data for non-contact emotion detection. This dataset bridges the gap between the realms of breath \\& body odor emission (personal chemical emissions) analysis and established practices in affective computing. Comprising 4-channel gas sensor data from 23 participants at two distances from the body (wearable and desktop), alongside emotional ratings elicited by targeted movie clips, the dataset encapsulates initial groundwork to analyze the correlation between personal chemical emissions and varied emotional responses. The AAQ dataset also provides insights drawn from exit interviews, thereby painting a holistic picture of perceptions regarding air quality monitoring and its implications for privacy. By offering this dataset alongside preliminary attempts at emotion recognition models based on it to the broader research community, we seek to advance the development of odor-based affect recognition models that prioritize user privacy and comfort.",
+ "primary": "cs.HC"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2409.01208",
+ "title": "Statistical Jump Model for Mixed-Type Data with Missing Data Imputation",
+ "authors": [
+  "Federico P. Cortese",
+  "Antonio Pievatolo"
+ ],
+ "v1_date": "2024-09-02",
+ "latest_version": 2,
+ "latest_date": "2024-09-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "25 pages, 5 figures, 9 tables",
+ "abstract": "In this paper, we address the challenge of clustering mixed-type data with temporal evolution by introducing the statistical jump model for mixed-type data. This novel framework incorporates regime persistence, enhancing interpretability and reducing the frequency of state switches, and efficiently handles missing data. The model is easily interpretable through its state-conditional means and modes, making it accessible to practitioners and policymakers. We validate our approach through extensive simulation studies and an empirical application to air quality data, demonstrating its superiority in inferring persistent air quality regimes compared to the traditional air quality index. Our contributions include a robust method for mixed-type temporal clustering, effective missing data management, and practical insights for environmental monitoring.",
+ "primary": "stat.ME"
+}

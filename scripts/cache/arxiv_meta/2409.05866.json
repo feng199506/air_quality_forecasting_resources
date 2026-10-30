@@ -1,0 +1,19 @@
+{
+ "id": "2409.05866",
+ "title": "Are Hourly PM2.5 Forecasts Sufficiently Accurate to Plan Your Day? Individual Decision Making in the Face of Increasing Wildfire Smoke",
+ "authors": [
+  "Renato Berlinghieri",
+  "David R. Burt",
+  "Paolo Giani",
+  "Arlene M. Fiore",
+  "Tamara Broderick"
+ ],
+ "v1_date": "2024-09-09",
+ "latest_version": 2,
+ "latest_date": "2025-09-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "20 pages, 3 figures, 1 table",
+ "abstract": "Wildfire frequency is increasing as the climate changes, and the resulting air pollution poses health risks. Just as people routinely use hourly weather forecasts to plan their day's activities around precipitation, reliable hourly air quality forecasts could help individuals reduce their exposure to air pollution. In the present work, we evaluate six existing forecasts of ground-level fine particulate matter (PM2.5) within the continental United States during the 2023 fire season. We include forecasts using physical simulation, ensembling, and artificial intelligence. We focus our evaluation on individual decisions, such as (1) whether to go outside on a day with potentially high PM2.5 or (2) when to go outside for the lowest PM2.5 exposure. Our evaluation consists of both visualizations of hourly PM2.5 forecasts in particular locations as well as metrics summarizing forecast skill for the two tasks above. As part of our analysis, we introduce a new evaluation metric for the task of deciding when to go outside. We find meaningful room for improvement in PM2.5 forecasting, which might be realized by improving physical models, incorporating more data sources, and using artificial intelligence tools.",
+ "primary": "cs.LG"
+}

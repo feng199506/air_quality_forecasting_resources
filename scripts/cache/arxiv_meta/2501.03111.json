@@ -1,0 +1,19 @@
+{
+ "id": "2501.03111",
+ "title": "Assessing the impact of external factors on the occurrence of emergencies",
+ "authors": [
+  "Félicien Hêche",
+  "Philipp Schiller",
+  "Oussama Barakat",
+  "Thibaut Desmettre",
+  "Stephan Robert-Nicoud"
+ ],
+ "v1_date": "2025-01-06",
+ "latest_version": 1,
+ "latest_date": "2025-01-06",
+ "journal_ref": "",
+ "doi": "10.1016/j.health.2025.100426",
+ "comment": "",
+ "abstract": "This study investigates the impact of 19 external factors, related to weather, road traffic conditions, air quality, and time, on the occurrence of emergencies using historical data provided by the dispatch center of the Centre Hospitalier Universitaire Vaudois (CHUV). This center is responsible for managing Emergency Medical Service (EMS) resources in the majority of the French-speaking part of Switzerland. First, classical statistical methods, such as correlation, Chi-squared test, Student's $t$-test, and information value, are employed to identify dependencies between the occurrence of emergencies and the considered parameters. Additionally, SHapley Additive exPlanations (SHAP) values and permutation importance are computed using eXtreme Gradient Boosting (XGBoost) and Multilayer Perceptron (MLP) models. The results indicate that the hour of the day, along with correlated parameters, plays a crucial role in the occurrence of emergencies. Conversely, other factors do not significantly influence emergency occurrences. Subsequently, a simplified model that considers only the hour of the day is compared with our XGBoost and MLP models. These comparisons reveal no significant difference between the three models in terms of performance, supporting the use of the basic model in this context. These observations provide valuable insights for EMS resource relocation strategies, benefit predictive modeling efforts, and inform decision-making in the context of EMS. The implications extend to enhancing EMS quality, making this research essential.",
+ "primary": "cs.CY"
+}

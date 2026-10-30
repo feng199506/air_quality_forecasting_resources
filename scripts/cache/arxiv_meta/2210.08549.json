@@ -1,0 +1,19 @@
+{
+ "id": "2210.08549",
+ "title": "Automatic Emergency Dust-Free solution on-board International Space Station with Bi-GRU (AED-ISS)",
+ "authors": [
+  "Po-Han Hou",
+  "Wei-Chih Lin",
+  "Hong-Chun Hou",
+  "Yu-Hao Huang",
+  "Jih-Hong Shue"
+ ],
+ "v1_date": "2022-10-16",
+ "latest_version": 3,
+ "latest_date": "2023-08-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "11 pages, 5 figures, and 1 table",
+ "abstract": "With a rising attention for the issue of PM2.5 or PM0.3, particulate matters have become not only a potential threat to both the environment and human, but also a harming existence to instruments onboard International Space Station (ISS). Our team is aiming to relate various concentration of particulate matters to magnetic fields, humidity, acceleration, temperature, pressure and CO2 concentration. Our goal is to establish an early warning system (EWS), which is able to forecast the levels of particulate matters and provides ample reaction time for astronauts to protect their instruments in some experiments or increase the accuracy of the measurements; In addition, the constructed model can be further developed into a prototype of a remote-sensing smoke alarm for applications related to fires. In this article, we will implement the Bi-GRU (Bidirectional Gated Recurrent Unit) algorithms that collect data for past 90 minutes and predict the levels of particulates which over 2.5 micrometer per 0.1 liter for the next 1 minute, which is classified as an early warning",
+ "primary": "stat.AP"
+}

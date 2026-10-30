@@ -1,0 +1,15 @@
+{
+ "id": "2205.04885",
+ "title": "Adaptive Graph Convolutional Network Framework for Multidimensional Time Series Prediction",
+ "authors": [
+  "Ning Wang"
+ ],
+ "v1_date": "2022-05-08",
+ "latest_version": 1,
+ "latest_date": "2022-05-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "5 pages,2 figures",
+ "abstract": "In the real world, long sequence time-series forecasting (LSTF) is needed in many cases, such as power consumption prediction and air quality prediction.Multi-dimensional long time series model has more strict requirements on the model, which not only needs to effectively capture the accurate long-term dependence between input and output, but also needs to capture the relationship between data of different dimensions.Recent research shows that the Informer model based on Transformer has achieved excellent performance in long time series prediction.However, this model still has some deficiencies in multidimensional prediction,it cannot capture the relationship between different dimensions well. We improved Informer to address its shortcomings in multidimensional forecasting. First,we introduce an adaptive graph neural network to capture hidden dimension dependencies in mostly time series prediction. Secondly,we integrate adaptive graph convolutional networks into various spatio-temporal series prediction models to solve the defect that they cannot capture the relationship between different dimensions. Thirdly,After experimental testing with multiple data sets, the accuracy of our framework improved by about 10\\% after being introduced into the model.",
+ "primary": "cs.LG"
+}

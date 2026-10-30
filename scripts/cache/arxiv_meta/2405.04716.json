@@ -1,0 +1,17 @@
+{
+ "id": "2405.04716",
+ "title": "Physics-based deep learning reveals rising heating demand heightens air pollution in Norwegian cities",
+ "authors": [
+  "Cong Cao",
+  "Ramit Debnath",
+  "R. Michael Alvarez"
+ ],
+ "v1_date": "2024-05-07",
+ "latest_version": 1,
+ "latest_date": "2024-05-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "52 pages, 23 figures",
+ "abstract": "Policymakers frequently analyze air quality and climate change in isolation, disregarding their interactions. This study explores the influence of specific climate factors on air quality by contrasting a regression model with K-Means Clustering, Hierarchical Clustering, and Random Forest techniques. We employ Physics-based Deep Learning (PBDL) and Long Short-Term Memory (LSTM) to examine the air pollution predictions. Our analysis utilizes ten years (2009-2018) of daily traffic, weather, and air pollution data from three major cities in Norway. Findings from feature selection reveal a correlation between rising heating degree days and heightened air pollution levels, suggesting increased heating activities in Norway are a contributing factor to worsening air quality. PBDL demonstrates superior accuracy in air pollution predictions compared to LSTM. This paper contributes to the growing literature on PBDL methods for more accurate air pollution predictions using environmental variables, aiding policymakers in formulating effective data-driven climate policies.",
+ "primary": "cs.CY"
+}

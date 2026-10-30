@@ -1,0 +1,16 @@
+{
+ "id": "2112.05753",
+ "title": "Using Machine Learning to Predict Air Quality Index in New Delhi",
+ "authors": [
+  "Samayan Bhattacharya",
+  "Sk Shahnawaz"
+ ],
+ "v1_date": "2021-12-10",
+ "latest_version": 1,
+ "latest_date": "2021-12-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "7 pages, 5 figures, 6 tables",
+ "abstract": "Air quality has a significant impact on human health. Degradation in air quality leads to a wide range of health issues, especially in children. The ability to predict air quality enables the government and other concerned organizations to take necessary steps to shield the most vulnerable, from being exposed to the air with hazardous quality. Traditional approaches to this task have very limited success because of a lack of access of such methods to sufficient longitudinal data. In this paper, we use a Support Vector Regression (SVR) model to forecast the levels of various pollutants and the air quality index, using archive pollution data made publicly available by Central Pollution Control Board and the US Embassy in New Delhi. Among the tested methods, a Radial Basis Function (RBF) kernel produced the best results with SVR. According to our experiments, using the whole range of available variables produced better results than using features selected by principal component analysis. The model predicts levels of various pollutants, like, sulfur dioxide, carbon monoxide, nitrogen dioxide, particulate matter 2.5, and ground-level ozone, as well as the Air Quality Index (AQI), at an accuracy of 93.4 percent.",
+ "primary": "cs.LG"
+}

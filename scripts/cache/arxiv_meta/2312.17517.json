@@ -1,0 +1,17 @@
+{
+ "id": "2312.17517",
+ "title": "Embedded feature selection in LSTM networks with multi-objective evolutionary ensemble learning for time series forecasting",
+ "authors": [
+  "Raquel Espinosa",
+  "Fernando Jiménez",
+  "José Palma"
+ ],
+ "v1_date": "2023-12-29",
+ "latest_version": 1,
+ "latest_date": "2023-12-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Time series forecasting plays a crucial role in diverse fields, necessitating the development of robust models that can effectively handle complex temporal patterns. In this article, we present a novel feature selection method embedded in Long Short-Term Memory networks, leveraging a multi-objective evolutionary algorithm. Our approach optimizes the weights and biases of the LSTM in a partitioned manner, with each objective function of the evolutionary algorithm targeting the root mean square error in a specific data partition. The set of non-dominated forecast models identified by the algorithm is then utilized to construct a meta-model through stacking-based ensemble learning. Furthermore, our proposed method provides an avenue for attribute importance determination, as the frequency of selection for each attribute in the set of non-dominated forecasting models reflects their significance. This attribute importance insight adds an interpretable dimension to the forecasting process. Experimental evaluations on air quality time series data from Italy and southeast Spain demonstrate that our method substantially improves the generalization ability of conventional LSTMs, effectively reducing overfitting. Comparative analyses against state-of-the-art CancelOut and EAR-FS methods highlight the superior performance of our approach.",
+ "primary": "cs.LG"
+}

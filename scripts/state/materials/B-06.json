@@ -1,0 +1,148 @@
+{
+ "status": "verified",
+ "set": "books",
+ "title": "Science Algorithms of the EPA Models-3 Community Multiscale Air Quality (CMAQ) Modeling System (EPA/600/R-99/030, 1999)",
+ "files": [
+  {
+   "path": "books/CMAQ_ScienceDocumentation_1999_en/01_ch01_en.pdf",
+   "url": "https://www.cmascenter.org/cmaq/science_documentation/pdf/ch01.pdf",
+   "pages": 18,
+   "sha256": "d7d657a768c47f8aada88f17c93bcb711c13e7b3c08a48ba4352ed82ecb4b801",
+   "bytes": 102816
+  },
+  {
+   "path": "books/CMAQ_ScienceDocumentation_1999_en/02_ch03_en.pdf",
+   "url": "https://www.cmascenter.org/cmaq/science_documentation/pdf/ch03.pdf",
+   "pages": 16,
+   "sha256": "34f75a1b9ea76aea85053484f195533ca91422a8fcc3ca52fe0e899d8df0f201",
+   "bytes": 49825
+  },
+  {
+   "path": "books/CMAQ_ScienceDocumentation_1999_en/03_ch05_en.pdf",
+   "url": "https://www.cmascenter.org/cmaq/science_documentation/pdf/ch05.pdf",
+   "pages": 39,
+   "sha256": "457d233513a93822107c0a9185a34051cd5e7f253e0cbc64de1cb3476bd6eea8",
+   "bytes": 318596
+  },
+  {
+   "path": "books/CMAQ_ScienceDocumentation_1999_en/04_ch06_en.pdf",
+   "url": "https://www.cmascenter.org/cmaq/science_documentation/pdf/ch06.pdf",
+   "pages": 37,
+   "sha256": "5fbd7f5229b36e287faf38f44d40bed7d7120f8947da3b0a09e6e95a21fffb53",
+   "bytes": 321142
+  },
+  {
+   "path": "books/CMAQ_ScienceDocumentation_1999_en/05_ch07_en.pdf",
+   "url": "https://www.cmascenter.org/cmaq/science_documentation/pdf/ch07.pdf",
+   "pages": 56,
+   "sha256": "17102badaed9942d15dfe1ac18dd7769193d460dc1416311fc50b745a251ea72",
+   "bytes": 376631
+  },
+  {
+   "path": "books/CMAQ_ScienceDocumentation_1999_en/06_ch08_en.pdf",
+   "url": "https://www.cmascenter.org/cmaq/science_documentation/pdf/ch08.pdf",
+   "pages": 87,
+   "sha256": "7bcceed281f83eab3262f29e55a57eab5c995fe4442db002f6a514be26d8e646",
+   "bytes": 310153
+  },
+  {
+   "path": "books/CMAQ_ScienceDocumentation_1999_en/07_ch09_en.pdf",
+   "url": "https://www.cmascenter.org/cmaq/science_documentation/pdf/ch09.pdf",
+   "pages": 40,
+   "sha256": "da9d8550255ce2f7c85d19ecabaf29e4d29f07ac0721f6ca8a7a0a363ea76997",
+   "bytes": 240801
+  },
+  {
+   "path": "books/CMAQ_ScienceDocumentation_1999_en/08_ch10_en.pdf",
+   "url": "https://www.cmascenter.org/cmaq/science_documentation/pdf/ch10.pdf",
+   "pages": 24,
+   "sha256": "74e0c4ef5b9e9bb0a18913f87881e2102bbb7753c011da7f5a0b424caff7bfbc",
+   "bytes": 123438
+  },
+  {
+   "path": "books/CMAQ_ScienceDocumentation_1999_en/09_ch11_en.pdf",
+   "url": "https://www.cmascenter.org/cmaq/science_documentation/pdf/ch11.pdf",
+   "pages": 10,
+   "sha256": "d54304fa6cfb4459210bf6e48086f04b44dce06ed2ff6efa5267d51b908ed465",
+   "bytes": 51426
+  },
+  {
+   "path": "books/CMAQ_ScienceDocumentation_1999_en/10_ch12_en.pdf",
+   "url": "https://www.cmascenter.org/cmaq/science_documentation/pdf/ch12.pdf",
+   "pages": 91,
+   "sha256": "2322b8caa10e23ff26650f8dd3969315c515fd87ec4d7cecf0f2b26818cf6be7",
+   "bytes": 422947
+  },
+  {
+   "path": "books/CMAQ_ScienceDocumentation_1999_en/11_ch13_en.pdf",
+   "url": "https://www.cmascenter.org/cmaq/science_documentation/pdf/ch13.pdf",
+   "pages": 19,
+   "sha256": "7cd6efbe33ac9a1937136f675d6963a231df5018b33a0c1621ff55b311915a92",
+   "bytes": 85028
+  },
+  {
+   "path": "books/CMAQ_ScienceDocumentation_1999_en/12_ch14_en.pdf",
+   "url": "https://www.cmascenter.org/cmaq/science_documentation/pdf/ch14.pdf",
+   "pages": 8,
+   "sha256": "8ae4ff375e2ff59c64b53a79f11f1adc4cf069d107953db2f37b5e08e2cfcc0c",
+   "bytes": 45870
+  },
+  {
+   "path": "books/CMAQ_ScienceDocumentation_1999_en/13_ch15_en.pdf",
+   "url": "https://www.cmascenter.org/cmaq/science_documentation/pdf/ch15.pdf",
+   "pages": 17,
+   "sha256": "1940952f2f9a7ef24e94d5091e9570423189fe63ad81eda6de4fefaea1b98c32",
+   "bytes": 52708
+  },
+  {
+   "path": "books/CMAQ_ScienceDocumentation_1999_en/14_ch16_en.pdf",
+   "url": "https://www.cmascenter.org/cmaq/science_documentation/pdf/ch16.pdf",
+   "pages": 37,
+   "sha256": "c89ddd1d253026928e511b283021f17dc775fbf0f9542acbf7b30bcd50714e1a",
+   "bytes": 283034
+  },
+  {
+   "path": "books/CMAQ_ScienceDocumentation_1999_en/15_ch17a_en.pdf",
+   "url": "https://www.cmascenter.org/cmaq/science_documentation/pdf/ch17a.pdf",
+   "pages": 36,
+   "sha256": "00b4c775c8a25954ee9152ff5610ed7dfc901a9475b740ecbf411c1d00b0f394",
+   "bytes": 287504
+  },
+  {
+   "path": "books/CMAQ_ScienceDocumentation_1999_en/16_ch17b_en.pdf",
+   "url": "https://www.cmascenter.org/cmaq/science_documentation/pdf/ch17b.pdf",
+   "pages": 4,
+   "sha256": "8d7016082e00d11ae93bd67cd14c0ef071a8191f2b5d3dbc493591d67b399bac",
+   "bytes": 552961
+  },
+  {
+   "path": "books/CMAQ_ScienceDocumentation_1999_en/17_ch17c_en.pdf",
+   "url": "https://www.cmascenter.org/cmaq/science_documentation/pdf/ch17c.pdf",
+   "pages": 13,
+   "sha256": "0c823641d3a59e69c4c9f91d33ea07975b25cc3962abb41ecac2601f2eca84bb",
+   "bytes": 591093
+  },
+  {
+   "path": "books/CMAQ_ScienceDocumentation_1999_en/18_ch17d_en.pdf",
+   "url": "https://www.cmascenter.org/cmaq/science_documentation/pdf/ch17d.pdf",
+   "pages": 7,
+   "sha256": "e08e8796ebcd93517b8ef379943bced36119278d35cd4ab8ae1b319340efb2bb",
+   "bytes": 439375
+  },
+  {
+   "path": "books/CMAQ_ScienceDocumentation_1999_en/19_ch17e_en.pdf",
+   "url": "https://www.cmascenter.org/cmaq/science_documentation/pdf/ch17e.pdf",
+   "pages": 5,
+   "sha256": "9e3c9e871833d36ba38bcbd9e8ecbca9d455aba33c480c19510d1952d7e30e42",
+   "bytes": 267615
+  },
+  {
+   "path": "books/CMAQ_ScienceDocumentation_1999_en/20_ch18_en.pdf",
+   "url": "https://www.cmascenter.org/cmaq/science_documentation/pdf/ch18.pdf",
+   "pages": 25,
+   "sha256": "84f9906882444e3b12e52e117231886cab5dad3a175a15485e04fee0ff2e85a4",
+   "bytes": 83916
+  }
+ ],
+ "note": "20 个 PDF 全部 HTTP 200 且可解析，合计 589 页；文件链接取自官方索引页 https://www.cmascenter.org/cmaq/science_documentation/（该页列出的全部匹配文件均已下载）"
+}

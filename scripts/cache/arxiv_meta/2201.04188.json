@@ -1,0 +1,17 @@
+{
+ "id": "2201.04188",
+ "title": "Dynamic Price of Parking Service based on Deep Learning",
+ "authors": [
+  "Alejandro Luque-Cerpa",
+  "Miguel A. Gutiérrez-Naranjo",
+  "Miguel Cárdenas-Montes"
+ ],
+ "v1_date": "2022-01-11",
+ "latest_version": 1,
+ "latest_date": "2022-01-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "22 pages 57 figures",
+ "abstract": "The improvement of air-quality in urban areas is one of the main concerns of public government bodies. This concern emerges from the evidence between the air quality and the public health. Major efforts from government bodies in this area include monitoring and forecasting systems, banning more pollutant motor vehicles, and traffic limitations during the periods of low-quality air. In this work, a proposal for dynamic prices in regulated parking services is presented. The dynamic prices in parking service must discourage motor vehicles parking when low-quality episodes are predicted. For this purpose, diverse deep learning strategies are evaluated. They have in common the use of collective air-quality measurements for forecasting labels about air quality in the city. The proposal is evaluated by using economic parameters and deep learning quality criteria at Madrid (Spain).",
+ "primary": "cs.LG"
+}

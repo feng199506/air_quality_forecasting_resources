@@ -1,0 +1,21 @@
+{
+ "id": "2211.05267",
+ "title": "Detecting Elevated Air Pollution Levels by Monitoring Web Search Queries: Deep Learning-Based Time Series Forecasting",
+ "authors": [
+  "Chen Lin",
+  "Safoora Yousefi",
+  "Elvis Kahoro",
+  "Payam Karisani",
+  "Donghai Liang",
+  "Jeremy Sarnat",
+  "Eugene Agichtein"
+ ],
+ "v1_date": "2022-11-09",
+ "latest_version": 1,
+ "latest_date": "2022-11-09",
+ "journal_ref": "JMIR Form Res. 2022 Oct 25",
+ "doi": "10.2196/23422",
+ "comment": "",
+ "abstract": "Real-time air pollution monitoring is a valuable tool for public health and environmental surveillance. In recent years, there has been a dramatic increase in air pollution forecasting and monitoring research using artificial neural networks (ANNs). Most of the prior work relied on modeling pollutant concentrations collected from ground-based monitors and meteorological data for long-term forecasting of outdoor ozone, oxides of nitrogen, and PM2.5. Given that traditional, highly sophisticated air quality monitors are expensive and are not universally available, these models cannot adequately serve those not living near pollutant monitoring sites. Furthermore, because prior models were built on physical measurement data collected from sensors, they may not be suitable for predicting public health effects experienced from pollution exposure. This study aims to develop and validate models to nowcast the observed pollution levels using Web search data, which is publicly available in near real-time from major search engines. We developed novel machine learning-based models using both traditional supervised classification methods and state-of-the-art deep learning methods to detect elevated air pollution levels at the US city level, by using generally available meteorological data and aggregate Web-based search volume data derived from Google Trends. We validated the performance of these methods by predicting three critical air pollutants (ozone (O3), nitrogen dioxide (NO2), and fine particulate matter (PM2.5)), across ten major U.S. metropolitan statistical areas (MSAs) in 2017 and 2018.",
+ "primary": "cs.LG"
+}

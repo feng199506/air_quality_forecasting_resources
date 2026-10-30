@@ -1,0 +1,17 @@
+{
+ "id": "2209.08618",
+ "title": "Koopman-theoretic Approach for Identification of Exogenous Anomalies in Nonstationary Time-series Data",
+ "authors": [
+  "Alex Mallen",
+  "Christoph A. Keller",
+  "J. Nathan Kutz"
+ ],
+ "v1_date": "2022-09-18",
+ "latest_version": 1,
+ "latest_date": "2022-09-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "10 pages, 8 figures",
+ "abstract": "In many scenarios, it is necessary to monitor a complex system via a time-series of observations and determine when anomalous exogenous events have occurred so that relevant actions can be taken. Determining whether current observations are abnormal is challenging. It requires learning an extrapolative probabilistic model of the dynamics from historical data, and using a limited number of current observations to make a classification. We leverage recent advances in long-term probabilistic forecasting, namely {\\em Deep Probabilistic Koopman}, to build a general method for classifying anomalies in multi-dimensional time-series data. We also show how to utilize models with domain knowledge of the dynamics to reduce type I and type II error. We demonstrate our proposed method on the important real-world task of global atmospheric pollution monitoring, integrating it with NASA's Global Earth System Model. The system successfully detects localized anomalies in air quality due to events such as COVID-19 lockdowns and wildfires.",
+ "primary": "cs.LG"
+}

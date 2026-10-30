@@ -1,0 +1,16 @@
+{
+ "id": "2309.09579",
+ "title": "Time Series Forecasting for Air Pollution in Seoul",
+ "authors": [
+  "Sean Jeon",
+  "Seungmin Han"
+ ],
+ "v1_date": "2023-09-18",
+ "latest_version": 1,
+ "latest_date": "2023-09-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Accurate air pollution forecasting plays a crucial role in controlling air quality and minimizing adverse effects on human life. Among pollutants, atmospheric particulate matter (PM) is particularly significant, affecting both visibility and human health. In this study the concentration of air pollutants and comprehensive air quality index (CAI) data collected from 2015 to 2018 in Seoul, South Korea was analyzed. Using two different statistical models: error, trend, season (ETS) and autoregressive moving-average (ARIMA), measured monthly average PM2.5 concentration were used as input to forecast the monthly averaged concentration of PM2.5 12 months ahead. To evaluate the performance of the ETS model, five evaluation criteria were used: mean error (ME), root mean squared error (RMSE), mean absolute error (MAE), mean percentage error (MPE), and mean absolute percentage error (MAPE). Data collected from January 2019 to December 2019 were used for cross-validation check of ETS model. The best fitted ARIMA model was determined by examining the AICc (Akaike Information Criterion corrected) value. The results indicated that the ETS model outperforms the ARIMA model.",
+ "primary": "stat.AP"
+}

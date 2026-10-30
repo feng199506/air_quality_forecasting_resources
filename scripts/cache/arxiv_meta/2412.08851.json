@@ -1,0 +1,20 @@
+{
+ "id": "2412.08851",
+ "title": "Quantum Kernel-Based Long Short-term Memory for Climate Time-Series Forecasting",
+ "authors": [
+  "Yu-Chao Hsu",
+  "Nan-Yow Chen",
+  "Tai-Yu Li",
+  " Po-Heng",
+  " Lee",
+  "Kuan-Cheng Chen"
+ ],
+ "v1_date": "2024-12-12",
+ "latest_version": 1,
+ "latest_date": "2024-12-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "arXiv admin note: text overlap with arXiv:2411.13225",
+ "abstract": "We present the Quantum Kernel-Based Long short-memory (QK-LSTM) network, which integrates quantum kernel methods into classical LSTM architectures to enhance predictive accuracy and computational efficiency in climate time-series forecasting tasks, such as Air Quality Index (AQI) prediction. By embedding classical inputs into high-dimensional quantum feature spaces, QK-LSTM captures intricate nonlinear dependencies and temporal dynamics with fewer trainable parameters. Leveraging quantum kernel methods allows for efficient computation of inner products in quantum spaces, addressing the computational challenges faced by classical models and variational quantum circuit-based models. Designed for the Noisy Intermediate-Scale Quantum (NISQ) era, QK-LSTM supports scalable hybrid quantum-classical implementations. Experimental results demonstrate that QK-LSTM outperforms classical LSTM networks in AQI forecasting, showcasing its potential for environmental monitoring and resource-constrained scenarios, while highlighting the broader applicability of quantum-enhanced machine learning frameworks in tackling large-scale, high-dimensional climate datasets.",
+ "primary": "quant-ph"
+}

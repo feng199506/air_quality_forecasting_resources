@@ -1,0 +1,24 @@
+{
+ "id": "2210.10604",
+ "title": "Agrimonia: a dataset on livestock, meteorology and air quality in the Lombardy region, Italy",
+ "authors": [
+  "Alessandro Fassò",
+  "Jacopo Rodeschini",
+  "Alessandro Fusta Moro",
+  "Qendrim Shaboviq",
+  "Paolo Maranzano",
+  "Michela Cameletti",
+  "Francesco Finazzi",
+  "Natalia Golini",
+  "Rosaria Ignaccolo",
+  "Philipp Otto"
+ ],
+ "v1_date": "2022-10-19",
+ "latest_version": 1,
+ "latest_date": "2022-10-19",
+ "journal_ref": "Scientific Data 10(143) 2023",
+ "doi": "10.1038/s41597-023-02034-0",
+ "comment": "",
+ "abstract": "The air in the Lombardy region, Italy, is one of the most polluted in Europe because of limited air circulation and high emission levels. There is a large scientific consensus that the agricultural sector has a significant impact on air quality. To support studies quantifying the role of the agricultural and livestock sectors on the Lombardy air quality, this paper presents a harmonised dataset containing daily values of air quality, weather, emissions, livestock, and land and soil use in the years 2016 - 2021, for the Lombardy region. The pollutant data come from the European Environmental Agency and the Lombardy Regional Environment Protection Agency, weather and emissions data from the European Copernicus programme, livestock data from the Italian zootechnical registry, and land and soil use data from the CORINE Land Cover project. The resulting dataset is designed to be used as is by those using air quality data for research.",
+ "primary": "stat.AP"
+}

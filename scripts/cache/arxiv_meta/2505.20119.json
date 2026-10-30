@@ -1,0 +1,21 @@
+{
+ "id": "2505.20119",
+ "title": "Spatiotemporal Causal Decoupling Model for Air Quality Forecasting",
+ "authors": [
+  "Jiaming Ma",
+  "Guanjun Wang",
+  "Sheng Huang",
+  "Kuo Yang",
+  "Binwu Wang",
+  "Pengkun Wang",
+  "Yang Wang"
+ ],
+ "v1_date": "2025-05-26",
+ "latest_version": 1,
+ "latest_date": "2025-05-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Due to the profound impact of air pollution on human health, livelihoods, and economic development, air quality forecasting is of paramount significance. Initially, we employ the causal graph method to scrutinize the constraints of existing research in comprehensively modeling the causal relationships between the air quality index (AQI) and meteorological features. In order to enhance prediction accuracy, we introduce a novel air quality forecasting model, AirCade, which incorporates a causal decoupling approach. AirCade leverages a spatiotemporal module in conjunction with knowledge embedding techniques to capture the internal dynamics of AQI. Subsequently, a causal decoupling module is proposed to disentangle synchronous causality from past AQI and meteorological features, followed by the dissemination of acquired knowledge to future time steps to enhance performance. Additionally, we introduce a causal intervention mechanism to explicitly represent the uncertainty of future meteorological features, thereby bolstering the model's robustness. Our evaluation of AirCade on an open-source air quality dataset demonstrates over 20\\% relative improvement over state-of-the-art models.",
+ "primary": "cs.AI"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2508.11215",
+ "title": "Air Quality PM2.5 Index Prediction Model Based on CNN-LSTM",
+ "authors": [
+  "Zicheng Guo",
+  "Shuqi Wu",
+  "Meixing Zhu",
+  "He Guandi"
+ ],
+ "v1_date": "2025-08-15",
+ "latest_version": 1,
+ "latest_date": "2025-08-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "With the intensification of global climate change, accurate prediction of air quality indicators, especially PM2.5 concentration, has become increasingly important in fields such as environmental protection, public health, and urban management. To address this, we propose an air quality PM2.5 index prediction model based on a hybrid CNN-LSTM architecture. The model effectively combines Convolutional Neural Networks (CNN) for local spatial feature extraction and Long Short-Term Memory (LSTM) networks for modeling temporal dependencies in time series data. Using a multivariate dataset collected from an industrial area in Beijing between 2010 and 2015 -- which includes hourly records of PM2.5 concentration, temperature, dew point, pressure, wind direction, wind speed, and precipitation -- the model predicts the average PM2.5 concentration over 6-hour intervals. Experimental results show that the model achieves a root mean square error (RMSE) of 5.236, outperforming traditional time series models in both accuracy and generalization. This demonstrates its strong potential in real-world applications such as air pollution early warning systems. However, due to the complexity of multivariate inputs, the model demands high computational resources, and its ability to handle diverse atmospheric factors still requires optimization. Future work will focus on enhancing scalability and expanding support for more complex multivariate weather prediction tasks.",
+ "primary": "cs.LG"
+}

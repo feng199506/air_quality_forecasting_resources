@@ -1,0 +1,7 @@
+[
+  {"q": "all:\"air quality\" AND all:forecast AND (all:evaluation OR all:verification) AND (all:MAE OR all:RMSE OR all:CRPS)", "subtopic": "预报检验"},
+  {"q": "all:benchmark AND all:\"air quality\" AND (all:forecast OR all:prediction) AND (all:dataset OR all:reproducib)", "subtopic": "基准复现"},
+  {"q": "all:\"temporal split\" OR all:\"time series split\" AND all:\"air quality\"", "subtopic": "时间切分"},
+  {"q": "all:KnowAir OR all:\"air quality benchmark\"", "subtopic": "KnowAir基准"},
+  {"q": "all:leakage AND (all:forecast OR all:\"time series\") AND all:\"air quality\"", "subtopic": "泄漏"}
+]

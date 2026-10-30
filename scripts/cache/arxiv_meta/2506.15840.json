@@ -1,0 +1,17 @@
+{
+ "id": "2506.15840",
+ "title": "In-field Calibration of Low-Cost Sensors through XGBoost $\\&$ Aggregate Sensor Data",
+ "authors": [
+  "Kevin Yin",
+  "Julia Gersey",
+  "Pei Zhang"
+ ],
+ "v1_date": "2025-06-18",
+ "latest_version": 1,
+ "latest_date": "2025-06-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "6 pages including citations",
+ "abstract": "Effective large-scale air quality monitoring necessitates distributed sensing due to the pervasive and harmful nature of particulate matter (PM), particularly in urban environments. However, precision comes at a cost: highly accurate sensors are expensive, limiting the spatial deployments and thus their coverage. As a result, low-cost sensors have become popular, though they are prone to drift caused by environmental sensitivity and manufacturing variability. This paper presents a model for in-field sensor calibration using XGBoost ensemble learning to consolidate data from neighboring sensors. This approach reduces dependence on the presumed accuracy of individual sensors and improves generalization across different locations.",
+ "primary": "cs.LG"
+}

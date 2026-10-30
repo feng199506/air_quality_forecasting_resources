@@ -1,0 +1,21 @@
+{
+ "id": "2504.03785",
+ "title": "Detecting Plant VOC Traces Using Indoor Air Quality Sensors",
+ "authors": [
+  "Seyed Hamidreza Nabaei",
+  "Ryan Lenfant",
+  "Viswajith Govinda Rajan",
+  "Dong Chen",
+  "Michael P. Timko",
+  "Bradford Campbell",
+  "Arsalan Heydarian"
+ ],
+ "v1_date": "2025-04-03",
+ "latest_version": 1,
+ "latest_date": "2025-04-03",
+ "journal_ref": "Indoor Air, 2025, Article ID 7134467",
+ "doi": "10.1155/ina/7134467",
+ "comment": "",
+ "abstract": "In the era of growing interest in healthy buildings and smart homes, the importance of sustainable, health conscious indoor environments is paramount. Smart tools, especially VOC sensors, are crucial for monitoring indoor air quality, yet interpreting signals from various VOC sources remains challenging. A promising approach involves understanding how indoor plants respond to environmental conditions. Plants produce terpenes, a type of VOC, when exposed to abiotic and biotic stressors - including pathogens, predators, light, and temperature - offering a novel pathway for monitoring indoor air quality. While prior work often relies on specialized laboratory sensors, our research leverages readily available commercial sensors to detect and classify plant emitted VOCs that signify changes in indoor conditions. We quantified the sensitivity of these sensors by measuring 16 terpenes in controlled experiments, then identified and tested the most promising terpenes in realistic environments. We also examined physics based models to map VOC responses but found them lacking for real world complexity. Consequently, we trained machine learning models to classify terpenes using commercial sensors and identified optimal sensor placement. To validate this approach, we analyzed emissions from a living basil plant, successfully detecting terpene output. Our findings establish a foundation for overcoming challenges in plant VOC detection, paving the way for advanced plant based sensors to enhance indoor environmental quality in future smart buildings.",
+ "primary": "eess.SP"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2408.12476",
+ "title": "Predicting Solar Energy Generation with Machine Learning based on AQI and Weather Features",
+ "authors": [
+  "Arjun Shah",
+  "Varun Viswanath",
+  "Kashish Gandhi",
+  "Nilesh Madhukar Patil"
+ ],
+ "v1_date": "2024-08-22",
+ "latest_version": 3,
+ "latest_date": "2024-10-03",
+ "journal_ref": "",
+ "doi": "10.21203/rs.3.rs-3178713/v1",
+ "comment": "Accepted at AISD2024 : Second International Workshop on Artificial Intelligence: Empowering Sustainable Development",
+ "abstract": "This paper addresses the pressing need for an accurate solar energy prediction model, which is crucial for efficient grid integration. We explore the influence of the Air Quality Index and weather features on solar energy generation, employing advanced Machine Learning and Deep Learning techniques. Our methodology uses time series modeling and makes novel use of power transform normalization and zero-inflated modeling. Various Machine Learning algorithms and Conv2D Long Short-Term Memory model based Deep Learning models are applied to these transformations for precise predictions. Results underscore the effectiveness of our approach, demonstrating enhanced prediction accuracy with Air Quality Index and weather features. We achieved a 0.9691 $R^2$ Score, 0.18 MAE, 0.10 RMSE with Conv2D Long Short-Term Memory model, showcasing the power transform technique's innovation in enhancing time series forecasting for solar energy generation. Such results help our research contribute valuable insights to the synergy between Air Quality Index, weather features, and Deep Learning techniques for solar energy prediction.",
+ "primary": "cs.LG"
+}

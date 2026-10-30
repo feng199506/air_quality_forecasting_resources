@@ -1,0 +1,18 @@
+{
+ "id": "2302.06059",
+ "title": "Spatio-temporal Joint Modelling on Moderate and Extreme Air Pollution in Spain",
+ "authors": [
+  "Kai Wang",
+  "Chengxiu Ling",
+  "Ying Chen",
+  "Zhengjun Zhang"
+ ],
+ "v1_date": "2023-02-13",
+ "latest_version": 2,
+ "latest_date": "2023-08-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Very unhealthy air quality is consistently connected with numerous diseases. Appropriate extreme analysis and accurate predictions are in rising demand for exploring potential linked causes and for providing suggestions for the environmental agency in public policy strategy. This paper aims to model the spatial and temporal pattern of both moderate and extremely poor PM10 concentrations (of daily mean) collected from 342 representative monitors distributed throughout mainland Spain from 2017 to 2021. We firstly propose and compare a series of Bayesian hierarchical generalized extreme models of annual maxima PM10 concentrations, including both the fixed effect of altitude, temperature, precipitation, vapour pressure and population density, as well as the spatio-temporal random effect with the Stochastic Partial Differential Equation (SPDE) approach and a lag-one dynamic auto-regressive component (AR(1)). Under WAIC, DIC and other criteria, the best model is selected with good predictive ability based on the first four-year data (2017--2020) for training and the last-year data (2021) for testing. We bring the structure of the best model to establish the joint Bayesian model of annual mean and annual maxima PM10 concentrations and provide evidence that certain predictors (precipitation, vapour pressure and population density) influence comparably while the other predictors (altitude and temperature) impact reversely in the different scaled PM10 concentrations. The findings are applied to identify the hot-spot regions with poor air quality using excursion functions specified at the grid level. It suggests that the community of Madrid and some sites in northwestern and southern Spain are likely to be exposed to severe air pollution, simultaneously exceeding the warning risk threshold.",
+ "primary": "stat.AP"
+}

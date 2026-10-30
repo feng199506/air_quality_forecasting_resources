@@ -1,0 +1,19 @@
+{
+ "id": "2507.10014",
+ "title": "Forecasting Coccidioidomycosis (Valley Fever) in Arizona: A Graph Neural Network Approach",
+ "authors": [
+  "Ali Sarabi",
+  "Arash Sarabi",
+  "Hao Yan",
+  "Beckett Sterner",
+  "Petar Jevtić"
+ ],
+ "v1_date": "2025-07-14",
+ "latest_version": 1,
+ "latest_date": "2025-07-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Coccidioidomycosis, commonly known as Valley Fever, remains a significant public health concern in endemic regions of the southwestern United States. This study develops the first graph neural network (GNN) model for forecasting Valley Fever incidence in Arizona. The model integrates surveillance case data with environmental predictors using graph structures, including soil conditions, atmospheric variables, agricultural indicators, and air quality metrics. Our approach explores correlation-based relationships among variables influencing disease transmission. The model captures critical delays in disease progression through lagged effects, enhancing its capacity to reflect complex temporal dependencies in disease ecology. Results demonstrate that the GNN architecture effectively models Valley Fever trends and provides insights into key environmental drivers of disease incidence. These findings can inform early warning systems and guide resource allocation for disease prevention efforts in high-risk areas.",
+ "primary": "cs.LG"
+}

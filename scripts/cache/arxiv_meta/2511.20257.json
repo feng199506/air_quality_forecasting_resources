@@ -1,0 +1,17 @@
+{
+ "id": "2511.20257",
+ "title": "Interpretable Air Pollution Forecasting by Physics-Guided Spatiotemporal Decoupling",
+ "authors": [
+  "Zhiguo Zhang",
+  "Xiaoliang Ma",
+  "Daniel Schlesinger"
+ ],
+ "v1_date": "2025-11-25",
+ "latest_version": 2,
+ "latest_date": "2026-01-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to 2025 IEEE International Conference on Big Data. v2 corrects grant numbers",
+ "abstract": "Accurate and interpretable air pollution forecasting is crucial for public health, but most models face a trade-off between performance and interpretability. This study proposes a physics-guided, interpretable-by-design spatiotemporal learning framework. The model decomposes the spatiotemporal behavior of air pollutant concentrations into two transparent, additive modules. The first is a physics-guided transport kernel with directed weights conditioned on wind and geography (advection). The second is an explainable attention mechanism that learns local responses and attributes future concentrations to specific historical lags and exogenous drivers. Evaluated on a comprehensive dataset from the Stockholm region, our model consistently outperforms state-of-the-art baselines across multiple forecasting horizons. Our model's integration of high predictive performance and spatiotemporal interpretability provides a more reliable foundation for operational air-quality management in real-world applications.",
+ "primary": "cs.LG"
+}

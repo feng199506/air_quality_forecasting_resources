@@ -1,0 +1,15 @@
+{
+ "id": "2502.19042",
+ "title": "A HEART for the environment: Transformer-Based Spatiotemporal Modeling for Air Quality Prediction",
+ "authors": [
+  "Norbert Bodendorfer"
+ ],
+ "v1_date": "2025-02-26",
+ "latest_version": 1,
+ "latest_date": "2025-02-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Accurate and reliable air pollution forecasting is crucial for effective environmental management and policy-making. llull-environment is a sophisticated and scalable forecasting system for air pollution, inspired by previous models currently operational in Madrid and Valladolid (Spain). It contains (among other key components) an encoder-decoder convolutional neural network to forecast mean pollution levels for four key pollutants (NO$_2$, O$_3$, PM$_{10}$, PM$_{2.5}$) using historical data, external forecasts, and other contextual features. This paper investigates the augmentation of this neural network with an attention mechanism to improve predictive accuracy. The proposed attention mechanism pre-processes tensors containing the input features before passing them to the existing mean forecasting model. The resulting model is a combination of several architectures and ideas and can be described as a \"Hybrid Enhanced Autoregressive Transformer\", or HEART. The effectiveness of the approach is evaluated by comparing the mean square error (MSE) across different attention layouts against the system without such a mechanism. We observe a significant reduction in MSE of up to 22%, with an average of 7.5% across tested cities and pollutants. The performance of a given attention mechanism turns out to depend on the pollutant, highlighting the differences in their creation and dissipation processes. Our findings are not restricted to optimizing air quality prediction models, but are applicable generally to (fixed length) time series forecasting.",
+ "primary": "cs.LG"
+}

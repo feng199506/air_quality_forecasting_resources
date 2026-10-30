@@ -1,0 +1,23 @@
+{
+ "id": "2311.16625",
+ "title": "Gaussian Processes for Monitoring Air-Quality in Kampala",
+ "authors": [
+  "Clara Stoddart",
+  "Lauren Shrack",
+  "Richard Sserunjogi",
+  "Usman Abdul-Ganiy",
+  "Engineer Bainomugisha",
+  "Deo Okure",
+  "Ruth Misener",
+  "Jose Pablo Folch",
+  "Ruby Sedgwick"
+ ],
+ "v1_date": "2023-11-28",
+ "latest_version": 1,
+ "latest_date": "2023-11-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Monitoring air pollution is of vital importance to the overall health of the population. Unfortunately, devices that can measure air quality can be expensive, and many cities in low and middle-income countries have to rely on a sparse allocation of them. In this paper, we investigate the use of Gaussian Processes for both nowcasting the current air-pollution in places where there are no sensors and forecasting the air-pollution in the future at the sensor locations. In particular, we focus on the city of Kampala in Uganda, using data from AirQo's network of sensors. We demonstrate the advantage of removing outliers, compare different kernel functions and additional inputs. We also compare two sparse approximations to allow for the large amounts of temporal data in the dataset.",
+ "primary": "cs.LG"
+}

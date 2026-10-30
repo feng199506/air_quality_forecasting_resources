@@ -1,0 +1,19 @@
+{
+ "id": "2401.00521",
+ "title": "Multi-spatial Multi-temporal Air Quality Forecasting with Integrated Monitoring and Reanalysis Data",
+ "authors": [
+  "Yuxiao Hu",
+  "Qian Li",
+  "Xiaodan Shi",
+  "Jinyue Yan",
+  "Yuntian Chen"
+ ],
+ "v1_date": "2023-12-31",
+ "latest_version": 1,
+ "latest_date": "2023-12-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Accurate air quality forecasting is crucial for public health, environmental monitoring and protection, and urban planning. However, existing methods fail to effectively utilize multi-scale information, both spatially and temporally. Spatially, there is a lack of integration between individual monitoring stations and city-wide scales. Temporally, the periodic nature of air quality variations is often overlooked or inadequately considered. To address these limitations, we present a novel Multi-spatial Multi-temporal air quality forecasting method based on Graph Convolutional Networks and Gated Recurrent Units (M2G2), bridging the gap in air quality forecasting across spatial and temporal scales. The proposed framework consists of two modules: Multi-scale Spatial GCN (MS-GCN) for spatial information fusion and Multi-scale Temporal GRU(MT-GRU) for temporal information integration. In the spatial dimension, the MS-GCN module employs a bidirectional learnable structure and a residual structure, enabling comprehensive information exchange between individual monitoring stations and the city-scale graph. Regarding the temporal dimension, the MT-GRU module adaptively combines information from different temporal scales through parallel hidden states. Leveraging meteorological indicators and four air quality indicators, we present comprehensive comparative analyses and ablation experiments, showcasing the higher accuracy of M2G2 in comparison to nine currently available advanced approaches across all aspects. The improvements of M2G2 over the second-best method on RMSE of the 24h/48h/72h are as follows: PM2.5: (7.72%, 6.67%, 10.45%); PM10: (6.43%, 5.68%, 7.73%); NO2: (5.07%, 7.76%, 16.60%); O3: (6.46%, 6.86%, 9.79%). Furthermore, we demonstrate the effectiveness of each module of M2G2 by ablation study.",
+ "primary": "cs.LG"
+}

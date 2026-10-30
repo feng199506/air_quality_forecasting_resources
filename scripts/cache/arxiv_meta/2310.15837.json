@@ -1,0 +1,18 @@
+{
+ "id": "2310.15837",
+ "title": "Scenario analysis of livestock-related PM2.5 pollution based on a new heteroskedastic spatiotemporal model",
+ "authors": [
+  "Jacopo Rodeschini",
+  "Alessandro Fassò",
+  "Francesco Finazzi",
+  "Alessandro Fusta Moro"
+ ],
+ "v1_date": "2023-10-24",
+ "latest_version": 2,
+ "latest_date": "2024-01-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The air in the Lombardy Plain, Italy, is one of the most polluted in Europe due to limited atmosphere circulation and high emission levels. There is broad scientific consensus that ammonia (NH$_3$) emissions have a primary impact on air quality, and, in Lombardy, the agricultural sector and livestock activities are widely recognised as being responsible for approximately 97% of regional ammonia emissions due to the high density of livestock. In this paper, we quantify the relationship between ammonia emissions and PM2.5 concentrations in the Lombardy Plain and evaluate PM2.5 changes due to the reduction of ammonia emissions through a \"what-if\" scenario analysis. The information in the data is exploited using a spatiotemporal statistical model capable of handling spatial and temporal correlation, as well as missing data. To do this, we propose a new heteroskedastic extension of the well-established Hidden Dynamic Geostatistical Model. Maximum likelihood parameter estimates are obtained by the expectation-maximisation algorithm and implemented in a new version of the D-STEM software. Considering the years between 2016 and 2020, the scenario analysis is carried out on high-resolution PM2.5 maps of the Lombardy Plain. As a result, it is shown that a 26% reduction in NH3 emissions in the wintertime could reduce the PM2.5 average by 1.44 mg/m^3 while a 50% reduction could reduce the PM2.5 average by 2.76 mg / m^3 which corresponds to a reduction close to 3.6% and 7% respectively. Finally, results are detailed by province and land type.",
+ "primary": "stat.AP"
+}

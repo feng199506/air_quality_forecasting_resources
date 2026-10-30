@@ -1,0 +1,18 @@
+{
+ "id": "2407.12539",
+ "title": "Navigating the Smog: A Cooperative Multi-Agent RL for Accurate Air Pollution Mapping through Data Assimilation",
+ "authors": [
+  "Ichrak Mokhtari",
+  "Walid Bechkit",
+  "Mohamed Sami Assenine",
+  "Hervé Rivano"
+ ],
+ "v1_date": "2024-07-17",
+ "latest_version": 1,
+ "latest_date": "2024-07-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "8 pages, 4 figures",
+ "abstract": "The rapid rise of air pollution events necessitates accurate, real-time monitoring for informed mitigation strategies. Data Assimilation (DA) methods provide promising solutions, but their effectiveness hinges heavily on optimal measurement locations. This paper presents a novel approach for air quality mapping where autonomous drones, guided by a collaborative multi-agent reinforcement learning (MARL) framework, act as airborne detectives. Ditching the limitations of static sensor networks, the drones engage in a synergistic interaction, adapting their flight paths in real time to gather optimal data for Data Assimilation (DA). Our approach employs a tailored reward function with dynamic credit assignment, enabling drones to prioritize informative measurements without requiring unavailable ground truth data, making it practical for real-world deployments. Extensive experiments using a real-world dataset demonstrate that our solution achieves significantly improved pollution estimates, even with limited drone resources or limited prior knowledge of the pollution plume. Beyond air quality, this solution unlocks possibilities for tackling diverse environmental challenges like wildfire detection and management through scalable and autonomous drone cooperation.",
+ "primary": "cs.RO"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2412.00994",
+ "title": "PIAD-SRNN: Physics-Informed Adaptive Decomposition in State-Space RNN",
+ "authors": [
+  "Ahmad Mohammadshirazi",
+  "Pinaki Prasad Guha Neogi",
+  "Rajiv Ramnath"
+ ],
+ "v1_date": "2024-12-01",
+ "latest_version": 2,
+ "latest_date": "2025-07-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Time series forecasting often demands a trade-off between accuracy and efficiency. While recent Transformer models have improved forecasting capabilities, they come with high computational costs. Linear-based models have shown better accuracy than Transformers but still fall short of ideal performance. We propose PIAD-SRNN, a physics-informed adaptive decomposition state-space RNN, that separates seasonal and trend components and embeds domain equations in a recurrent framework. We evaluate PIAD-SRNN's performance on indoor air quality datasets, focusing on CO2 concentration prediction across various forecasting horizons, and results demonstrate that it consistently outperforms SoTA models in both long-term and short-term time series forecasting, including transformer-based architectures, in terms of both MSE and MAE. Besides proposing PIAD-SRNN which balances accuracy with efficiency, this paper also provides four curated datasets. Code and data: https://github.com/ahmad-shirazi/DSSRNN",
+ "primary": "cs.LG"
+}

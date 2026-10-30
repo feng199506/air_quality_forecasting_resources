@@ -1,0 +1,17 @@
+{
+ "id": "2510.05646",
+ "title": "Geographically Weighted Regression for Air Quality Low-Cost Sensor Calibration",
+ "authors": [
+  "Jean-Michel Poggi",
+  "Bruno Portier",
+  "Emma Thulliez"
+ ],
+ "v1_date": "2025-10-07",
+ "latest_version": 2,
+ "latest_date": "2026-03-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This article focuses on the use of Geographically Weighted Regression (GWR) method to correct air quality low-cost sensors measurements. Those sensors are of major interest in the current era of high-resolution air quality monitoring at urban scale, but require calibration using reference analyzers. The results for NO2 are provided along with comments on the estimated GWR model and the spatial content of the estimated coefficients. The study has been carried out using the publicly available SensEURCity dataset in Antwerp, which is especially relevant since it includes 9 reference stations and 34 low-cost sensors collocated and deployed within the city.",
+ "primary": "stat.AP"
+}

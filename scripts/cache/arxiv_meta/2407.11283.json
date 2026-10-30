@@ -1,0 +1,20 @@
+{
+ "id": "2407.11283",
+ "title": "Novel Approach for Predicting the Air Quality Index of Megacities through Attention-Enhanced Deep Multitask Spatiotemporal Learning",
+ "authors": [
+  "Harun Khan",
+  "Joseph Tso",
+  "Nathan Nguyen",
+  "Nivaan Kaushal",
+  "Ansh Malhotra",
+  "Nayel Rehman"
+ ],
+ "v1_date": "2024-07-15",
+ "latest_version": 1,
+ "latest_date": "2024-07-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "6 pages, 3 figures, 3 tables",
+ "abstract": "Air pollution remains one of the most formidable environmental threats to human health globally, particularly in urban areas, contributing to nearly 7 million premature deaths annually. Megacities, defined as cities with populations exceeding 10 million, are frequent hotspots of severe pollution, experiencing numerous weeks of dangerously poor air quality due to the concentration of harmful pollutants. In addition, the complex interplay of factors makes accurate air quality predictions incredibly challenging, and prediction models often struggle to capture these intricate dynamics. To address these challenges, this paper proposes an attention-enhanced deep multitask spatiotemporal machine learning model based on long-short-term memory networks for long-term air quality monitoring and prediction. The model demonstrates robust performance in predicting the levels of major pollutants such as sulfur dioxide and carbon monoxide, effectively capturing complex trends and fluctuations. The proposed model provides actionable information for policymakers, enabling informed decision making to improve urban air quality.",
+ "primary": "cs.LG"
+}

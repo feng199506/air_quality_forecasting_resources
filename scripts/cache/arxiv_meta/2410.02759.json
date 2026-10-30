@@ -1,0 +1,17 @@
+{
+ "id": "2410.02759",
+ "title": "Forecasting Smog Clouds With Deep Learning",
+ "authors": [
+  "Valentijn Oldenburg",
+  "Juan Cardenas-Cartagena",
+  "Matias Valdenegro-Toro"
+ ],
+ "v1_date": "2024-10-03",
+ "latest_version": 1,
+ "latest_date": "2024-10-03",
+ "journal_ref": "Oldenburg, V., Cardenas-Cartagena, J., & Valdenegro-Toro, M. (2024). Forecasting smog clouds with deep learning: A proof-of-concept. In ICML 2024 AI for Science Workshop. https://openreview.net/forum?id=UQa2PEVHMF",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this proof-of-concept study, we conduct multivariate timeseries forecasting for the concentrations of nitrogen dioxide (NO2), ozone (O3), and (fine) particulate matter (PM10 & PM2.5) with meteorological covariates between two locations using various deep learning models, with a focus on long short-term memory (LSTM) and gated recurrent unit (GRU) architectures. In particular, we propose an integrated, hierarchical model architecture inspired by air pollution dynamics and atmospheric science that employs multi-task learning and is benchmarked by unidirectional and fully-connected models. Results demonstrate that, above all, the hierarchical GRU proves itself as a competitive and efficient method for forecasting the concentration of smog-related pollutants.",
+ "primary": "cs.LG"
+}

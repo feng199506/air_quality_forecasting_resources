@@ -1,0 +1,17 @@
+{
+ "id": "2308.13572",
+ "title": "EEATC: A Novel Calibration Approach for Low-cost Sensors",
+ "authors": [
+  "M V Narayana",
+  "Devendra Jalihal",
+  "Shiva Nagendra"
+ ],
+ "v1_date": "2023-08-25",
+ "latest_version": 1,
+ "latest_date": "2023-08-25",
+ "journal_ref": "",
+ "doi": "10.1109/jsen.2023.3304366",
+ "comment": "Accepted for IEEE sensors Journal",
+ "abstract": "Low-cost sensors (LCS) are affordable, compact, and often portable devices designed to measure various environmental parameters, including air quality. These sensors are intended to provide accessible and cost-effective solutions for monitoring pollution levels in different settings, such as indoor, outdoor and moving vehicles. However, the data produced by LCS is prone to various sources of error that can affect accuracy. Calibration is a well-known procedure to improve the reliability of the data produced by LCS, and several developments and efforts have been made to calibrate the LCS. This work proposes a novel Estimated Error Augmented Two-phase Calibration (\\textit{EEATC}) approach to calibrate the LCS in stationary and mobile deployments. In contrast to the existing approaches, the \\textit{EEATC} calibrates the LCS in two phases, where the error estimated in the first phase calibration is augmented with the input to the second phase, which helps the second phase to learn the distributional features better to produce more accurate results. We show that the \\textit{EEATC} outperforms well-known single-phase calibration models such as linear regression models (single variable linear regression (SLR) and multiple variable linear regression (MLR)) and Random forest (RF) in stationary and mobile deployments. To test the \\textit{EEATC} in stationary deployments, we have used the Community Air Sensor Network (CAIRSENSE) data set approved by the United States Environmental Protection Agency (USEPA), and the mobile deployments are tested with the real-time data obtained from SensurAir, an LCS device developed and deployed on moving vehicle in Chennai, India.",
+ "primary": "eess.SP"
+}

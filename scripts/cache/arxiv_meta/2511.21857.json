@@ -1,0 +1,16 @@
+{
+ "id": "2511.21857",
+ "title": "Lightweight ML-Based Air Quality Prediction for IoT and Embedded Applications",
+ "authors": [
+  "Md. Sad Abdullah Sami",
+  "Mushfiquzzaman Abid"
+ ],
+ "v1_date": "2025-11-26",
+ "latest_version": 1,
+ "latest_date": "2025-11-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This study investigates the effectiveness and efficiency of two variants of the XGBoost regression model, the full-capacity and lightweight (tiny) versions, for predicting the concentrations of carbon monoxide (CO) and nitrogen dioxide (NO2). Using the AirQualityUCI dataset collected over one year in an urban environment, we conducted a comprehensive evaluation based on widely accepted metrics, including Mean Absolute Error (MAE), Root Mean Square Error (RMSE), Mean Bias Error (MBE), and the coefficient of determination (R2). In addition, we assessed resource-oriented metrics such as inference time, model size, and peak RAM usage. The full XGBoost model achieved superior predictive accuracy for both pollutants, while the tiny model, though slightly less precise, offered substantial computational benefits with significantly reduced inference time and model storage requirements. These results demonstrate the feasibility of deploying simplified models in resource-constrained environments without compromising predictive quality. This makes the tiny XGBoost model suitable for real-time air-quality monitoring in IoT and embedded applications.",
+ "primary": "cs.LG"
+}

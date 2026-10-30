@@ -1,0 +1,21 @@
+{
+ "id": "2604.22787",
+ "title": "Conformal PM2.5 Mapping Under Spatial Covariate Shift: Satellite-Reanalysis Fusion for Africa's Green Industrial Transition",
+ "authors": [
+  "Yaw Osei Adjei",
+  "Davis Opoku",
+  "Ephraim Abotsi",
+  "Kwadwo Owusu Amanqua",
+  "Oliver Kornyo",
+  "Elisha Soglo-Ahianyo",
+  "Cephas Anertey Abbey"
+ ],
+ "v1_date": "2026-04-05",
+ "latest_version": 1,
+ "latest_date": "2026-04-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "9 pages, 8 figures, 6 tables. Index Terms: PM2.5 mapping, conformal prediction, covariate shift, spatial cross-validation, air quality, green industrialisation, trustworthy AI, Africa",
+ "abstract": "Africa's green industrialization imperative demands reliable infrastructure for monitoring air quality. We present a satellite-reanalysis PM2.5 fusion system trained on 2,068,901 records from 404 monitoring locations in 29 African countries (OpenAQ, 2017-2022), combining LightGBM with leakage-resistant spatial cross-validation and conformal prediction to quantify predictions and their geographic applicability limits. Under 5-fold location-grouped spatial cross-validation, LightGBM achieves RMSE = 30.83 +/- 5.07 ug/m3, MAE = 14.54 +/- 1.66 ug/m3, R2 = 0.134 +/- 0.023, and macro F1 = 0.336 +/- 0.018. This R2 is substantially below random-split benchmarks (>0.90) but reflects true geographic generalisation difficulty rather than model failure. Split conformal prediction targeting 90% marginal coverage reveals severe East Africa degradation (actual PICP = 65.3% vs. nominal 90%), consistent with medium-strength covariate shift (humidity KS = 0.2237, sat_pblh KS = 0.2558). We operationalise these findings through regional reliability flags (High/Medium/Low/Unreliable) and a monitor prioritisation score directing infrastructure expansion toward highest-burden unmonitored populations, directly supporting Africa's green industrial transition and SDGs 3.9, 7.1.2, 9, 11.6.2, and 13.",
+ "primary": "cs.LG"
+}

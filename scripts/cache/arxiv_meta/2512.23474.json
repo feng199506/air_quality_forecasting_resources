@@ -1,0 +1,18 @@
+{
+ "id": "2512.23474",
+ "title": "Deep classifier kriging for probabilistic spatial prediction of air quality index",
+ "authors": [
+  "Junyu Chen",
+  "Pratik Nag",
+  "Huixia Judy-Wang",
+  "Ying Sun"
+ ],
+ "v1_date": "2025-12-29",
+ "latest_version": 1,
+ "latest_date": "2025-12-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Accurate spatial interpolation of the air quality index (AQI), computed from concentrations of multiple air pollutants, is essential for regulatory decision-making, yet AQI fields are inherently non-Gaussian and often exhibit complex nonlinear spatial structure. Classical spatial prediction methods such as kriging are linear and rely on Gaussian assumptions, which limits their ability to capture these features and to provide reliable predictive distributions. In this study, we propose \\textit{deep classifier kriging} (DCK), a flexible, distribution-free deep learning framework for estimating full predictive distribution functions for univariate and bivariate spatial processes, together with a \\textit{data fusion} mechanism that enables modeling of non-collocated bivariate processes and integration of heterogeneous air pollution data sources. Through extensive simulation experiments, we show that DCK consistently outperforms conventional approaches in predictive accuracy and uncertainty quantification. We further apply DCK to probabilistic spatial prediction of AQI by fusing sparse but high-quality station observations with spatially continuous yet biased auxiliary model outputs, yielding spatially resolved predictive distributions that support downstream tasks such as exceedance and extreme-event probability estimation for regulatory risk assessment and policy formulation.",
+ "primary": "stat.ME"
+}

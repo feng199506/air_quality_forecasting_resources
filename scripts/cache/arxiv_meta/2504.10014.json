@@ -1,0 +1,20 @@
+{
+ "id": "2504.10014",
+ "title": "Air Quality Prediction with A Meteorology-Guided Modality-Decoupled Spatio-Temporal Network",
+ "authors": [
+  "Hang Yin",
+  "Yan-Ming Zhang",
+  "Jian Xu",
+  "Jian-Long Chang",
+  "Yin Li",
+  "Cheng-Lin Liu"
+ ],
+ "v1_date": "2025-04-14",
+ "latest_version": 1,
+ "latest_date": "2025-04-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Air quality prediction plays a crucial role in public health and environmental protection. Accurate air quality prediction is a complex multivariate spatiotemporal problem, that involves interactions across temporal patterns, pollutant correlations, spatial station dependencies, and particularly meteorological influences that govern pollutant dispersion and chemical transformations. Existing works underestimate the critical role of atmospheric conditions in air quality prediction and neglect comprehensive meteorological data utilization, thereby impairing the modeling of dynamic interdependencies between air quality and meteorological data. To overcome this, we propose MDSTNet, an encoder-decoder framework that explicitly models air quality observations and atmospheric conditions as distinct modalities, integrating multi-pressure-level meteorological data and weather forecasts to capture atmosphere-pollution dependencies for prediction. Meantime, we construct ChinaAirNet, the first nationwide dataset combining air quality records with multi-pressure-level meteorological observations. Experimental results on ChinaAirNet demonstrate MDSTNet's superiority, substantially reducing 48-hour prediction errors by 17.54\\% compared to the state-of-the-art model. The source code and dataset will be available on github.",
+ "primary": "cs.LG"
+}

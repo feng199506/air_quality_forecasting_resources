@@ -1,0 +1,17 @@
+{
+ "id": "2402.17297",
+ "title": "Combined Quantile Forecasting for High-Dimensional Non-Gaussian Data",
+ "authors": [
+  "Seeun Park",
+  "Hee-Seok Oh",
+  "Yaeji Lim"
+ ],
+ "v1_date": "2024-02-27",
+ "latest_version": 1,
+ "latest_date": "2024-02-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This study proposes a novel method for forecasting a scalar variable based on high-dimensional predictors that is applicable to various data distributions. In the literature, one of the popular approaches for forecasting with many predictors is to use factor models. However, these traditional methods are ineffective when the data exhibit non-Gaussian characteristics such as skewness or heavy tails. In this study, we newly utilize a quantile factor model to extract quantile factors that describe specific quantiles of the data beyond the mean factor. We then build a quantile-based forecast model using the estimated quantile factors at different quantile levels as predictors. Finally, the predicted values at the various quantile levels are combined into a single forecast as a weighted average with weights determined by a Markov chain based on past trends of the target variable. The main idea of the proposed method is to incorporate a quantile approach to a forecasting method to handle non-Gaussian characteristics effectively. The performance of the proposed method is evaluated through a simulation study and real data analysis of PM2.5 data in South Korea, where the proposed method outperforms other existing methods in most cases.",
+ "primary": "stat.ME"
+}

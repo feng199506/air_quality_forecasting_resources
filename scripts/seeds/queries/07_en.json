@@ -1,0 +1,8 @@
+[
+  {"q": "all:\"conformal prediction\" AND (all:\"air quality\" OR all:PM2.5 OR all:ozone)", "subtopic": "共形预测"},
+  {"q": "all:quantile AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)", "subtopic": "分位数"},
+  {"q": "all:probabilistic AND all:\"air quality\" AND (all:forecast OR all:forecasting)", "subtopic": "概率预报"},
+  {"q": "all:CRPS AND (all:\"air quality\" OR all:PM2.5 OR all:ozone)", "subtopic": "CRPS"},
+  {"q": "all:\"extreme\" AND (all:PM2.5 OR all:\"air pollution\") AND (all:forecast OR all:prediction OR all:exceedance)", "subtopic": "极端污染"},
+  {"q": "all:ensemble AND all:\"air quality\" AND all:forecast AND (all:uncertainty OR all:probabilistic)", "subtopic": "集合不确定性"}
+]

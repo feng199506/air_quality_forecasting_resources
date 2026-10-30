@@ -1,0 +1,19 @@
+{
+ "id": "2205.03499",
+ "title": "Investigating Use of Low-Cost Sensors to Increase Accuracy and Equity of Real-Time Air Quality Information",
+ "authors": [
+  "Ellen M. Considine",
+  "Danielle Braun",
+  "Leila Kamareddine",
+  "Rachel C. Nethery",
+  "Priyanka deSouza"
+ ],
+ "v1_date": "2022-05-06",
+ "latest_version": 2,
+ "latest_date": "2023-01-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Main text = 17 pages, including 3 figures and 1 table. References + Supplemental Information = 33 pages, including supplemental notes, 12 figures and 9 tables",
+ "abstract": "Environmental Protection Agency (EPA) air quality (AQ) monitors, the gold standard for measuring air pollutants, are sparsely positioned across the US due to their costliness. Low-cost sensors (LCS) are increasingly being used by the public to fill in the gaps in AQ monitoring; however, LCS are not as accurate as EPA monitors. In this work, we investigate factors impacting the differences between an individual's true (unobserved) exposure to fine particulate matter (PM2.5) and the exposure reported by their nearest AQ instrument, which could be either an EPA monitor or an LCS. Three factors contributing to these differences are (1) distance to the nearest AQ instrument, (2) local variability in AQ, and (3) device measurement error. We examine the contributions of each component to the overall error in reported AQ using simulations based on California data. The simulations explore different combinations of hypothetical LCS placement strategies (at schools, near major roads, and in environmentally and socioeconomically marginalized census tracts) for different numbers of LCS, with varying plausible amounts of LCS device measurement error. For each scenario, we evaluate the accuracy of daily AQ information available from individuals' nearest AQ instrument with respect to absolute errors and misclassifications of the Air Quality Index, stratified by socioeconomic and demographic characteristics. We illustrate how real-time AQ reporting could be improved (or, in some cases, worsened) by using LCS, both for the population overall and for marginalized communities specifically. This work has implications for the integration of LCS into real-time AQ reporting platforms.",
+ "primary": "stat.AP"
+}

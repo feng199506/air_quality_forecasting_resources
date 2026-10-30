@@ -1,0 +1,16 @@
+{
+ "id": "2512.22758",
+ "title": "A Micro-Macro Machine Learning Framework for Predicting Childhood Obesity Risk Using NHANES and Environmental Determinants",
+ "authors": [
+  "Eswarasanthosh Kumar Mamillapalli",
+  "Nishtha Sharma"
+ ],
+ "v1_date": "2025-12-28",
+ "latest_version": 1,
+ "latest_date": "2025-12-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Childhood obesity remains a major public health challenge in the United States, strongly influenced by a combination of individual-level, household-level, and environmental-level risk factors. Traditional epidemiological studies typically analyze these levels independently, limiting insights into how structural environmental conditions interact with individual-level characteristics to influence health outcomes. In this study, we introduce a micro-macro machine learning framework that integrates (1) individual-level anthropometric and socioeconomic data from NHANES and (2) macro-level structural environment features, including food access, air quality, and socioeconomic vulnerability extracted from USDA and EPA datasets. Four machine learning models Logistic Regression, Random Forest, XGBoost, and LightGBM were trained to predict obesity using NHANES microdata. XGBoost achieved the strongest performance. A composite environmental vulnerability index (EnvScore) was constructed using normalized indicators from USDA and EPA at the state level. Multi-level comparison revealed strong geographic similarity between states with high environmental burden and the nationally predicted micro-level obesity risk distribution. This demonstrates the feasibility of integrating multi-scale datasets to identify environment-driven disparities in obesity risk. This work contributes a scalable, data-driven, multi-level modeling pipeline suitable for public health informatics, demonstrating strong potential for expansion into causal modeling, intervention planning, and real-time analytics.",
+ "primary": "cs.LG"
+}

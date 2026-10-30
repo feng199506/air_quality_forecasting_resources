@@ -1,0 +1,15 @@
+{
+ "status": "verified",
+ "set": "books",
+ "title": "Technical Assistance Document for the Reporting of Daily Air Quality – the Air Quality Index (AQI) (EPA, September 2018)",
+ "files": [
+  {
+   "path": "books/EPA_AQI_TechnicalAssistanceDocument_2018_en.pdf",
+   "url": "https://www.airnow.gov/sites/default/files/2020-05/aqi-technical-assistance-document-sept2018.pdf",
+   "pages": 22,
+   "sha256": "173f8d8668e37bc477290b84d13b905f07235815aca4875cfa78cff712646449",
+   "bytes": 702943
+  }
+ ],
+ "note": "HTTP 200；%PDF；pypdf 可解析 22 页；名称短语已见"
+}

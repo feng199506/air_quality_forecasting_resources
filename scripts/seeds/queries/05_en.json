@@ -1,0 +1,8 @@
+[
+  {"q": "(all:LSTM OR all:GRU OR all:RNN) AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)", "subtopic": "RNN族"},
+  {"q": "all:Transformer AND (all:\"air quality\" OR all:PM2.5) AND (all:forecast OR all:prediction)", "subtopic": "Transformer"},
+  {"q": "all:TCN AND (all:PM2.5 OR all:\"air quality\")", "subtopic": "TCN"},
+  {"q": "all:\"deep learning\" AND all:\"air quality\" AND (all:forecasting OR all:forecast) AND (all:hourly OR all:station)", "subtopic": "深度学习预报"},
+  {"q": "all:AirFormer OR all:\"air quality transformer\"", "subtopic": "AirFormer"},
+  {"q": "all:\"foundation model\" AND (all:\"air quality\" OR all:\"air pollution\")", "subtopic": "基础模型"}
+]

@@ -1,0 +1,17 @@
+{
+ "id": "2605.03267",
+ "title": "Partial Effective Information Decomposition for Synergistic Causality",
+ "authors": [
+  "Mingzhe Yang",
+  "Shuo Wang",
+  "Jiang Zhang"
+ ],
+ "v1_date": "2026-05-05",
+ "latest_version": 1,
+ "latest_date": "2026-05-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Causality is a central topic in scientific inquiry, yet for complex systems, the identification and analysis of synergistic causation remain a challenging and fundamental problem. In the context of causal relations among multivariate variables, a decomposition framework grounded in interventionist causation is still lacking. To address this gap, this paper proposes Partial Effective Information Decomposition (PEID), a framework that decomposes the influence of multiple source variables on a target variable under maximum-entropy interventions into unique and synergistic information, thereby providing a unified and computable characterization of synergistic causal relations. Theoretically, in the three-variable case, the proposed framework is compatible with the major axioms of Partial Information Decomposition (PID). Empirically, under maximum-entropy interventions, correlations among input variables are removed, causing redundancy to vanish and thereby enabling PEID to compute synergistic relations. Furthermore, based on this framework, it is possible to define causal graphs containing hyperedges as well as downward causation, thus offering a unified toolkit for analyzing cross-scale and multivariate causal mechanisms in complex systems. Finally, applying the framework to a machine-learning-based air quality forecasting task on KnowAir-V2, we demonstrate that PEID can extract interpretable inter-station causal structures from a learned dynamical model. These results suggest that PEID provides a general interventionist information-theoretic tool for analyzing multivariate and synergistic causal mechanisms in complex systems.",
+ "primary": "stat.ML"
+}

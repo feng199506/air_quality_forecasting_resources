@@ -1,0 +1,15 @@
+{
+ "id": "2605.15894",
+ "title": "Uncertainty-Aware Wildfire Smoke Density Classification from Satellite Imagery via CBAM-Augmented EfficientNet with Evidential Deep Learning",
+ "authors": [
+  "Ranjith Chodavarapu"
+ ],
+ "v1_date": "2026-05-15",
+ "latest_version": 1,
+ "latest_date": "2026-05-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Rapid and accurate wildfire smoke severity assessment from satellite images is essential for emergency response, air quality modeling, and human health risk management. Existing deep learning approaches treat smoke detection as a binary task, producing point estimates without any measure of prediction confidence. We propose a probabilistic framework to categorize a satellite patch into Light, Moderate, and Heavy severity classes and to provide decomposed epistemic and aleatoric uncertainty in a single forward pass. Our architecture uses the backbone of a pre-trained EfficientNet-B3 and a CBAM module with an evidential deep learning head that predicts Dirichlet concentration parameters, directly estimating vacuity (epistemic) and dissonance (aleatoric) without Monte Carlo sampling. Evaluated on 16,298 real satellite patches derived from the Wildfire Detection dataset, our model achieves 93.8% weighted test accuracy (91.1% unweighted) with ECE=0.0274. Selective prediction retaining the most certain 50% of patches achieves 96.7% accuracy. As image quality degrades, uncertainty increases monotonically, and vacuity is a practical scan quality measure. The Moderate class represents transitional smoke conditions that exhibit the highest epistemic uncertainty (mean vacuity = 0.187), confirming the model correctly identifies ambiguous smoke boundary regions. CBAM spatial attention maps localize to structurally distinctive scene regions, and t-SNE demonstrates the clear cluster separation of Light and Heavy smoke.",
+ "primary": "cs.CV"
+}

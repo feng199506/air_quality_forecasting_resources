@@ -1,0 +1,15 @@
+{
+ "id": "2508.13891",
+ "title": "Forecasting Smog Events Using ConvLSTM: A Spatio-Temporal Approach for Aerosol Index Prediction in South Asia",
+ "authors": [
+  "Taimur Khan"
+ ],
+ "v1_date": "2025-08-19",
+ "latest_version": 1,
+ "latest_date": "2025-08-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The South Asian Smog refers to the recurring annual air pollution events marked by high contaminant levels, reduced visibility, and significant socio-economic impacts, primarily affecting the Indo-Gangetic Plains (IGP) from November to February. Over the past decade, increased air pollution sources such as crop residue burning, motor vehicles, and changing weather patterns have intensified these smog events. However, real-time forecasting systems for increased particulate matter concentrations are still not established at regional scale. The Aerosol Index, closely tied to smog formation and a key component in calculating the Air Quality Index (AQI), reflects particulate matter concentrations. This study forecasts aerosol events using Sentinel-5P air constituent data (2019-2023) and a Convolutional Long-Short Term Memory (ConvLSTM) neural network, which captures spatial and temporal correlations more effectively than previous models. Using the Ultraviolet (UV) Aerosol Index at 340-380 nm as the predictor, results show the Aerosol Index can be forecasted at five-day intervals with a Mean Squared Error of ~0.0018, loss of ~0.3995, and Structural Similarity Index of ~0.74. While effective, the model can be improved by integrating additional data and refining its architecture.",
+ "primary": "cs.CV"
+}

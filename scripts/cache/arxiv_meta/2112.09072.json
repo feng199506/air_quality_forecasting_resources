@@ -1,0 +1,20 @@
+{
+ "id": "2112.09072",
+ "title": "Sampling Trade-Offs in Duty-Cycled Systems for Air Quality Low-Cost Sensors",
+ "authors": [
+  "Pau Ferrer-Cid",
+  "Julio Garcia-Calvete",
+  "Aina Main-Nadal",
+  "Zhe Ye",
+  "Jose M. Barcelo-Ordinas",
+  "Jorge Garcia-Vidal"
+ ],
+ "v1_date": "2021-12-14",
+ "latest_version": 2,
+ "latest_date": "2022-06-02",
+ "journal_ref": "Sensors 2022, 22, 3964",
+ "doi": "10.3390/s22103964",
+ "comment": "Article published in Sensors MDPI special issue: \"Air Quality Internet of Things Devices\"",
+ "abstract": "The use of low-cost sensors in conjunction with high-precision instrumentation for air pollution monitoring has shown promising results in recent years. One of the main challenges for these sensors has been the quality of their data, which is why the main efforts have focused on calibrating the sensors using machine learning techniques to improve the data quality. However, there is one aspect that has been overlooked, that is, these sensors are mounted on nodes that may have energy consumption restrictions if they are battery-powered. In this paper, we show the usual sensor data gathering process and we study the existing trade-offs between the sampling of such sensors, the quality of the sensor calibration, and the power consumption involved. To this end, we conduct experiments on prototype nodes measuring tropospheric ozone, nitrogen dioxide, and nitrogen monoxide at high frequency. The results show that the sensor sampling strategy directly affects the quality of the air pollution estimation and that each type of sensor may require different sampling strategies. In addition, duty cycles of 0.1 can be achieved when the sensors have response times in the order of two minutes, and duty cycles between 0.01 and 0.02 can be achieved when the sensor response times are negligible, calibrating with hourly reference values and maintaining a quality of calibrated data similar to when the node is connected to an uninterruptible power supply.",
+ "primary": "eess.SP"
+}

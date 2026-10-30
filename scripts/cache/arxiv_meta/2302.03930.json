@@ -1,0 +1,16 @@
+{
+ "id": "2302.03930",
+ "title": "A Model for Forecasting Air Quality Index in Port Harcourt Nigeria Using Bi-LSTM Algorithm",
+ "authors": [
+  "O. E. Taylor",
+  "P. S. Ezekiel"
+ ],
+ "v1_date": "2023-02-08",
+ "latest_version": 1,
+ "latest_date": "2023-02-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The release of toxic gases by industries, emissions from vehicles, and an increase in the concentration of harmful gases and particulate matter in the atmosphere are all contributing factors to the deterioration of the quality of the air. Factors such as industries, urbanization, population growth, and the increased use of vehicles contribute to the rapid increase in pollution levels, which can adversely impact human health. This paper presents a model for forecasting the air quality index in Nigeria using the Bi-directional LSTM model. The air pollution data was downloaded from an online database (UCL). The dataset was pre-processed using both pandas tools in python. The pre-processed result was used as input features in training a Bi-LSTM model in making future forecasts of the values of the particulate matter Pm2.5, and Pm10. The Bi-LSTM model was evaluated using some evaluation parameters such as mean square error, mean absolute error, absolute mean square, and R^2 square. The result of the Bi-LSTM shows a mean square error of 52.99%, relative mean square error of 7.28%, mean absolute error of 3.4%, and R^2 square of 97%. The model. This shows that the model follows a seamless trend in forecasting the air quality in Port Harcourt, Nigeria.",
+ "primary": "cs.LG"
+}

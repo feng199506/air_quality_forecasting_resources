@@ -1,0 +1,15 @@
+{
+ "status": "verified",
+ "set": "books",
+ "title": "openair R package CRAN reference manual",
+ "files": [
+  {
+   "path": "books/Carslaw_openair_CRAN_manual_en.pdf",
+   "url": "https://cran.r-project.org/web/packages/openair/openair.pdf",
+   "pages": 191,
+   "sha256": "c2c014be17598ab55972c767dd6e91b44ce3a214f37557b6c4e361c455982a80",
+   "bytes": 682300
+  }
+ ],
+ "note": "HTTP 200；%PDF；pypdf 可解析 191 页；名称短语已见"
+}

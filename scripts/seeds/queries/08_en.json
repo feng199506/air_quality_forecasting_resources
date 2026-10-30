@@ -1,0 +1,8 @@
+[
+  {"q": "(all:\"bias correction\" OR all:\"bias-correction\" OR all:post-processing) AND (all:CMAQ OR all:\"air quality\" OR all:CAMS)", "subtopic": "偏差订正"},
+  {"q": "all:\"data assimilation\" AND all:\"air quality\" AND (all:forecast OR all:Kalman)", "subtopic": "数据同化"},
+  {"q": "(all:\"physics-guided\" OR all:\"physics informed\" OR all:\"neural ODE\") AND (all:\"air quality\" OR all:PM2.5)", "subtopic": "物理引导"},
+  {"q": "all:AirPhyNet OR all:\"Air-DualODE\" OR all:PCDCNet", "subtopic": "物理混合模型"},
+  {"q": "all:\"chemical transport\" AND (all:\"machine learning\" OR all:\"deep learning\") AND all:\"air quality\"", "subtopic": "CTM+学习"},
+  {"q": "all:MOS AND (all:ozone OR all:PM2.5) AND all:forecast", "subtopic": "模式输出统计"}
+]

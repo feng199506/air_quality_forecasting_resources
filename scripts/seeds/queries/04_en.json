@@ -1,0 +1,7 @@
+[
+  {"q": "(all:\"random forest\" OR all:XGBoost OR all:LightGBM) AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)", "subtopic": "树模型"},
+  {"q": "all:\"support vector\" AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:regression)", "subtopic": "SVR"},
+  {"q": "all:\"gradient boosting\" AND (all:PM2.5 OR all:ozone) AND (all:forecast OR all:prediction)", "subtopic": "梯度提升"},
+  {"q": "all:\"machine learning\" AND all:\"air quality\" AND all:forecast AND all:feature", "subtopic": "特征与ML"},
+  {"q": "all:\"ensemble learning\" AND (all:PM2.5 OR all:\"air quality\") AND all:forecast", "subtopic": "集成"}
+]

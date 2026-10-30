@@ -1,0 +1,19 @@
+{
+ "id": "2610.11236",
+ "title": "Low-Cost Sensor Calibration for Indoor Air Quality Monitoring: A Dataset, Evaluation Scenarios, and a Lightweight Model",
+ "authors": [
+  "Jinyong Yun",
+  "Seokho Ahn",
+  "Hyungjin Kim",
+  "Sungbok Shin",
+  "Young-Duk Seo"
+ ],
+ "v1_date": "2026-10-08",
+ "latest_version": 1,
+ "latest_date": "2026-10-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "8 pages, 3 figures, 7 tables",
+ "abstract": "Low-cost sensors enable scalable indoor air quality monitoring but require calibration because of nonlinear distortions, noise, and temporal drift. The conventional strict pairwise calibration setting requires a co-located reference sensor at each deployment location and does not account for spatial and temporal heterogeneity. To address these limitations, we introduce a six-month dataset comprising multivariate indoor air-quality measurements from low-cost and reference sensors with contextual metadata collected at five locations. Using this dataset, we define four evaluation scenarios. The reference-efficient and location-transfer scenarios evaluate spatial generalization, whereas the long-term drift and event-conditioned scenarios assess robustness to gradual and abrupt distribution shifts. Based on these scenarios, we derive design requirements and propose a lightweight temporal model that combines input-window compression with residual temporal and feature fusion. Experiments show strong calibration performance across all four scenarios with low edge-inference cost.",
+ "primary": "cs.LG"
+}

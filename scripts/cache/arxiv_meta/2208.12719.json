@@ -1,0 +1,18 @@
+{
+ "id": "2208.12719",
+ "title": "Modelling spatio-temporal trends of air pollution in Africa",
+ "authors": [
+  "Paterne Gahungu",
+  "Jean Remy Kubwimana",
+  "Lionel Jean Marie Benjamin Muhimpundu",
+  "Egide Ndamuzi"
+ ],
+ "v1_date": "2022-08-21",
+ "latest_version": 1,
+ "latest_date": "2022-08-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Atmospheric pollution remains one of the major public health threat worldwide with an estimated 7 millions deaths annually. In Africa, rapid urbanization and poor transport infrastructure are worsening the problem. In this paper, we have analysed spatio-temporal variations of PM2.5 across different geographical regions in Africa. The West African region remains the most affected by the high levels of pollution with a daily average of 40.856 $μg/m^3$ in some cities like Lagos, Abuja and Bamako. In East Africa, Uganda is reporting the highest pollution level with a daily average concentration of 56.14 $μg/m^3$ and 38.65 $μg/m^3$ for Kigali. In countries located in the central region of Africa, the highest daily average concentration of PM2.5 of 90.075 $μg/m^3$ was recorded in N'Djamena. We compare three data driven models in predicting future trends of pollution levels. Neural network is outperforming Gaussian processes and ARIMA models.",
+ "primary": "physics.ao-ph"
+}

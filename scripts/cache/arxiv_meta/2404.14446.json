@@ -1,0 +1,19 @@
+{
+ "id": "2404.14446",
+ "title": "Spatio-temporal Joint Analysis of PM2.5 and Ozone in California with INLA",
+ "authors": [
+  "Jianan Pan",
+  "Kunyang He",
+  "Kai Wang",
+  "Qing Mu",
+  "Chengxiu Ling"
+ ],
+ "v1_date": "2024-04-20",
+ "latest_version": 1,
+ "latest_date": "2024-04-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The substantial threat of concurrent air pollutants to public health is increasingly severe under climate change. To identify the common drivers and extent of spatio-temporal similarity of PM2.5 and ozone, this paper proposed a log Gaussian-Gumbel Bayesian hierarchical model allowing for sharing a SPDE-AR(1) spatio-temporal interaction structure. The proposed model outperforms in terms of estimation accuracy and prediction capacity for its increased parsimony and reduced uncertainty, especially for the shared ozone sub-model. Besides the consistently significant influence of temperature (positive), extreme drought (positive), fire burnt area (positive), and wind speed (negative) on both PM2.5 and ozone, surface pressure and GDP per capita (precipitation) demonstrate only positive associations with PM2.5 (ozone), while population density relates to neither. In addition, our results show the distinct spatio-temporal interactions and different seasonal patterns of PM2.5 and ozone, with peaks of PM2.5 and ozone in cold and hot seasons, respectively. Finally, with the aid of the excursion function, we see that the areas around the intersection of San Luis Obispo and Santa Barbara counties are likely to exceed the unhealthy ozone level for sensitive groups throughout the year. Our findings provide new insights for regional and seasonal strategies in the co-control of PM2.5 and ozone. Our methodology is expected to be utilized when interest lies in multiple interrelated processes in the fields of environment and epidemiology.",
+ "primary": "physics.ao-ph"
+}

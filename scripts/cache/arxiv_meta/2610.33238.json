@@ -1,0 +1,16 @@
+{
+ "id": "2610.33238",
+ "title": "Self-thresholding angular-radial models of extremal dependence",
+ "authors": [
+  "Manuele Leonelli",
+  "Dani Gamerman"
+ ],
+ "v1_date": "2026-10-23",
+ "latest_version": 1,
+ "latest_date": "2026-10-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Assessing compound risks requires a model for routine and extreme joint behaviour together, and a principled answer to where the joint tail begins. We propose the self-thresholding angular-radial (STAR) model: after marginal standardization, the radius given the angle follows a spliced distribution, with a flexible body below an angle-dependent threshold curve and a generalized Pareto tail above it. The threshold curve is estimated with all other parameters, so its uncertainty propagates to every summary, and the joint density is in closed form because the splice normalizes in one dimension for every angle. The tail scale function is the reciprocal gauge of the implied limit set, and the coefficient of extremal association is an explicit parameter, so a prior with atoms at tail independence and at the asymptotic dependence boundary yields posterior probabilities of the dependence class. At that boundary the copula of the model is asymptotically dependent, while its margins and joint tail are both lighter than exponential by a factor inversely proportional to the level. Simulations show accurate recovery of finite-level dependence summaries within and beyond the model class, and the slow separation of asymptotic dependence from strong asymptotic independence that the theory predicts. For warm-season daily maxima of fine particulate matter and ozone at a Beijing station, the pair is asymptotically independent with posterior probability 0.96 and both pollutants exceed their 0.9 quantiles on about two and a half days per season; the model gives summaries comparable to those of existing approaches without requiring the arbitrary choice of a threshold. The construction extends to d dimensions through pairwise deficits of the gauge, illustrated by adding coarse particulate matter as a third pollutant.",
+ "primary": "stat.ME"
+}

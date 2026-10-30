@@ -1,0 +1,24 @@
+{
+ "id": "2301.03847",
+ "title": "Evaluating the Performance of Low-Cost PM2.5 Sensors in Mobile Settings",
+ "authors": [
+  "Priyanka deSouza",
+  "An Wang",
+  "Yuki Machida",
+  "Tiffany Duhl",
+  "Simone Mora",
+  "Prashant Kumar",
+  "Ralph Kahn",
+  "Carlo Ratti",
+  "John L. Durant",
+  "Neelakshi Hudda"
+ ],
+ "v1_date": "2023-01-10",
+ "latest_version": 1,
+ "latest_date": "2023-01-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "43 pages",
+ "abstract": "Low-cost sensors (LCS) for measuring air pollution are increasingly being deployed in mobile applications but questions concerning the quality of the measurements remain unanswered. For example, what is the best way to correct LCS data in a mobile setting? Which factors most significantly contribute to differences between mobile LCS data and higher-quality instruments? Can data from LCS be used to identify hotspots and generate generalizable pollutant concentration maps? To help address these questions we deployed low-cost PM2.5 sensors (Alphasense OPC-N3) and a research-grade instrument (TSI DustTrak) in a mobile laboratory in Boston, MA, USA. We first collocated these instruments with stationary PM2.5 reference monitors at nearby regulatory sites. Next, using the reference measurements, we developed different models to correct the OPC-N3 and DustTrak measurements, and then transferred the corrections to the mobile setting. We observed that more complex correction models appeared to perform better than simpler models in the stationary setting; however, when transferred to the mobile setting, corrected OPC-N3 measurements agreed less well with corrected DustTrak data. In general, corrections developed using minute-level collocation measurements transferred better to the mobile setting than corrections developed using hourly-averaged data. Mobile laboratory speed, OPC-N3 orientation relative to the direction of travel, date, hour-of-the-day, and road class together explain a small but significant amount of variation between corrected OPC-N3 and DustTrak measurements during the mobile deployment. Persistent hotspots identified by the OPC-N3s agreed with those identified by the DustTrak. Similarly, maps of PM2.5 distribution produced from the mobile corrected OPC-N3 and DustTrak measurements agreed well.",
+ "primary": "stat.AP"
+}

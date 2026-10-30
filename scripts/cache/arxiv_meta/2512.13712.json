@@ -1,0 +1,15 @@
+{
+ "id": "2512.13712",
+ "title": "Prediction of Respiratory Syncytial Virus-Associated Hospitalizations Using Machine Learning Models Based on Environmental Data",
+ "authors": [
+  "Eric Guo"
+ ],
+ "v1_date": "2025-12-06",
+ "latest_version": 1,
+ "latest_date": "2025-12-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Respiratory syncytial virus (RSV) is a leading cause of hospitalization among young children, with outbreaks strongly influenced by environmental conditions. This study developed a machine learning framework to predict RSV-associated hospitalizations in the United States (U.S.) by integrating wastewater surveillance, meteorological, and air quality data. The dataset combined weekly hospitalization rates, wastewater RSV levels, daily meteorological measurements, and air pollutant concentrations. Classification models, including CART, Random Forest, and Boosting, were trained to predict weekly RSV-associated hospitalization rates classified as \\textit{Low risk}, \\textit{Alert}, and \\textit{Epidemic} levels. The wastewater RSV level was identified as the strongest predictor, followed by meteorological and air quality variables such as temperature, ozone levels, and specific humidity. Notably, the analysis also revealed significantly higher RSV-associated hospitalization rates among Native Americans and Alaska Natives. Further research is needed to better understand the drivers of RSV disparity in these communities to improve prevention strategies. Furthermore, states at high altitudes, characterized by lower surface pressure, showed consistently higher RSV-associated hospitalization rates. These findings highlight the value of combining environmental and community surveillance data to forecast RSV outbreaks, enabling more timely public health interventions and resource allocation. In order to provide accessibility and practical use of the models, we have developed an interactive R Shiny dashboard (https://f6yxlu-eric-guo.shinyapps.io/rsv_app/), which allows users to explore RSV-associated hospitalization risk levels across different states, visualize the impact of key predictors, and interactively generate RSV outbreak forecasts.",
+ "primary": "cs.LG"
+}

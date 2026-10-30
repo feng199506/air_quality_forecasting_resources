@@ -1,0 +1,21 @@
+{
+ "id": "2409.12412",
+ "title": "How to predict on-road air pollution based on street view images and machine learning: a quantitative analysis of the optimal strategy",
+ "authors": [
+  "Hui Zhong",
+  "Di Chen",
+  "Pengqin Wang",
+  "Wenrui Wang",
+  "Shaojie Shen",
+  "Yonghong Liu",
+  "Meixin Zhu"
+ ],
+ "v1_date": "2024-09-19",
+ "latest_version": 1,
+ "latest_date": "2024-09-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "On-road air pollution exhibits substantial variability over short distances due to emission sources, dilution, and physicochemical processes. Integrating mobile monitoring data with street view images (SVIs) holds promise for predicting local air pollution. However, algorithms, sampling strategies, and image quality introduce extra errors due to a lack of reliable references that quantify their effects. To bridge this gap, we employed 314 taxis to monitor NO, NO2, PM2.5 and PM10 dynamically and sampled corresponding SVIs, aiming to develop a reliable strategy. We extracted SVI features from ~ 382,000 streetscape images, which were collected at various angles (0°, 90°, 180°, 270°) and ranges (buffers with radii of 100m, 200m, 300m, 400m, 500m). Also, three machine learning algorithms alongside the linear land-used regression (LUR) model were experimented with to explore the influences of different algorithms. Four typical image quality issues were identified and discussed. Generally, machine learning methods outperform linear LUR for estimating the four pollutants, with the ranking: random forest > XGBoost > neural network > LUR. Compared to single-angle sampling, the averaging strategy is an effective method to avoid bias of insufficient feature capture. Therefore, the optimal sampling strategy is to obtain SVIs at a 100m radius buffer and extract features using the averaging strategy. This approach achieved estimation results for each aggregation location with absolute errors almost less than 2.5 μg/m^2 or ppb. Overexposure, blur, and underexposure led to image misjudgments and incorrect identifications, causing an overestimation of road features and underestimation of human-activity features, contributing to inaccurate NO, NO2, PM2.5 and PM10 estimation.",
+ "primary": "cs.LG"
+}

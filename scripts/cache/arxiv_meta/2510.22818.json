@@ -1,0 +1,16 @@
+{
+ "id": "2510.22818",
+ "title": "Air Quality Prediction Using LOESS-ARIMA and Multi-Scale CNN-BiLSTM with Residual-Gated Attention",
+ "authors": [
+  "Soham Pahari",
+  "Sandeep Chand Kumain"
+ ],
+ "v1_date": "2025-10-26",
+ "latest_version": 1,
+ "latest_date": "2025-10-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Air pollution remains a critical environmental and public health concern in Indian megacities such as Delhi, Kolkata, and Mumbai, where sudden spikes in pollutant levels challenge timely intervention. Accurate Air Quality Index (AQI) forecasting is difficult due to the coexistence of linear trends, seasonal variations, and volatile nonlinear patterns. This paper proposes a hybrid forecasting framework that integrates LOESS decomposition, ARIMA modeling, and a multi-scale CNN-BiLSTM network with a residual-gated attention mechanism. The LOESS step separates the AQI series into trend, seasonal, and residual components, with ARIMA modeling the smooth components and the proposed deep learning module capturing multi-scale volatility in the residuals. Model hyperparameters are tuned via the Unified Adaptive Multi-Stage Metaheuristic Optimizer (UAMMO), combining multiple optimization strategies for efficient convergence. Experiments on 2021-2023 AQI datasets from the Central Pollution Control Board show that the proposed method consistently outperforms statistical, deep learning, and hybrid baselines across PM2.5, O3, CO, and NOx in three major cities, achieving up to 5-8% lower MSE and higher R^2 scores (>0.94) for all pollutants. These results demonstrate the framework's robustness, sensitivity to sudden pollution events, and applicability to urban air quality management.",
+ "primary": "cs.LG"
+}

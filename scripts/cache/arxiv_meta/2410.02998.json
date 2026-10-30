@@ -1,0 +1,21 @@
+{
+ "id": "2410.02998",
+ "title": "Q-SCALE: Quantum computing-based Sensor Calibration for Advanced Learning and Efficiency",
+ "authors": [
+  "Lorenzo Bergadano",
+  "Andrea Ceschini",
+  "Pietro Chiavassa",
+  "Edoardo Giusto",
+  "Bartolomeo Montrucchio",
+  "Massimo Panella",
+  "Antonello Rosato"
+ ],
+ "v1_date": "2024-10-03",
+ "latest_version": 1,
+ "latest_date": "2024-10-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at QCE24",
+ "abstract": "In a world burdened by air pollution, the integration of state-of-the-art sensor calibration techniques utilizing Quantum Computing (QC) and Machine Learning (ML) holds promise for enhancing the accuracy and efficiency of air quality monitoring systems in smart cities. This article investigates the process of calibrating inexpensive optical fine-dust sensors through advanced methodologies such as Deep Learning (DL) and Quantum Machine Learning (QML). The objective of the project is to compare four sophisticated algorithms from both the classical and quantum realms to discern their disparities and explore possible alternative approaches to improve the precision and dependability of particulate matter measurements in urban air quality surveillance. Classical Feed-Forward Neural Networks (FFNN) and Long Short-Term Memory (LSTM) models are evaluated against their quantum counterparts: Variational Quantum Regressors (VQR) and Quantum LSTM (QLSTM) circuits. Through meticulous testing, including hyperparameter optimization and cross-validation, the study assesses the potential of quantum models to refine calibration performance. Our analysis shows that: the FFNN model achieved superior calibration accuracy on the test set compared to the VQR model in terms of lower L1 loss function (2.92 vs 4.81); the QLSTM slightly outperformed the LSTM model (loss on the test set: 2.70 vs 2.77), despite using fewer trainable weights (66 vs 482).",
+ "primary": "cs.LG"
+}

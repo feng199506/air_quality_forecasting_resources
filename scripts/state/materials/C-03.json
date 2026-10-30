@@ -1,0 +1,6 @@
+{
+ "status": "failed",
+ "set": "courses",
+ "note": "第 1 个文件 HTTP 403: https://earthdata.nasa.gov/s3fs-public/2025-08/ARSET-AQModel2022-part1-slides.pdf",
+ "title": "NASA ARSET: Tools for Analyzing NASA Air Quality Model Output (Feb–Mar 2022) lecture slides"
+}

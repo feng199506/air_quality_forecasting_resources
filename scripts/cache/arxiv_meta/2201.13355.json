@@ -1,0 +1,17 @@
+{
+ "id": "2201.13355",
+ "title": "Calibrating the CAMS European multi-model air quality forecasts for regional air pollution monitoring",
+ "authors": [
+  "Gabriele Casciaro",
+  "Mattia Cavaiola",
+  "Andrea Mazzino"
+ ],
+ "v1_date": "2022-01-31",
+ "latest_version": 1,
+ "latest_date": "2022-01-31",
+ "journal_ref": "",
+ "doi": "10.1016/j.atmosenv.2022.119259",
+ "comment": "",
+ "abstract": "The CAMS air quality multi-model forecasts have been assessed and calibrated for PM10, PM2.5, O3, NO2, and CO against observations collected by the Regional Monitoring Network of the Liguria region (northwestern Italy) in the years 2019 and 2020. The calibration strategy used in the present work has its roots in the well-established Ensemble Model Output Statistics (EMOS) through which a raw ensemble forecast can be accurately transformed into a predictive probability density function, with a simultaneous correction of biases and dispersion errors. The strategy also provides a calibrated forecast of model uncertainties. As a result of our analysis, the key role of pollutant real-time observations to be ingested in the calibration strategy clearly emerge especially in the shorter look-ahead forecast hours. Our dynamic calibration strategy turns out to be superior with respect to its analogous where real-time data are not taken into account. The best calibration strategy we have identified makes the CAMS multi-model forecast system more reliable than other raw air quality models running at higher spatial resolution which exploit more detailed information from inventory emission. We expect positive impacts of our research for identifying and set up reliable and economic air pollution early warning systems.",
+ "primary": "physics.ao-ph"
+}

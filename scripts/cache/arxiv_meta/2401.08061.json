@@ -1,0 +1,17 @@
+{
+ "id": "2401.08061",
+ "title": "Augmenting Ground-Level PM2.5 Prediction via Kriging-Based Pseudo-Label Generation",
+ "authors": [
+  "Lei Duan",
+  "Ziyang Jiang",
+  "David Carlson"
+ ],
+ "v1_date": "2024-01-16",
+ "latest_version": 1,
+ "latest_date": "2024-01-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "8 pages, 4 figures, NeurIPS 2023 Workshop: Tackling Climate Change with Machine Learning",
+ "abstract": "Fusing abundant satellite data with sparse ground measurements constitutes a major challenge in climate modeling. To address this, we propose a strategy to augment the training dataset by introducing unlabeled satellite images paired with pseudo-labels generated through a spatial interpolation technique known as ordinary kriging, thereby making full use of the available satellite data resources. We show that the proposed data augmentation strategy helps enhance the performance of the state-of-the-art convolutional neural network-random forest (CNN-RF) model by a reasonable amount, resulting in a noteworthy improvement in spatial correlation and a reduction in prediction error.",
+ "primary": "cs.LG"
+}

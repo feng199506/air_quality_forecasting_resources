@@ -1,0 +1,26 @@
+{
+ "id": "2506.07616",
+ "title": "FuXi-Air: Urban Air Quality Forecasting Based on Emission-Meteorology-Pollutant multimodal Machine Learning",
+ "authors": [
+  "Zhixin Geng",
+  "Xu Fan",
+  "Xiqiao Lu",
+  "Yan Zhang",
+  "Guangyuan Yu",
+  "Cheng Huang",
+  "Qian Wang",
+  "Yuewu Li",
+  "Weichun Ma",
+  "Qi Yu",
+  "Libo Wu",
+  "Hao Li"
+ ],
+ "v1_date": "2025-06-09",
+ "latest_version": 1,
+ "latest_date": "2025-06-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Air pollution has emerged as a major public health challenge in megacities. Numerical simulations and single-site machine learning approaches have been widely applied in air quality forecasting tasks. However, these methods face multiple limitations, including high computational costs, low operational efficiency, and limited integration with observational data. With the rapid advancement of artificial intelligence, there is an urgent need to develop a low-cost, efficient air quality forecasting model for smart urban management. An air quality forecasting model, named FuXi-Air, has been constructed in this study based on multimodal data fusion to support high-precision air quality forecasting and operated in typical megacities. The model integrates meteorological forecasts, emission inventories, and pollutant monitoring data under the guidance of air pollution mechanism. By combining an autoregressive prediction framework with a frame interpolation strategy, the model successfully completes 72-hour forecasts for six major air pollutants at an hourly resolution across multiple monitoring sites within 25-30 seconds. In terms of both computational efficiency and forecasting accuracy, it outperforms the mainstream numerical air quality models in operational forecasting work. Ablation experiments concerning key influencing factors show that although meteorological data contribute more to model accuracy than emission inventories do, the integration of multimodal data significantly improves forecasting precision and ensures that reliable predictions are obtained under differing pollution mechanisms across megacities. This study provides both a technical reference and a practical example for applying multimodal data-driven models to air quality forecasting and offers new insights into building hybrid forecasting systems to support air pollution risk warning in smart city management.",
+ "primary": "cs.LG"
+}

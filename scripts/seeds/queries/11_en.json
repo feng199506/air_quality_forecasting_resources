@@ -1,0 +1,7 @@
+[
+  {"q": "all:operational AND all:\"air quality\" AND all:forecast AND (all:system OR all:service)", "subtopic": "业务系统"},
+  {"q": "all:NAQFC OR all:\"AirNow\" AND all:forecast", "subtopic": "NAQFC/AirNow"},
+  {"q": "all:CAMS AND all:regional AND all:\"air quality\" AND all:forecast", "subtopic": "CAMS区域"},
+  {"q": "all:\"real-time\" AND all:\"air quality\" AND (all:forecast OR all:prediction) AND (all:system OR all:platform)", "subtopic": "实时系统"},
+  {"q": "all:dashboard AND all:\"air quality\" AND all:forecast", "subtopic": "看板接口"}
+]

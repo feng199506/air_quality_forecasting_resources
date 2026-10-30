@@ -1,0 +1,19 @@
+{
+ "id": "2504.03480",
+ "title": "Multivariate Causal Effects: a Bayesian Causal Regression Factor Model",
+ "authors": [
+  "Dafne Zorzetto",
+  "Jenna Landy",
+  "Corwin Zigler",
+  "Giovanni Parmigiani",
+  "Roberta De Vito"
+ ],
+ "v1_date": "2025-04-04",
+ "latest_version": 3,
+ "latest_date": "2026-02-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The impact of wildfire smoke on air quality is a growing concern, contributing to air pollution through a complex mixture of chemical species with important implications for public health. While previous studies have primarily focused on its association with total particulate matter (PM2.5), the causal relationship between wildfire smoke and the chemical composition of PM2.5 remains largely unexplored. Exposure to these chemical mixtures plays a critical role in shaping public health, yet capturing their relationships requires advanced statistical methods capable of modeling the complex dependencies among chemical species. To fill this gap, we propose a Bayesian causal regression factor model that estimates the multivariate causal effects of wildfire smoke on the concentration of 27 chemical species in PM2.5 across the United States. Our approach introduces two key innovations: (i) a causal inference framework for multivariate potential outcomes, and (ii) a novel Bayesian factor model that employs a probit stick-breaking process as prior for treatment-specific factor scores. By focusing on factor scores, our method addresses the missing data challenge common in causal inference and enables a flexible, data-driven characterization of the latent factor structure, which is crucial to capture the complex correlation among multivariate outcomes. Through Monte Carlo simulations, we show the model's accuracy in estimating the causal effects in multivariate outcomes and characterizing the treatment-specific latent structure. Finally, we apply our method to US air quality data, estimating the causal effect of wildfire smoke on 27 chemical species in PM2.5, providing a deeper understanding of their interdependencies.",
+ "primary": "stat.ME"
+}

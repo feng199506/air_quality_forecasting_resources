@@ -1,0 +1,17 @@
+{
+ "id": "2505.01675",
+ "title": "Enhanced Prediction Model for Time Series Characterized by GARCH via Interval Type-2 Fuzzy Inference System",
+ "authors": [
+  "Hongpei Shao",
+  "Da-Qing Zhang",
+  "Feilong Lu"
+ ],
+ "v1_date": "2025-05-03",
+ "latest_version": 2,
+ "latest_date": "2025-05-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "40 pages, 13 figures, references added",
+ "abstract": "GARCH-type time series (characterized by Generalized Autoregressive Conditional Heteroskedasticity) exhibit pronounced volatility, autocorrelation, and heteroskedasticity. To address these challenges and enhance predictive accuracy, this study introduces a hybrid forecasting framework that integrates the Interval Type-2 Fuzzy Inference System (IT2FIS) with the GARCH model. Leveraging the interval-based uncertainty representation of IT2FIS and the volatility-capturing capability of GARCH, the proposed model effectively mitigates the adverse impact of heteroskedasticity on prediction reliability. Specifically, the GARCH component estimates conditional variance, which is subsequently incorporated into the Gaussian membership functions of IT2FIS. This integration transforms IT2FIS into an adaptive variable-parameter system, dynamically aligning with the time-varying volatility of the target series. Through systematic parameter optimization, the framework not only captures intricate volatility patterns but also accounts for heteroskedasticity and epistemic uncertainties during modeling, thereby improving both prediction precision and model robustness. Experimental validation employs diverse datasets, including air quality concentration, urban traffic flow, and energy consumption. Comparative analyses are conducted against models: the GARCH-Takagi-Sugeno-Kang (GARCH-TSK) model, fixed-variance time series models, the GARCH-Gated Recurrent Unit (GARCH-GRU), and Long Short-Term Memory (LSTM) networks. The results indicate that the proposed model achieves superior predictive performance across the majority of test scenarios in error metrics. These findings underscore the effectiveness of hybrid approaches in forecasting uncertainty for GARCH-type time series, highlighting their practical utility in real-world time series forecasting applications.",
+ "primary": "eess.SY"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2507.05416",
+ "title": "EmissionNet: Air Quality Pollution Forecasting for Agriculture",
+ "authors": [
+  "Prady Saligram",
+  "Tanvir Bhathal"
+ ],
+ "v1_date": "2025-07-07",
+ "latest_version": 3,
+ "latest_date": "2025-08-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "The appendix figures are mixed up - several emission plots (e.g. CO2, CH4, GWP) are mislabeled and appear in the wrong order, leading to confusion in interpreting the results",
+ "abstract": "Air pollution from agricultural emissions is a significant yet often overlooked contributor to environmental and public health challenges. Traditional air quality forecasting models rely on physics-based approaches, which struggle to capture complex, nonlinear pollutant interactions. In this work, we explore forecasting N$_2$O agricultural emissions through evaluating popular architectures, and proposing two novel deep learning architectures, EmissionNet (ENV) and EmissionNet-Transformer (ENT). These models leverage convolutional and transformer-based architectures to extract spatial-temporal dependencies from high-resolution emissions data",
+ "primary": "cs.LG"
+}

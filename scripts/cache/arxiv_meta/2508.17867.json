@@ -1,0 +1,17 @@
+{
+ "id": "2508.17867",
+ "title": "Ada-TransGNN: An Air Quality Prediction Model Based On Adaptive Graph Convolutional Networks",
+ "authors": [
+  "Dan Wang",
+  "Feng Jiang",
+  "Zhanquan Wang"
+ ],
+ "v1_date": "2025-08-25",
+ "latest_version": 2,
+ "latest_date": "2025-08-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "15 pages, 4 figures, 3 tables. This paper is accepted by ICONIP 2025 but not published",
+ "abstract": "Accurate air quality prediction is becoming increasingly important in the environmental field. To address issues such as low prediction accuracy and slow real-time updates in existing models, which lead to lagging prediction results, we propose a Transformer-based spatiotemporal data prediction method (Ada-TransGNN) that integrates global spatial semantics and temporal behavior. The model constructs an efficient and collaborative spatiotemporal block set comprising a multi-head attention mechanism and a graph convolutional network to extract dynamically changing spatiotemporal dependency features from complex air quality monitoring data. Considering the interaction relationships between different monitoring points, we propose an adaptive graph structure learning module, which combines spatiotemporal dependency features in a data-driven manner to learn the optimal graph structure, thereby more accurately capturing the spatial relationships between monitoring points. Additionally, we design an auxiliary task learning module that enhances the decoding capability of temporal relationships by integrating spatial context information into the optimal graph structure representation, effectively improving the accuracy of prediction results. We conducted comprehensive evaluations on a benchmark dataset and a novel dataset (Mete-air). The results demonstrate that our model outperforms existing state-of-the-art prediction models in short-term and long-term predictions.",
+ "primary": "cs.LG"
+}

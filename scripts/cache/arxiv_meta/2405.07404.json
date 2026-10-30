@@ -1,0 +1,20 @@
+{
+ "id": "2405.07404",
+ "title": "Indoor PM2.5 forecasting and the association with outdoor air pollution: a modelling study based on sensor data in Australia",
+ "authors": [
+  "Wenhua Yu",
+  "Bahareh Nakisa",
+  "Seng W. Loke",
+  "Svetlana Stevanovic",
+  "Yuming Guo",
+  "Mohammad Naim Rastgoo"
+ ],
+ "v1_date": "2024-05-13",
+ "latest_version": 1,
+ "latest_date": "2024-05-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Exposure to poor indoor air quality poses significant health risks, necessitating thorough assessment to mitigate associated dangers. This study aims to predict hourly indoor fine particulate matter (PM2.5) concentrations and investigate their correlation with outdoor PM2.5 levels across 24 distinct buildings in Australia. Indoor air quality data were gathered from 91 monitoring sensors in eight Australian cities spanning 2019 to 2022. Employing an innovative three-stage deep ensemble machine learning framework (DEML), comprising three base models (Support Vector Machine, Random Forest, and eXtreme Gradient Boosting) and two meta-models (Random Forest and Generalized Linear Model), hourly indoor PM2.5 concentrations were predicted. The model's accuracy was evaluated using a rolling windows approach, comparing its performance against three benchmark algorithms (SVM, RF, and XGBoost). Additionally, a correlation analysis assessed the relationship between indoor and outdoor PM2.5 concentrations. Results indicate that the DEML model consistently outperformed benchmark models, achieving an R2 ranging from 0.63 to 0.99 and RMSE from 0.01 to 0.663 mg/m3 for most sensors. Notably, outdoor PM2.5 concentrations significantly impacted indoor air quality, particularly evident during events like bushfires. This study underscores the importance of accurate indoor air quality prediction, crucial for developing location-specific early warning systems and informing effective interventions. By promoting protective behaviors, these efforts contribute to enhanced public health outcomes.",
+ "primary": "cs.LG"
+}

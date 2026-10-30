@@ -1,0 +1,19 @@
+{
+ "id": "2311.03920",
+ "title": "An Intelligent Edge-Deployable Indoor Air Quality Monitoring and Activity Recognition Approach",
+ "authors": [
+  "Mohamed Rafik Aymene Berkani",
+  "Ammar Chouchane",
+  "Yassine Himeur",
+  "Abdelmalik Ouamane",
+  "Abbes Amira"
+ ],
+ "v1_date": "2023-11-07",
+ "latest_version": 1,
+ "latest_date": "2023-11-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "6 pages, 6 figures, and 4 tables",
+ "abstract": "The surveillance of indoor air quality is paramount for ensuring environmental safety, a task made increasingly viable due to advancements in technology and the application of artificial intelligence and deep learning (DL) tools. This paper introduces an intelligent system dedicated to monitoring air quality and categorizing activities within indoor environments using a DL approach based on 1D Convolutional Neural Networks (1D-CNNs). Our system integrates six diverse sensors to gather measurement parameters, which subsequently train a 1D CNN model for activity recognition. This proposed model boasts a lightweight and edge-deployable design, rendering it ideal for real-time applications. We conducted our experiments utilizing an air quality dataset specifically designed for Activity of Daily Living (ADL) classification. The results illustrate the proposed model's efficacy, achieving a remarkable accuracy of 97.00%, a minimal loss value of 0.15%, and a swift prediction time of 41 milliseconds.",
+ "primary": "cs.CY"
+}

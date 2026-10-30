@@ -1,0 +1,16 @@
+{
+ "id": "2406.14159",
+ "title": "Enhancing multivariate post-processed visibility predictions utilizing CAMS forecasts",
+ "authors": [
+  "Mária Lakatos",
+  "Sándor Baran"
+ ],
+ "v1_date": "2024-06-20",
+ "latest_version": 1,
+ "latest_date": "2024-06-20",
+ "journal_ref": "Meteorological Applications 31 (2024), no. 6, paper e70015",
+ "doi": "10.1002/met.70015",
+ "comment": "23 pages, 10 figures",
+ "abstract": "In our contemporary era, meteorological weather forecasts increasingly incorporate ensemble predictions of visibility - a parameter of great importance in aviation, maritime navigation, and air quality assessment, with direct implications for public health. However, this weather variable falls short of the predictive accuracy achieved for other quantities issued by meteorological centers. Therefore, statistical post-processing is recommended to enhance the reliability and accuracy of predictions. By estimating the predictive distributions of the variables with the aid of historical observations and forecasts, one can achieve statistical consistency between true observations and ensemble predictions. Visibility observations, following the recommendation of the World Meteorological Organization, are typically reported in discrete values; hence, the predictive distribution of the weather quantity takes the form of a discrete parametric law. Recent studies demonstrated that the application of classification algorithms can successfully improve the skill of such discrete forecasts; however, a frequently emerging issue is that certain spatial and/or temporal dependencies could be lost between marginals. Based on visibility ensemble forecasts of the European Centre for Medium-Range Weather Forecasts for 30 locations in Central Europe, we investigate whether the inclusion of Copernicus Atmosphere Monitoring Service (CAMS) predictions of the same weather quantity as an additional covariate could enhance the skill of the post-processing methods and whether it contributes to the successful integration of spatial dependence between marginals. Our study confirms that post-processed forecasts are substantially superior to raw and climatological predictions, and the utilization of CAMS forecasts provides a further significant enhancement both in the univariate and multivariate setup.",
+ "primary": "stat.AP"
+}

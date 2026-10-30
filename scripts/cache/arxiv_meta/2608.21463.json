@@ -1,0 +1,15 @@
+{
+ "id": "2608.21463",
+ "title": "Enhanced Artificial Neural Networks Using QHAdamW in Air Quality Forecasting",
+ "authors": [
+  "Mary Joy Daniel Vinas"
+ ],
+ "v1_date": "2026-08-20",
+ "latest_version": 1,
+ "latest_date": "2026-08-20",
+ "journal_ref": "International Journal of Engineering Trends and Technology, 74(7), 352-371",
+ "doi": "10.14445/22315381/ijett-v74i7p122",
+ "comment": "20 pages, 16 tables, 15 figures, Published with International Journal of Engineering Trends and Technology (IJETT)",
+ "abstract": "The study employed an Artificial Neural Network in combination with the optimized Adaptive Moment Estimation (Adam) algorithm, currently the only AQI forecasting model available in the Philippines. The modified QHAdamW - Quasi-Hyperbolic Momentum (QHAdam) and Adam with decoupled weight decay (AdamW) were both extensions of the Adam optimizer, and both offer unique advantages for training ANN. The proposed QHAdamW optimizer addresses the issues on convergence, generalization, and forecasting performance of Adam. Hyperparameter tuning results revealed that 0.01 and 0.001 were the most effective optimal values for the generalization performance of QHAdamW. The comparative analysis results using seven evaluation metrics revealed that the error value range is lower, and the regression coefficient, having a value approximately equal to 1, improved the model accuracy performance. Likewise, the model converges to a satisfactory level of performance with the convergence performance results of lower loss values as obtained from training and validation losses. Based on data from a real-time air quality tracking station in Manila, a feed-forward neural network is used to predict the AQI of PM2.5 and PM10 separately. This model can be used to forecast Particulate Matter (PM), to help the Department of Environment and Natural Resources-Environmental Monitoring Bureau (DENR-EMB) implement a comprehensive air quality management.",
+ "primary": "cs.AI"
+}

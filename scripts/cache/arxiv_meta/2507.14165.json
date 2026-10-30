@@ -1,0 +1,18 @@
+{
+ "id": "2507.14165",
+ "title": "A Multi-Modal IoT Node for Energy-Efficient Environmental Monitoring with Edge AI Processing",
+ "authors": [
+  "Philip Wiese",
+  "Victor Kartsch",
+  "Marco Guermandi",
+  "Luca Benini"
+ ],
+ "v1_date": "2025-07-08",
+ "latest_version": 2,
+ "latest_date": "2025-08-25",
+ "journal_ref": "",
+ "doi": "10.1109/coins65080.2025.11125738",
+ "comment": "7 pages, 4 figures, 2 tables. This paper has been accepted at 2025 IEEE International Conference on Omni-layer Intelligent Systems (COINS)",
+ "abstract": "The widespread adoption of Internet of Things (IoT) technologies has significantly advanced environmental monitoring (EM) by enabling cost-effective and scalable sensing solutions. Concurrently, machine learning (ML) and artificial intelligence (AI) are introducing powerful tools for the efficient and accurate analysis of complex environmental data. However, current IoT platforms for environmental sensing are typically limited to a narrow set of sensors, preventing a comprehensive assessment of environmental conditions and lacking sufficient computational capabilities to support the deployment of advanced ML and AI algorithms on the edge. To overcome these limitations, we introduce a compact (17x38 mm2), multi-modal, MCU-based environmental IoT node integrating 11 sensors, including CO2 concentration, volatile organic compounds (VOCs), light intensity, UV radiation, pressure, temperature, humidity, visual sensing via an RGB camera, and precise geolocation through a GNSS module. It features GAP9, a parallel ultra-low-power system-on-chip, enabling real-time, energy-efficient edge processing of advanced ML models directly on-device. We implemented a YOLOv5-based occupancy detection pipeline (0.3 M parameters, 42 MOP per inference), demonstrating 42% energy savings over raw data streaming. Additionally, we present a smart indoor air quality (IAQ) monitoring setup that combines occupancy detection with adaptive sample rates, achieving operational times of up to 143 h on a single compact 600 mAh, 3.7 V battery. Our platform lays the groundwork for innovative applications such as predictive indoor IAQ, enabling efficient AI-driven on-edge forecasting for energy-efficient and autonomous, proactive pollution-mitigation control strategies",
+ "primary": "eess.SP"
+}

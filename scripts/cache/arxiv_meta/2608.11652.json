@@ -1,0 +1,20 @@
+{
+ "id": "2608.11652",
+ "title": "Twenty-Five Years of Air Quality in Bangladesh: Trends, Seasonality, and Spatial Pollution Regimes",
+ "authors": [
+  "Md Rafid Islam",
+  "Rafsan Jany",
+  "Mohammad Fahim Islam",
+  "Rafid Bin Zaman",
+  "Mohammad Saifuddin",
+  "Sabrina Sultana"
+ ],
+ "v1_date": "2026-08-12",
+ "latest_version": 4,
+ "latest_date": "2026-09-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Air pollution is one of Bangladesh's most pressing environmental problems, yet few studies have examined it at a national scale over a long time span. To describe trends, seasonality, geographic patterns, and pollution regimes, this study examines 25 years of hourly air quality data (2000-2025), covering over 3.19 million records, eight pollutants, and 103 cities monitored from 2022 onward following expansion from a single Dhaka station. The composite AQI series showed no significant long-term trend, an artifact of this network expansion rather than a real flattening of pollution, since Dhaka's own AQI rose steadily before the network grew. Seasonality was strong and highly significant, as AQI peaked in January (162.26) and fell to its lowest in July (61.47), tracking the dry and monsoon seasons. Geographically, southeastern coastal cities, including Teknaf and Bandarban, consistently recorded the lowest AQI levels. Dhaka remained the most polluted city, and air quality improved progressively with distance from the capital. K-means clustering of city-level AQI trajectories identified four distinct pollution regimes, ranging from cleaner coastal regions to a rapidly deteriorating Dhaka-Narsingdi cluster with an average increase of 1.84 AQI per year. Correlation analysis showed that PM2.5 and PM10 were the dominant contributors to AQI variation, and so combustion-related emissions are the primary target for air quality management and policy intervention.",
+ "primary": "physics.soc-ph"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2605.16919",
+ "title": "CAST: Causal Anchored Simplex Transport for Distribution-Valued Time Series",
+ "authors": [
+  "Jiecheng Lu",
+  "Jieqi Di",
+  "Runhua Wu",
+  "Yuwei Zhou"
+ ],
+ "v1_date": "2026-05-16",
+ "latest_version": 1,
+ "latest_date": "2026-05-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Many decision-facing stochastic systems are observed through aggregate distributions rather than scalar trajectories: queue occupancies, mobility shares, public-health mixtures, generation-source shares, ecological compositions, and air-quality severity profiles all live on the probability simplex and evolve over time. We study causal (online) forecasting for these distribution-valued time series and argue that the transition operator itself should be structured around the simplex. We introduce CAST (Causal Anchored Simplex Transport), a successor-local operator that (i) retrieves empirical successors from causal context, (ii) stabilizes them with a persistence anchor, and (iii) applies a bounded local stochastic transport on ordered supports; every stage preserves the simplex by construction. We identify a structural failure mode, latent transition-kernel aliasing, where similar observed distributions evolve differently under different contextual regimes, and prove that any forecaster depending only on an aliased summary incurs an irreducible weighted Jensen-Shannon excess-risk lower bound, while the CAST hypothesis class contains the regime-aware Bayes successor; for ordered supports an additional Pinsker separation holds whenever the transported successor lies outside the no-transport anchor hull. On eleven public and simulated benchmarks spanning ecology, energy, diet, mortality, employment, air quality, severe weather, mobility, and G/G/1, G_t/G/1 queue occupancy, CAST attains the best average rank on both one-step KL (1.27) and autoregressive rollout JSD (1.91), winning 8/11 sections on each metric against a broad statistical, compositional, recurrent, convolutional, and Transformer baseline set, and top-2 on all 11 sections for offline KL. Component ablations and a controlled synthetic aliasing experiment corroborate the theory.",
+ "primary": "stat.ML"
+}

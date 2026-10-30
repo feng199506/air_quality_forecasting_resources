@@ -1,0 +1,17 @@
+{
+ "id": "2508.02724",
+ "title": "Veli: Unsupervised Method and Unified Benchmark for Low-Cost Air Quality Sensor Correction",
+ "authors": [
+  "Yahia Dalbah",
+  "Marcel Worring",
+  "Yen-Chia Hsu"
+ ],
+ "v1_date": "2025-08-01",
+ "latest_version": 2,
+ "latest_date": "2025-11-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Main content: 7 pages, 9 Figures, 3 Tables. Appendix: 4 pages, 6 Figures",
+ "abstract": "Urban air pollution is a major health crisis causing millions of premature deaths annually, underscoring the urgent need for accurate and scalable monitoring of air quality (AQ). While low-cost sensors (LCS) offer a scalable alternative to expensive reference-grade stations, their readings are affected by drift, calibration errors, and environmental interference. To address these challenges, we introduce Veli (Reference-free Variational Estimation via Latent Inference), an unsupervised Bayesian model that leverages variational inference to correct LCS readings without requiring co-location with reference stations, eliminating a major deployment barrier. Specifically, Veli constructs a disentangled representation of the LCS readings, effectively separating the true pollutant reading from the sensor noise. To build our model and address the lack of standardized benchmarks in AQ monitoring, we also introduce the Air Quality Sensor Data Repository (AQ-SDR). AQ-SDR is the largest AQ sensor benchmark to date, with readings from 23,737 LCS and reference stations across multiple regions. Veli demonstrates strong generalization across both in-distribution and out-of-distribution settings, effectively handling sensor drift and erratic sensor behavior. Code for model and dataset will be made public when this paper is published.",
+ "primary": "eess.SP"
+}

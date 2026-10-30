@@ -1,0 +1,17 @@
+{
+ "id": "2610.35356",
+ "title": "Benchmarking uncertainty quantification for engineering regression under graded distribution shift",
+ "authors": [
+  "Ahmad Lawal",
+  "Rahim Pasbanigoloojeh",
+  "Asmau Lawal Bilbis"
+ ],
+ "v1_date": "2026-10-26",
+ "latest_version": 1,
+ "latest_date": "2026-10-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Machine learning models in engineering are often used beyond their training conditions, where reliable uncertainty quantification (UQ) matters most. Existing comparisons of regression UQ methods rely on random splits, which assess calibration only in distribution. We introduce a three-rung shift ladder (in distribution, soft shift and hard shift) built along physically meaningful shift variables, and evaluate 12 methods from five families on seven public engineering datasets: five extrapolation settings, an unseen turbofan fault mode and a winter air-quality sensor deployment. All tuning uses source data only. In distribution, conformal methods cover at least 0.946 of test points on every dataset. Under hard shift, mean coverage falls to 0.40-0.75 across the 11 methods that always return an interval, and no systematic difference in method ranks is detected (Friedman p = 0.63). Weighted conformalised quantile regression stays near nominal on the points it answers, but abstains on 85\\% of hard-shift points on average and covers only 0.67 of the few Concrete points it answers. Source-validation gains predict improvement in distribution and under soft shift, but not under hard shift (Spearman's rho = 0.04). Engineering evaluations should split calibration data by deployment unit, report subgroup coverage and sharpness, and treat abstention as an explicit operational outcome.",
+ "primary": "cs.LG"
+}

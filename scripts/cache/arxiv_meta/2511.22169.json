@@ -1,0 +1,24 @@
+{
+ "id": "2511.22169",
+ "title": "Real-Time Long Horizon Air Quality Forecasting via Group-Relative Policy Optimization",
+ "authors": [
+  "Inha Kang",
+  "Eunki Kim",
+  "Wonjeong Ryu",
+  "Jaeyo Shin",
+  "Seungjun Yu",
+  "Yoon-Hee Kang",
+  "Seongeun Jeong",
+  "Eunhye Kim",
+  "Soontae Kim",
+  "Hyunjung Shim"
+ ],
+ "v1_date": "2025-11-27",
+ "latest_version": 2,
+ "latest_date": "2026-03-23",
+ "journal_ref": "CVPR 2026",
+ "doi": "",
+ "comment": "31 pages",
+ "abstract": "Accurate long horizon forecasting of particulate matter (PM) concentration fields is essential for operational public health decisions. However, achieving reliable forecasts remains challenging in regions with complex terrain and strong atmospheric dynamics such as East Asia. While foundation models such as Aurora offer global generality, they often miss region-specific dynamics and rely on non-real-time inputs, limiting their practical utility for localized warning systems. To address this gap, we construct and release the real-world observations and high-resolution CMAQ-OBS dataset for East Asia, reducing regional error by 59.5% and enabling real-time 48-120 hour forecasts critical for public health alerts. However, standard point-wise objectives cannot reflect asymmetric operational costs, where false alarms deteriorate public trust while missed severe events endanger populations. This cost mismatch causes SFT models to over-predict and yield high False Alarm Rates. We introduce Group-Relative Policy Optimization (GRPO) with class-wise rewards and curriculum rollout to align predictions with operational priorities. Experimental results demonstrate that our framework significantly improves the reliability of the forecast. Compared to the SFT-only baseline, our model reduces the False Alarm Rate by 47.3% while achieving a competitive F1-score, proving its effectiveness for practical, real-world air quality forecasting systems on long lead time scenarios. Code and dataset are publicly available at https://github.com/kaist-cvml/FAKER-Air.",
+ "primary": "cs.CV"
+}

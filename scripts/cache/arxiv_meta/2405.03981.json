@@ -1,0 +1,18 @@
+{
+ "id": "2405.03981",
+ "title": "Predicting Lung Disease Severity via Image-Based AQI Analysis using Deep Learning Techniques",
+ "authors": [
+  "Anvita Mahajan",
+  "Sayali Mate",
+  "Chinmayee Kulkarni",
+  "Suraj Sawant"
+ ],
+ "v1_date": "2024-05-07",
+ "latest_version": 1,
+ "latest_date": "2024-05-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "11 pages",
+ "abstract": "Air pollution is a significant health concern worldwide, contributing to various respiratory diseases. Advances in air quality mapping, driven by the emergence of smart cities and the proliferation of Internet-of-Things sensor devices, have led to an increase in available data, fueling momentum in air pollution forecasting. The objective of this study is to devise an integrated approach for predicting air quality using image data and subsequently assessing lung disease severity based on Air Quality Index (AQI).The aim is to implement an integrated approach by refining existing techniques to improve accuracy in predicting AQI and lung disease severity. The study aims to forecast additional atmospheric pollutants like AQI, PM10, O3, CO, SO2, NO2 in addition to PM2.5 levels. Additionally, the study aims to compare the proposed approach with existing methods to show its effectiveness. The approach used in this paper uses VGG16 model for feature extraction in images and neural network for predicting AQI.In predicting lung disease severity, Support Vector Classifier (SVC) and K-Nearest Neighbors (KNN) algorithms are utilized. The neural network model for predicting AQI achieved training accuracy of 88.54 % and testing accuracy of 87.44%,which was measured using loss function, while the KNN model used for predicting lung disease severity achieved training accuracy of 98.4% and testing accuracy of 97.5% In conclusion, the integrated approach presented in this study forecasts air quality and evaluates lung disease severity, achieving high testing accuracies of 87.44% for AQI and 97.5% for lung disease severity using neural network, KNN, and SVC models. The future scope involves implementing transfer learning and advanced deep learning modules to enhance prediction capabilities. While the current study focuses on India, the objective is to expand its scope to encompass global coverage.",
+ "primary": "cs.CV"
+}

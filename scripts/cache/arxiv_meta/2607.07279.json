@@ -1,0 +1,16 @@
+{
+ "id": "2607.07279",
+ "title": "Same-Hour Estimation and Multi-Horizon Forecasting of PM2.5 in Beijing: Model Comparison and Feature-Group Contributions",
+ "authors": [
+  "Yusheng Wang",
+  "Ruiyan Du"
+ ],
+ "v1_date": "2026-07-08",
+ "latest_version": 3,
+ "latest_date": "2026-08-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Accurate PM2.5 prediction depends on information available when a prediction is issued. Using 420,768 hourly observations from 12 monitoring stations in Beijing between March 2013 and February 2017, we compare same-hour estimation (h = 0) with strict one-, six-, and 24- hour-ahead forecasting. Stations are reindexed to complete hourly calendars before lagged and rolling features are constructed. Chronological train, calibration, and test blocks and expandingwindow preprocessing prevent target-time leakage. Persistence and seasonal-naive baselines are compared with Ridge, Elastic Net, and a five-seed XGBoost ensemble. Ridge attains RMSE 20.15 at one hour, XGBoost 54.13 at six hours, and Elastic Net 80.83 at 24 hours, improving on persistence by 5.7%, 11.8%, and 17.6%, respectively. Same-hour XGBoost reaches RMSE 14.03, but feature ablations attribute most of this performance to recent PM2.5 history and synchronous PM10. Moving-block intervals, repeated seeds, and leave-one-station-out evaluation quantify uncertainty and spatial transfer. The results support sensor cross-checking at h = 0, routine updates at h = 1, alert preparation at h = 6, and cautious daily planning at h = 24.",
+ "primary": "stat.AP"
+}

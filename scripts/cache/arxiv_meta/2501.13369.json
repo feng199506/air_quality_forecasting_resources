@@ -1,0 +1,18 @@
+{
+ "id": "2501.13369",
+ "title": "A review on development of eco-friendly filters in Nepal for use in cigarettes and masks and Air Pollution Analysis with Machine Learning and SHAP Interpretability",
+ "authors": [
+  "Bishwash Paneru",
+  "Biplov Paneru",
+  "Tanka Mukhiya",
+  "Khem Narayan Poudyal"
+ ],
+ "v1_date": "2025-01-23",
+ "latest_version": 1,
+ "latest_date": "2025-01-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In Nepal, air pollution is a serious public health concern, especially in cities like Kathmandu where particulate matter (PM2.5 and PM10) has a major influence on respiratory health and air quality. The Air Quality Index (AQI) is predicted in this work using a Random Forest Regressor, and the model's predictions are interpreted using SHAP (SHapley Additive exPlanations) analysis. With the lowest Testing RMSE (0.23) and flawless R2 scores (1.00), CatBoost performs better than other models, demonstrating its greater accuracy and generalization which is cross validated using a nested cross validation approach. NowCast Concentration and Raw Concentration are the most important elements influencing AQI values, according to SHAP research, which shows that the machine learning results are highly accurate. Their significance as major contributors to air pollution is highlighted by the fact that high values of these characteristics significantly raise the AQI. This study investigates the Hydrogen-Alpha (HA) biodegradable filter as a novel way to reduce the related health hazards. With removal efficiency of more than 98% for PM2.5 and 99.24% for PM10, the HA filter offers exceptional defense against dangerous airborne particles. These devices, which are biodegradable face masks and cigarette filters, address the environmental issues associated with traditional filters' non-biodegradable trash while also lowering exposure to air contaminants.",
+ "primary": "cs.LG"
+}

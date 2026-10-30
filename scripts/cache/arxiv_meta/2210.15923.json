@@ -1,0 +1,22 @@
+{
+ "id": "2210.15923",
+ "title": "DELFI: Deep Mixture Models for Long-term Air Quality Forecasting in the Delhi National Capital Region",
+ "authors": [
+  "Naishadh Parmar",
+  "Raunak Shah",
+  "Tushar Goswamy",
+  "Vatsalya Tandon",
+  "Ravi Sahu",
+  "Ronak Sutaria",
+  "Purushottam Kar",
+  "Sachchida Nand Tripathi"
+ ],
+ "v1_date": "2022-10-28",
+ "latest_version": 1,
+ "latest_date": "2022-10-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "6 pages",
+ "abstract": "The identification and control of human factors in climate change is a rapidly growing concern and robust, real-time air-quality monitoring and forecasting plays a critical role in allowing effective policy formulation and implementation. This paper presents DELFI, a novel deep learning-based mixture model to make effective long-term predictions of Particulate Matter (PM) 2.5 concentrations. A key novelty in DELFI is its multi-scale approach to the forecasting problem. The observation that point predictions are more suitable in the short-term and probabilistic predictions in the long-term allows accurate predictions to be made as much as 24 hours in advance. DELFI incorporates meteorological data as well as pollutant-based features to ensure a robust model that is divided into two parts: (i) a stack of three Long Short-Term Memory (LSTM) networks that perform differential modelling of the same window of past data, and (ii) a fully-connected layer enabling attention to each of the components. Experimental evaluation based on deployment of 13 stations in the Delhi National Capital Region (Delhi-NCR) in India establishes that DELFI offers far superior predictions especially in the long-term as compared to even non-parametric baselines. The Delhi-NCR recorded the 3rd highest PM levels amongst 39 mega-cities across the world during 2011-2015 and DELFI's performance establishes it as a potential tool for effective long-term forecasting of PM levels to enable public health management and environment protection.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,20 @@
+{
+ "id": "2507.04196",
+ "title": "Predicting Air Pollution in Cork, Ireland Using Machine Learning",
+ "authors": [
+  "Md Rashidunnabi",
+  "Fahmida Faiza Ananna",
+  "Kailash Hambarde",
+  "Bruno Gabriel Nascimento Andrade",
+  "Dean Venables",
+  "Hugo Proenca"
+ ],
+ "v1_date": "2025-07-06",
+ "latest_version": 2,
+ "latest_date": "2025-07-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "The draft was submitted prematurely and requires further analysis, added research findings, and corrected references. Some co-authors have not yet approved this version. I will ensure all necessary revisions and approvals before resubmitting",
+ "abstract": "Air pollution poses a critical health threat in cities worldwide, with nitrogen dioxide levels in Cork, Ireland exceeding World Health Organization safety standards by up to $278\\%$. This study leverages artificial intelligence to predict air pollution with unprecedented accuracy, analyzing nearly ten years of data from five monitoring stations combined with 30 years of weather records. We evaluated 17 machine learning algorithms, with Extra Trees emerging as the optimal solution, achieving $77\\%$ prediction accuracy and significantly outperforming traditional forecasting methods. Our analysis reveals that meteorological conditions particularly temperature, wind speed, and humidity are the primary drivers of pollution levels, while traffic patterns and seasonal changes create predictable pollution cycles. Pollution exhibits dramatic seasonal variations, with winter levels nearly double those of summer, and daily rush-hour peaks reaching $120\\%$ above normal levels. While Cork's air quality shows concerning violations of global health standards, our models detected an encouraging $31\\%$ improvement from 2014 to 2022. This research demonstrates that intelligent forecasting systems can provide city planners and environmental officials with powerful prediction tools, enabling life-saving early warning systems and informed urban planning decisions. The technology exists today to transform urban air quality management. All research materials and code are freely available at: https://github.com/MdRashidunnabi/Air-Pollution-Analysis.git",
+ "primary": "cs.LG"
+}

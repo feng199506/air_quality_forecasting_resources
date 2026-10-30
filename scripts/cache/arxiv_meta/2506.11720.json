@@ -1,0 +1,22 @@
+{
+ "id": "2506.11720",
+ "title": "Modeling Urban Air Quality Using Taxis as Sensors",
+ "authors": [
+  "Anastasios Noulas",
+  "Yasin Acikmese",
+  "Charles QC LI",
+  "Milan Y. Patel",
+  "Shazia Ayn Babul",
+  "Ronald C. Cohen",
+  "Renaud Lambiotte",
+  "Marta C. Gonzalez"
+ ],
+ "v1_date": "2025-06-13",
+ "latest_version": 1,
+ "latest_date": "2025-06-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Monitoring urban air quality with high spatiotemporal resolution continues to pose significant challenges. We investigate the use of taxi fleets as mobile sensing platforms, analyzing over 100 million PM2.5 readings from more than 3,000 vehicles across six major U.S. cities during one year. Our findings show that taxis provide fine-grained, street-level air quality insights while ensuring city-wide coverage. We further explore urban air quality modeling using traffic congestion, built environment, and human mobility data to predict pollution variability. Our results highlight geography-specific seasonal patterns and demonstrate that models based solely on traffic and wind speeds effectively capture a city's pollution dynamics. This study establishes taxi fleets as a scalable, near-real-time air quality monitoring tool, offering new opportunities for environmental research and data-driven policymaking.",
+ "primary": "physics.soc-ph"
+}

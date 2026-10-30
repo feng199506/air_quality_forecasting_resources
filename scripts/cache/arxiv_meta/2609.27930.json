@@ -1,0 +1,17 @@
+{
+ "id": "2609.27930",
+ "title": "Dirichlet Process Mixtures of Trees with Gaussian Process Splits: A Bayesian Nonparametric Framework with Posterior Contraction Rate",
+ "authors": [
+  "Subhasish Basak",
+  "Anik Roy",
+  "Sourabh Bhattacharya"
+ ],
+ "v1_date": "2026-08-22",
+ "latest_version": 1,
+ "latest_date": "2026-08-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Comments and questions welcome!",
+ "abstract": "We propose a Bayesian nonparametric mixture of regression trees with a Dirichlet process prior over tree-parameter pairs, enabling data-driven selection of ensemble size and unifying CART, BART, random forests, and boosting. A novel splitting rule driven by the posterior predictive of a Gaussian process within each terminal node generates flexible, smooth decision boundaries; remarkably, the GP density cancels exactly in the Metropolis--Hastings ratio for GROW/PRUNE moves, ensuring computational feasibility. An exact Gibbs sampler for posterior predictive inference propagates uncertainty through random tree traversal. A parallel MPI implementation distributes independent tree updates across processors, achieving adequate speedups. We prove posterior consistency at rate $n^{-1/4}$ in Hellinger distance under only continuity of the true regression function, allowing misspecification, via the identity $h(Θ)=0$. Simulations on Friedman benchmark show near-nominal coverage (0.94 Gaussian, 0.92 Cauchy), robust to high-dimensional noise and heavy tails, outperforming BART and bagged CART. Applications to QSAR toxicity, crime, riboflavin, wheat genomics, and air quality confirm reliable credible intervals and automatic sparsity. The DP mixture offers a principled, robust, theoretically justified alternative for challenging regression with honest uncertainty quantification.",
+ "primary": "stat.ME"
+}

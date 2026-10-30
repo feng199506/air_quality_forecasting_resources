@@ -1,0 +1,19 @@
+{
+ "id": "2604.21527",
+ "title": "A temporal deep learning framework for calibration of low-cost air quality sensors",
+ "authors": [
+  "Arindam Sengupta",
+  "Tony Bush",
+  "Ben Marner",
+  "Jose Miguel Pérez",
+  "Soledad Le Clainche"
+ ],
+ "v1_date": "2026-04-23",
+ "latest_version": 1,
+ "latest_date": "2026-04-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Low-cost air quality sensors (LCS) provide a practical alternative to expensive regulatory-grade instruments, making dense urban monitoring networks possible. Yet their adoption is limited by calibration challenges, including sensor drift, environmental cross-sensitivity, and variability in performance from device to device. This work presents a deep learning framework for calibrating LCS measurements of PM$_{2.5}$, PM$_{10}$, and NO$_2$ using a Long Short-Term Memory (LSTM) network, trained on co-located reference data from the OxAria network in Oxford, UK. Unlike the Random Forest (RF) baseline, which treats each observation independently, the proposed approach captures temporal dependencies and delayed environmental effects through sequence-based learning, achieving higher $R^2$ values across training, validation, and test sets for all three pollutants. A feature set is constructed combining time-lagged parameters, harmonic encodings, and interaction terms to improve generalization on unseen temporal windows. Validation of unseen calibrated values against the Equivalence Spreadsheet Tool 3.1 demonstrates regulatory compliance with expanded uncertainties of 22.11% for NO$_2$, 12.42% for PM$_{10}$, and 9.1% for PM$_{2.5}$.",
+ "primary": "cs.LG"
+}

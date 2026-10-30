@@ -1,0 +1,18 @@
+{
+ "id": "2510.16429",
+ "title": "Spatial Scalar-on-Function Quantile Regression Model",
+ "authors": [
+  "Muge Mutis",
+  "Ufuk Beyaztas",
+  "Filiz Karaman",
+  "Han Lin Shang"
+ ],
+ "v1_date": "2025-10-18",
+ "latest_version": 1,
+ "latest_date": "2025-10-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "51 pages, 6 figures, 4 tables",
+ "abstract": "This paper introduces a novel spatial scalar-on-function quantile regression model that extends classical scalar-on-function models to account for spatial dependence and heterogeneous conditional distributions. The proposed model incorporates spatial autocorrelation through a spatially lagged response and characterizes the entire conditional distribution of a scalar outcome given a functional predictor. To address the endogeneity induced by the spatial lag term, we develop two robust estimation procedures based on instrumental variable strategies. $\\sqrt{n}$-consistency and asymptotic normality of the proposed estimators are established under mild regularity conditions. We demonstrate through extensive Monte Carlo simulations that the proposed estimators outperform existing mean-based and robust alternatives, particularly in settings with strong spatial dependence and outlier contamination. We apply our method to high-resolution environmental data from the Lombardy region in Italy, using daily ozone trajectories to predict daily mean particulate matter with a diameter of less than 2.5 micrometers concentrations. The empirical results confirm the superiority of our approach in predictive accuracy, robustness, and interpretability across various quantile levels. Our method has been implemented in the \\texttt{ssofqrm} R package.",
+ "primary": "stat.ME"
+}

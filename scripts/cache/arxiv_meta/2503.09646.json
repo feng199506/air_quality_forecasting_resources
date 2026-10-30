@@ -1,0 +1,17 @@
+{
+ "id": "2503.09646",
+ "title": "Inductive Spatio-Temporal Kriging with Physics-Guided Increment Training Strategy for Air Quality Inference",
+ "authors": [
+  "Songlin Yang",
+  "Tao Yang",
+  "Bo Hu"
+ ],
+ "v1_date": "2025-03-12",
+ "latest_version": 1,
+ "latest_date": "2025-03-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The deployment of sensors for air quality monitoring is constrained by high costs, leading to inadequate network coverage and data deficits in some areas. Utilizing existing observations, spatio-temporal kriging is a method for estimating air quality at unobserved locations during a specific period. Inductive spatio-temporal kriging with increment training strategy has demonstrated its effectiveness using virtual nodes to simulate unobserved nodes. However, a disparity between virtual and real nodes persists, complicating the application of learning patterns derived from virtual nodes to actual unobserved ones. To address these limitations, this paper presents a Physics-Guided Increment Training Strategy (PGITS). Specifically, we design a dynamic graph generation module to incorporate the advection and diffusion processes of airborne particles as physical knowledge into the graph structure, dynamically adjusting the adjacency matrix to reflect physical interactions between nodes. By using physics principles as a bridge between virtual and real nodes, this strategy ensures the features of virtual nodes and their pseudo labels are closer to actual nodes. Consequently, the learned patterns of virtual nodes can be applied to actual unobserved nodes for effective kriging.",
+ "primary": "cs.LG"
+}

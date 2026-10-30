@@ -1,0 +1,15 @@
+{
+ "id": "2610.22577",
+ "title": "A Bayesian hierarchical model for preferentially sampled spatial extremes data: an application to air quality",
+ "authors": [
+  "Bianca Brusco Veronica J. Berrocal"
+ ],
+ "v1_date": "2026-10-15",
+ "latest_version": 1,
+ "latest_date": "2026-10-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "34 pages, 5 figures",
+ "abstract": "The National Ambient Air Quality Standards (NAAQS) establish concentration limits for criteria pollutants in order to safeguard public health and the environment. For some NAAQS, the standard refers to thresholds for either high percentiles or maxima. Identifying regions where regulatory thresholds are exceeded involves using geostatistical models, often formulated under the implicit assumption that observations arise from locations randomly sampled in the spatial domain. However, this does not hold for air pollution monitors as they are often preferentially placed in areas with elevated extreme concentration levels. Using the yearly maximum concentration of PM2.5 as a case study, we investigate whether preferential sampling affects inference and prediction for spatial extremes. To this goal, we propose a Bayesian hierarchical model that accounts for preferential sampling by introducing a shared latent, spatial process that informs both the median of the blended Generalized Extreme Value (bGEV) distribution and the probability that a site is selected to be a sampling location. Application of the proposed model to simulated data reveals that, not accounting for preferential sampling, results in systematic biases in parameters estimates, whereas application to observations of yearly maxima PM2.5 concentrations in California between 2017 and 2024 shows that not accounting for preferential sampling can significantly alter conclusions about exceedance regions.",
+ "primary": "stat.ME"
+}

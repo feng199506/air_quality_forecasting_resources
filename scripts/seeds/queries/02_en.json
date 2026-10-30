@@ -1,0 +1,8 @@
+[
+  {"q": "ti:PM2.5 AND (all:forecast OR all:forecasting OR all:prediction) AND (all:hourly OR all:daily)", "subtopic": "PM2.5时效"},
+  {"q": "ti:ozone AND (all:forecast OR all:forecasting) AND all:\"air quality\"", "subtopic": "臭氧预报"},
+  {"q": "all:AQI AND (all:forecast OR all:forecasting) AND (all:PM2.5 OR all:ozone)", "subtopic": "AQI预报"},
+  {"q": "all:\"air quality\" AND (all:exceedance OR all:peak OR all:episode) AND (all:forecast OR all:prediction)", "subtopic": "超标与峰值"},
+  {"q": "all:\"multi-pollutant\" AND all:\"air quality\" AND (all:forecast OR all:prediction)", "subtopic": "多污染物"},
+  {"q": "all:nowcast AND all:\"air quality\"", "subtopic": "临近预报"}
+]

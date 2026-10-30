@@ -1,0 +1,24 @@
+{
+ "id": "2511.00187",
+ "title": "IoT- and AI-informed urban air quality models for vehicle pollution monitoring",
+ "authors": [
+  "Jan M. Armengol",
+  "Vicente Masip",
+  "Ada Barrantes",
+  "Gabriel M. Beltrami",
+  "Sergi Albiach",
+  "Daniel Rodriguez-Rey",
+  "Marc Guevara",
+  "Albert Soret",
+  "Eduardo Quiñones",
+  "Elli Kartsakli"
+ ],
+ "v1_date": "2025-10-31",
+ "latest_version": 1,
+ "latest_date": "2025-10-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "With the rise of intelligent Internet of Things (IoT) systems in urban environments, new opportunities are emerging to enhance real-time environmental monitoring. While most studies focus either on IoT-based air quality sensing or physics-based modeling in isolation, this work bridges that gap by integrating low-cost sensors and AI-powered video-based traffic analysis with high-resolution urban air quality models. We present a real-world pilot deployment at a road intersection in Barcelona's Eixample district, where the system captures dynamic traffic conditions and environmental variables, processes them at the edge, and feeds real-time data into a high-performance computing (HPC) simulation pipeline. Results are validated against official air quality measurements of nitrogen dioxide (NO2). Compared to traditional models that rely on static emission inventories, the IoT-assisted approach enhances the temporal granularity of urban air quality predictions of traffic-related pollutants. Using the full capabilities of an IoT-edge-cloud-HPC architecture, this work demonstrates a scalable, adaptive, and privacy-conscious solution for urban pollution monitoring and establishes a foundation for next-generation IoT-driven environmental intelligence.",
+ "primary": "physics.ao-ph"
+}

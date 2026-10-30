@@ -1,0 +1,18 @@
+{
+ "id": "2306.13948",
+ "title": "Unleashing Realistic Air Quality Forecasting: Introducing the Ready-to-Use PurpleAirSF Dataset",
+ "authors": [
+  "Jingwei Zuo",
+  "Wenbin Li",
+  "Michele Baldo",
+  "Hakim Hacid"
+ ],
+ "v1_date": "2023-06-24",
+ "latest_version": 2,
+ "latest_date": "2023-11-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted by ACM SIGSPATIAL 2023",
+ "abstract": "Air quality forecasting has garnered significant attention recently, with data-driven models taking center stage due to advancements in machine learning and deep learning models. However, researchers face challenges with complex data acquisition and the lack of open-sourced datasets, hindering efficient model validation. This paper introduces PurpleAirSF, a comprehensive and easily accessible dataset collected from the PurpleAir network. With its high temporal resolution, various air quality measures, and diverse geographical coverage, this dataset serves as a useful tool for researchers aiming to develop novel forecasting models, study air pollution patterns, and investigate their impacts on health and the environment. We present a detailed account of the data collection and processing methods employed to build PurpleAirSF. Furthermore, we conduct preliminary experiments using both classic and modern spatio-temporal forecasting models, thereby establishing a benchmark for future air quality forecasting tasks.",
+ "primary": "cs.LG"
+}

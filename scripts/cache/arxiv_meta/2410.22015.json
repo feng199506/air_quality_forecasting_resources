@@ -1,0 +1,21 @@
+{
+ "id": "2410.22015",
+ "title": "City-Scale Assessment of Pedestrian Exposure to Air Pollution: A Case Study in Barcelona",
+ "authors": [
+  "Jan Mateu Armengol",
+  "Cristina Carnerero",
+  "Clément Rames",
+  "Álvaro Criado",
+  "Javier Borge-Holthoefer",
+  "Albert Soret",
+  "Albert Solé-Ribalta"
+ ],
+ "v1_date": "2024-10-29",
+ "latest_version": 1,
+ "latest_date": "2024-10-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Air pollution is a pressing environmental risk to public health, particularly in cities where population density and pollution levels are high. Traditional methods for exposure analysis often rely on census data, but recent studies highlight the impact of daily mobility on individuals' exposure. Here, we develop a methodology to determine unprecedented pedestrian exposure estimates at the city scale by combining sidewalk pedestrian flows with high-resolution (25 m x 25 m) NO2 data from bias-corrected predictions of the air quality system CALIOPE-Urban. Applied to Barcelona (Spain) for the year 2019, we show that pedestrian flow and NO2 levels exhibit negligible temporal correlation. While short-term (hourly) exposure is driven by pedestrian mobility, long-term (monthly) exposure is dominated by NO2 patterns. We identify strong spatial gradients of exposure, highlighting the importance for high-resolution solutions at the sidewalks scale. Finally, we determine that exposure mitigation strategies should consider different citizen subgroups based on their mobility and preferred routes, as significant differences were found between residential and pedestrian exposure. Our results provide exposure indicators designed for city planners and policymakers, helping to prioritize mitigation measures where and when they are most needed.",
+ "primary": "physics.soc-ph"
+}

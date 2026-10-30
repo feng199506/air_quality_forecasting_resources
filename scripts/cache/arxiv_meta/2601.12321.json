@@ -1,0 +1,15 @@
+{
+ "id": "2601.12321",
+ "title": "A Machine Learning--Based Surrogate EKMA Framework for Diagnosing Urban Ozone Formation Regimes: Evidence from Los Angeles",
+ "authors": [
+  "Sijie Zheng"
+ ],
+ "v1_date": "2026-01-18",
+ "latest_version": 1,
+ "latest_date": "2026-01-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Preprint. Under review",
+ "abstract": "Surface ozone pollution remains a persistent challenge in many metropolitan regions worldwide, as the nonlinear dependence of ozone formation on nitrogen oxides and volatile organic compounds (VOCs) complicates the design of effective emission control strategies. While chemical transport models provide mechanistic insights, they rely on detailed emission inventories and are computationally expensive. This study develops a machine learning--based surrogate framework inspired by the Empirical Kinetic Modeling Approach (EKMA). Using hourly air quality observations from Los Angeles during 2024--2025, a random forest model is trained to predict surface ozone concentrations based on precursor measurements and spatiotemporal features, including site location and cyclic time encodings. The model achieves strong predictive performance, with permutation importance highlighting the dominant roles of diurnal temporal features and nitrogen dioxide, along with additional contributions from carbon monoxide. Building on the trained surrogate, EKMA-style sensitivity experiments are conducted by perturbing precursor concentrations while holding other covariates fixed. The results indicate that ozone formation in Los Angeles during the study period is predominantly VOC-limited. Overall, the proposed framework offers an efficient and interpretable approach for ozone regime diagnosis in data-rich urban environments.",
+ "primary": "stat.AP"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2405.07910",
+ "title": "Improving Causal Inference with Measurement Errors in Exposures and Confounders: A New Method and Its Application to Air Pollution Exposure Assessment and Epidemiology",
+ "authors": [
+  "Honghyok Kim"
+ ],
+ "v1_date": "2024-05-13",
+ "latest_version": 8,
+ "latest_date": "2025-05-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Revisited/Revised",
+ "abstract": "When exposure measurement error (EME), confounder measurement error (CME), or both are present, health effect estimates regarding exposure mixtures and critical exposure time-window may not represent the true effects. For example, in air pollution epidemiology, modeled estimates for multiple air pollutants and meteorological factors may serve as surrogates for exposures and confounders. Methods for simultaneously addressing EME and CME remain understudied. We developed a two-stage causal effect modeling framework to estimate average exposure/treatment effects (AEE) by addressing EME and CME. We identified conditions under which AEE is identifiable with minimal bias given linear or non-linear potential outcomes models and developed a new method, referred to as multi-dimensional regression calibration (MRC). The first stage of the framework estimates MRC models. The second stage estimates AEE by using g-computation with MR-Calibrated variables. Simulation analyses confirmed the bias-correction capability. As an application, we analyzed the association between air pollution and COVID-19 mortality in Cook County, Illinois. We developed machine learning-based 500m-gridded daily estimates of air pollutants and meteorological factors in a way for what we refer to as doubly EME&CME-correction. Using distributed lag variables, a one interquartile range (22.7ppb) increase in 3-week O3 exposure below 70ppb was associated with an 135.3% (95% CI: 68.4, 233.0) increase in COVID-19 mortality risk, comparable to that for PM2.5 exposure, which contradicts the previously reported no association for 3-week O3 in Cook County. At low levels, reducing pollution may have helped prevent premature deaths from COVID-19. Our new framework can address measurement error in multiple covariates simultaneously.",
+ "primary": "math.ST"
+}

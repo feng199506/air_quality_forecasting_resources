@@ -1,0 +1,15 @@
+{
+ "status": "verified",
+ "set": "books",
+ "title": "Practical Meteorology: An Algebra-based Survey of Atmospheric Science (v1.02b)",
+ "files": [
+  {
+   "path": "books/Stull_PracticalMeteorology_v102b_en.pdf",
+   "url": "https://www.eoas.ubc.ca/books/Practical_Meteorology/prmet102/Practical_Meteorology-v1.02b-WholeBookColor.pdf",
+   "pages": 944,
+   "sha256": "be6c07ee7b36dace66ea06100eb6997a09c829cabe09da0ce02656bab1a82f5a",
+   "bytes": 82120107
+  }
+ ],
+ "note": "HTTP 200；%PDF；pypdf 可解析 944 页；名称短语已见"
+}

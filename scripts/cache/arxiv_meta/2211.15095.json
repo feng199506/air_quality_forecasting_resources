@@ -1,0 +1,16 @@
+{
+ "id": "2211.15095",
+ "title": "Discretized Linear Regression and Multiclass Support Vector Based Air Pollution Forecasting Technique",
+ "authors": [
+  "Dhanalakshmi M",
+  "Radha V"
+ ],
+ "v1_date": "2022-11-28",
+ "latest_version": 1,
+ "latest_date": "2022-11-28",
+ "journal_ref": "International Journal of Engineering Trends and Technology, vol. 70, no. 11, pp. 315-323, 2022",
+ "doi": "10.14445/22315381/ijett-v70i11p234",
+ "comment": "9 pages, 7 figures, Published with International Journal of Engineering Trends and Technology (IJETT)",
+ "abstract": "Air pollution is a vital issue emerging from the uncontrolled utilization of traditional energy sources as far as developing countries are concerned. Hence, ingenious air pollution forecasting methods are indispensable to minimize the risk. To that end, this paper proposes an Internet of Things (IoT) enabled system for monitoring and controlling air pollution in the cloud computing environment. A method called Linear Regression and Multiclass Support Vector (LR-MSV) IoT-based Air Pollution Forecast is proposed to monitor the air quality data and the air quality index measurement to pave the way for controlling effectively. Extensive experiments carried out on the air quality data in the India dataset have revealed the outstanding performance of the proposed LR-MSV method when benchmarked with well-established state-of-the-art methods. The results obtained by the LR-MSV method witness a significant increase in air pollution forecasting accuracy by reducing the air pollution forecasting time and error rate compared with the results produced by the other state-of-the-art methods",
+ "primary": "cs.LG"
+}

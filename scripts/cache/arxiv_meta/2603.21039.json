@@ -1,0 +1,17 @@
+{
+ "id": "2603.21039",
+ "title": "Benchmarking Scientific Machine Learning Models for Air Quality Data",
+ "authors": [
+  "Khawja Imran Masud",
+  "Venkata Sai Rahul Unnam",
+  "Sahara Ali"
+ ],
+ "v1_date": "2026-03-22",
+ "latest_version": 2,
+ "latest_date": "2026-03-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at IEEE IGARSS 2026; 22 pages, 6 figures;",
+ "abstract": "Accurate air quality index (AQI) forecasting is essential for the protecting public health in rapidly growing urban regions, and the practical model evaluation and selection are often challenged by the lack of rigorous, region-specific benchmarking on standardized datasets. Physics-guided machine learning and deep learning models could be a good and effective solution to resolve such issues with more accurate and efficient AQI forecasting. This research study presents an explainable and comprehensive benchmark that enables a guideline and proposed physics-guided best model by benchmarking classical time-series, machine-learning, and deep-learning approaches for multi-horizon AQI forecasting in North Texas (Dallas County). Using publicly available U.S. Environmental Protection Agency (EPA) daily observations of air quality data from 2022 to 2024, we curate city-level time series for PM2.5 and O3 by aggregating station measurements and constructing lag-wise forecasting datasets for LAG in {1,7,14,30} days. For benchmarking the best model, linear regression (LR), SARIMAX, multilayer perceptrons (MLP), and LSTM networks are evaluated with the proposed physics-guided variants (MLP+Physics and LSTM+Physics) that incorporate the EPA breakpoint-based AQI formulation as a consistency constraint through a weighted loss. Experiments using chronological train-test splits and error metrics MAE, RMSE showed that deep-learning models outperform simpler baselines, while physics guidance improves stability and yields physically consistent pollutant with AQI relationships, with the largest benefits observed for short-horizon prediction and for PM2.5 and O3. Overall, the results provide a practical reference for selecting AQI forecasting models in North Texas and clarify when lightweight physics constraints meaningfully improve predictive performance across pollutants and forecast horizons.",
+ "primary": "cs.LG"
+}

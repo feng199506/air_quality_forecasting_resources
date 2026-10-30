@@ -1,0 +1,15 @@
+{
+ "id": "2509.21312",
+ "title": "Air Quality and Greenhouse Gas Emissions Assessment of Data Centers in Texas: Quantifying Impacts and Environmental Tradeoffs",
+ "authors": [
+  "Ebrahim Eslami"
+ ],
+ "v1_date": "2025-09-25",
+ "latest_version": 1,
+ "latest_date": "2025-09-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This study assesses air quality (AQ) and greenhouse gas (GHG) emissions from the rapid expansion of data centers in Texas, a major hub due to infrastructure, electricity markets, and business conditions. AQ impacts were separated from GHG emissions to clarify sources, regulations, and mitigation strategies. Electricity consumption and cooling systems dominate GHG emissions, with a 10 megawatt data center generating about 37,668 metric tons CO2 annually, while construction materials and IT equipment add substantial embodied emissions. Local AQ impacts, often overlooked, arise from diesel backup generators, construction equipment, and commuting. Generator testing alone can emit about 12 metric tons of NOx annually per facility, worsening ozone issues in regions such as Houston and Dallas-Fort Worth. Mitigation strategies include advanced cooling, renewable energy procurement, cleaner backup power (fuel cells, batteries), sustainable construction, and standardized reporting. ERCOT forecasts project 39 to 78 gigawatts of new data center load by 2030, potentially leading to 170 to 205 million metric tons of annual CO2 emissions. Aggressive adoption of renewables and advanced technologies could cut emissions by 50 to 80 percent, avoiding 85 to 165 million metric tons of CO2. The study identifies research and policy gaps, including the need for cumulative air dispersion modeling, AQ-specific regulations, and mandatory efficiency standards. Findings underscore the importance of aligning Texas digital infrastructure growth with environmental and community health protections.",
+ "primary": "physics.ao-ph"
+}

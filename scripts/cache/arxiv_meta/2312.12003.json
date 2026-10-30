@@ -1,0 +1,18 @@
+{
+ "id": "2312.12003",
+ "title": "Modelling and characterization of fine Particulate Matter dynamics in Bujumbura using low cost sensors",
+ "authors": [
+  "Egide Ndamuzi",
+  "Rachel Akimana",
+  "Paterne Gahungu",
+  "Elie Bimenyimana"
+ ],
+ "v1_date": "2023-12-19",
+ "latest_version": 1,
+ "latest_date": "2023-12-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Air pollution is a result of multiple sources including both natural and anthropogenic activities. The rapid urbanization of the cities such as Bujumbura economic capital of Burundi, is one of these factors. The very first characterization of the spatio-temporal variability of PM2.5 in Bujumbura and the forecasting of PM2.5 concentration have been conducted in this paper using data collected during a year, from august 2022 to august 2023, by low cost sensors installed in Bujumbura city. For each commune, an hourly, daily and seasonal analysis were carried out and the results showed that the mass concentrations of PM2.5 in the three municipalities differ from one commune to another. The average hourly and annual PM2.5 concentrations exceed the World Health Organization standards. The range is between 28.3 and 35.0 microgram/m3 . In order to make prediction of PM2.5 concentration, an investigation of RNN with Long Short Term Memory (LSTM) has been undertaken.",
+ "primary": "stat.ML"
+}

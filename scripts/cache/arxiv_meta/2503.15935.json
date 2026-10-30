@@ -1,0 +1,16 @@
+{
+ "id": "2503.15935",
+ "title": "Copula-based spatio-temporal modeling of air pollutant data incorporating covariate dependencies",
+ "authors": [
+  "Soyun Jeon",
+  "Jungsoon Choi"
+ ],
+ "v1_date": "2025-03-20",
+ "latest_version": 1,
+ "latest_date": "2025-03-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Elevated levels of PM10 are known to cause severe respiratory and cardiovascular diseases, and, in extreme cases, cancer and mortality. Despite various reduction policies implemented across different sectors, PM10 concentrations in South Korea continue to exceed the annual recommended limits set by the World Health Organization. Spatio-temporal PM10 concentrations may exhibit both spatial and temporal dependencies. Additionally, interactions between PM10 and environmental factors can further influence the variability in PM10. Therefore, this study proposes a method that incorporates the spatio-temporal neighbors of covariates alongside those of PM10 by adopting an approach that explains spatio-temporal interactions through spatio-temporal neighbors. Vine copulas are used to integrate the pairwise dependence structures between a given location and its surrounding spatio-temporal neighbors. We applied the model to weekly average PM10 data from South Korea in 2019, using PM2.5 and CO as covariates. Given that all three variables exhibited skewness, we assumed the Gumbel and Generalized Extreme Value distributions as marginal distributions. The proposed model outperformed a traditional Bayesian spatio-temporal model, a kriging method, and an alternative copula-based approach, particularly in predicting the top 5% of extreme values, by effectively capturing tail dependencies crucial for extreme value analysis. This study highlights the importance of utilizing vine copulas to effectively model diverse dependency structures in spatio-temporal data while simultaneously accommodating spatial and temporal dimensions, including spatio-temporal dependencies among covariates. The results underscore the broader applicability of the proposed approach to other fields where complex dependency structures are present.",
+ "primary": "stat.AP"
+}

@@ -1,0 +1,27 @@
+{
+ "id": "2208.11831",
+ "title": "Large discrepancy between observations and simulations: Implications for urban air quality in China",
+ "authors": [
+  "Xiaokang Chen",
+  "Min Wang",
+  "Zhe Jiang",
+  "Yuqiang Zhang",
+  "Li Zhou",
+  "Jane Liu",
+  "Hong Liao",
+  "Helen Worden",
+  "TaiLong He",
+  "Dylan Jones",
+  "Dongyang Chen",
+  "Qinwen Tan",
+  "Yanan Shen"
+ ],
+ "v1_date": "2022-08-25",
+ "latest_version": 1,
+ "latest_date": "2022-08-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Chemical transport models (CTMs) have been widely used to provide instructions for the control of ozone (O3) pollution. However, we find large discrepancies between observation- and model-based urban O3 chemical regimes: volatile organic compound (VOC)-limited regimes over N. China and weak nitrogen oxides (NOx)-limited regimes over S. China in observations, in contrast to simulations with widespread distributions of strong NOx-limited regimes. The conflicting O3 evolutions are caused by underestimated urban NOx concentrations and the possible overestimation of biogenic VOC emissions. Reductions in NOx emissions, in response to regulations, have thus led to an unintended deterioration of O3 pollution over N. China provinces, for example, an increase in surface O3 by approximately 7 ppb over the Sichuan Basin (SCB) in 2014-2020. The NOx-induced urban O3 changes resulted in an increase in premature mortality by approximately 3000 cases in 2015-2020.",
+ "primary": "physics.ao-ph"
+}

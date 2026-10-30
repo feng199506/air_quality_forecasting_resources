@@ -1,0 +1,16 @@
+{
+ "id": "2401.04369",
+ "title": "Air Quality Forecasting Using Machine Learning: A Global perspective with Relevance to Low-Resource Settings",
+ "authors": [
+  "Mulomba Mukendi Christian",
+  "Hyebong Choi"
+ ],
+ "v1_date": "2024-01-09",
+ "latest_version": 1,
+ "latest_date": "2024-01-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "16 pages. This is a conference proceeding Presented at: SIBR 2024 (Seoul) Conference on Interdisciplinary Business and Economics Research, 5th-6th January 2024, Seoul, South Korea",
+ "abstract": "Air pollution stands as the fourth leading cause of death globally. While extensive research has been conducted in this domain, most approaches rely on large datasets when it comes to prediction. This limits their applicability in low-resource settings though more vulnerable. This study addresses this gap by proposing a novel machine learning approach for accurate air quality prediction using two months of air quality data. By leveraging the World Weather Repository, the meteorological, air pollutant, and Air Quality Index features from 197 capital cities were considered to predict air quality for the next day. The evaluation of several machine learning models demonstrates the effectiveness of the Random Forest algorithm in generating reliable predictions, particularly when applied to classification rather than regression, approach which enhances the model's generalizability by 42%, achieving a cross-validation score of 0.38 for regression and 0.89 for classification. To instill confidence in the predictions, interpretable machine learning was considered. Finally, a cost estimation comparing the implementation of this solution in high-resource and low-resource settings is presented including a tentative of technology licensing business model. This research highlights the potential for resource-limited countries to independently predict air quality while awaiting larger datasets to further refine their predictions.",
+ "primary": "cs.LG"
+}

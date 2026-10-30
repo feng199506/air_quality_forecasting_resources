@@ -1,0 +1,18 @@
+{
+ "id": "2605.03795",
+ "title": "GraphSVR: A Graph Convolutional Support Vector Regression Framework for Robust Spatiotemporal Air Pollution Forecasting",
+ "authors": [
+  "Nourin Jahan",
+  "Muhammed Navas T",
+  "Tanujit Chakraborty",
+  "Madhurima Panja"
+ ],
+ "v1_date": "2026-05-05",
+ "latest_version": 3,
+ "latest_date": "2026-08-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "The submitter (Tanujit Chakraborty) has withdrawn from this work and no longer wishes to be associated with this version of the manuscript. Accordingly, this arXiv submission is being withdrawn",
+ "abstract": "Urban air quality forecasting is challenging because pollutant concentrations are nonlinear, nonstationary, spatiotemporally dependent, and often affected by anomalous observations caused by traffic congestion, industrial emissions, and seasonal meteorological variability. This study proposes a Graph Convolutional Support Vector Regression (GraphSVR) framework for robust spatiotemporal forecasting of urban air pollution. The model combines graph convolutional learning to capture inter-station spatial dependence with support vector regression to model nonlinear temporal dynamics while reducing sensitivity to outlier observations. The proposed framework is evaluated using air quality records from 37 monitoring stations in Delhi and 18 stations in Mumbai, representing inland and coastal metropolitan environments in India. Forecasting performance is assessed across multiple horizons and compared with established temporal and spatiotemporal benchmarks. The results show that GraphSVR consistently improves predictive accuracy and maintains stable performance across seasons and outlier-prone pollution episodes. Statistical test further confirms the reliability of the proposed approach across the datasets. Furthermore, the conformal prediction approach is integrated with GraphSVR to generate calibrated prediction intervals, enhancing its practical value for uncertainty-aware air quality monitoring and public health decision-making.",
+ "primary": "cs.LG"
+}

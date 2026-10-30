@@ -1,0 +1,31 @@
+{
+ "id": "2408.17376",
+ "title": "Exploring the Impact of Environmental Pollutants on Multiple Sclerosis Progression",
+ "authors": [
+  "Elena Marinello",
+  "Erica Tavazzi",
+  "Enrico Longato",
+  "Pietro Bosoni",
+  "Arianna Dagliati",
+  "Mahin Vazifehdan",
+  "Riccardo Bellazzi",
+  "Isotta Trescato",
+  "Alessandro Guazzo",
+  "Martina Vettoretti",
+  "Eleonora Tavazzi",
+  "Lara Ahmad",
+  "Roberto Bergamaschi",
+  "Paola Cavalla",
+  "Umberto Manera",
+  "Adriano Chio",
+  "Barbara Di Camillo"
+ ],
+ "v1_date": "2024-08-30",
+ "latest_version": 1,
+ "latest_date": "2024-08-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Multiple Sclerosis (MS) is a chronic autoimmune and inflammatory neurological disorder characterised by episodes of symptom exacerbation, known as relapses. In this study, we investigate the role of environmental factors in relapse occurrence among MS patients, using data from the H2020 BRAINTEASER project. We employed predictive models, including Random Forest (RF) and Logistic Regression (LR), with varying sets of input features to predict the occurrence of relapses based on clinical and pollutant data collected over a week. The RF yielded the best result, with an AUC-ROC score of 0.713. Environmental variables, such as precipitation, NO2, PM2.5, humidity, and temperature, were found to be relevant to the prediction.",
+ "primary": "cs.LG"
+}

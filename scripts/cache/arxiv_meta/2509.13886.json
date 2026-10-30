@@ -1,0 +1,20 @@
+{
+ "id": "2509.13886",
+ "title": "Three Distributional Approaches for PM10 Assessment in Northern Italy",
+ "authors": [
+  "Marco F. De Sanctis",
+  "Andrea Gilardi",
+  "Giacomo Milan",
+  "Laura M. Sangalli",
+  "Francesca Ieva",
+  "Piercesare Secchi"
+ ],
+ "v1_date": "2025-09-17",
+ "latest_version": 3,
+ "latest_date": "2026-08-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose three spatial methods for estimating the full probability distribution of PM10 concentrations, with the ultimate goal of assessing air quality in Northern Italy. Moving beyond spatial averages and simple indicators, we adopt a distributional perspective to capture the complex variability of pollutant concentrations across space. The first proposed approach predicts class-based compositions via Fixed Rank Kriging; the second estimates multiple, non-crossing quantiles through a spatial regression with differential regularization; the third directly reconstructs full probability densities leveraging on both Fixed Rank Kriging and multiple quantiles spatial regression within a Simplicial Principal Component Analysis framework. These approaches are applied to daily PM10 measurements, collected from 2018 to 2022 in Northern Italy, to estimate spatially continuous distributions and to identify regions at risk of regulatory exceedance. The three approaches exhibit localized differences, revealing how modeling assumptions may influence the prediction of fine-scale pollutant concentration patterns. Nevertheless, they consistently agree on the broader spatial patterns of pollution. This general agreement supports the robustness of a distributional approach, which offers a comprehensive and policy-relevant framework for assessing air quality and regulatory exceedance risks.",
+ "primary": "stat.AP"
+}

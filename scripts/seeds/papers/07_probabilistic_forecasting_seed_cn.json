@@ -1,0 +1,75 @@
+[
+ {
+  "arxiv": "2506.23053",
+  "subtopic": "概率",
+  "type": "原始研究论文",
+  "level": "硕士",
+  "difficulty": "中级",
+  "reason": "arXiv 检索命中且标题/摘要同时含空气质量与预报用语。",
+  "summary": "Urban sensor networks need forecasts that are accurate, carry useful uncertainty, and refresh fast enough to act on as new readings arrive. These goals conflict: deterministic models give no distribution, while diffusion forecasters model uncertainty but denoise from pure noise o…",
+  "summary_basis": "arXiv 摘要",
+  "task": "future_forecast",
+  "code_kind": "official_partial",
+  "code_url": "https://github.com/teddyicare/Double-Diffusion"
+ },
+ {
+  "arxiv": "2504.20268",
+  "subtopic": "图与时空",
+  "type": "原始研究论文",
+  "level": "硕士",
+  "difficulty": "中级",
+  "reason": "arXiv 检索命中且标题/摘要同时含空气质量与预报用语。",
+  "summary": "Data fusion models are widely used in air quality monitoring to integrate in situ and large-scale gridded products, offering spatially complete and temporally detailed estimates. However, traditional Gaussian-based models often underestimate extreme pollution values, leading to b…",
+  "summary_basis": "arXiv 摘要",
+  "task": "future_forecast",
+  "code_kind": "待全文核实"
+ },
+ {
+  "arxiv": "2609.20975",
+  "subtopic": "机器学习",
+  "type": "原始研究论文",
+  "level": "硕士",
+  "difficulty": "中级",
+  "reason": "arXiv 检索命中且标题/摘要同时含空气质量与预报用语。",
+  "summary": "Affordable dust monitoring remains a pressing need for the cattle feedlot industry, yet camera-based PM estimation, despite its growing body of research in urban air quality settings, has not been evaluated under the extended concentration ranges characteristic of intensive lives…",
+  "summary_basis": "arXiv 摘要",
+  "task": "future_forecast",
+  "code_kind": "待全文核实"
+ },
+ {
+  "arxiv": "2402.17297",
+  "subtopic": "概率",
+  "type": "原始研究论文",
+  "level": "硕士",
+  "difficulty": "中级",
+  "reason": "arXiv 检索命中且标题/摘要同时含空气质量与预报用语。",
+  "summary": "This study proposes a novel method for forecasting a scalar variable based on high-dimensional predictors that is applicable to various data distributions. In the literature, one of the popular approaches for forecasting with many predictors is to use factor models. However, thes…",
+  "summary_basis": "arXiv 摘要",
+  "task": "future_forecast",
+  "code_kind": "待全文核实"
+ },
+ {
+  "arxiv": "2610.34204",
+  "subtopic": "概率",
+  "type": "原始研究论文",
+  "level": "硕士",
+  "difficulty": "中级",
+  "reason": "arXiv 检索命中且标题/摘要同时含空气质量与预报用语。",
+  "summary": "In applications such as air-quality monitoring, inexpensive sensor readings can help predict pollutant concentrations measured by a separate reference instrument. We study how to adapt conformal prediction intervals to a new population when reference outcomes are available in the…",
+  "summary_basis": "arXiv 摘要",
+  "task": "future_forecast",
+  "code_kind": "待全文核实"
+ },
+ {
+  "arxiv": "2610.22577",
+  "subtopic": "概率",
+  "type": "原始研究论文",
+  "level": "硕士",
+  "difficulty": "中级",
+  "reason": "arXiv 检索命中且标题/摘要同时含空气质量与预报用语。",
+  "summary": "The National Ambient Air Quality Standards (NAAQS) establish concentration limits for criteria pollutants in order to safeguard public health and the environment. For some NAAQS, the standard refers to thresholds for either high percentiles or maxima. Identifying regions where re…",
+  "summary_basis": "arXiv 摘要",
+  "task": "future_forecast",
+  "code_kind": "待全文核实"
+ }
+]

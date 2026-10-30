@@ -1,0 +1,16 @@
+{
+ "id": "2111.11848",
+ "title": "Time Series Prediction about Air Quality using LSTM-Based Models: A Systematic Mapping",
+ "authors": [
+  "Lucas L. S. Sachetti",
+  "Vinicius F. S. Mota"
+ ],
+ "v1_date": "2021-11-22",
+ "latest_version": 1,
+ "latest_date": "2021-11-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This systematic mapping study investigates the use of Long short-term memory networks to predict time series data about air quality, trying to understand the reasons, characteristics and methods available in the scientific literature, identify gaps in the researched area and potential approaches that can be exploited on later studies.",
+ "primary": "cs.LG"
+}

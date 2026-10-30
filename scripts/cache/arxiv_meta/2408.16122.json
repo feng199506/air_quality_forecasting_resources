@@ -1,0 +1,17 @@
+{
+ "id": "2408.16122",
+ "title": "Variational Mode Decomposition and Linear Embeddings are What You Need For Time-Series Forecasting",
+ "authors": [
+  "Hafizh Raihan Kurnia Putra",
+  "Novanto Yudistira",
+  "Tirana Noor Fatyanosa"
+ ],
+ "v1_date": "2024-08-28",
+ "latest_version": 2,
+ "latest_date": "2024-09-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "For associated repository, see https://github.com/Espalemit/VMD-With-LTSF-Linear.git",
+ "abstract": "Time-series forecasting often faces challenges due to data volatility, which can lead to inaccurate predictions. Variational Mode Decomposition (VMD) has emerged as a promising technique to mitigate volatility by decomposing data into distinct modes, thereby enhancing forecast accuracy. In this study, we integrate VMD with linear models to develop a robust forecasting framework. Our approach is evaluated on 13 diverse datasets, including ETTm2, WindTurbine, M4, and 10 air quality datasets from various Southeast Asian cities. The effectiveness of the VMD strategy is assessed by comparing Root Mean Squared Error (RMSE) values from models utilizing VMD against those without it. Additionally, we benchmark linear-based models against well-known neural network architectures such as LSTM, Bidirectional LSTM, and RNN. The results demonstrate a significant reduction in RMSE across nearly all models following VMD application. Notably, the Linear + VMD model achieved the lowest average RMSE in univariate forecasting at 0.619. In multivariate forecasting, the DLinear + VMD model consistently outperformed others, attaining the lowest RMSE across all datasets with an average of 0.019. These findings underscore the effectiveness of combining VMD with linear models for superior time-series forecasting.",
+ "primary": "cs.LG"
+}

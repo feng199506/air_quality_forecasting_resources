@@ -1,0 +1,22 @@
+{
+ "id": "2212.14353",
+ "title": "Sheaf-theoretic self-filtering network of low-cost sensors for local air quality monitoring: A causal approach",
+ "authors": [
+  "Anh-Duy Pham",
+  "Chuong Dinh Le",
+  "Hoang Viet Pham",
+  "Thinh Gia Tran",
+  "Dat Thanh Vo",
+  "Chau Long Tran",
+  "An Dinh Le",
+  "Hien Bich Vo"
+ ],
+ "v1_date": "2022-12-29",
+ "latest_version": 1,
+ "latest_date": "2022-12-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Sheaf theory, which is a complex but powerful tool supported by topological theory, offers more flexibility and precision than traditional graph theory when it comes to modeling relationships between multiple features. In the realm of air quality monitoring, this can be incredibly useful in detecting sudden changes in local dust particle density, which can be difficult to accurately measure using commercial instruments. Traditional methods for air quality measurement often rely on calibrating the measurement with public standard instruments or calculating the measurements moving average over a constant period. However, this can lead to an incorrect index at the measurement location, as well as an oversmoothing effect on the signal. In this study, we propose a compact device that uses sheaf theory to detect and count vehicles as a local air quality change-causing factor. By inferring the number of vehicles into the PM2.5 index and propagating it into the recorded PM2.5 index from low-cost air monitoring sensors such as PMS7003 and BME280, we can achieve self-correction in real-time. Plus, the sheaf-theoretic method allows for easy scaling to multiple nodes for further filtering effects. By implementing sheaf theory in air quality monitoring, we can overcome the limitations of traditional methods and provide more accurate and reliable results.",
+ "primary": "cs.DC"
+}

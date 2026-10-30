@@ -1,0 +1,20 @@
+{
+ "id": "2406.19154",
+ "title": "Advancing operational PM2.5 forecasting with dual deep neural networks (D-DNet)",
+ "authors": [
+  "Shengjuan Cai",
+  "Fangxin Fang",
+  "Vincent-Henri Peuch",
+  "Mihai Alexe",
+  "Ionel Michael Navon",
+  "Yanghua Wang"
+ ],
+ "v1_date": "2024-06-27",
+ "latest_version": 1,
+ "latest_date": "2024-06-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "PM2.5 forecasting is crucial for public health, air quality management, and policy development. Traditional physics-based models are computationally demanding and slow to adapt to real-time conditions. Deep learning models show potential in efficiency but still suffer from accuracy loss over time due to error accumulation. To address these challenges, we propose a dual deep neural network (D-DNet) prediction and data assimilation system that efficiently integrates real-time observations, ensuring reliable operational forecasting. D-DNet excels in global operational forecasting for PM2.5 and AOD550, maintaining consistent accuracy throughout the entire year of 2019. It demonstrates notably higher efficiency than the Copernicus Atmosphere Monitoring Service (CAMS) 4D-Var operational forecasting system while maintaining comparable accuracy. This efficiency benefits ensemble forecasting, uncertainty analysis, and large-scale tasks.",
+ "primary": "cs.LG"
+}

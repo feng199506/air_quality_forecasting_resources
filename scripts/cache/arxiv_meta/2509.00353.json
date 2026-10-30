@@ -1,0 +1,16 @@
+{
+ "id": "2509.00353",
+ "title": "AQFusionNet: Multimodal Deep Learning for Air Quality Index Prediction with Imagery and Sensor Data",
+ "authors": [
+  "Koushik Ahmed Kushal",
+  "Abdullah Al Mamun"
+ ],
+ "v1_date": "2025-08-30",
+ "latest_version": 1,
+ "latest_date": "2025-08-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "8 pages, 5 figures, 2 tables",
+ "abstract": "Air pollution monitoring in resource-constrained regions remains challenging due to sparse sensor deployment and limited infrastructure. This work introduces AQFusionNet, a multimodal deep learning framework for robust Air Quality Index (AQI) prediction. The framework integrates ground-level atmospheric imagery with pollutant concentration data using lightweight CNN backbones (MobileNetV2, ResNet18, EfficientNet-B0). Visual and sensor features are combined through semantically aligned embedding spaces, enabling accurate and efficient prediction. Experiments on more than 8,000 samples from India and Nepal demonstrate that AQFusionNet consistently outperforms unimodal baselines, achieving up to 92.02% classification accuracy and an RMSE of 7.70 with the EfficientNet-B0 backbone. The model delivers an 18.5% improvement over single-modality approaches while maintaining low computational overhead, making it suitable for deployment on edge devices. AQFusionNet provides a scalable and practical solution for AQI monitoring in infrastructure-limited environments, offering robust predictive capability even under partial sensor availability.",
+ "primary": "cs.CV"
+}

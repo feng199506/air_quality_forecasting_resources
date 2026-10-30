@@ -1,0 +1,17 @@
+{
+ "id": "2409.11640",
+ "title": "Enhancing PM2.5 Data Imputation and Prediction in Air Quality Monitoring Networks Using a KNN-SINDy Hybrid Model",
+ "authors": [
+  "Yohan Choi",
+  "Boaz Choi",
+  "Jachin Choi"
+ ],
+ "v1_date": "2024-09-18",
+ "latest_version": 1,
+ "latest_date": "2024-09-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Air pollution, particularly particulate matter (PM2.5), poses significant risks to public health and the environment, necessitating accurate prediction and continuous monitoring for effective air quality management. However, air quality monitoring (AQM) data often suffer from missing records due to various technical difficulties. This study explores the application of Sparse Identification of Nonlinear Dynamics (SINDy) for imputing missing PM2.5 data by predicting, using training data from 2016, and comparing its performance with the established Soft Impute (SI) and K-Nearest Neighbors (KNN) methods.",
+ "primary": "cs.LG"
+}

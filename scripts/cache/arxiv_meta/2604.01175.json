@@ -1,0 +1,18 @@
+{
+ "id": "2604.01175",
+ "title": "NeuroDDAF: Neural Dynamic Diffusion-Advection Fields with Evidential Fusion for Air Quality Forecasting",
+ "authors": [
+  "Prasanjit Dey",
+  "Soumyabrata Dev",
+  "Angela Meyer",
+  "Bianca Schoen-Phelan"
+ ],
+ "v1_date": "2026-04-01",
+ "latest_version": 1,
+ "latest_date": "2026-04-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "This manuscript is under review",
+ "abstract": "Accurate air quality forecasting is crucial for protecting public health and guiding environmental policy, yet it remains challenging due to nonlinear spatiotemporal dynamics, wind-driven transport, and distribution shifts across regions. Physics-based models are interpretable but computationally expensive and often rely on restrictive assumptions, whereas purely data-driven models can be accurate but may lack robustness and calibrated uncertainty. To address these limitations, we propose Neural Dynamic Diffusion-Advection Fields (NeuroDDAF), a physics-informed forecasting framework that unifies neural representation learning with open-system transport modeling. NeuroDDAF integrates (i) a GRU-Graph Attention encoder to capture temporal dynamics and wind-aware spatial interactions, (ii) a Fourier-domain diffusion-advection module with learnable residuals, (iii) a wind-modulated latent Neural ODE to model continuous-time evolution under time-varying connectivity, and (iv) an evidential fusion mechanism that adaptively combines physics-guided and neural forecasts while quantifying uncertainty. Experiments on four urban datasets (Beijing, Shenzhen, Tianjin, and Ancona) across 1-3 day horizons show that NeuroDDAF consistently outperforms strong baselines, including AirPhyNet, achieving up to 9.7% reduction in RMSE and 9.4% reduction in MAE on long-term forecasts. On the Beijing dataset, NeuroDDAF attains an RMSE of 41.63 $μ$g/m$^3$ for 1-day prediction and 48.88 $μ$g/m$^3$ for 3-day prediction, representing the best performance among all compared methods. In addition, NeuroDDAF improves cross-city generalization and yields well-calibrated uncertainty estimates, as confirmed by ensemble variance analysis and case studies under varying wind conditions.",
+ "primary": "cs.LG"
+}

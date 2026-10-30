@@ -1,0 +1,15 @@
+{
+ "id": "2606.05450",
+ "title": "Eigenvector Spatial Filters Nuclear Norm Matrix Completion with Application to Air Quality Data",
+ "authors": [
+  "Rodolfo Metulini"
+ ],
+ "v1_date": "2026-06-03",
+ "latest_version": 4,
+ "latest_date": "2026-08-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "36 pages, 5 figures, 15 tables (8 in the main text, 7 in the appendix). Version submitted to \"Spatial Statistics\" (Elsevier)",
+ "abstract": "Reliable reconstruction of missing observations in environmental panel datasets is essential for accurate exposure assessment and policy analysis. Traditional nuclear norm matrix completion methods effectively impute missing entries in low-rank matrices, yet often overlook the spatial dependence inherent to air quality processes. This paper introduces the Eigenvector Spatial Filters Nuclear Norm Matrix Completion (ESFNNMC) method, an extension of nuclear norm fixed-effects matrix completion that replaces unit-specific intercepts with a set of Moran-type eigenvectors capturing the dominant spatial dependence patterns implied by a spatial weights matrix. To estimate the model, we propose a block-coordinate descent algorithm, combined with soft-thresholded singular value decomposition and cross-validated regularization. Through comprehensive simulations varying missingness patterns, the level of spatial and temporal autocorrelation, and dimension, shape, and rank structure of the matrices, we demonstrate that ESFNNMC improves imputation accuracy when unit heterogeneity exhibits spatial structure, while remaining competitive under mild departures from this assumption. Furthermore, it keeps the computational cost approximately unchanged. The method is applied to impute missing entries in daily PM10 measurements in 64 monitoring stations in Lombardy, Italy, during the year 2021.",
+ "primary": "stat.AP"
+}

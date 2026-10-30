@@ -1,0 +1,22 @@
+{
+ "id": "2302.09977",
+ "title": "Dynamic Graph Neural Network with Adaptive Edge Attributes for Air Quality Predictions",
+ "authors": [
+  "Jing Xu",
+  "Shuo Wang",
+  "Na Ying",
+  "Xiao Xiao",
+  "Jiang Zhang",
+  "Yun Cheng",
+  "Zhiling Jin",
+  "Gangfeng Zhang"
+ ],
+ "v1_date": "2023-02-20",
+ "latest_version": 1,
+ "latest_date": "2023-02-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Air quality prediction is a typical spatio-temporal modeling problem, which always uses different components to handle spatial and temporal dependencies in complex systems separately. Previous models based on time series analysis and Recurrent Neural Network (RNN) methods have only modeled time series while ignoring spatial information. Previous GCNs-based methods usually require providing spatial correlation graph structure of observation sites in advance. The correlations among these sites and their strengths are usually calculated using prior information. However, due to the limitations of human cognition, limited prior information cannot reflect the real station-related structure or bring more effective information for accurate prediction. To this end, we propose a novel Dynamic Graph Neural Network with Adaptive Edge Attributes (DGN-AEA) on the message passing network, which generates the adaptive bidirected dynamic graph by learning the edge attributes as model parameters. Unlike prior information to establish edges, our method can obtain adaptive edge information through end-to-end training without any prior information. Thus reduced the complexity of the problem. Besides, the hidden structural information between the stations can be obtained as model by-products, which can help make some subsequent decision-making analyses. Experimental results show that our model received state-of-the-art performance than other baselines.",
+ "primary": "cs.LG"
+}

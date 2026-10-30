@@ -1,0 +1,22 @@
+{
+ "id": "2404.14999",
+ "title": "A Unified Replay-based Continuous Learning Framework for Spatio-Temporal Prediction on Streaming Data",
+ "authors": [
+  "Hao Miao",
+  "Yan Zhao",
+  "Chenjuan Guo",
+  "Bin Yang",
+  "Kai Zheng",
+  "Feiteng Huang",
+  "Jiandong Xie",
+  "Christian S. Jensen"
+ ],
+ "v1_date": "2024-04-23",
+ "latest_version": 1,
+ "latest_date": "2024-04-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted by ICDE 2024",
+ "abstract": "The widespread deployment of wireless and mobile devices results in a proliferation of spatio-temporal data that is used in applications, e.g., traffic prediction, human mobility mining, and air quality prediction, where spatio-temporal prediction is often essential to enable safety, predictability, or reliability. Many recent proposals that target deep learning for spatio-temporal prediction suffer from so-called catastrophic forgetting, where previously learned knowledge is entirely forgotten when new data arrives. Such proposals may experience deteriorating prediction performance when applied in settings where data streams into the system. To enable spatio-temporal prediction on streaming data, we propose a unified replay-based continuous learning framework. The framework includes a replay buffer of previously learned samples that are fused with training data using a spatio-temporal mixup mechanism in order to preserve historical knowledge effectively, thus avoiding catastrophic forgetting. To enable holistic representation preservation, the framework also integrates a general spatio-temporal autoencoder with a carefully designed spatio-temporal simple siamese (STSimSiam) network that aims to ensure prediction accuracy and avoid holistic feature loss by means of mutual information maximization. The framework further encompasses five spatio-temporal data augmentation methods to enhance the performance of STSimSiam. Extensive experiments on real data offer insight into the effectiveness of the proposed framework.",
+ "primary": "cs.DB"
+}

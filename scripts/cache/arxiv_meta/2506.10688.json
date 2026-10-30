@@ -1,0 +1,22 @@
+{
+ "id": "2506.10688",
+ "title": "A Bayesian Multisource Fusion Model for Spatiotemporal PM2.5 in an Urban Setting",
+ "authors": [
+  "Abi I. Riley",
+  "Marta Blangiardo",
+  "Frédéric B. Piel",
+  "Andrew Beddows",
+  "Sean Beevers",
+  "Gary W. Fuller",
+  "Paul Agnew",
+  "Monica Pirani"
+ ],
+ "v1_date": "2025-06-12",
+ "latest_version": 2,
+ "latest_date": "2025-06-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "9 figures, 26 pages",
+ "abstract": "Airborne particulate matter (PM2.5) is a major public health concern in urban environments, where population density and emission sources exacerbate exposure risks. We present a novel Bayesian spatiotemporal fusion model to estimate monthly PM2.5 concentrations over Greater London (2014-2019) at 1km resolution. The model integrates multiple PM2.5 data sources, including outputs from two atmospheric air quality dispersion models and predictive variables, such as vegetation and satellite aerosol optical depth, while explicitly modelling a latent spatiotemporal field. Spatial misalignment of the data is addressed through an upscaling approach to predict across the entire area. Building on stochastic partial differential equations (SPDE) within the integrated nested Laplace approximations (INLA) framework, our method introduces spatially- and temporally-varying coefficients to flexibly calibrate datasets and capture fine-scale variability. Model performance and complexity are balanced using predictive metrics such as the predictive model choice criterion and thorough cross-validation. The best performing model shows excellent fit and solid predictive performance, enabling reliable high-resolution spatiotemporal mapping of PM2.5 concentrations with the associated uncertainty. Furthermore, the model outputs, including full posterior predictive distributions, can be used to map exceedance probabilities of regulatory thresholds, supporting air quality management and targeted interventions in vulnerable urban areas, as well as providing refined exposure estimates of PM2.5 for epidemiological applications.",
+ "primary": "stat.ME"
+}

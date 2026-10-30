@@ -1,0 +1,17 @@
+{
+ "id": "2402.09573",
+ "title": "Changes by Butterflies: Farsighted Forecasting with Group Reservoir Transformer",
+ "authors": [
+  "Md Kowsher",
+  "Abdul Rafae Khan",
+  "Jia Xu"
+ ],
+ "v1_date": "2024-02-14",
+ "latest_version": 2,
+ "latest_date": "2024-06-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In Chaos, a minor divergence between two initial conditions exhibits exponential amplification over time, leading to far-away outcomes, known as the butterfly effect. Thus, the distant future is full of uncertainty and hard to forecast. We introduce Group Reservoir Transformer to predict long-term events more accurately and robustly by overcoming two challenges in Chaos: (1) the extensive historical sequences and (2) the sensitivity to initial conditions. A reservoir is attached to a Transformer to efficiently handle arbitrarily long historical lengths, with an extension of a group of reservoirs to reduce the sensitivity to the initialization variations. Our architecture consistently outperforms state-of-the-art models in multivariate time series, including TimeLLM, GPT2TS, PatchTST, DLinear, TimeNet, and the baseline Transformer, with an error reduction of up to -59\\% in various fields such as ETTh, ETTm, and air quality, demonstrating that an ensemble of butterfly learning can improve the adequacy and certainty of event prediction, despite of the traveling time to the unknown future.",
+ "primary": "cs.LG"
+}

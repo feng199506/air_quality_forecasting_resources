@@ -1,0 +1,19 @@
+{
+ "id": "2511.01046",
+ "title": "VayuChat: An LLM-Powered Conversational Interface for Air Quality Data Analytics",
+ "authors": [
+  "Vedant Acharya",
+  "Abhay Pisharodi",
+  "Rishabh Mondal",
+  "Mohammad Rafiuddin",
+  "Nipun Batra"
+ ],
+ "v1_date": "2025-11-02",
+ "latest_version": 1,
+ "latest_date": "2025-11-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "4 Pages, 4 Figures",
+ "abstract": "Air pollution causes about 1.6 million premature deaths each year in India, yet decision makers struggle to turn dispersed data into decisions. Existing tools require expertise and provide static dashboards, leaving key policy questions unresolved. We present VayuChat, a conversational system that answers natural language questions on air quality, meteorology, and policy programs, and responds with both executable Python code and interactive visualizations. VayuChat integrates data from Central Pollution Control Board (CPCB) monitoring stations, state-level demographics, and National Clean Air Programme (NCAP) funding records into a unified interface powered by large language models. Our live demonstration will show how users can perform complex environmental analytics through simple conversations, making data science accessible to policymakers, researchers, and citizens. The platform is publicly deployed at https://huggingface.co/spaces/SustainabilityLabIITGN/ VayuChat. For further information check out video uploaded on https://www.youtube.com/watch?v=d6rklL05cs4.",
+ "primary": "cs.CL"
+}

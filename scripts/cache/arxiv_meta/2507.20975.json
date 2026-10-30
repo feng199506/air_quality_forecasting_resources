@@ -1,0 +1,16 @@
+{
+ "id": "2507.20975",
+ "title": "Locally Adaptive Conformal Inference for Operator Models",
+ "authors": [
+  "Trevor Harris",
+  "Yan Liu"
+ ],
+ "v1_date": "2025-07-28",
+ "latest_version": 5,
+ "latest_date": "2026-06-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "12 pages, 3 figures, 2 tables, Preprint",
+ "abstract": "Operator models are regression algorithms between Banach spaces of functions. They have become an increasingly critical tool for spatiotemporal forecasting and physics emulation, especially in high-stakes scenarios where robust, calibrated uncertainty quantification is required. We introduce Local Sliced Conformal Inference (LSCI), a distribution-free framework for generating function-valued, locally adaptive prediction sets for operator models. We prove finite-sample validity and derive a data-dependent upper bound on the coverage gap under local exchangeability. On synthetic Gaussian-process tasks and real applications (air quality monitoring, energy demand forecasting, and weather prediction), LSCI yields tighter sets with stronger adaptivity compared to conformal baselines. We also empirically demonstrate robustness against biased predictions and certain out-of-distribution noise regimes.",
+ "primary": "stat.ML"
+}

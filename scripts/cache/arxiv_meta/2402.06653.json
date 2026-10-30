@@ -1,0 +1,17 @@
+{
+ "id": "2402.06653",
+ "title": "Using remotely sensed data for air pollution assessment",
+ "authors": [
+  "Teresa Bernardino",
+  "Maria Alexandra Oliveira",
+  "João Nuno Silva"
+ ],
+ "v1_date": "2024-02-04",
+ "latest_version": 1,
+ "latest_date": "2024-02-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Air pollution constitutes a global problem of paramount importance that affects not only human health, but also the environment. The existence of spatial and temporal data regarding the concentrations of pollutants is crucial for performing air pollution studies and monitor emissions. However, although observation data presents great temporal coverage, the number of stations is very limited and they are usually built in more populated areas. The main objective of this work is to create models capable of inferring pollutant concentrations in locations where no observation data exists. A machine learning model, more specifically the random forest model, was developed for predicting concentrations in the Iberian Peninsula in 2019 for five selected pollutants: $NO_2$, $O_3$ $SO_2$, $PM10$, and $PM2.5$. Model features include satellite measurements, meteorological variables, land use classification, temporal variables (month, day of year), and spatial variables (latitude, longitude, altitude). The models were evaluated using various methods, including station 10-fold cross-validation, in which in each fold observations from 10\\% of the stations are used as testing data and the rest as training data. The $R^2$, RMSE and mean bias were determined for each model. The $NO_2$ and $O_3$ models presented good values of $R^2$, 0.5524 and 0.7462, respectively. However, the $SO_2$, $PM10$, and $PM2.5$ models performed very poorly in this regard, with $R^2$ values of -0.0231, 0.3722, and 0.3303, respectively. All models slightly overestimated the ground concentrations, except the $O_3$ model. All models presented acceptable cross-validation RMSE, except the $O_3$ and $PM10$ models where the mean value was a little higher (12.5934 $μg/m^3$ and 10.4737 $μg/m^3$, respectively).",
+ "primary": "cs.LG"
+}

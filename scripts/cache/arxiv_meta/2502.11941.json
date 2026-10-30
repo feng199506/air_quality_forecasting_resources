@@ -1,0 +1,19 @@
+{
+ "id": "2502.11941",
+ "title": "Deep Spatio-Temporal Neural Network for Air Quality Reanalysis",
+ "authors": [
+  "Ammar Kheder",
+  "Benjamin Foreback",
+  "Lili Wang",
+  "Zhi-Song Liu",
+  "Michael Boy"
+ ],
+ "v1_date": "2025-02-17",
+ "latest_version": 1,
+ "latest_date": "2025-02-17",
+ "journal_ref": "Scandinavian Conference on Image Analysis 2025",
+ "doi": "",
+ "comment": "",
+ "abstract": "Air quality prediction is key to mitigating health impacts and guiding decisions, yet existing models tend to focus on temporal trends while overlooking spatial generalization. We propose AQ-Net, a spatiotemporal reanalysis model for both observed and unobserved stations in the near future. AQ-Net utilizes the LSTM and multi-head attention for the temporal regression. We also propose a cyclic encoding technique to ensure continuous time representation. To learn fine-grained spatial air quality estimation, we incorporate AQ-Net with the neural kNN to explore feature-based interpolation, such that we can fill the spatial gaps given coarse observation stations. To demonstrate the efficiency of our model for spatiotemporal reanalysis, we use data from 2013-2017 collected in northern China for PM2.5 analysis. Extensive experiments show that AQ-Net excels in air quality reanalysis, highlighting the potential of hybrid spatio-temporal models to better capture environmental dynamics, especially in urban areas where both spatial and temporal variability are critical.",
+ "primary": "cs.LG"
+}

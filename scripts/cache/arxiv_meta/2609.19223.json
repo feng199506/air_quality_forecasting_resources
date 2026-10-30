@@ -1,0 +1,17 @@
+{
+ "id": "2609.19223",
+ "title": "When a High Score Is an Illusion: Certifying Genuine versus Repackaged Forecasting Skill",
+ "authors": [
+  "Pin Ni",
+  "Francesca Medda",
+  "Ramin Okhrati"
+ ],
+ "v1_date": "2026-09-16",
+ "latest_version": 1,
+ "latest_date": "2026-09-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted by IEEE ICDM'26",
+ "abstract": "Ranks depend on the observations used for comparison. Reusing those observations can add association between forecast and outcome rank contrasts even when the evaluated forecast and outcome stay fixed. We characterize assignments that preserve association between specified population-rank contrasts, including forecast rank minus baseline rank compared with outcome rank minus baseline rank. Conditional on independent training, whole trajectories are sampled independently from a common law, with unrestricted dependence within each trajectory. The expected score separates into its target and an explicit interaction between map pairs. When reassigning references, we keep the learned maps, reference law and coefficient row sums fixed. Zero weighted reference overlap for every map pair is necessary and sufficient for preservation uniformly over permitted maps and laws. An unbiased three-trajectory kernel estimates the interaction; independent evaluation and validation provide finite-sample lower bounds. Complete U-statistics estimate the same target directly when all draws can be recombined. Sharp shared-baseline ranges, including ties, tighten both constructions. In a Beijing air-quality archive, interaction accounts for 91.4% to 94.5% of seven learned forecasts' expected shared scores under the empirical archive law. Separate results address category-fitting error and temporal feedback. In a matched category-control null experiment, distinct references reduce rejections from 402 to 41 out of 1,000 panels.",
+ "primary": "stat.ME"
+}

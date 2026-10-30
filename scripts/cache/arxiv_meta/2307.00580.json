@@ -1,0 +1,15 @@
+{
+ "id": "2307.00580",
+ "title": "IoT-Based Air Quality Monitoring System with Machine Learning for Accurate and Real-time Data Analysis",
+ "authors": [
+  "Hemanth Karnati"
+ ],
+ "v1_date": "2023-07-02",
+ "latest_version": 1,
+ "latest_date": "2023-07-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "18 pages, 10 figures",
+ "abstract": "Air pollution in urban areas has severe consequences for both human health and the environment, predominantly caused by exhaust emissions from vehicles. To address the issue of air pollution awareness, Air Pollution Monitoring systems are used to measure the concentration of gases like CO2, smoke, alcohol, benzene, and NH3 present in the air. However, current mobile applications are unable to provide users with real-time data specific to their location. In this paper, we propose the development of a portable air quality detection device that can be used anywhere. The data collected will be stored and visualized using the cloud-based web app ThinkSpeak. The device utilizes two sensors, MQ135 and MQ3, to detect harmful gases and measure air quality in parts per million (PPM). Additionally, machine learning analysis will be employed on the collected data.",
+ "primary": "cs.LG"
+}

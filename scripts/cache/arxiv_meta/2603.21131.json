@@ -1,0 +1,26 @@
+{
+ "id": "2603.21131",
+ "title": "Diffusion-based Probabilistic Air Quality Forecasting with Mechanistic Insight",
+ "authors": [
+  "Ao Ding",
+  "Aoxing Zhang",
+  "Tzung-May Fu",
+  "Yuanlong Huang",
+  "Qianjie Chen",
+  "Yuyang Chen",
+  "Jiajia Mo",
+  "Wei Tao",
+  "Wai-Chi Cheng",
+  "Lei Zhu",
+  "Xin Yang",
+  "Guy Brasseur"
+ ],
+ "v1_date": "2026-03-22",
+ "latest_version": 1,
+ "latest_date": "2026-03-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Current operational air quality forecasts are computationally expensive, sensitive to errors in physics and emissions, and often neglect weather-related uncertainty. To address these limitations, we present AirFusion, a hybrid, diffusion-based framework that synergistically integrates knowledge from chemical transport models with real-world observational constraints to enable accurate and efficient probabilistic regional air quality prediction. We apply AirFusion to generate operational 6-day, 30-member ensemble forecasts of surface ozone across China, initialized with observations and driven by ensemble weather forecasts. AirFusion outperforms existing operational benchmarks, achieving substantially lower forecast errors against surface measurements, while also providing ensemble-based diagnostics that explicitly quantify the impacts of weather uncertainty on air quality predictability. Moreover, AirFusion can rapidly adapt to evolving emissions through fine-tuning with only one month of recent observations. These attributes establish AirFusion as a powerful and extensible framework for next-generation probabilistic air quality forecasting, with clear potential for application to other pollutants and regions.",
+ "primary": "physics.ao-ph"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2510.06503",
+ "title": "ATLO-ML: Adaptive Time-Length Optimizer for Machine Learning -- Insights from Air Quality Forecasting",
+ "authors": [
+  "I-Hsi Kao",
+  "Kanji Uchino"
+ ],
+ "v1_date": "2025-10-07",
+ "latest_version": 1,
+ "latest_date": "2025-10-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Accurate time-series predictions in machine learning are heavily influenced by the selection of appropriate input time length and sampling rate. This paper introduces ATLO-ML, an adaptive time-length optimization system that automatically determines the optimal input time length and sampling rate based on user-defined output time length. The system provides a flexible approach to time-series data pre-processing, dynamically adjusting these parameters to enhance predictive performance. ATLO-ML is validated using air quality datasets, including both GAMS-dataset and proprietary data collected from a data center, both in time series format. Results demonstrate that utilizing the optimized time length and sampling rate significantly improves the accuracy of machine learning models compared to fixed time lengths. ATLO-ML shows potential for generalization across various time-sensitive applications, offering a robust solution for optimizing temporal input parameters in machine learning workflows.",
+ "primary": "cs.LG"
+}

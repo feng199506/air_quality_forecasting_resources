@@ -1,0 +1,22 @@
+{
+ "id": "2310.18118",
+ "title": "A Global Multi-Unit Calibration as a Method for Large Scale IoT Particulate Matter Monitoring Systems Deployments",
+ "authors": [
+  "Saverio De Vito",
+  "Gerardo D Elia",
+  "Sergio Ferlito",
+  "Girolamo Di Francia",
+  "Milos Davidovic",
+  "Duska Kleut",
+  "Danka Stojanovic",
+  "Milena Jovasevic Stojanovic"
+ ],
+ "v1_date": "2023-10-27",
+ "latest_version": 1,
+ "latest_date": "2023-10-27",
+ "journal_ref": "IEEE Transactions on Instrumentation and Measurement (2024) Print ISSN: 0018-9456 Online ISSN: 1557-9662",
+ "doi": "10.1109/tim.2023.3331428",
+ "comment": "",
+ "abstract": "Scalable and effective calibration is a fundamental requirement for Low Cost Air Quality Monitoring Systems and will enable accurate and pervasive monitoring in cities. Suffering from environmental interferences and fabrication variance, these devices need to encompass sensors specific and complex calibration processes for reaching a sufficient accuracy to be deployed as indicative measurement devices in Air Quality (AQ) monitoring networks. Concept and sensor drift often force calibration process to be frequently repeated. These issues lead to unbearable calibration costs which denies their massive deployment when accuracy is a concern. In this work, We propose a zero transfer samples, global calibration methodology as a technological enabler for IoT AQ multisensory devices which relies on low cost Particulate Matter (PM) sensors. This methodology is based on field recorded responses from a limited number of IoT AQ multisensors units and machine learning concepts and can be universally applied to all units of the same type. A multi season test campaign shown that, when applied to different sensors, this methodology performances match those of state of the art methodology which requires to derive different calibration parameters for each different unit. If confirmed, these results show that, when properly derived, a global calibration law can be exploited for a large number of networked devices with dramatic cost reduction eventually allowing massive deployment of accurate IoT AQ monitoring devices. Furthermore, this calibration model could be easily embedded on board of the device or implemented on the edge allowing immediate access to accurate readings for personal exposure monitor applications as well as reducing long range data transfer needs.",
+ "primary": "cs.LG"
+}

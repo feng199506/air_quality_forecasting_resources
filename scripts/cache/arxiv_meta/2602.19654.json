@@ -1,0 +1,16 @@
+{
+ "id": "2602.19654",
+ "title": "NEXUS: A compact neural architecture for high-resolution spatiotemporal air quality forecasting in Delhi National Capital Region",
+ "authors": [
+  "Rampunit Kumar",
+  "Aditya Maheshwari"
+ ],
+ "v1_date": "2026-02-23",
+ "latest_version": 2,
+ "latest_date": "2026-02-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "18 pages",
+ "abstract": "Urban air pollution in megacities poses critical public health challenges, particularly in Delhi National Capital Region (NCR) where severe degradation affects millions. We present NEXUS (Neural Extraction and Unified Spatiotemporal) architecture for forecasting carbon monoxide, nitrogen oxide, and sulfur dioxide. Working with four years (2018--2021) of atmospheric data across sixteen spatial grids, NEXUS achieves R$^2$ exceeding 0.94 for CO, 0.91 for NO, and 0.95 for SO$_2$ using merely 18,748 parameters -- substantially fewer than SCINet (35,552), Autoformer (68,704), and FEDformer (298,080). The architecture integrates patch embedding, low-rank projections, and adaptive fusion mechanisms to decode complex atmospheric chemistry patterns. Our investigation uncovers distinct diurnal rhythms and pronounced seasonal variations, with winter months experiencing severe pollution episodes driven by temperature inversions and agricultural biomass burning. Analysis identifies critical meteorological thresholds, quantifies wind field impacts on pollutant dispersion, and maps spatial heterogeneity across the region. Extensive ablation experiments demonstrate each architectural component's role. NEXUS delivers superior predictive performance with remarkable computational efficiency, enabling real-time deployment for air quality monitoring systems.",
+ "primary": "cs.LG"
+}

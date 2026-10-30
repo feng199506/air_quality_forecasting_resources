@@ -1,0 +1,38 @@
+[
+ {
+  "arxiv": "2506.07616",
+  "subtopic": "目标与时效",
+  "type": "原始研究论文",
+  "level": "硕士",
+  "difficulty": "中级",
+  "reason": "arXiv 检索命中且标题/摘要同时含空气质量与预报用语。",
+  "summary": "Air pollution has emerged as a major public health challenge in megacities. Numerical simulations and single-site machine learning approaches have been widely applied in air quality forecasting tasks. However, these methods face multiple limitations, including high computational …",
+  "summary_basis": "arXiv 摘要",
+  "task": "future_forecast",
+  "code_kind": "待全文核实"
+ },
+ {
+  "arxiv": "2509.15076",
+  "subtopic": "目标与时效",
+  "type": "原始研究论文",
+  "level": "硕士",
+  "difficulty": "中级",
+  "reason": "arXiv 检索命中且标题/摘要同时含空气质量与预报用语。",
+  "summary": "Air pollution remains a critical threat to public health and environmental sustainability, yet conventional monitoring systems are often constrained by limited spatial coverage and accessibility. This paper proposes an AI-driven agent that predicts ambient air pollution levels fr…",
+  "summary_basis": "arXiv 摘要",
+  "task": "future_forecast",
+  "code_kind": "待全文核实"
+ },
+ {
+  "arxiv": "2503.24043",
+  "subtopic": "深度学习",
+  "type": "原始研究论文",
+  "level": "硕士",
+  "difficulty": "中级",
+  "reason": "arXiv 检索命中且标题/摘要同时含空气质量与预报用语。",
+  "summary": "To enhance the accuracy and robustness of PM$_{2.5}$ concentration forecasting, this paper introduces FALNet, a Frequency-Aware LSTM Network that integrates frequency-domain decomposition, temporal modeling, and attention-based refinement. The model first applies STL and FFT to e…",
+  "summary_basis": "arXiv 摘要",
+  "task": "future_forecast",
+  "code_kind": "待全文核实"
+ }
+]

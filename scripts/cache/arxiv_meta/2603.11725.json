@@ -1,0 +1,20 @@
+{
+ "id": "2603.11725",
+ "title": "Cross-Resolution Attention Network for High-Resolution PM2.5 Prediction",
+ "authors": [
+  "Ammar Kheder",
+  "Helmi Toropainen",
+  "Wenqing Peng",
+  "Samuel Antão",
+  "Zhi-Song Liu",
+  "Michael Boy"
+ ],
+ "v1_date": "2026-03-12",
+ "latest_version": 1,
+ "latest_date": "2026-03-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Vision Transformers have achieved remarkable success in spatio-temporal prediction, but their scalability remains limited for ultra-high-resolution, continent-scale domains required in real-world environmental monitoring. A single European air-quality map at 1 km resolution comprises 29 million pixels, far beyond the limits of naive self-attention. We introduce CRAN-PM, a dual-branch Vision Transformer that leverages cross-resolution attention to efficiently fuse global meteorological data (25 km) with local high-resolution PM2.5 at the current time (1 km). Instead of including physically driven factors like temperature and topography as input, we further introduce elevation-aware self-attention and wind-guided cross-attention to force the network to learn physically consistent feature representations for PM2.5 forecasting. CRAN-PM is fully trainable and memory-efficient, generating the complete 29-million-pixel European map in 1.8 seconds on a single GPU. Evaluated on daily PM2.5 forecasting throughout Europe in 2022 (362 days, 2,971 European Environment Agency (EEA) stations), it reduces RMSE by 4.7% at T+1 and 10.7% at T+3 compared to the best single-scale baseline, while reducing bias in complex terrain by 36%.",
+ "primary": "cs.CV"
+}

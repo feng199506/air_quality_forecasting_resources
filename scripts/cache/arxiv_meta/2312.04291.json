@@ -1,0 +1,18 @@
+{
+ "id": "2312.04291",
+ "title": "Simulating the Air Quality Impact of Prescribed Fires Using Graph Neural Network-Based PM$_{2.5}$ Forecasts",
+ "authors": [
+  "Kyleen Liao",
+  "Jatan Buch",
+  "Kara Lamb",
+  "Pierre Gentine"
+ ],
+ "v1_date": "2023-12-07",
+ "latest_version": 2,
+ "latest_date": "2024-05-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "10 pages; multiple figures; matches version submitted to Environmental Data Science",
+ "abstract": "The increasing size and severity of wildfires across the western United States have generated dangerous levels of PM$_{2.5}$ concentrations in recent years. In a changing climate, expanding the use of prescribed fires is widely considered to be the most robust fire mitigation strategy. However, reliably forecasting the potential air quality impact from prescribed fires, which is critical in planning the prescribed fires' location and time, at hourly to daily time scales remains a challenging problem. In this paper, we introduce a spatial-temporal graph neural network (GNN) based forecasting model for hourly PM$_{2.5}$ predictions across California. Using a two-step approach, we leverage our forecasting model to estimate the PM$_{2.5}$ contribution of wildfires. Integrating the GNN-based PM$_{2.5}$ forecasting model with prescribed fire simulations, we propose a novel framework to forecast the PM$_{2.5}$ pollution of prescribed fires. This framework helps determine March as the optimal month for implementing prescribed fires in California and quantifies the potential air quality trade-offs involved in conducting more prescribed fires outside the fire season.",
+ "primary": "physics.ao-ph"
+}

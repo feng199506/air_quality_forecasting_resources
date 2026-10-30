@@ -1,0 +1,8 @@
+[
+  {"q": "all:ARIMA AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:forecasting)", "subtopic": "ARIMA"},
+  {"q": "all:\"gaussian process\" AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)", "subtopic": "GPR"},
+  {"q": "all:Kalman AND (all:\"air quality\" OR all:PM2.5) AND (all:forecast OR all:assimilation)", "subtopic": "Kalman"},
+  {"q": "all:SARIMAX AND (all:PM2.5 OR all:ozone OR all:\"air quality\")", "subtopic": "SARIMAX"},
+  {"q": "(all:GAM OR all:\"generalized additive\") AND (all:PM2.5 OR all:ozone) AND all:forecast", "subtopic": "GAM"},
+  {"q": "all:persistence AND all:\"air quality\" AND all:forecast", "subtopic": "持续性基线"}
+]

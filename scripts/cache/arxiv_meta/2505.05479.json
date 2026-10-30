@@ -1,0 +1,17 @@
+{
+ "id": "2505.05479",
+ "title": "Improving Local Air Quality Predictions Using Transfer Learning on Satellite Data and Graph Neural Networks",
+ "authors": [
+  "Finn Gueterbock",
+  "Raul Santos-Rodriguez",
+  "Jeffrey N. Clark"
+ ],
+ "v1_date": "2025-04-23",
+ "latest_version": 1,
+ "latest_date": "2025-04-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Air pollution is a significant global health risk, contributing to millions of premature deaths annually. Nitrogen dioxide (NO2), a harmful pollutant, disproportionately affects urban areas where monitoring networks are often sparse. We propose a novel method for predicting NO2 concentrations at unmonitored locations using transfer learning with satellite and meteorological data. Leveraging the GraphSAGE framework, our approach integrates autoregression and transfer learning to enhance predictive accuracy in data-scarce regions like Bristol. Pre-trained on data from London, UK, our model achieves a 8.6% reduction in Normalised Root Mean Squared Error (NRMSE) and a 32.6% reduction in Gradient RMSE compared to a baseline model. This work demonstrates the potential of virtual sensors for cost-effective air quality monitoring, contributing to actionable insights for climate and health interventions.",
+ "primary": "eess.SP"
+}

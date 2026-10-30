@@ -1,0 +1,19 @@
+{
+ "id": "2501.03583",
+ "title": "STContext: A Multifaceted Dataset for Developing Context-aware Spatio-temporal Crowd Mobility Prediction Models",
+ "authors": [
+  "Liyue Chen",
+  "Jiangyi Fang",
+  "Tengfei Liu",
+  "Fangyuan Gao",
+  "Leye Wang"
+ ],
+ "v1_date": "2025-01-07",
+ "latest_version": 1,
+ "latest_date": "2025-01-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In smart cities, context-aware spatio-temporal crowd flow prediction (STCFP) models leverage contextual features (e.g., weather) to identify unusual crowd mobility patterns and enhance prediction accuracy. However, the best practice for incorporating contextual features remains unclear due to inconsistent usage of contextual features in different papers. Developing a multifaceted dataset with rich types of contextual features and STCFP scenarios is crucial for establishing a principled context modeling paradigm. Existing open crowd flow datasets lack an adequate range of contextual features, which poses an urgent requirement to build a multifaceted dataset to fill these research gaps. To this end, we create STContext, a multifaceted dataset for developing context-aware STCFP models. Specifically, STContext provides nine spatio-temporal datasets across five STCFP scenarios and includes ten contextual features, including weather, air quality index, holidays, points of interest, road networks, etc. Besides, we propose a unified workflow for incorporating contextual features into deep STCFP methods, with steps including feature transformation, dependency modeling, representation fusion, and training strategies. Through extensive experiments, we have obtained several useful guidelines for effective context modeling and insights for future research. The STContext is open-sourced at https://github.com/Liyue-Chen/STContext.",
+ "primary": "cs.AI"
+}

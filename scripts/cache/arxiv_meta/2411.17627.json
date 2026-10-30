@@ -1,0 +1,19 @@
+{
+ "id": "2411.17627",
+ "title": "Utilizing Low-Cost Sensors to Monitor Indoor Air Quality in Mongolian Gers",
+ "authors": [
+  "Callum E. Flowerday",
+  "Philip Lundrigan",
+  "Christopher Kitras",
+  "Tu Nguyen",
+  "Jaron C. Hansen"
+ ],
+ "v1_date": "2024-11-26",
+ "latest_version": 1,
+ "latest_date": "2024-11-26",
+ "journal_ref": "Sensors 2023, 23, 7721",
+ "doi": "10.3390/s23187721",
+ "comment": "",
+ "abstract": "Air quality has important climate and health effects. There is a need, therefore, to monitor air quality both indoors and outdoors. Methods of measuring air quality should be cost-effective if they are to be used widely, and one such method is low-cost sensors (LCS). This study reports on the use of LCSs in Ulaanbaatar, Mongolia, to measure $\\mathrm{PM_{2.5}}$ concentrations inside yurts or \"gers.\" Some of these gers were part of a non-government agency (NGO) initiative to improve the insulating properties of these housing structures. The goal of the NGO was to decrease particulate emissions inside the gers; a secondary result was to lower the use of coal and other biomass material. LCSs were installed in gers heated primarily by coal, and interior air quality was measured. Gers that were modified by increasing their insulating capacities showed a 17.5% reduction in $\\mathrm{PM_{2.5}}$ concentrations, but these concentrations remained higher than levels recommended by health organizations. Gers that were insulated and used a combination of both coal and electricity showed a 19.1% reduction in $\\mathrm{PM_{2.5}}$ concentrations. Insulated gers that used electricity for both heating and cooking showed a 48% reduction in $\\mathrm{PM_{2.5}}$, though concentrations were still 6.4 times higher than those recommended by the World Health Organization (WHO). Nighttime and daytime trends followed similar patterns in $\\mathrm{PM_{2.5}}$ concentrations with slight variations. It was found that, at nighttime, the outside $\\mathrm{PM_{2.5}}$ concentrations were generally higher than the inside concentrations of the gers in this study. This suggests that $\\mathrm{PM_{2.5}}$ would flow into the gers whenever the doors were opened, causing spikes in $\\mathrm{PM_{2.5}}$ concentrations.",
+ "primary": "physics.ao-ph"
+}

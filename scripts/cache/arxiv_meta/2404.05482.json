@@ -1,0 +1,19 @@
+{
+ "id": "2404.05482",
+ "title": "WaveCatBoost for Probabilistic Forecasting of Regional Air Quality Data",
+ "authors": [
+  "Jintu Borah",
+  "Tanujit Chakraborty",
+  "Md. Shahrul Md. Nadzir",
+  "Mylene G. Cayetano",
+  "Shubhankar Majumdar"
+ ],
+ "v1_date": "2024-04-08",
+ "latest_version": 1,
+ "latest_date": "2024-04-08",
+ "journal_ref": "IEEE Sensors Letters, 2024, Volume: 9, Issue: 1",
+ "doi": "10.1109/lsens.2024.3519719",
+ "comment": "",
+ "abstract": "Accurate and reliable air quality forecasting is essential for protecting public health, sustainable development, pollution control, and enhanced urban planning. This letter presents a novel WaveCatBoost architecture designed to forecast the real-time concentrations of air pollutants by combining the maximal overlapping discrete wavelet transform (MODWT) with the CatBoost model. This hybrid approach efficiently transforms time series into high-frequency and low-frequency components, thereby extracting signal from noise and improving prediction accuracy and robustness. Evaluation of two distinct regional datasets, from the Central Air Pollution Control Board (CPCB) sensor network and a low-cost air quality sensor system (LAQS), underscores the superior performance of our proposed methodology in real-time forecasting compared to the state-of-the-art statistical and deep learning architectures. Moreover, we employ a conformal prediction strategy to provide probabilistic bands with our forecasts.",
+ "primary": "cs.LG"
+}

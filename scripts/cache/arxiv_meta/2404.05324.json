@@ -1,0 +1,21 @@
+{
+ "id": "2404.05324",
+ "title": "Back to the Future: GNN-based NO$_2$ Forecasting via Future Covariates",
+ "authors": [
+  "Antonio Giganti",
+  "Sara Mandelli",
+  "Paolo Bestagini",
+  "Umberto Giuriato",
+  "Alessandro D'Ausilio",
+  "Marco Marcon",
+  "Stefano Tubaro"
+ ],
+ "v1_date": "2024-04-08",
+ "latest_version": 1,
+ "latest_date": "2024-04-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "5 pages, 4 figures, 1 table, accepted at IEEE-IGARSS 2024",
+ "abstract": "Due to the latest environmental concerns in keeping at bay contaminants emissions in urban areas, air pollution forecasting has been rising the forefront of all researchers around the world. When predicting pollutant concentrations, it is common to include the effects of environmental factors that influence these concentrations within an extended period, like traffic, meteorological conditions and geographical information. Most of the existing approaches exploit this information as past covariates, i.e., past exogenous variables that affected the pollutant but were not affected by it. In this paper, we present a novel forecasting methodology to predict NO$_2$ concentration via both past and future covariates. Future covariates are represented by weather forecasts and future calendar events, which are already known at prediction time. In particular, we deal with air quality observations in a city-wide network of ground monitoring stations, modeling the data structure and estimating the predictions with a Spatiotemporal Graph Neural Network (STGNN). We propose a conditioning block that embeds past and future covariates into the current observations. After extracting meaningful spatiotemporal representations, these are fused together and projected into the forecasting horizon to generate the final prediction. To the best of our knowledge, it is the first time that future covariates are included in time series predictions in a structured way. Remarkably, we find that conditioning on future weather information has a greater impact than considering past traffic conditions. We release our code implementation at https://github.com/polimi-ispl/MAGCRN.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2509.12051",
+ "title": "A comparison between geostatistical and machine learning models for spatio-temporal prediction of PM2.5 data",
+ "authors": [
+  "Zeinab Mohamed",
+  "Wenlong Gong"
+ ],
+ "v1_date": "2025-09-15",
+ "latest_version": 2,
+ "latest_date": "2026-02-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Ambient air pollution poses significant health and environmental challenges. Exposure to high concentrations of PM$_{2.5}$ have been linked to increased respiratory and cardiovascular hospital admissions, more emergency department visits and deaths. Traditional air quality monitoring systems such as EPA-certified stations provide limited spatial and temporal data. The advent of low-cost sensors has dramatically improved the granularity of air quality data, enabling real-time, high-resolution monitoring. This study exploits the extensive data from PurpleAir sensors to assess and compare the effectiveness of various statistical and machine learning models in producing accurate hourly PM$_{2.5}$ maps across California. We evaluate traditional geostatistical methods, including kriging and land use regression, against advanced machine learning approaches such as neural networks, random forests, and support vector machines, as well as ensemble model. Our findings enhanced the predictive accuracy of PM2.5 concentration by correcting the bias in PurpleAir data with an ensemble model, which incorporating both spatiotemporal dependencies and machine learning models.",
+ "primary": "stat.AP"
+}

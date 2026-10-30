@@ -1,0 +1,27 @@
+{
+ "id": "2511.19810",
+ "title": "Provably Outlier-resistant Semi-parametric Regression for Transferable Calibration of Low-cost Air-quality Sensors",
+ "authors": [
+  "Divyansh Chaurasia",
+  "Manoj Daram",
+  "Roshan Kumar",
+  "Nihal Thukarama Rao",
+  "Vipul Sangode",
+  "Pranjal Srivastava",
+  "Avnish Tripathi",
+  "Shoubhik Chakraborty",
+  " Akanksha",
+  "Ambasht Kumar",
+  "Davender Sethi",
+  "Sachchida Nand Tripathi",
+  "Purushottam Kar"
+ ],
+ "v1_date": "2025-11-25",
+ "latest_version": 1,
+ "latest_date": "2025-11-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "20 pages, 14 figures, under peer review",
+ "abstract": "We present a case study for the calibration of Low-cost air-quality (LCAQ) CO sensors from one of the largest multi-site-multi-season-multi-sensor-multi-pollutant mobile air-quality monitoring network deployments in India. LCAQ sensors have been shown to play a critical role in the establishment of dense, expansive air-quality monitoring networks and combating elevated pollution levels. The calibration of LCAQ sensors against regulatory-grade monitors is an expensive, laborious and time-consuming process, especially when a large number of sensors are to be deployed in a geographically diverse layout. In this work, we present the RESPIRE technique to calibrate LCAQ sensors to detect ambient CO (Carbon Monoxide) levels. RESPIRE offers specific advantages over baseline calibration methods popular in literature, such as improved prediction in cross-site, cross-season, and cross-sensor settings. RESPIRE offers a training algorithm that is provably resistant to outliers and an explainable model with the ability to flag instances of model overfitting. Empirical results are presented based on data collected during an extensive deployment spanning four sites, two seasons and six sensor packages. RESPIRE code is available at https://github.com/purushottamkar/respire.",
+ "primary": "cs.LG"
+}

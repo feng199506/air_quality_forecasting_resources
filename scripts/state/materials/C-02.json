@@ -1,0 +1,6 @@
+{
+ "status": "failed",
+ "set": "courses",
+ "note": "第 1 个文件 HTTP 403: https://www.earthdata.nasa.gov/s3fs-public/2025-10/ARSET-IntroAQ2021-part2-slides.pdf",
+ "title": "NASA ARSET: Introduction and Access to Global Air Quality Forecasting Data and Tools (2021) + GEOS/MERRA-2 review slides"
+}

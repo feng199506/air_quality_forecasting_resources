@@ -1,0 +1,21 @@
+{
+ "id": "2510.06140",
+ "title": "Zeeman: A Deep Learning Regional Atmospheric Chemistry Transport Model",
+ "authors": [
+  "Mijie Pang",
+  "Jianbing Jin",
+  "Arjo Segers",
+  "Hai Xiang Lin",
+  "Guoqiang Wang",
+  "Hong Liao",
+  "Wei Han"
+ ],
+ "v1_date": "2025-10-07",
+ "latest_version": 1,
+ "latest_date": "2025-10-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Atmospheric chemistry encapsulates the emission of various pollutants, the complex chemistry reactions, and the meteorology dominant transport, which form a dynamic system that governs air quality. While deep learning (DL) models have shown promise in capturing intricate patterns for forecasting individual atmospheric component - such as PM2.5 and ozone - the critical interactions among multiple pollutants and the combined influence of emissions and meteorology are often overlook. This study introduces an advanced DL-based atmospheric chemistry transport model Zeeman for multi-component atmospheric chemistry simulation. Leveraging an attention mechanism, our model effectively captures the nuanced relationships among these constituents. Performance metrics demonstrate that our approach rivals numerical models, offering an efficient solution for atmospheric chemistry. In the future, this model could be further integrated with data assimilation techniques to facilitate efficient and accurate atmospheric emission estimation and concentration forecast.",
+ "primary": "physics.ao-ph"
+}

@@ -1,0 +1,25 @@
+{
+ "id": "2410.19773",
+ "title": "Developing Gridded Emission Inventory from High-Resolution Satellite Object Detection for Improved Air Quality Forecasts",
+ "authors": [
+  "Shubham Ghosal",
+  "Manmeet Singh",
+  "Sachin Ghude",
+  "Harsh Kamath",
+  "Vaisakh SB",
+  "Subodh Wasekar",
+  "Anoop Mahajan",
+  "Hassan Dashtian",
+  "Zong-Liang Yang",
+  "Michael Young",
+  "Dev Niyogi"
+ ],
+ "v1_date": "2024-10-14",
+ "latest_version": 1,
+ "latest_date": "2024-10-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This study presents an innovative approach to creating a dynamic, AI based emission inventory system for use with the Weather Research and Forecasting model coupled with Chemistry (WRF Chem), designed to simulate vehicular and other anthropogenic emissions at satellite detectable resolution. The methodology leverages state of the art deep learning based computer vision models, primarily employing YOLO (You Only Look Once) architectures (v8 to v10) and T Rex, for high precision object detection. Through extensive data collection, model training, and finetuning, the system achieved significant improvements in detection accuracy, with F1 scores increasing from an initial 0.15 at 0.131 confidence to 0.72 at 0.414 confidence. A custom pipeline converts model outputs into netCDF files storing latitude, longitude, and vehicular count data, enabling real time processing and visualization of emission patterns. The resulting system offers unprecedented temporal and spatial resolution in emission estimates, facilitating more accurate short term air quality forecasts and deeper insights into urban emission dynamics. This research not only enhances WRF Chem simulations but also bridges the gap between AI technologies and atmospheric science methodologies, potentially improving urban air quality management and environmental policymaking. Future work will focus on expanding the system's capabilities to non vehicular sources and further improving detection accuracy in challenging environmental conditions.",
+ "primary": "cs.CV"
+}

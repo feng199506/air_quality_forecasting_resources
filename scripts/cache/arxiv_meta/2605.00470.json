@@ -1,0 +1,17 @@
+{
+ "id": "2605.00470",
+ "title": "Robust spatial scalar-on-function regression: A Fisher-consistent redescending M-estimation approach",
+ "authors": [
+  "Muge Mutis",
+  "Ufuk Beyaztas",
+  "Han Lin Shang"
+ ],
+ "v1_date": "2026-05-01",
+ "latest_version": 1,
+ "latest_date": "2026-05-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "51 pages, 7 figures, 6 tables",
+ "abstract": "We develop a Fisher-consistent redescending robust estimator for the spatial scalar-on-function regression model, where a scalar response depends on both a functional predictor and a spatial autoregressive lag. Existing estimation procedures for this model are typically based on likelihood methods or monotone-loss robust M-estimators. They may be highly sensitive to vertical outliers, leverage points in the functional predictor, and numerical instability induced by strong spatial dependence. To address these issues, we propose a new estimation framework that first applies robust functional principal component analysis to obtain a contamination-resistant finite-dimensional representation of the functional predictor and then estimates the resulting spatial regression model through a bias-corrected system of M-estimating equations. The proposed method allows redescending loss functions, including Andrews' sine and Danish losses, and jointly estimates the regression coefficients, spatial dependence parameter, and scale parameter within a unified Fisher-consistent framework. For computation, we develop a hybrid IRLS-Newton algorithm that combines weighted least-squares updates for the regression parameters with a Newton-Raphson update for the spatial parameter. We establish Fisher consistency, consistency, asymptotic normality, and the asymptotic distribution of the reconstructed slope function. Monte Carlo experiments show that the proposed estimators remain competitive under clean data and substantially outperform classical and Huber-type robust competitors under contamination, particularly in severe outlier settings. An application to French air-quality data further demonstrates improved predictive performance and stable estimation of spatial dependence. Our method has been implemented in the fcsar R package.",
+ "primary": "stat.ME"
+}

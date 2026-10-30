@@ -1,0 +1,15 @@
+{
+ "id": "2606.26932",
+ "title": "Battery thermal-safety reserve erosion by mandatory cabin ventilation in shared-cooling electric vehicles",
+ "authors": [
+  "Yifan Wang"
+ ],
+ "v1_date": "2026-06-25",
+ "latest_version": 1,
+ "latest_date": "2026-06-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "19 pages, 5 figures",
+ "abstract": "Hot-weather electric-vehicle thermal management is no longer a separate cabin and battery problem. A single climate system must cool the traction battery, maintain passenger comfort, and admit outdoor air for cabin air quality, while high ambient temperature and solar load derate the compressor serving all three demands. We identify fresh-air ventilation as a hidden battery-safety load: on a derated shared cooling loop, the compliant fresh-air floor consumes finite cabin-side cooling capacity and removes residual cooling reserve from the battery. In a 40 $^\\circ$C, 800 W m$^{-2}$, 150 kW event, raising the fresh-air floor from 0.30 to 0.43 lowers peak cabin CO$_2$ from 1219 to 978 ppm, but raises peak battery temperature from 39.96 to 40.02 $^\\circ$C and reduces the battery cooling bus from 575 to 529 W. We develop a reserve-aware predictive controller combining a physics-guided scientific-machine-learning surrogate, grid-connected departure thermal reserve, air-quality-priced ventilation allocation, and dual control-barrier-function projections for battery temperature and operative comfort. The controller holds the pack at 39.73 $^\\circ$C, caps peak CO$_2$ at 895 ppm, keeps operative-temperature RMSE at 0.82 $^\\circ$C, and uses 20.0\\% less drive cooling energy than fixed maximum-compressor operation; ablations show that removing either barrier, under-ventilating, or removing departure reserve breaks joint feasibility. Evidence comes from NASA POWER records, KU Leuven BEV BMS data merged with NASA POWER weather, 45 $^\\circ$C GOTION aging data, 40 $^\\circ$C high-power NMC thermal identification, EnergyPlus cabin cross-checks, and OpenModelica/FMI replay. Treating fresh air as a battery thermal-reserve variable creates an actionable path toward EV thermal management that protects battery life, occupant health, comfort, and efficiency in one shared loop.",
+ "primary": "eess.SY"
+}

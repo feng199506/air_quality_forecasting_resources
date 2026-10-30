@@ -1,0 +1,20 @@
+{
+ "id": "2601.21899",
+ "title": "Breaking the Regional Barrier: Inductive Semantic Topology Learning for Worldwide Air Quality Forecasting",
+ "authors": [
+  "Zhiqing Cui",
+  "Siru Zhong",
+  "Ming Jin",
+  "Shirui Pan",
+  "Qingsong Wen",
+  "Yuxuan Liang"
+ ],
+ "v1_date": "2026-01-29",
+ "latest_version": 1,
+ "latest_date": "2026-01-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Global air quality forecasting grapples with extreme spatial heterogeneity and the poor generalization of existing transductive models to unseen regions. To tackle this, we propose OmniAir, a semantic topology learning framework tailored for global station-level prediction. By encoding invariant physical environmental attributes into generalizable station identities and dynamically constructing adaptive sparse topologies, our approach effectively captures long-range non-Euclidean correlations and physical diffusion patterns across unevenly distributed global networks. We further curate WorldAir, a massive dataset covering over 7,800 stations worldwide. Extensive experiments show that OmniAir achieves state-of-the-art performance against 18 baselines, maintaining high efficiency and scalability with speeds nearly 10 times faster than existing models, while effectively bridging the monitoring gap in data-sparse regions.",
+ "primary": "cs.LG"
+}

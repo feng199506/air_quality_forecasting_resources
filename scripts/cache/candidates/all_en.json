@@ -1,0 +1,4671 @@
+{
+ "2610.16630": {
+  "hits": [
+   {
+    "cat": "02",
+    "subtopic": "目标与时效",
+    "q": "ti:\"air quality\" AND (all:forecast OR all:forecasting OR all:prediction)",
+    "rank": 0
+   },
+   {
+    "cat": "03",
+    "subtopic": "统计预报",
+    "q": "(all:ARIMA OR all:SARIMAX OR all:Kalman OR all:\"gaussian process\" OR all:GAM) AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:forecasting)",
+    "rank": 0
+   },
+   {
+    "cat": "07",
+    "subtopic": "概率",
+    "q": "(all:probabilistic OR all:quantile OR all:\"conformal prediction\" OR all:CRPS OR all:exceedance) AND (all:\"air quality\" OR all:PM2.5 OR all:ozone) AND (all:forecast OR all:prediction)",
+    "rank": 3
+   },
+   {
+    "cat": "10",
+    "subtopic": "评测基准",
+    "q": "(all:benchmark OR all:evaluation OR all:verification OR all:KnowAir) AND all:\"air quality\" AND (all:forecast OR all:forecasting)",
+    "rank": 0
+   }
+  ],
+  "cats": [
+   "02",
+   "03",
+   "07",
+   "10"
+  ]
+ },
+ "2610.25797": {
+  "hits": [
+   {
+    "cat": "02",
+    "subtopic": "目标与时效",
+    "q": "ti:\"air quality\" AND (all:forecast OR all:forecasting OR all:prediction)",
+    "rank": 1
+   },
+   {
+    "cat": "05",
+    "subtopic": "深度学习",
+    "q": "(all:LSTM OR all:GRU OR all:Transformer OR all:TCN) AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:forecasting)",
+    "rank": 9
+   },
+   {
+    "cat": "10",
+    "subtopic": "评测基准",
+    "q": "(all:benchmark OR all:evaluation OR all:verification OR all:KnowAir) AND all:\"air quality\" AND (all:forecast OR all:forecasting)",
+    "rank": 10
+   },
+   {
+    "cat": "11",
+    "subtopic": "业务系统",
+    "q": "(all:operational OR all:NAQFC OR all:CAMS OR all:\"real-time\") AND all:\"air quality\" AND all:forecast",
+    "rank": 5
+   },
+   {
+    "cat": "01",
+    "subtopic": "CTM与排放",
+    "q": "(all:CMAQ OR all:\"WRF-Chem\" OR all:\"GEOS-Chem\" OR all:CAMS) AND (all:forecast OR all:evaluation) AND all:\"air quality\"",
+    "rank": 2
+   },
+   {
+    "cat": "05",
+    "subtopic": "会议深度学习",
+    "q": "ti:\"air quality\" AND (all:LSTM OR all:Transformer OR all:\"deep learning\") AND (all:forecast OR all:prediction)",
+    "rank": 8
+   }
+  ],
+  "cats": [
+   "02",
+   "05",
+   "10",
+   "11",
+   "01"
+  ]
+ },
+ "2404.05482": {
+  "hits": [
+   {
+    "cat": "02",
+    "subtopic": "目标与时效",
+    "q": "ti:\"air quality\" AND (all:forecast OR all:forecasting OR all:prediction)",
+    "rank": 2
+   },
+   {
+    "cat": "05",
+    "subtopic": "深度学习",
+    "q": "(all:LSTM OR all:GRU OR all:Transformer OR all:TCN) AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:forecasting)",
+    "rank": 3
+   },
+   {
+    "cat": "07",
+    "subtopic": "概率",
+    "q": "(all:probabilistic OR all:quantile OR all:\"conformal prediction\" OR all:CRPS OR all:exceedance) AND (all:\"air quality\" OR all:PM2.5 OR all:ozone) AND (all:forecast OR all:prediction)",
+    "rank": 2
+   },
+   {
+    "cat": "10",
+    "subtopic": "评测基准",
+    "q": "(all:benchmark OR all:evaluation OR all:verification OR all:KnowAir) AND all:\"air quality\" AND (all:forecast OR all:forecasting)",
+    "rank": 4
+   },
+   {
+    "cat": "11",
+    "subtopic": "业务系统",
+    "q": "(all:operational OR all:NAQFC OR all:CAMS OR all:\"real-time\") AND all:\"air quality\" AND all:forecast",
+    "rank": 3
+   },
+   {
+    "cat": "05",
+    "subtopic": "会议深度学习",
+    "q": "ti:\"air quality\" AND (all:LSTM OR all:Transformer OR all:\"deep learning\") AND (all:forecast OR all:prediction)",
+    "rank": 5
+   }
+  ],
+  "cats": [
+   "02",
+   "05",
+   "07",
+   "10",
+   "11"
+  ]
+ },
+ "2603.21131": {
+  "hits": [
+   {
+    "cat": "02",
+    "subtopic": "目标与时效",
+    "q": "ti:\"air quality\" AND (all:forecast OR all:forecasting OR all:prediction)",
+    "rank": 3
+   },
+   {
+    "cat": "07",
+    "subtopic": "概率",
+    "q": "(all:probabilistic OR all:quantile OR all:\"conformal prediction\" OR all:CRPS OR all:exceedance) AND (all:\"air quality\" OR all:PM2.5 OR all:ozone) AND (all:forecast OR all:prediction)",
+    "rank": 1
+   },
+   {
+    "cat": "10",
+    "subtopic": "评测基准",
+    "q": "(all:benchmark OR all:evaluation OR all:verification OR all:KnowAir) AND all:\"air quality\" AND (all:forecast OR all:forecasting)",
+    "rank": 3
+   },
+   {
+    "cat": "11",
+    "subtopic": "业务系统",
+    "q": "(all:operational OR all:NAQFC OR all:CAMS OR all:\"real-time\") AND all:\"air quality\" AND all:forecast",
+    "rank": 2
+   }
+  ],
+  "cats": [
+   "02",
+   "07",
+   "10",
+   "11"
+  ]
+ },
+ "2506.07616": {
+  "hits": [
+   {
+    "cat": "02",
+    "subtopic": "目标与时效",
+    "q": "ti:\"air quality\" AND (all:forecast OR all:forecasting OR all:prediction)",
+    "rank": 4
+   },
+   {
+    "cat": "11",
+    "subtopic": "业务系统",
+    "q": "(all:operational OR all:NAQFC OR all:CAMS OR all:\"real-time\") AND all:\"air quality\" AND all:forecast",
+    "rank": 6
+   }
+  ],
+  "cats": [
+   "02",
+   "11"
+  ]
+ },
+ "2603.25495": {
+  "hits": [
+   {
+    "cat": "02",
+    "subtopic": "目标与时效",
+    "q": "ti:\"air quality\" AND (all:forecast OR all:forecasting OR all:prediction)",
+    "rank": 5
+   },
+   {
+    "cat": "02",
+    "subtopic": "PM2.5预报",
+    "q": "(ti:PM2.5 OR ti:\"PM 2.5\") AND (all:forecast OR all:forecasting) AND (all:hourly OR all:station OR all:spatiotemporal)",
+    "rank": 3
+   },
+   {
+    "cat": "03",
+    "subtopic": "统计预报",
+    "q": "(all:ARIMA OR all:SARIMAX OR all:Kalman OR all:\"gaussian process\" OR all:GAM) AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:forecasting)",
+    "rank": 1
+   },
+   {
+    "cat": "10",
+    "subtopic": "评测基准",
+    "q": "(all:benchmark OR all:evaluation OR all:verification OR all:KnowAir) AND all:\"air quality\" AND (all:forecast OR all:forecasting)",
+    "rank": 16
+   }
+  ],
+  "cats": [
+   "02",
+   "03",
+   "10"
+  ]
+ },
+ "2312.04291": {
+  "hits": [
+   {
+    "cat": "02",
+    "subtopic": "目标与时效",
+    "q": "ti:\"air quality\" AND (all:forecast OR all:forecasting OR all:prediction)",
+    "rank": 6
+   },
+   {
+    "cat": "02",
+    "subtopic": "PM2.5预报",
+    "q": "(ti:PM2.5 OR ti:\"PM 2.5\") AND (all:forecast OR all:forecasting) AND (all:hourly OR all:station OR all:spatiotemporal)",
+    "rank": 2
+   },
+   {
+    "cat": "06",
+    "subtopic": "图与时空",
+    "q": "(all:\"graph neural\" OR all:spatiotemporal OR all:\"spatio-temporal\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 6
+   }
+  ],
+  "cats": [
+   "02",
+   "06"
+  ]
+ },
+ "2411.12258": {
+  "hits": [
+   {
+    "cat": "02",
+    "subtopic": "目标与时效",
+    "q": "ti:\"air quality\" AND (all:forecast OR all:forecasting OR all:prediction)",
+    "rank": 7
+   },
+   {
+    "cat": "06",
+    "subtopic": "图与时空",
+    "q": "(all:\"graph neural\" OR all:spatiotemporal OR all:\"spatio-temporal\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 4
+   },
+   {
+    "cat": "07",
+    "subtopic": "概率",
+    "q": "(all:probabilistic OR all:quantile OR all:\"conformal prediction\" OR all:CRPS OR all:exceedance) AND (all:\"air quality\" OR all:PM2.5 OR all:ozone) AND (all:forecast OR all:prediction)",
+    "rank": 7
+   },
+   {
+    "cat": "10",
+    "subtopic": "评测基准",
+    "q": "(all:benchmark OR all:evaluation OR all:verification OR all:KnowAir) AND all:\"air quality\" AND (all:forecast OR all:forecasting)",
+    "rank": 11
+   },
+   {
+    "cat": "05",
+    "subtopic": "会议深度学习",
+    "q": "ti:\"air quality\" AND (all:LSTM OR all:Transformer OR all:\"deep learning\") AND (all:forecast OR all:prediction)",
+    "rank": 17
+   }
+  ],
+  "cats": [
+   "02",
+   "06",
+   "07",
+   "10",
+   "05"
+  ]
+ },
+ "2511.22169": {
+  "hits": [
+   {
+    "cat": "02",
+    "subtopic": "目标与时效",
+    "q": "ti:\"air quality\" AND (all:forecast OR all:forecasting OR all:prediction)",
+    "rank": 8
+   },
+   {
+    "cat": "08",
+    "subtopic": "机理混合",
+    "q": "(all:\"bias correction\" OR all:post-processing OR all:\"data assimilation\" OR all:\"physics-guided\" OR all:\"neural ODE\" OR all:CMAQ) AND (all:\"air quality\" OR all:PM2.5) AND (all:forecast OR all:prediction OR all:machine)",
+    "rank": 13
+   },
+   {
+    "cat": "09",
+    "subtopic": "数据质量",
+    "q": "(all:PurpleAir OR all:\"low-cost sensor\" OR all:OpenAQ OR all:missing OR all:calibration) AND (all:PM2.5 OR all:\"air quality\")",
+    "rank": 42
+   },
+   {
+    "cat": "11",
+    "subtopic": "业务系统",
+    "q": "(all:operational OR all:NAQFC OR all:CAMS OR all:\"real-time\") AND all:\"air quality\" AND all:forecast",
+    "rank": 1
+   },
+   {
+    "cat": "01",
+    "subtopic": "CTM与排放",
+    "q": "(all:CMAQ OR all:\"WRF-Chem\" OR all:\"GEOS-Chem\" OR all:CAMS) AND (all:forecast OR all:evaluation) AND all:\"air quality\"",
+    "rank": 4
+   }
+  ],
+  "cats": [
+   "02",
+   "08",
+   "09",
+   "11",
+   "01"
+  ]
+ },
+ "2507.05416": {
+  "hits": [
+   {
+    "cat": "02",
+    "subtopic": "目标与时效",
+    "q": "ti:\"air quality\" AND (all:forecast OR all:forecasting OR all:prediction)",
+    "rank": 9
+   },
+   {
+    "cat": "05",
+    "subtopic": "深度学习",
+    "q": "(all:LSTM OR all:GRU OR all:Transformer OR all:TCN) AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:forecasting)",
+    "rank": 6
+   },
+   {
+    "cat": "10",
+    "subtopic": "评测基准",
+    "q": "(all:benchmark OR all:evaluation OR all:verification OR all:KnowAir) AND all:\"air quality\" AND (all:forecast OR all:forecasting)",
+    "rank": 8
+   },
+   {
+    "cat": "05",
+    "subtopic": "会议深度学习",
+    "q": "ti:\"air quality\" AND (all:LSTM OR all:Transformer OR all:\"deep learning\") AND (all:forecast OR all:prediction)",
+    "rank": 9
+   }
+  ],
+  "cats": [
+   "02",
+   "05",
+   "10"
+  ]
+ },
+ "2608.21463": {
+  "hits": [
+   {
+    "cat": "02",
+    "subtopic": "目标与时效",
+    "q": "ti:\"air quality\" AND (all:forecast OR all:forecasting OR all:prediction)",
+    "rank": 10
+   },
+   {
+    "cat": "10",
+    "subtopic": "评测基准",
+    "q": "(all:benchmark OR all:evaluation OR all:verification OR all:KnowAir) AND all:\"air quality\" AND (all:forecast OR all:forecasting)",
+    "rank": 12
+   },
+   {
+    "cat": "11",
+    "subtopic": "业务系统",
+    "q": "(all:operational OR all:NAQFC OR all:CAMS OR all:\"real-time\") AND all:\"air quality\" AND all:forecast",
+    "rank": 7
+   }
+  ],
+  "cats": [
+   "02",
+   "10",
+   "11"
+  ]
+ },
+ "2509.21260": {
+  "hits": [
+   {
+    "cat": "02",
+    "subtopic": "目标与时效",
+    "q": "ti:\"air quality\" AND (all:forecast OR all:forecasting OR all:prediction)",
+    "rank": 11
+   },
+   {
+    "cat": "06",
+    "subtopic": "图与时空",
+    "q": "(all:\"graph neural\" OR all:spatiotemporal OR all:\"spatio-temporal\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 13
+   },
+   {
+    "cat": "10",
+    "subtopic": "评测基准",
+    "q": "(all:benchmark OR all:evaluation OR all:verification OR all:KnowAir) AND all:\"air quality\" AND (all:forecast OR all:forecasting)",
+    "rank": 14
+   }
+  ],
+  "cats": [
+   "02",
+   "06",
+   "10"
+  ]
+ },
+ "2306.13948": {
+  "hits": [
+   {
+    "cat": "02",
+    "subtopic": "目标与时效",
+    "q": "ti:\"air quality\" AND (all:forecast OR all:forecasting OR all:prediction)",
+    "rank": 12
+   },
+   {
+    "cat": "06",
+    "subtopic": "图与时空",
+    "q": "(all:\"graph neural\" OR all:spatiotemporal OR all:\"spatio-temporal\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 15
+   },
+   {
+    "cat": "09",
+    "subtopic": "数据质量",
+    "q": "(all:PurpleAir OR all:\"low-cost sensor\" OR all:OpenAQ OR all:missing OR all:calibration) AND (all:PM2.5 OR all:\"air quality\")",
+    "rank": 19
+   },
+   {
+    "cat": "10",
+    "subtopic": "评测基准",
+    "q": "(all:benchmark OR all:evaluation OR all:verification OR all:KnowAir) AND all:\"air quality\" AND (all:forecast OR all:forecasting)",
+    "rank": 7
+   },
+   {
+    "cat": "05",
+    "subtopic": "会议深度学习",
+    "q": "ti:\"air quality\" AND (all:LSTM OR all:Transformer OR all:\"deep learning\") AND (all:forecast OR all:prediction)",
+    "rank": 16
+   }
+  ],
+  "cats": [
+   "02",
+   "06",
+   "09",
+   "10",
+   "05"
+  ]
+ },
+ "2402.14806": {
+  "hits": [
+   {
+    "cat": "02",
+    "subtopic": "目标与时效",
+    "q": "ti:\"air quality\" AND (all:forecast OR all:forecasting OR all:prediction)",
+    "rank": 13
+   },
+   {
+    "cat": "10",
+    "subtopic": "评测基准",
+    "q": "(all:benchmark OR all:evaluation OR all:verification OR all:KnowAir) AND all:\"air quality\" AND (all:forecast OR all:forecasting)",
+    "rank": 5
+   },
+   {
+    "cat": "11",
+    "subtopic": "业务系统",
+    "q": "(all:operational OR all:NAQFC OR all:CAMS OR all:\"real-time\") AND all:\"air quality\" AND all:forecast",
+    "rank": 4
+   },
+   {
+    "cat": "05",
+    "subtopic": "会议深度学习",
+    "q": "ti:\"air quality\" AND (all:LSTM OR all:Transformer OR all:\"deep learning\") AND (all:forecast OR all:prediction)",
+    "rank": 18
+   }
+  ],
+  "cats": [
+   "02",
+   "10",
+   "11",
+   "05"
+  ]
+ },
+ "2307.15916": {
+  "hits": [
+   {
+    "cat": "02",
+    "subtopic": "目标与时效",
+    "q": "ti:\"air quality\" AND (all:forecast OR all:forecasting OR all:prediction)",
+    "rank": 14
+   },
+   {
+    "cat": "06",
+    "subtopic": "图与时空",
+    "q": "(all:\"graph neural\" OR all:spatiotemporal OR all:\"spatio-temporal\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 14
+   },
+   {
+    "cat": "09",
+    "subtopic": "数据质量",
+    "q": "(all:PurpleAir OR all:\"low-cost sensor\" OR all:OpenAQ OR all:missing OR all:calibration) AND (all:PM2.5 OR all:\"air quality\")",
+    "rank": 17
+   }
+  ],
+  "cats": [
+   "02",
+   "06",
+   "09"
+  ]
+ },
+ "2604.01175": {
+  "hits": [
+   {
+    "cat": "02",
+    "subtopic": "目标与时效",
+    "q": "ti:\"air quality\" AND (all:forecast OR all:forecasting OR all:prediction)",
+    "rank": 15
+   },
+   {
+    "cat": "05",
+    "subtopic": "深度学习",
+    "q": "(all:LSTM OR all:GRU OR all:Transformer OR all:TCN) AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:forecasting)",
+    "rank": 13
+   },
+   {
+    "cat": "06",
+    "subtopic": "图与时空",
+    "q": "(all:\"graph neural\" OR all:spatiotemporal OR all:\"spatio-temporal\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 31
+   },
+   {
+    "cat": "08",
+    "subtopic": "机理混合",
+    "q": "(all:\"bias correction\" OR all:post-processing OR all:\"data assimilation\" OR all:\"physics-guided\" OR all:\"neural ODE\" OR all:CMAQ) AND (all:\"air quality\" OR all:PM2.5) AND (all:forecast OR all:prediction OR all:machine)",
+    "rank": 10
+   },
+   {
+    "cat": "09",
+    "subtopic": "数据质量",
+    "q": "(all:PurpleAir OR all:\"low-cost sensor\" OR all:OpenAQ OR all:missing OR all:calibration) AND (all:PM2.5 OR all:\"air quality\")",
+    "rank": 43
+   },
+   {
+    "cat": "06",
+    "subtopic": "AirFormer等",
+    "q": "all:AirFormer OR all:AirPhyNet OR all:KnowAir OR all:HighAir OR all:PCDCNet OR all:\"Air-DualODE\"",
+    "rank": 5
+   }
+  ],
+  "cats": [
+   "02",
+   "05",
+   "06",
+   "08",
+   "09"
+  ]
+ },
+ "2505.20119": {
+  "hits": [
+   {
+    "cat": "02",
+    "subtopic": "目标与时效",
+    "q": "ti:\"air quality\" AND (all:forecast OR all:forecasting OR all:prediction)",
+    "rank": 16
+   },
+   {
+    "cat": "06",
+    "subtopic": "图与时空",
+    "q": "(all:\"graph neural\" OR all:spatiotemporal OR all:\"spatio-temporal\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 2
+   },
+   {
+    "cat": "10",
+    "subtopic": "评测基准",
+    "q": "(all:benchmark OR all:evaluation OR all:verification OR all:KnowAir) AND all:\"air quality\" AND (all:forecast OR all:forecasting)",
+    "rank": 6
+   }
+  ],
+  "cats": [
+   "02",
+   "06",
+   "10"
+  ]
+ },
+ "2201.13355": {
+  "hits": [
+   {
+    "cat": "02",
+    "subtopic": "目标与时效",
+    "q": "ti:\"air quality\" AND (all:forecast OR all:forecasting OR all:prediction)",
+    "rank": 17
+   },
+   {
+    "cat": "05",
+    "subtopic": "深度学习",
+    "q": "(all:LSTM OR all:GRU OR all:Transformer OR all:TCN) AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:forecasting)",
+    "rank": 5
+   },
+   {
+    "cat": "09",
+    "subtopic": "数据质量",
+    "q": "(all:PurpleAir OR all:\"low-cost sensor\" OR all:OpenAQ OR all:missing OR all:calibration) AND (all:PM2.5 OR all:\"air quality\")",
+    "rank": 8
+   },
+   {
+    "cat": "11",
+    "subtopic": "业务系统",
+    "q": "(all:operational OR all:NAQFC OR all:CAMS OR all:\"real-time\") AND all:\"air quality\" AND all:forecast",
+    "rank": 0
+   },
+   {
+    "cat": "01",
+    "subtopic": "CTM与排放",
+    "q": "(all:CMAQ OR all:\"WRF-Chem\" OR all:\"GEOS-Chem\" OR all:CAMS) AND (all:forecast OR all:evaluation) AND all:\"air quality\"",
+    "rank": 0
+   },
+   {
+    "cat": "05",
+    "subtopic": "会议深度学习",
+    "q": "ti:\"air quality\" AND (all:LSTM OR all:Transformer OR all:\"deep learning\") AND (all:forecast OR all:prediction)",
+    "rank": 14
+   }
+  ],
+  "cats": [
+   "02",
+   "05",
+   "09",
+   "11",
+   "01"
+  ]
+ },
+ "2605.05854": {
+  "hits": [
+   {
+    "cat": "02",
+    "subtopic": "目标与时效",
+    "q": "ti:\"air quality\" AND (all:forecast OR all:forecasting OR all:prediction)",
+    "rank": 18
+   },
+   {
+    "cat": "05",
+    "subtopic": "深度学习",
+    "q": "(all:LSTM OR all:GRU OR all:Transformer OR all:TCN) AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:forecasting)",
+    "rank": 10
+   },
+   {
+    "cat": "06",
+    "subtopic": "图与时空",
+    "q": "(all:\"graph neural\" OR all:spatiotemporal OR all:\"spatio-temporal\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 24
+   },
+   {
+    "cat": "09",
+    "subtopic": "数据质量",
+    "q": "(all:PurpleAir OR all:\"low-cost sensor\" OR all:OpenAQ OR all:missing OR all:calibration) AND (all:PM2.5 OR all:\"air quality\")",
+    "rank": 34
+   },
+   {
+    "cat": "10",
+    "subtopic": "评测基准",
+    "q": "(all:benchmark OR all:evaluation OR all:verification OR all:KnowAir) AND all:\"air quality\" AND (all:forecast OR all:forecasting)",
+    "rank": 1
+   },
+   {
+    "cat": "05",
+    "subtopic": "会议深度学习",
+    "q": "ti:\"air quality\" AND (all:LSTM OR all:Transformer OR all:\"deep learning\") AND (all:forecast OR all:prediction)",
+    "rank": 25
+   }
+  ],
+  "cats": [
+   "02",
+   "05",
+   "06",
+   "09",
+   "10"
+  ]
+ },
+ "2112.02622": {
+  "hits": [
+   {
+    "cat": "02",
+    "subtopic": "目标与时效",
+    "q": "ti:\"air quality\" AND (all:forecast OR all:forecasting OR all:prediction)",
+    "rank": 19
+   },
+   {
+    "cat": "07",
+    "subtopic": "概率",
+    "q": "(all:probabilistic OR all:quantile OR all:\"conformal prediction\" OR all:CRPS OR all:exceedance) AND (all:\"air quality\" OR all:PM2.5 OR all:ozone) AND (all:forecast OR all:prediction)",
+    "rank": 4
+   },
+   {
+    "cat": "10",
+    "subtopic": "评测基准",
+    "q": "(all:benchmark OR all:evaluation OR all:verification OR all:KnowAir) AND all:\"air quality\" AND (all:forecast OR all:forecasting)",
+    "rank": 9
+   },
+   {
+    "cat": "05",
+    "subtopic": "会议深度学习",
+    "q": "ti:\"air quality\" AND (all:LSTM OR all:Transformer OR all:\"deep learning\") AND (all:forecast OR all:prediction)",
+    "rank": 2
+   }
+  ],
+  "cats": [
+   "02",
+   "07",
+   "10",
+   "05"
+  ]
+ },
+ "2607.19381": {
+  "hits": [
+   {
+    "cat": "02",
+    "subtopic": "目标与时效",
+    "q": "ti:\"air quality\" AND (all:forecast OR all:forecasting OR all:prediction)",
+    "rank": 20
+   },
+   {
+    "cat": "10",
+    "subtopic": "评测基准",
+    "q": "(all:benchmark OR all:evaluation OR all:verification OR all:KnowAir) AND all:\"air quality\" AND (all:forecast OR all:forecasting)",
+    "rank": 2
+   }
+  ],
+  "cats": [
+   "02",
+   "10"
+  ]
+ },
+ "2210.15923": {
+  "hits": [
+   {
+    "cat": "02",
+    "subtopic": "目标与时效",
+    "q": "ti:\"air quality\" AND (all:forecast OR all:forecasting OR all:prediction)",
+    "rank": 21
+   },
+   {
+    "cat": "05",
+    "subtopic": "深度学习",
+    "q": "(all:LSTM OR all:GRU OR all:Transformer OR all:TCN) AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:forecasting)",
+    "rank": 16
+   },
+   {
+    "cat": "07",
+    "subtopic": "概率",
+    "q": "(all:probabilistic OR all:quantile OR all:\"conformal prediction\" OR all:CRPS OR all:exceedance) AND (all:\"air quality\" OR all:PM2.5 OR all:ozone) AND (all:forecast OR all:prediction)",
+    "rank": 15
+   },
+   {
+    "cat": "10",
+    "subtopic": "评测基准",
+    "q": "(all:benchmark OR all:evaluation OR all:verification OR all:KnowAir) AND all:\"air quality\" AND (all:forecast OR all:forecasting)",
+    "rank": 17
+   },
+   {
+    "cat": "11",
+    "subtopic": "业务系统",
+    "q": "(all:operational OR all:NAQFC OR all:CAMS OR all:\"real-time\") AND all:\"air quality\" AND all:forecast",
+    "rank": 19
+   },
+   {
+    "cat": "05",
+    "subtopic": "会议深度学习",
+    "q": "ti:\"air quality\" AND (all:LSTM OR all:Transformer OR all:\"deep learning\") AND (all:forecast OR all:prediction)",
+    "rank": 15
+   }
+  ],
+  "cats": [
+   "02",
+   "05",
+   "07",
+   "10",
+   "11"
+  ]
+ },
+ "2302.03930": {
+  "hits": [
+   {
+    "cat": "02",
+    "subtopic": "目标与时效",
+    "q": "ti:\"air quality\" AND (all:forecast OR all:forecasting OR all:prediction)",
+    "rank": 22
+   },
+   {
+    "cat": "05",
+    "subtopic": "深度学习",
+    "q": "(all:LSTM OR all:GRU OR all:Transformer OR all:TCN) AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:forecasting)",
+    "rank": 0
+   },
+   {
+    "cat": "10",
+    "subtopic": "评测基准",
+    "q": "(all:benchmark OR all:evaluation OR all:verification OR all:KnowAir) AND all:\"air quality\" AND (all:forecast OR all:forecasting)",
+    "rank": 13
+   },
+   {
+    "cat": "05",
+    "subtopic": "会议深度学习",
+    "q": "ti:\"air quality\" AND (all:LSTM OR all:Transformer OR all:\"deep learning\") AND (all:forecast OR all:prediction)",
+    "rank": 3
+   }
+  ],
+  "cats": [
+   "02",
+   "05",
+   "10"
+  ]
+ },
+ "2505.19842": {
+  "hits": [
+   {
+    "cat": "02",
+    "subtopic": "目标与时效",
+    "q": "ti:\"air quality\" AND (all:forecast OR all:forecasting OR all:prediction)",
+    "rank": 23
+   },
+   {
+    "cat": "05",
+    "subtopic": "深度学习",
+    "q": "(all:LSTM OR all:GRU OR all:Transformer OR all:TCN) AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:forecasting)",
+    "rank": 8
+   },
+   {
+    "cat": "08",
+    "subtopic": "机理混合",
+    "q": "(all:\"bias correction\" OR all:post-processing OR all:\"data assimilation\" OR all:\"physics-guided\" OR all:\"neural ODE\" OR all:CMAQ) AND (all:\"air quality\" OR all:PM2.5) AND (all:forecast OR all:prediction OR all:machine)",
+    "rank": 7
+   },
+   {
+    "cat": "11",
+    "subtopic": "业务系统",
+    "q": "(all:operational OR all:NAQFC OR all:CAMS OR all:\"real-time\") AND all:\"air quality\" AND all:forecast",
+    "rank": 9
+   },
+   {
+    "cat": "01",
+    "subtopic": "CTM与排放",
+    "q": "(all:CMAQ OR all:\"WRF-Chem\" OR all:\"GEOS-Chem\" OR all:CAMS) AND (all:forecast OR all:evaluation) AND all:\"air quality\"",
+    "rank": 1
+   },
+   {
+    "cat": "06",
+    "subtopic": "AirFormer等",
+    "q": "all:AirFormer OR all:AirPhyNet OR all:KnowAir OR all:HighAir OR all:PCDCNet OR all:\"Air-DualODE\"",
+    "rank": 1
+   },
+   {
+    "cat": "05",
+    "subtopic": "会议深度学习",
+    "q": "ti:\"air quality\" AND (all:LSTM OR all:Transformer OR all:\"deep learning\") AND (all:forecast OR all:prediction)",
+    "rank": 13
+   }
+  ],
+  "cats": [
+   "02",
+   "05",
+   "08",
+   "11",
+   "01",
+   "06"
+  ]
+ },
+ "2401.00521": {
+  "hits": [
+   {
+    "cat": "02",
+    "subtopic": "目标与时效",
+    "q": "ti:\"air quality\" AND (all:forecast OR all:forecasting OR all:prediction)",
+    "rank": 24
+   },
+   {
+    "cat": "05",
+    "subtopic": "深度学习",
+    "q": "(all:LSTM OR all:GRU OR all:Transformer OR all:TCN) AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:forecasting)",
+    "rank": 4
+   }
+  ],
+  "cats": [
+   "02",
+   "05"
+  ]
+ },
+ "2603.17529": {
+  "hits": [
+   {
+    "cat": "02",
+    "subtopic": "目标与时效",
+    "q": "ti:\"air quality\" AND (all:forecast OR all:forecasting OR all:prediction)",
+    "rank": 25
+   },
+   {
+    "cat": "08",
+    "subtopic": "机理混合",
+    "q": "(all:\"bias correction\" OR all:post-processing OR all:\"data assimilation\" OR all:\"physics-guided\" OR all:\"neural ODE\" OR all:CMAQ) AND (all:\"air quality\" OR all:PM2.5) AND (all:forecast OR all:prediction OR all:machine)",
+    "rank": 15
+   },
+   {
+    "cat": "05",
+    "subtopic": "会议深度学习",
+    "q": "ti:\"air quality\" AND (all:LSTM OR all:Transformer OR all:\"deep learning\") AND (all:forecast OR all:prediction)",
+    "rank": 20
+   }
+  ],
+  "cats": [
+   "02",
+   "08",
+   "05"
+  ]
+ },
+ "2509.15076": {
+  "hits": [
+   {
+    "cat": "02",
+    "subtopic": "目标与时效",
+    "q": "ti:\"air quality\" AND (all:forecast OR all:forecasting OR all:prediction)",
+    "rank": 26
+   },
+   {
+    "cat": "11",
+    "subtopic": "业务系统",
+    "q": "(all:operational OR all:NAQFC OR all:CAMS OR all:\"real-time\") AND all:\"air quality\" AND all:forecast",
+    "rank": 8
+   }
+  ],
+  "cats": [
+   "02",
+   "11"
+  ]
+ },
+ "2608.09775": {
+  "hits": [
+   {
+    "cat": "02",
+    "subtopic": "目标与时效",
+    "q": "ti:\"air quality\" AND (all:forecast OR all:forecasting OR all:prediction)",
+    "rank": 27
+   },
+   {
+    "cat": "11",
+    "subtopic": "业务系统",
+    "q": "(all:operational OR all:NAQFC OR all:CAMS OR all:\"real-time\") AND all:\"air quality\" AND all:forecast",
+    "rank": 17
+   }
+  ],
+  "cats": [
+   "02",
+   "11"
+  ]
+ },
+ "2512.09076": {
+  "hits": [
+   {
+    "cat": "02",
+    "subtopic": "目标与时效",
+    "q": "ti:\"air quality\" AND (all:forecast OR all:forecasting OR all:prediction)",
+    "rank": 28
+   },
+   {
+    "cat": "03",
+    "subtopic": "统计预报",
+    "q": "(all:ARIMA OR all:SARIMAX OR all:Kalman OR all:\"gaussian process\" OR all:GAM) AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:forecasting)",
+    "rank": 8
+   },
+   {
+    "cat": "04",
+    "subtopic": "机器学习",
+    "q": "(all:\"random forest\" OR all:XGBoost OR all:LightGBM OR all:\"gradient boosting\" OR all:\"support vector\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 16
+   },
+   {
+    "cat": "05",
+    "subtopic": "深度学习",
+    "q": "(all:LSTM OR all:GRU OR all:Transformer OR all:TCN) AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:forecasting)",
+    "rank": 39
+   },
+   {
+    "cat": "10",
+    "subtopic": "评测基准",
+    "q": "(all:benchmark OR all:evaluation OR all:verification OR all:KnowAir) AND all:\"air quality\" AND (all:forecast OR all:forecasting)",
+    "rank": 37
+   },
+   {
+    "cat": "11",
+    "subtopic": "业务系统",
+    "q": "(all:operational OR all:NAQFC OR all:CAMS OR all:\"real-time\") AND all:\"air quality\" AND all:forecast",
+    "rank": 29
+   },
+   {
+    "cat": "05",
+    "subtopic": "会议深度学习",
+    "q": "ti:\"air quality\" AND (all:LSTM OR all:Transformer OR all:\"deep learning\") AND (all:forecast OR all:prediction)",
+    "rank": 1
+   }
+  ],
+  "cats": [
+   "02",
+   "03",
+   "04",
+   "05",
+   "10",
+   "11"
+  ]
+ },
+ "2601.21899": {
+  "hits": [
+   {
+    "cat": "02",
+    "subtopic": "目标与时效",
+    "q": "ti:\"air quality\" AND (all:forecast OR all:forecasting OR all:prediction)",
+    "rank": 29
+   }
+  ],
+  "cats": [
+   "02"
+  ]
+ },
+ "2410.19773": {
+  "hits": [
+   {
+    "cat": "02",
+    "subtopic": "目标与时效",
+    "q": "ti:\"air quality\" AND (all:forecast OR all:forecasting OR all:prediction)",
+    "rank": 30
+   },
+   {
+    "cat": "11",
+    "subtopic": "业务系统",
+    "q": "(all:operational OR all:NAQFC OR all:CAMS OR all:\"real-time\") AND all:\"air quality\" AND all:forecast",
+    "rank": 12
+   },
+   {
+    "cat": "01",
+    "subtopic": "CTM与排放",
+    "q": "(all:CMAQ OR all:\"WRF-Chem\" OR all:\"GEOS-Chem\" OR all:CAMS) AND (all:forecast OR all:evaluation) AND all:\"air quality\"",
+    "rank": 3
+   },
+   {
+    "cat": "05",
+    "subtopic": "会议深度学习",
+    "q": "ti:\"air quality\" AND (all:LSTM OR all:Transformer OR all:\"deep learning\") AND (all:forecast OR all:prediction)",
+    "rank": 28
+   }
+  ],
+  "cats": [
+   "02",
+   "11",
+   "01",
+   "05"
+  ]
+ },
+ "2602.19654": {
+  "hits": [
+   {
+    "cat": "02",
+    "subtopic": "目标与时效",
+    "q": "ti:\"air quality\" AND (all:forecast OR all:forecasting OR all:prediction)",
+    "rank": 31
+   },
+   {
+    "cat": "06",
+    "subtopic": "图与时空",
+    "q": "(all:\"graph neural\" OR all:spatiotemporal OR all:\"spatio-temporal\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 22
+   },
+   {
+    "cat": "07",
+    "subtopic": "概率",
+    "q": "(all:probabilistic OR all:quantile OR all:\"conformal prediction\" OR all:CRPS OR all:exceedance) AND (all:\"air quality\" OR all:PM2.5 OR all:ozone) AND (all:forecast OR all:prediction)",
+    "rank": 16
+   },
+   {
+    "cat": "11",
+    "subtopic": "业务系统",
+    "q": "(all:operational OR all:NAQFC OR all:CAMS OR all:\"real-time\") AND all:\"air quality\" AND all:forecast",
+    "rank": 18
+   }
+  ],
+  "cats": [
+   "02",
+   "06",
+   "07",
+   "11"
+  ]
+ },
+ "2502.19042": {
+  "hits": [
+   {
+    "cat": "02",
+    "subtopic": "目标与时效",
+    "q": "ti:\"air quality\" AND (all:forecast OR all:forecasting OR all:prediction)",
+    "rank": 32
+   },
+   {
+    "cat": "05",
+    "subtopic": "深度学习",
+    "q": "(all:LSTM OR all:GRU OR all:Transformer OR all:TCN) AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:forecasting)",
+    "rank": 26
+   },
+   {
+    "cat": "06",
+    "subtopic": "图与时空",
+    "q": "(all:\"graph neural\" OR all:spatiotemporal OR all:\"spatio-temporal\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 28
+   },
+   {
+    "cat": "10",
+    "subtopic": "评测基准",
+    "q": "(all:benchmark OR all:evaluation OR all:verification OR all:KnowAir) AND all:\"air quality\" AND (all:forecast OR all:forecasting)",
+    "rank": 33
+   },
+   {
+    "cat": "11",
+    "subtopic": "业务系统",
+    "q": "(all:operational OR all:NAQFC OR all:CAMS OR all:\"real-time\") AND all:\"air quality\" AND all:forecast",
+    "rank": 23
+   },
+   {
+    "cat": "05",
+    "subtopic": "会议深度学习",
+    "q": "ti:\"air quality\" AND (all:LSTM OR all:Transformer OR all:\"deep learning\") AND (all:forecast OR all:prediction)",
+    "rank": 11
+   }
+  ],
+  "cats": [
+   "02",
+   "05",
+   "06",
+   "10",
+   "11"
+  ]
+ },
+ "2602.16821": {
+  "hits": [
+   {
+    "cat": "02",
+    "subtopic": "目标与时效",
+    "q": "ti:\"air quality\" AND (all:forecast OR all:forecasting OR all:prediction)",
+    "rank": 33
+   },
+   {
+    "cat": "05",
+    "subtopic": "深度学习",
+    "q": "(all:LSTM OR all:GRU OR all:Transformer OR all:TCN) AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:forecasting)",
+    "rank": 20
+   },
+   {
+    "cat": "08",
+    "subtopic": "机理混合",
+    "q": "(all:\"bias correction\" OR all:post-processing OR all:\"data assimilation\" OR all:\"physics-guided\" OR all:\"neural ODE\" OR all:CMAQ) AND (all:\"air quality\" OR all:PM2.5) AND (all:forecast OR all:prediction OR all:machine)",
+    "rank": 5
+   },
+   {
+    "cat": "11",
+    "subtopic": "业务系统",
+    "q": "(all:operational OR all:NAQFC OR all:CAMS OR all:\"real-time\") AND all:\"air quality\" AND all:forecast",
+    "rank": 15
+   },
+   {
+    "cat": "05",
+    "subtopic": "会议深度学习",
+    "q": "ti:\"air quality\" AND (all:LSTM OR all:Transformer OR all:\"deep learning\") AND (all:forecast OR all:prediction)",
+    "rank": 22
+   }
+  ],
+  "cats": [
+   "02",
+   "05",
+   "08",
+   "11"
+  ]
+ },
+ "2211.09814": {
+  "hits": [
+   {
+    "cat": "02",
+    "subtopic": "目标与时效",
+    "q": "ti:\"air quality\" AND (all:forecast OR all:forecasting OR all:prediction)",
+    "rank": 34
+   },
+   {
+    "cat": "03",
+    "subtopic": "统计预报",
+    "q": "(all:ARIMA OR all:SARIMAX OR all:Kalman OR all:\"gaussian process\" OR all:GAM) AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:forecasting)",
+    "rank": 3
+   },
+   {
+    "cat": "05",
+    "subtopic": "深度学习",
+    "q": "(all:LSTM OR all:GRU OR all:Transformer OR all:TCN) AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:forecasting)",
+    "rank": 14
+   },
+   {
+    "cat": "11",
+    "subtopic": "业务系统",
+    "q": "(all:operational OR all:NAQFC OR all:CAMS OR all:\"real-time\") AND all:\"air quality\" AND all:forecast",
+    "rank": 14
+   },
+   {
+    "cat": "05",
+    "subtopic": "会议深度学习",
+    "q": "ti:\"air quality\" AND (all:LSTM OR all:Transformer OR all:\"deep learning\") AND (all:forecast OR all:prediction)",
+    "rank": 0
+   }
+  ],
+  "cats": [
+   "02",
+   "03",
+   "05",
+   "11"
+  ]
+ },
+ "2511.02175": {
+  "hits": [
+   {
+    "cat": "02",
+    "subtopic": "目标与时效",
+    "q": "ti:\"air quality\" AND (all:forecast OR all:forecasting OR all:prediction)",
+    "rank": 35
+   },
+   {
+    "cat": "06",
+    "subtopic": "图与时空",
+    "q": "(all:\"graph neural\" OR all:spatiotemporal OR all:\"spatio-temporal\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 27
+   },
+   {
+    "cat": "09",
+    "subtopic": "数据质量",
+    "q": "(all:PurpleAir OR all:\"low-cost sensor\" OR all:OpenAQ OR all:missing OR all:calibration) AND (all:PM2.5 OR all:\"air quality\")",
+    "rank": 37
+   },
+   {
+    "cat": "10",
+    "subtopic": "评测基准",
+    "q": "(all:benchmark OR all:evaluation OR all:verification OR all:KnowAir) AND all:\"air quality\" AND (all:forecast OR all:forecasting)",
+    "rank": 40
+   },
+   {
+    "cat": "05",
+    "subtopic": "会议深度学习",
+    "q": "ti:\"air quality\" AND (all:LSTM OR all:Transformer OR all:\"deep learning\") AND (all:forecast OR all:prediction)",
+    "rank": 4
+   }
+  ],
+  "cats": [
+   "02",
+   "06",
+   "09",
+   "10",
+   "05"
+  ]
+ },
+ "2211.15979": {
+  "hits": [
+   {
+    "cat": "02",
+    "subtopic": "目标与时效",
+    "q": "ti:\"air quality\" AND (all:forecast OR all:forecasting OR all:prediction)",
+    "rank": 36
+   },
+   {
+    "cat": "05",
+    "subtopic": "深度学习",
+    "q": "(all:LSTM OR all:GRU OR all:Transformer OR all:TCN) AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:forecasting)",
+    "rank": 19
+   },
+   {
+    "cat": "06",
+    "subtopic": "图与时空",
+    "q": "(all:\"graph neural\" OR all:spatiotemporal OR all:\"spatio-temporal\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 18
+   },
+   {
+    "cat": "10",
+    "subtopic": "评测基准",
+    "q": "(all:benchmark OR all:evaluation OR all:verification OR all:KnowAir) AND all:\"air quality\" AND (all:forecast OR all:forecasting)",
+    "rank": 26
+   },
+   {
+    "cat": "06",
+    "subtopic": "AirFormer等",
+    "q": "all:AirFormer OR all:AirPhyNet OR all:KnowAir OR all:HighAir OR all:PCDCNet OR all:\"Air-DualODE\"",
+    "rank": 0
+   },
+   {
+    "cat": "05",
+    "subtopic": "会议深度学习",
+    "q": "ti:\"air quality\" AND (all:LSTM OR all:Transformer OR all:\"deep learning\") AND (all:forecast OR all:prediction)",
+    "rank": 10
+   }
+  ],
+  "cats": [
+   "02",
+   "05",
+   "06",
+   "10"
+  ]
+ },
+ "2504.10014": {
+  "hits": [
+   {
+    "cat": "02",
+    "subtopic": "目标与时效",
+    "q": "ti:\"air quality\" AND (all:forecast OR all:forecasting OR all:prediction)",
+    "rank": 37
+   },
+   {
+    "cat": "05",
+    "subtopic": "深度学习",
+    "q": "(all:LSTM OR all:GRU OR all:Transformer OR all:TCN) AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:forecasting)",
+    "rank": 31
+   },
+   {
+    "cat": "06",
+    "subtopic": "图与时空",
+    "q": "(all:\"graph neural\" OR all:spatiotemporal OR all:\"spatio-temporal\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 8
+   },
+   {
+    "cat": "05",
+    "subtopic": "会议深度学习",
+    "q": "ti:\"air quality\" AND (all:LSTM OR all:Transformer OR all:\"deep learning\") AND (all:forecast OR all:prediction)",
+    "rank": 27
+   }
+  ],
+  "cats": [
+   "02",
+   "05",
+   "06"
+  ]
+ },
+ "2603.21039": {
+  "hits": [
+   {
+    "cat": "02",
+    "subtopic": "目标与时效",
+    "q": "ti:\"air quality\" AND (all:forecast OR all:forecasting OR all:prediction)",
+    "rank": 38
+   },
+   {
+    "cat": "03",
+    "subtopic": "统计预报",
+    "q": "(all:ARIMA OR all:SARIMAX OR all:Kalman OR all:\"gaussian process\" OR all:GAM) AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:forecasting)",
+    "rank": 5
+   },
+   {
+    "cat": "05",
+    "subtopic": "深度学习",
+    "q": "(all:LSTM OR all:GRU OR all:Transformer OR all:TCN) AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:forecasting)",
+    "rank": 15
+   },
+   {
+    "cat": "08",
+    "subtopic": "机理混合",
+    "q": "(all:\"bias correction\" OR all:post-processing OR all:\"data assimilation\" OR all:\"physics-guided\" OR all:\"neural ODE\" OR all:CMAQ) AND (all:\"air quality\" OR all:PM2.5) AND (all:forecast OR all:prediction OR all:machine)",
+    "rank": 3
+   },
+   {
+    "cat": "10",
+    "subtopic": "评测基准",
+    "q": "(all:benchmark OR all:evaluation OR all:verification OR all:KnowAir) AND all:\"air quality\" AND (all:forecast OR all:forecasting)",
+    "rank": 15
+   },
+   {
+    "cat": "05",
+    "subtopic": "会议深度学习",
+    "q": "ti:\"air quality\" AND (all:LSTM OR all:Transformer OR all:\"deep learning\") AND (all:forecast OR all:prediction)",
+    "rank": 19
+   }
+  ],
+  "cats": [
+   "02",
+   "03",
+   "05",
+   "08",
+   "10"
+  ]
+ },
+ "2112.05753": {
+  "hits": [
+   {
+    "cat": "02",
+    "subtopic": "目标与时效",
+    "q": "ti:\"air quality\" AND (all:forecast OR all:forecasting OR all:prediction)",
+    "rank": 39
+   },
+   {
+    "cat": "04",
+    "subtopic": "机器学习",
+    "q": "(all:\"random forest\" OR all:XGBoost OR all:LightGBM OR all:\"gradient boosting\" OR all:\"support vector\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 2
+   }
+  ],
+  "cats": [
+   "02",
+   "04"
+  ]
+ },
+ "2402.03784": {
+  "hits": [
+   {
+    "cat": "02",
+    "subtopic": "目标与时效",
+    "q": "ti:\"air quality\" AND (all:forecast OR all:forecasting OR all:prediction)",
+    "rank": 40
+   },
+   {
+    "cat": "06",
+    "subtopic": "图与时空",
+    "q": "(all:\"graph neural\" OR all:spatiotemporal OR all:\"spatio-temporal\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 20
+   },
+   {
+    "cat": "08",
+    "subtopic": "机理混合",
+    "q": "(all:\"bias correction\" OR all:post-processing OR all:\"data assimilation\" OR all:\"physics-guided\" OR all:\"neural ODE\" OR all:CMAQ) AND (all:\"air quality\" OR all:PM2.5) AND (all:forecast OR all:prediction OR all:machine)",
+    "rank": 1
+   },
+   {
+    "cat": "06",
+    "subtopic": "AirFormer等",
+    "q": "all:AirFormer OR all:AirPhyNet OR all:KnowAir OR all:HighAir OR all:PCDCNet OR all:\"Air-DualODE\"",
+    "rank": 2
+   },
+   {
+    "cat": "05",
+    "subtopic": "会议深度学习",
+    "q": "ti:\"air quality\" AND (all:LSTM OR all:Transformer OR all:\"deep learning\") AND (all:forecast OR all:prediction)",
+    "rank": 21
+   }
+  ],
+  "cats": [
+   "02",
+   "06",
+   "08",
+   "05"
+  ]
+ },
+ "2508.17867": {
+  "hits": [
+   {
+    "cat": "02",
+    "subtopic": "目标与时效",
+    "q": "ti:\"air quality\" AND (all:forecast OR all:forecasting OR all:prediction)",
+    "rank": 41
+   },
+   {
+    "cat": "06",
+    "subtopic": "图与时空",
+    "q": "(all:\"graph neural\" OR all:spatiotemporal OR all:\"spatio-temporal\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 23
+   },
+   {
+    "cat": "05",
+    "subtopic": "会议深度学习",
+    "q": "ti:\"air quality\" AND (all:LSTM OR all:Transformer OR all:\"deep learning\") AND (all:forecast OR all:prediction)",
+    "rank": 31
+   }
+  ],
+  "cats": [
+   "02",
+   "06",
+   "05"
+  ]
+ },
+ "2512.23474": {
+  "hits": [
+   {
+    "cat": "02",
+    "subtopic": "目标与时效",
+    "q": "ti:\"air quality\" AND (all:forecast OR all:forecasting OR all:prediction)",
+    "rank": 42
+   },
+   {
+    "cat": "07",
+    "subtopic": "概率",
+    "q": "(all:probabilistic OR all:quantile OR all:\"conformal prediction\" OR all:CRPS OR all:exceedance) AND (all:\"air quality\" OR all:PM2.5 OR all:ozone) AND (all:forecast OR all:prediction)",
+    "rank": 6
+   },
+   {
+    "cat": "05",
+    "subtopic": "会议深度学习",
+    "q": "ti:\"air quality\" AND (all:LSTM OR all:Transformer OR all:\"deep learning\") AND (all:forecast OR all:prediction)",
+    "rank": 23
+   }
+  ],
+  "cats": [
+   "02",
+   "07",
+   "05"
+  ]
+ },
+ "2508.11215": {
+  "hits": [
+   {
+    "cat": "02",
+    "subtopic": "目标与时效",
+    "q": "ti:\"air quality\" AND (all:forecast OR all:forecasting OR all:prediction)",
+    "rank": 43
+   },
+   {
+    "cat": "05",
+    "subtopic": "会议深度学习",
+    "q": "ti:\"air quality\" AND (all:LSTM OR all:Transformer OR all:\"deep learning\") AND (all:forecast OR all:prediction)",
+    "rank": 7
+   }
+  ],
+  "cats": [
+   "02",
+   "05"
+  ]
+ },
+ "2510.22818": {
+  "hits": [
+   {
+    "cat": "02",
+    "subtopic": "目标与时效",
+    "q": "ti:\"air quality\" AND (all:forecast OR all:forecasting OR all:prediction)",
+    "rank": 44
+   },
+   {
+    "cat": "03",
+    "subtopic": "统计预报",
+    "q": "(all:ARIMA OR all:SARIMAX OR all:Kalman OR all:\"gaussian process\" OR all:GAM) AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:forecasting)",
+    "rank": 2
+   },
+   {
+    "cat": "05",
+    "subtopic": "会议深度学习",
+    "q": "ti:\"air quality\" AND (all:LSTM OR all:Transformer OR all:\"deep learning\") AND (all:forecast OR all:prediction)",
+    "rank": 29
+   }
+  ],
+  "cats": [
+   "02",
+   "03",
+   "05"
+  ]
+ },
+ "2410.19892": {
+  "hits": [
+   {
+    "cat": "02",
+    "subtopic": "目标与时效",
+    "q": "ti:\"air quality\" AND (all:forecast OR all:forecasting OR all:prediction)",
+    "rank": 45
+   },
+   {
+    "cat": "06",
+    "subtopic": "图与时空",
+    "q": "(all:\"graph neural\" OR all:spatiotemporal OR all:\"spatio-temporal\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 25
+   },
+   {
+    "cat": "08",
+    "subtopic": "机理混合",
+    "q": "(all:\"bias correction\" OR all:post-processing OR all:\"data assimilation\" OR all:\"physics-guided\" OR all:\"neural ODE\" OR all:CMAQ) AND (all:\"air quality\" OR all:PM2.5) AND (all:forecast OR all:prediction OR all:machine)",
+    "rank": 0
+   },
+   {
+    "cat": "06",
+    "subtopic": "AirFormer等",
+    "q": "all:AirFormer OR all:AirPhyNet OR all:KnowAir OR all:HighAir OR all:PCDCNet OR all:\"Air-DualODE\"",
+    "rank": 3
+   }
+  ],
+  "cats": [
+   "02",
+   "06",
+   "08"
+  ]
+ },
+ "2509.00353": {
+  "hits": [
+   {
+    "cat": "02",
+    "subtopic": "目标与时效",
+    "q": "ti:\"air quality\" AND (all:forecast OR all:forecasting OR all:prediction)",
+    "rank": 46
+   },
+   {
+    "cat": "05",
+    "subtopic": "会议深度学习",
+    "q": "ti:\"air quality\" AND (all:LSTM OR all:Transformer OR all:\"deep learning\") AND (all:forecast OR all:prediction)",
+    "rank": 6
+   }
+  ],
+  "cats": [
+   "02",
+   "05"
+  ]
+ },
+ "2409.11640": {
+  "hits": [
+   {
+    "cat": "02",
+    "subtopic": "目标与时效",
+    "q": "ti:\"air quality\" AND (all:forecast OR all:forecasting OR all:prediction)",
+    "rank": 47
+   },
+   {
+    "cat": "09",
+    "subtopic": "数据质量",
+    "q": "(all:PurpleAir OR all:\"low-cost sensor\" OR all:OpenAQ OR all:missing OR all:calibration) AND (all:PM2.5 OR all:\"air quality\")",
+    "rank": 4
+   }
+  ],
+  "cats": [
+   "02",
+   "09"
+  ]
+ },
+ "2401.04369": {
+  "hits": [
+   {
+    "cat": "02",
+    "subtopic": "目标与时效",
+    "q": "ti:\"air quality\" AND (all:forecast OR all:forecasting OR all:prediction)",
+    "rank": 48
+   },
+   {
+    "cat": "04",
+    "subtopic": "机器学习",
+    "q": "(all:\"random forest\" OR all:XGBoost OR all:LightGBM OR all:\"gradient boosting\" OR all:\"support vector\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 9
+   },
+   {
+    "cat": "10",
+    "subtopic": "评测基准",
+    "q": "(all:benchmark OR all:evaluation OR all:verification OR all:KnowAir) AND all:\"air quality\" AND (all:forecast OR all:forecasting)",
+    "rank": 24
+   }
+  ],
+  "cats": [
+   "02",
+   "04",
+   "10"
+  ]
+ },
+ "2407.11283": {
+  "hits": [
+   {
+    "cat": "02",
+    "subtopic": "目标与时效",
+    "q": "ti:\"air quality\" AND (all:forecast OR all:forecasting OR all:prediction)",
+    "rank": 49
+   },
+   {
+    "cat": "06",
+    "subtopic": "图与时空",
+    "q": "(all:\"graph neural\" OR all:spatiotemporal OR all:\"spatio-temporal\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 10
+   },
+   {
+    "cat": "07",
+    "subtopic": "概率",
+    "q": "(all:probabilistic OR all:quantile OR all:\"conformal prediction\" OR all:CRPS OR all:exceedance) AND (all:\"air quality\" OR all:PM2.5 OR all:ozone) AND (all:forecast OR all:prediction)",
+    "rank": 10
+   }
+  ],
+  "cats": [
+   "02",
+   "06",
+   "07"
+  ]
+ },
+ "2409.05866": {
+  "hits": [
+   {
+    "cat": "02",
+    "subtopic": "PM2.5预报",
+    "q": "(ti:PM2.5 OR ti:\"PM 2.5\") AND (all:forecast OR all:forecasting) AND (all:hourly OR all:station OR all:spatiotemporal)",
+    "rank": 0
+   },
+   {
+    "cat": "10",
+    "subtopic": "评测基准",
+    "q": "(all:benchmark OR all:evaluation OR all:verification OR all:KnowAir) AND all:\"air quality\" AND (all:forecast OR all:forecasting)",
+    "rank": 28
+   }
+  ],
+  "cats": [
+   "02",
+   "10"
+  ]
+ },
+ "2510.22863": {
+  "hits": [
+   {
+    "cat": "02",
+    "subtopic": "PM2.5预报",
+    "q": "(ti:PM2.5 OR ti:\"PM 2.5\") AND (all:forecast OR all:forecasting) AND (all:hourly OR all:station OR all:spatiotemporal)",
+    "rank": 1
+   },
+   {
+    "cat": "05",
+    "subtopic": "深度学习",
+    "q": "(all:LSTM OR all:GRU OR all:Transformer OR all:TCN) AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:forecasting)",
+    "rank": 1
+   }
+  ],
+  "cats": [
+   "02",
+   "05"
+  ]
+ },
+ "2606.24347": {
+  "hits": [
+   {
+    "cat": "02",
+    "subtopic": "PM2.5预报",
+    "q": "(ti:PM2.5 OR ti:\"PM 2.5\") AND (all:forecast OR all:forecasting) AND (all:hourly OR all:station OR all:spatiotemporal)",
+    "rank": 4
+   }
+  ],
+  "cats": [
+   "02"
+  ]
+ },
+ "2407.01647": {
+  "hits": [
+   {
+    "cat": "02",
+    "subtopic": "PM2.5预报",
+    "q": "(ti:PM2.5 OR ti:\"PM 2.5\") AND (all:forecast OR all:forecasting) AND (all:hourly OR all:station OR all:spatiotemporal)",
+    "rank": 5
+   },
+   {
+    "cat": "04",
+    "subtopic": "机器学习",
+    "q": "(all:\"random forest\" OR all:XGBoost OR all:LightGBM OR all:\"gradient boosting\" OR all:\"support vector\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 7
+   },
+   {
+    "cat": "09",
+    "subtopic": "数据质量",
+    "q": "(all:PurpleAir OR all:\"low-cost sensor\" OR all:OpenAQ OR all:missing OR all:calibration) AND (all:PM2.5 OR all:\"air quality\")",
+    "rank": 38
+   }
+  ],
+  "cats": [
+   "02",
+   "04",
+   "09"
+  ]
+ },
+ "2607.07279": {
+  "hits": [
+   {
+    "cat": "02",
+    "subtopic": "PM2.5预报",
+    "q": "(ti:PM2.5 OR ti:\"PM 2.5\") AND (all:forecast OR all:forecasting) AND (all:hourly OR all:station OR all:spatiotemporal)",
+    "rank": 6
+   },
+   {
+    "cat": "04",
+    "subtopic": "机器学习",
+    "q": "(all:\"random forest\" OR all:XGBoost OR all:LightGBM OR all:\"gradient boosting\" OR all:\"support vector\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 6
+   },
+   {
+    "cat": "09",
+    "subtopic": "数据质量",
+    "q": "(all:PurpleAir OR all:\"low-cost sensor\" OR all:OpenAQ OR all:missing OR all:calibration) AND (all:PM2.5 OR all:\"air quality\")",
+    "rank": 35
+   }
+  ],
+  "cats": [
+   "02",
+   "04",
+   "09"
+  ]
+ },
+ "2609.04693": {
+  "hits": [
+   {
+    "cat": "02",
+    "subtopic": "PM2.5预报",
+    "q": "(ti:PM2.5 OR ti:\"PM 2.5\") AND (all:forecast OR all:forecasting) AND (all:hourly OR all:station OR all:spatiotemporal)",
+    "rank": 7
+   },
+   {
+    "cat": "05",
+    "subtopic": "深度学习",
+    "q": "(all:LSTM OR all:GRU OR all:Transformer OR all:TCN) AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:forecasting)",
+    "rank": 42
+   },
+   {
+    "cat": "06",
+    "subtopic": "图与时空",
+    "q": "(all:\"graph neural\" OR all:spatiotemporal OR all:\"spatio-temporal\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 39
+   },
+   {
+    "cat": "11",
+    "subtopic": "业务系统",
+    "q": "(all:operational OR all:NAQFC OR all:CAMS OR all:\"real-time\") AND all:\"air quality\" AND all:forecast",
+    "rank": 38
+   }
+  ],
+  "cats": [
+   "02",
+   "05",
+   "06",
+   "11"
+  ]
+ },
+ "2405.07404": {
+  "hits": [
+   {
+    "cat": "02",
+    "subtopic": "PM2.5预报",
+    "q": "(ti:PM2.5 OR ti:\"PM 2.5\") AND (all:forecast OR all:forecasting) AND (all:hourly OR all:station OR all:spatiotemporal)",
+    "rank": 8
+   },
+   {
+    "cat": "04",
+    "subtopic": "机器学习",
+    "q": "(all:\"random forest\" OR all:XGBoost OR all:LightGBM OR all:\"gradient boosting\" OR all:\"support vector\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 1
+   },
+   {
+    "cat": "10",
+    "subtopic": "评测基准",
+    "q": "(all:benchmark OR all:evaluation OR all:verification OR all:KnowAir) AND all:\"air quality\" AND (all:forecast OR all:forecasting)",
+    "rank": 46
+   }
+  ],
+  "cats": [
+   "02",
+   "04",
+   "10"
+  ]
+ },
+ "2607.07951": {
+  "hits": [
+   {
+    "cat": "02",
+    "subtopic": "PM2.5预报",
+    "q": "(ti:PM2.5 OR ti:\"PM 2.5\") AND (all:forecast OR all:forecasting) AND (all:hourly OR all:station OR all:spatiotemporal)",
+    "rank": 9
+   },
+   {
+    "cat": "05",
+    "subtopic": "深度学习",
+    "q": "(all:LSTM OR all:GRU OR all:Transformer OR all:TCN) AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:forecasting)",
+    "rank": 44
+   },
+   {
+    "cat": "07",
+    "subtopic": "概率",
+    "q": "(all:probabilistic OR all:quantile OR all:\"conformal prediction\" OR all:CRPS OR all:exceedance) AND (all:\"air quality\" OR all:PM2.5 OR all:ozone) AND (all:forecast OR all:prediction)",
+    "rank": 22
+   },
+   {
+    "cat": "10",
+    "subtopic": "评测基准",
+    "q": "(all:benchmark OR all:evaluation OR all:verification OR all:KnowAir) AND all:\"air quality\" AND (all:forecast OR all:forecasting)",
+    "rank": 45
+   }
+  ],
+  "cats": [
+   "02",
+   "05",
+   "07",
+   "10"
+  ]
+ },
+ "2603.11725": {
+  "hits": [
+   {
+    "cat": "02",
+    "subtopic": "PM2.5预报",
+    "q": "(ti:PM2.5 OR ti:\"PM 2.5\") AND (all:forecast OR all:forecasting) AND (all:hourly OR all:station OR all:spatiotemporal)",
+    "rank": 10
+   },
+   {
+    "cat": "05",
+    "subtopic": "深度学习",
+    "q": "(all:LSTM OR all:GRU OR all:Transformer OR all:TCN) AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:forecasting)",
+    "rank": 22
+   },
+   {
+    "cat": "06",
+    "subtopic": "图与时空",
+    "q": "(all:\"graph neural\" OR all:spatiotemporal OR all:\"spatio-temporal\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 16
+   }
+  ],
+  "cats": [
+   "02",
+   "05",
+   "06"
+  ]
+ },
+ "2309.09579": {
+  "hits": [
+   {
+    "cat": "03",
+    "subtopic": "统计预报",
+    "q": "(all:ARIMA OR all:SARIMAX OR all:Kalman OR all:\"gaussian process\" OR all:GAM) AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:forecasting)",
+    "rank": 4
+   },
+   {
+    "cat": "10",
+    "subtopic": "评测基准",
+    "q": "(all:benchmark OR all:evaluation OR all:verification OR all:KnowAir) AND all:\"air quality\" AND (all:forecast OR all:forecasting)",
+    "rank": 21
+   }
+  ],
+  "cats": [
+   "03",
+   "10"
+  ]
+ },
+ "2504.14050": {
+  "hits": [
+   {
+    "cat": "03",
+    "subtopic": "统计预报",
+    "q": "(all:ARIMA OR all:SARIMAX OR all:Kalman OR all:\"gaussian process\" OR all:GAM) AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:forecasting)",
+    "rank": 6
+   },
+   {
+    "cat": "05",
+    "subtopic": "深度学习",
+    "q": "(all:LSTM OR all:GRU OR all:Transformer OR all:TCN) AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:forecasting)",
+    "rank": 28
+   }
+  ],
+  "cats": [
+   "03",
+   "05"
+  ]
+ },
+ "2311.16625": {
+  "hits": [
+   {
+    "cat": "03",
+    "subtopic": "统计预报",
+    "q": "(all:ARIMA OR all:SARIMAX OR all:Kalman OR all:\"gaussian process\" OR all:GAM) AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:forecasting)",
+    "rank": 7
+   }
+  ],
+  "cats": [
+   "03"
+  ]
+ },
+ "2510.06503": {
+  "hits": [
+   {
+    "cat": "03",
+    "subtopic": "统计预报",
+    "q": "(all:ARIMA OR all:SARIMAX OR all:Kalman OR all:\"gaussian process\" OR all:GAM) AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:forecasting)",
+    "rank": 9
+   }
+  ],
+  "cats": [
+   "03"
+  ]
+ },
+ "2507.20975": {
+  "hits": [
+   {
+    "cat": "03",
+    "subtopic": "统计预报",
+    "q": "(all:ARIMA OR all:SARIMAX OR all:Kalman OR all:\"gaussian process\" OR all:GAM) AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:forecasting)",
+    "rank": 10
+   },
+   {
+    "cat": "11",
+    "subtopic": "业务系统",
+    "q": "(all:operational OR all:NAQFC OR all:CAMS OR all:\"real-time\") AND all:\"air quality\" AND all:forecast",
+    "rank": 37
+   }
+  ],
+  "cats": [
+   "03",
+   "11"
+  ]
+ },
+ "2604.22787": {
+  "hits": [
+   {
+    "cat": "04",
+    "subtopic": "机器学习",
+    "q": "(all:\"random forest\" OR all:XGBoost OR all:LightGBM OR all:\"gradient boosting\" OR all:\"support vector\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 0
+   },
+   {
+    "cat": "07",
+    "subtopic": "概率",
+    "q": "(all:probabilistic OR all:quantile OR all:\"conformal prediction\" OR all:CRPS OR all:exceedance) AND (all:\"air quality\" OR all:PM2.5 OR all:ozone) AND (all:forecast OR all:prediction)",
+    "rank": 0
+   },
+   {
+    "cat": "09",
+    "subtopic": "数据质量",
+    "q": "(all:PurpleAir OR all:\"low-cost sensor\" OR all:OpenAQ OR all:missing OR all:calibration) AND (all:PM2.5 OR all:\"air quality\")",
+    "rank": 3
+   }
+  ],
+  "cats": [
+   "04",
+   "07",
+   "09"
+  ]
+ },
+ "2509.12051": {
+  "hits": [
+   {
+    "cat": "04",
+    "subtopic": "机器学习",
+    "q": "(all:\"random forest\" OR all:XGBoost OR all:LightGBM OR all:\"gradient boosting\" OR all:\"support vector\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 3
+   },
+   {
+    "cat": "06",
+    "subtopic": "图与时空",
+    "q": "(all:\"graph neural\" OR all:spatiotemporal OR all:\"spatio-temporal\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 17
+   },
+   {
+    "cat": "09",
+    "subtopic": "数据质量",
+    "q": "(all:PurpleAir OR all:\"low-cost sensor\" OR all:OpenAQ OR all:missing OR all:calibration) AND (all:PM2.5 OR all:\"air quality\")",
+    "rank": 11
+   }
+  ],
+  "cats": [
+   "04",
+   "06",
+   "09"
+  ]
+ },
+ "2605.03795": {
+  "hits": [
+   {
+    "cat": "04",
+    "subtopic": "机器学习",
+    "q": "(all:\"random forest\" OR all:XGBoost OR all:LightGBM OR all:\"gradient boosting\" OR all:\"support vector\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 4
+   },
+   {
+    "cat": "06",
+    "subtopic": "图与时空",
+    "q": "(all:\"graph neural\" OR all:spatiotemporal OR all:\"spatio-temporal\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 30
+   },
+   {
+    "cat": "07",
+    "subtopic": "概率",
+    "q": "(all:probabilistic OR all:quantile OR all:\"conformal prediction\" OR all:CRPS OR all:exceedance) AND (all:\"air quality\" OR all:PM2.5 OR all:ozone) AND (all:forecast OR all:prediction)",
+    "rank": 19
+   },
+   {
+    "cat": "10",
+    "subtopic": "评测基准",
+    "q": "(all:benchmark OR all:evaluation OR all:verification OR all:KnowAir) AND all:\"air quality\" AND (all:forecast OR all:forecasting)",
+    "rank": 27
+   }
+  ],
+  "cats": [
+   "04",
+   "06",
+   "07",
+   "10"
+  ]
+ },
+ "2211.15095": {
+  "hits": [
+   {
+    "cat": "04",
+    "subtopic": "机器学习",
+    "q": "(all:\"random forest\" OR all:XGBoost OR all:LightGBM OR all:\"gradient boosting\" OR all:\"support vector\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 5
+   },
+   {
+    "cat": "10",
+    "subtopic": "评测基准",
+    "q": "(all:benchmark OR all:evaluation OR all:verification OR all:KnowAir) AND all:\"air quality\" AND (all:forecast OR all:forecasting)",
+    "rank": 20
+   }
+  ],
+  "cats": [
+   "04",
+   "10"
+  ]
+ },
+ "2203.07591": {
+  "hits": [
+   {
+    "cat": "04",
+    "subtopic": "机器学习",
+    "q": "(all:\"random forest\" OR all:XGBoost OR all:LightGBM OR all:\"gradient boosting\" OR all:\"support vector\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 8
+   },
+   {
+    "cat": "06",
+    "subtopic": "图与时空",
+    "q": "(all:\"graph neural\" OR all:spatiotemporal OR all:\"spatio-temporal\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 29
+   }
+  ],
+  "cats": [
+   "04",
+   "06"
+  ]
+ },
+ "2511.21857": {
+  "hits": [
+   {
+    "cat": "04",
+    "subtopic": "机器学习",
+    "q": "(all:\"random forest\" OR all:XGBoost OR all:LightGBM OR all:\"gradient boosting\" OR all:\"support vector\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 10
+   }
+  ],
+  "cats": [
+   "04"
+  ]
+ },
+ "2603.20315": {
+  "hits": [
+   {
+    "cat": "04",
+    "subtopic": "机器学习",
+    "q": "(all:\"random forest\" OR all:XGBoost OR all:LightGBM OR all:\"gradient boosting\" OR all:\"support vector\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 11
+   },
+   {
+    "cat": "10",
+    "subtopic": "评测基准",
+    "q": "(all:benchmark OR all:evaluation OR all:verification OR all:KnowAir) AND all:\"air quality\" AND (all:forecast OR all:forecasting)",
+    "rank": 18
+   },
+   {
+    "cat": "11",
+    "subtopic": "业务系统",
+    "q": "(all:operational OR all:NAQFC OR all:CAMS OR all:\"real-time\") AND all:\"air quality\" AND all:forecast",
+    "rank": 33
+   }
+  ],
+  "cats": [
+   "04",
+   "10",
+   "11"
+  ]
+ },
+ "2405.03981": {
+  "hits": [
+   {
+    "cat": "04",
+    "subtopic": "机器学习",
+    "q": "(all:\"random forest\" OR all:XGBoost OR all:LightGBM OR all:\"gradient boosting\" OR all:\"support vector\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 12
+   },
+   {
+    "cat": "10",
+    "subtopic": "评测基准",
+    "q": "(all:benchmark OR all:evaluation OR all:verification OR all:KnowAir) AND all:\"air quality\" AND (all:forecast OR all:forecasting)",
+    "rank": 48
+   }
+  ],
+  "cats": [
+   "04",
+   "10"
+  ]
+ },
+ "2512.22758": {
+  "hits": [
+   {
+    "cat": "04",
+    "subtopic": "机器学习",
+    "q": "(all:\"random forest\" OR all:XGBoost OR all:LightGBM OR all:\"gradient boosting\" OR all:\"support vector\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 13
+   }
+  ],
+  "cats": [
+   "04"
+  ]
+ },
+ "2404.08702": {
+  "hits": [
+   {
+    "cat": "04",
+    "subtopic": "机器学习",
+    "q": "(all:\"random forest\" OR all:XGBoost OR all:LightGBM OR all:\"gradient boosting\" OR all:\"support vector\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 14
+   },
+   {
+    "cat": "05",
+    "subtopic": "会议深度学习",
+    "q": "ti:\"air quality\" AND (all:LSTM OR all:Transformer OR all:\"deep learning\") AND (all:forecast OR all:prediction)",
+    "rank": 26
+   }
+  ],
+  "cats": [
+   "04",
+   "05"
+  ]
+ },
+ "2512.13712": {
+  "hits": [
+   {
+    "cat": "04",
+    "subtopic": "机器学习",
+    "q": "(all:\"random forest\" OR all:XGBoost OR all:LightGBM OR all:\"gradient boosting\" OR all:\"support vector\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 15
+   }
+  ],
+  "cats": [
+   "04"
+  ]
+ },
+ "2501.13369": {
+  "hits": [
+   {
+    "cat": "04",
+    "subtopic": "机器学习",
+    "q": "(all:\"random forest\" OR all:XGBoost OR all:LightGBM OR all:\"gradient boosting\" OR all:\"support vector\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 17
+   }
+  ],
+  "cats": [
+   "04"
+  ]
+ },
+ "2409.12412": {
+  "hits": [
+   {
+    "cat": "04",
+    "subtopic": "机器学习",
+    "q": "(all:\"random forest\" OR all:XGBoost OR all:LightGBM OR all:\"gradient boosting\" OR all:\"support vector\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 18
+   }
+  ],
+  "cats": [
+   "04"
+  ]
+ },
+ "2401.08061": {
+  "hits": [
+   {
+    "cat": "04",
+    "subtopic": "机器学习",
+    "q": "(all:\"random forest\" OR all:XGBoost OR all:LightGBM OR all:\"gradient boosting\" OR all:\"support vector\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 19
+   }
+  ],
+  "cats": [
+   "04"
+  ]
+ },
+ "2501.03111": {
+  "hits": [
+   {
+    "cat": "04",
+    "subtopic": "机器学习",
+    "q": "(all:\"random forest\" OR all:XGBoost OR all:LightGBM OR all:\"gradient boosting\" OR all:\"support vector\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 20
+   }
+  ],
+  "cats": [
+   "04"
+  ]
+ },
+ "2405.04716": {
+  "hits": [
+   {
+    "cat": "04",
+    "subtopic": "机器学习",
+    "q": "(all:\"random forest\" OR all:XGBoost OR all:LightGBM OR all:\"gradient boosting\" OR all:\"support vector\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 21
+   }
+  ],
+  "cats": [
+   "04"
+  ]
+ },
+ "2408.17376": {
+  "hits": [
+   {
+    "cat": "04",
+    "subtopic": "机器学习",
+    "q": "(all:\"random forest\" OR all:XGBoost OR all:LightGBM OR all:\"gradient boosting\" OR all:\"support vector\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 22
+   }
+  ],
+  "cats": [
+   "04"
+  ]
+ },
+ "2601.12321": {
+  "hits": [
+   {
+    "cat": "04",
+    "subtopic": "机器学习",
+    "q": "(all:\"random forest\" OR all:XGBoost OR all:LightGBM OR all:\"gradient boosting\" OR all:\"support vector\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 23
+   }
+  ],
+  "cats": [
+   "04"
+  ]
+ },
+ "2609.20975": {
+  "hits": [
+   {
+    "cat": "04",
+    "subtopic": "机器学习",
+    "q": "(all:\"random forest\" OR all:XGBoost OR all:LightGBM OR all:\"gradient boosting\" OR all:\"support vector\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 24
+   },
+   {
+    "cat": "07",
+    "subtopic": "概率",
+    "q": "(all:probabilistic OR all:quantile OR all:\"conformal prediction\" OR all:CRPS OR all:exceedance) AND (all:\"air quality\" OR all:PM2.5 OR all:ozone) AND (all:forecast OR all:prediction)",
+    "rank": 31
+   }
+  ],
+  "cats": [
+   "04",
+   "07"
+  ]
+ },
+ "2402.06653": {
+  "hits": [
+   {
+    "cat": "04",
+    "subtopic": "机器学习",
+    "q": "(all:\"random forest\" OR all:XGBoost OR all:LightGBM OR all:\"gradient boosting\" OR all:\"support vector\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 25
+   }
+  ],
+  "cats": [
+   "04"
+  ]
+ },
+ "2609.27930": {
+  "hits": [
+   {
+    "cat": "04",
+    "subtopic": "机器学习",
+    "q": "(all:\"random forest\" OR all:XGBoost OR all:LightGBM OR all:\"gradient boosting\" OR all:\"support vector\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 26
+   }
+  ],
+  "cats": [
+   "04"
+  ]
+ },
+ "2303.12963": {
+  "hits": [
+   {
+    "cat": "05",
+    "subtopic": "深度学习",
+    "q": "(all:LSTM OR all:GRU OR all:Transformer OR all:TCN) AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:forecasting)",
+    "rank": 2
+   },
+   {
+    "cat": "08",
+    "subtopic": "机理混合",
+    "q": "(all:\"bias correction\" OR all:post-processing OR all:\"data assimilation\" OR all:\"physics-guided\" OR all:\"neural ODE\" OR all:CMAQ) AND (all:\"air quality\" OR all:PM2.5) AND (all:forecast OR all:prediction OR all:machine)",
+    "rank": 16
+   },
+   {
+    "cat": "11",
+    "subtopic": "业务系统",
+    "q": "(all:operational OR all:NAQFC OR all:CAMS OR all:\"real-time\") AND all:\"air quality\" AND all:forecast",
+    "rank": 20
+   }
+  ],
+  "cats": [
+   "05",
+   "08",
+   "11"
+  ]
+ },
+ "2412.13935": {
+  "hits": [
+   {
+    "cat": "05",
+    "subtopic": "深度学习",
+    "q": "(all:LSTM OR all:GRU OR all:Transformer OR all:TCN) AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:forecasting)",
+    "rank": 7
+   },
+   {
+    "cat": "06",
+    "subtopic": "图与时空",
+    "q": "(all:\"graph neural\" OR all:spatiotemporal OR all:\"spatio-temporal\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 0
+   }
+  ],
+  "cats": [
+   "05",
+   "06"
+  ]
+ },
+ "2410.02759": {
+  "hits": [
+   {
+    "cat": "05",
+    "subtopic": "深度学习",
+    "q": "(all:LSTM OR all:GRU OR all:Transformer OR all:TCN) AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:forecasting)",
+    "rank": 11
+   }
+  ],
+  "cats": [
+   "05"
+  ]
+ },
+ "2312.17517": {
+  "hits": [
+   {
+    "cat": "05",
+    "subtopic": "深度学习",
+    "q": "(all:LSTM OR all:GRU OR all:Transformer OR all:TCN) AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:forecasting)",
+    "rank": 12
+   },
+   {
+    "cat": "10",
+    "subtopic": "评测基准",
+    "q": "(all:benchmark OR all:evaluation OR all:verification OR all:KnowAir) AND all:\"air quality\" AND (all:forecast OR all:forecasting)",
+    "rank": 29
+   }
+  ],
+  "cats": [
+   "05",
+   "10"
+  ]
+ },
+ "2503.24043": {
+  "hits": [
+   {
+    "cat": "05",
+    "subtopic": "深度学习",
+    "q": "(all:LSTM OR all:GRU OR all:Transformer OR all:TCN) AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:forecasting)",
+    "rank": 17
+   },
+   {
+    "cat": "11",
+    "subtopic": "业务系统",
+    "q": "(all:operational OR all:NAQFC OR all:CAMS OR all:\"real-time\") AND all:\"air quality\" AND all:forecast",
+    "rank": 31
+   }
+  ],
+  "cats": [
+   "05",
+   "11"
+  ]
+ },
+ "2610.25941": {
+  "hits": [
+   {
+    "cat": "05",
+    "subtopic": "深度学习",
+    "q": "(all:LSTM OR all:GRU OR all:Transformer OR all:TCN) AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:forecasting)",
+    "rank": 18
+   },
+   {
+    "cat": "07",
+    "subtopic": "概率",
+    "q": "(all:probabilistic OR all:quantile OR all:\"conformal prediction\" OR all:CRPS OR all:exceedance) AND (all:\"air quality\" OR all:PM2.5 OR all:ozone) AND (all:forecast OR all:prediction)",
+    "rank": 18
+   }
+  ],
+  "cats": [
+   "05",
+   "07"
+  ]
+ },
+ "2402.09573": {
+  "hits": [
+   {
+    "cat": "05",
+    "subtopic": "深度学习",
+    "q": "(all:LSTM OR all:GRU OR all:Transformer OR all:TCN) AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:forecasting)",
+    "rank": 21
+   }
+  ],
+  "cats": [
+   "05"
+  ]
+ },
+ "2408.16122": {
+  "hits": [
+   {
+    "cat": "05",
+    "subtopic": "深度学习",
+    "q": "(all:LSTM OR all:GRU OR all:Transformer OR all:TCN) AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:forecasting)",
+    "rank": 23
+   },
+   {
+    "cat": "10",
+    "subtopic": "评测基准",
+    "q": "(all:benchmark OR all:evaluation OR all:verification OR all:KnowAir) AND all:\"air quality\" AND (all:forecast OR all:forecasting)",
+    "rank": 22
+   }
+  ],
+  "cats": [
+   "05",
+   "10"
+  ]
+ },
+ "2601.23215": {
+  "hits": [
+   {
+    "cat": "05",
+    "subtopic": "深度学习",
+    "q": "(all:LSTM OR all:GRU OR all:Transformer OR all:TCN) AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:forecasting)",
+    "rank": 24
+   },
+   {
+    "cat": "11",
+    "subtopic": "业务系统",
+    "q": "(all:operational OR all:NAQFC OR all:CAMS OR all:\"real-time\") AND all:\"air quality\" AND all:forecast",
+    "rank": 10
+   },
+   {
+    "cat": "05",
+    "subtopic": "会议深度学习",
+    "q": "ti:\"air quality\" AND (all:LSTM OR all:Transformer OR all:\"deep learning\") AND (all:forecast OR all:prediction)",
+    "rank": 36
+   }
+  ],
+  "cats": [
+   "05",
+   "11"
+  ]
+ },
+ "2511.00532": {
+  "hits": [
+   {
+    "cat": "05",
+    "subtopic": "深度学习",
+    "q": "(all:LSTM OR all:GRU OR all:Transformer OR all:TCN) AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:forecasting)",
+    "rank": 25
+   }
+  ],
+  "cats": [
+   "05"
+  ]
+ },
+ "2608.11839": {
+  "hits": [
+   {
+    "cat": "05",
+    "subtopic": "深度学习",
+    "q": "(all:LSTM OR all:GRU OR all:Transformer OR all:TCN) AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:forecasting)",
+    "rank": 27
+   },
+   {
+    "cat": "10",
+    "subtopic": "评测基准",
+    "q": "(all:benchmark OR all:evaluation OR all:verification OR all:KnowAir) AND all:\"air quality\" AND (all:forecast OR all:forecasting)",
+    "rank": 31
+   },
+   {
+    "cat": "11",
+    "subtopic": "业务系统",
+    "q": "(all:operational OR all:NAQFC OR all:CAMS OR all:\"real-time\") AND all:\"air quality\" AND all:forecast",
+    "rank": 16
+   },
+   {
+    "cat": "05",
+    "subtopic": "会议深度学习",
+    "q": "ti:\"air quality\" AND (all:LSTM OR all:Transformer OR all:\"deep learning\") AND (all:forecast OR all:prediction)",
+    "rank": 24
+   }
+  ],
+  "cats": [
+   "05",
+   "10",
+   "11"
+  ]
+ },
+ "2412.02498": {
+  "hits": [
+   {
+    "cat": "05",
+    "subtopic": "深度学习",
+    "q": "(all:LSTM OR all:GRU OR all:Transformer OR all:TCN) AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:forecasting)",
+    "rank": 29
+   },
+   {
+    "cat": "11",
+    "subtopic": "业务系统",
+    "q": "(all:operational OR all:NAQFC OR all:CAMS OR all:\"real-time\") AND all:\"air quality\" AND all:forecast",
+    "rank": 27
+   },
+   {
+    "cat": "01",
+    "subtopic": "CTM与排放",
+    "q": "(all:CMAQ OR all:\"WRF-Chem\" OR all:\"GEOS-Chem\" OR all:CAMS) AND (all:forecast OR all:evaluation) AND all:\"air quality\"",
+    "rank": 8
+   }
+  ],
+  "cats": [
+   "05",
+   "11",
+   "01"
+  ]
+ },
+ "2412.08851": {
+  "hits": [
+   {
+    "cat": "05",
+    "subtopic": "深度学习",
+    "q": "(all:LSTM OR all:GRU OR all:Transformer OR all:TCN) AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:forecasting)",
+    "rank": 30
+   }
+  ],
+  "cats": [
+   "05"
+  ]
+ },
+ "2202.10808": {
+  "hits": [
+   {
+    "cat": "05",
+    "subtopic": "深度学习",
+    "q": "(all:LSTM OR all:GRU OR all:Transformer OR all:TCN) AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:forecasting)",
+    "rank": 32
+   },
+   {
+    "cat": "10",
+    "subtopic": "评测基准",
+    "q": "(all:benchmark OR all:evaluation OR all:verification OR all:KnowAir) AND all:\"air quality\" AND (all:forecast OR all:forecasting)",
+    "rank": 25
+   }
+  ],
+  "cats": [
+   "05",
+   "10"
+  ]
+ },
+ "2204.11115": {
+  "hits": [
+   {
+    "cat": "05",
+    "subtopic": "深度学习",
+    "q": "(all:LSTM OR all:GRU OR all:Transformer OR all:TCN) AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:forecasting)",
+    "rank": 33
+   }
+  ],
+  "cats": [
+   "05"
+  ]
+ },
+ "2306.07296": {
+  "hits": [
+   {
+    "cat": "05",
+    "subtopic": "深度学习",
+    "q": "(all:LSTM OR all:GRU OR all:Transformer OR all:TCN) AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:forecasting)",
+    "rank": 34
+   }
+  ],
+  "cats": [
+   "05"
+  ]
+ },
+ "2410.05279": {
+  "hits": [
+   {
+    "cat": "05",
+    "subtopic": "深度学习",
+    "q": "(all:LSTM OR all:GRU OR all:Transformer OR all:TCN) AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:forecasting)",
+    "rank": 35
+   }
+  ],
+  "cats": [
+   "05"
+  ]
+ },
+ "2303.10294": {
+  "hits": [
+   {
+    "cat": "05",
+    "subtopic": "深度学习",
+    "q": "(all:LSTM OR all:GRU OR all:Transformer OR all:TCN) AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:forecasting)",
+    "rank": 36
+   }
+  ],
+  "cats": [
+   "05"
+  ]
+ },
+ "2305.11901": {
+  "hits": [
+   {
+    "cat": "05",
+    "subtopic": "深度学习",
+    "q": "(all:LSTM OR all:GRU OR all:Transformer OR all:TCN) AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:forecasting)",
+    "rank": 37
+   }
+  ],
+  "cats": [
+   "05"
+  ]
+ },
+ "2510.23977": {
+  "hits": [
+   {
+    "cat": "05",
+    "subtopic": "深度学习",
+    "q": "(all:LSTM OR all:GRU OR all:Transformer OR all:TCN) AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:forecasting)",
+    "rank": 38
+   },
+   {
+    "cat": "11",
+    "subtopic": "业务系统",
+    "q": "(all:operational OR all:NAQFC OR all:CAMS OR all:\"real-time\") AND all:\"air quality\" AND all:forecast",
+    "rank": 28
+   },
+   {
+    "cat": "01",
+    "subtopic": "CTM与排放",
+    "q": "(all:CMAQ OR all:\"WRF-Chem\" OR all:\"GEOS-Chem\" OR all:CAMS) AND (all:forecast OR all:evaluation) AND all:\"air quality\"",
+    "rank": 9
+   }
+  ],
+  "cats": [
+   "05",
+   "11",
+   "01"
+  ]
+ },
+ "2605.18333": {
+  "hits": [
+   {
+    "cat": "05",
+    "subtopic": "深度学习",
+    "q": "(all:LSTM OR all:GRU OR all:Transformer OR all:TCN) AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:forecasting)",
+    "rank": 40
+   },
+   {
+    "cat": "10",
+    "subtopic": "评测基准",
+    "q": "(all:benchmark OR all:evaluation OR all:verification OR all:KnowAir) AND all:\"air quality\" AND (all:forecast OR all:forecasting)",
+    "rank": 35
+   }
+  ],
+  "cats": [
+   "05",
+   "10"
+  ]
+ },
+ "2508.14451": {
+  "hits": [
+   {
+    "cat": "05",
+    "subtopic": "深度学习",
+    "q": "(all:LSTM OR all:GRU OR all:Transformer OR all:TCN) AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:forecasting)",
+    "rank": 41
+   },
+   {
+    "cat": "09",
+    "subtopic": "数据质量",
+    "q": "(all:PurpleAir OR all:\"low-cost sensor\" OR all:OpenAQ OR all:missing OR all:calibration) AND (all:PM2.5 OR all:\"air quality\")",
+    "rank": 30
+   },
+   {
+    "cat": "10",
+    "subtopic": "评测基准",
+    "q": "(all:benchmark OR all:evaluation OR all:verification OR all:KnowAir) AND all:\"air quality\" AND (all:forecast OR all:forecasting)",
+    "rank": 30
+   },
+   {
+    "cat": "11",
+    "subtopic": "业务系统",
+    "q": "(all:operational OR all:NAQFC OR all:CAMS OR all:\"real-time\") AND all:\"air quality\" AND all:forecast",
+    "rank": 22
+   },
+   {
+    "cat": "05",
+    "subtopic": "会议深度学习",
+    "q": "ti:\"air quality\" AND (all:LSTM OR all:Transformer OR all:\"deep learning\") AND (all:forecast OR all:prediction)",
+    "rank": 37
+   }
+  ],
+  "cats": [
+   "05",
+   "09",
+   "10",
+   "11"
+  ]
+ },
+ "2210.08549": {
+  "hits": [
+   {
+    "cat": "05",
+    "subtopic": "深度学习",
+    "q": "(all:LSTM OR all:GRU OR all:Transformer OR all:TCN) AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:forecasting)",
+    "rank": 43
+   }
+  ],
+  "cats": [
+   "05"
+  ]
+ },
+ "2312.12003": {
+  "hits": [
+   {
+    "cat": "05",
+    "subtopic": "深度学习",
+    "q": "(all:LSTM OR all:GRU OR all:Transformer OR all:TCN) AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:forecasting)",
+    "rank": 45
+   },
+   {
+    "cat": "09",
+    "subtopic": "数据质量",
+    "q": "(all:PurpleAir OR all:\"low-cost sensor\" OR all:OpenAQ OR all:missing OR all:calibration) AND (all:PM2.5 OR all:\"air quality\")",
+    "rank": 29
+   }
+  ],
+  "cats": [
+   "05",
+   "09"
+  ]
+ },
+ "2412.00994": {
+  "hits": [
+   {
+    "cat": "05",
+    "subtopic": "深度学习",
+    "q": "(all:LSTM OR all:GRU OR all:Transformer OR all:TCN) AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:forecasting)",
+    "rank": 46
+   },
+   {
+    "cat": "10",
+    "subtopic": "评测基准",
+    "q": "(all:benchmark OR all:evaluation OR all:verification OR all:KnowAir) AND all:\"air quality\" AND (all:forecast OR all:forecasting)",
+    "rank": 49
+   }
+  ],
+  "cats": [
+   "05",
+   "10"
+  ]
+ },
+ "2505.01675": {
+  "hits": [
+   {
+    "cat": "05",
+    "subtopic": "深度学习",
+    "q": "(all:LSTM OR all:GRU OR all:Transformer OR all:TCN) AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:forecasting)",
+    "rank": 47
+   }
+  ],
+  "cats": [
+   "05"
+  ]
+ },
+ "2408.12476": {
+  "hits": [
+   {
+    "cat": "05",
+    "subtopic": "深度学习",
+    "q": "(all:LSTM OR all:GRU OR all:Transformer OR all:TCN) AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:forecasting)",
+    "rank": 48
+   }
+  ],
+  "cats": [
+   "05"
+  ]
+ },
+ "2205.04885": {
+  "hits": [
+   {
+    "cat": "05",
+    "subtopic": "深度学习",
+    "q": "(all:LSTM OR all:GRU OR all:Transformer OR all:TCN) AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:forecasting)",
+    "rank": 49
+   }
+  ],
+  "cats": [
+   "05"
+  ]
+ },
+ "2502.11941": {
+  "hits": [
+   {
+    "cat": "06",
+    "subtopic": "图与时空",
+    "q": "(all:\"graph neural\" OR all:spatiotemporal OR all:\"spatio-temporal\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 1
+   },
+   {
+    "cat": "05",
+    "subtopic": "会议深度学习",
+    "q": "ti:\"air quality\" AND (all:LSTM OR all:Transformer OR all:\"deep learning\") AND (all:forecast OR all:prediction)",
+    "rank": 34
+   }
+  ],
+  "cats": [
+   "06",
+   "05"
+  ]
+ },
+ "2404.14446": {
+  "hits": [
+   {
+    "cat": "06",
+    "subtopic": "图与时空",
+    "q": "(all:\"graph neural\" OR all:spatiotemporal OR all:\"spatio-temporal\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 3
+   }
+  ],
+  "cats": [
+   "06"
+  ]
+ },
+ "2506.10688": {
+  "hits": [
+   {
+    "cat": "06",
+    "subtopic": "图与时空",
+    "q": "(all:\"graph neural\" OR all:spatiotemporal OR all:\"spatio-temporal\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 5
+   },
+   {
+    "cat": "07",
+    "subtopic": "概率",
+    "q": "(all:probabilistic OR all:quantile OR all:\"conformal prediction\" OR all:CRPS OR all:exceedance) AND (all:\"air quality\" OR all:PM2.5 OR all:ozone) AND (all:forecast OR all:prediction)",
+    "rank": 9
+   },
+   {
+    "cat": "09",
+    "subtopic": "数据质量",
+    "q": "(all:PurpleAir OR all:\"low-cost sensor\" OR all:OpenAQ OR all:missing OR all:calibration) AND (all:PM2.5 OR all:\"air quality\")",
+    "rank": 18
+   }
+  ],
+  "cats": [
+   "06",
+   "07",
+   "09"
+  ]
+ },
+ "2504.20268": {
+  "hits": [
+   {
+    "cat": "06",
+    "subtopic": "图与时空",
+    "q": "(all:\"graph neural\" OR all:spatiotemporal OR all:\"spatio-temporal\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 7
+   },
+   {
+    "cat": "07",
+    "subtopic": "概率",
+    "q": "(all:probabilistic OR all:quantile OR all:\"conformal prediction\" OR all:CRPS OR all:exceedance) AND (all:\"air quality\" OR all:PM2.5 OR all:ozone) AND (all:forecast OR all:prediction)",
+    "rank": 5
+   }
+  ],
+  "cats": [
+   "06",
+   "07"
+  ]
+ },
+ "2410.12593": {
+  "hits": [
+   {
+    "cat": "06",
+    "subtopic": "图与时空",
+    "q": "(all:\"graph neural\" OR all:spatiotemporal OR all:\"spatio-temporal\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 9
+   }
+  ],
+  "cats": [
+   "06"
+  ]
+ },
+ "2501.11270": {
+  "hits": [
+   {
+    "cat": "06",
+    "subtopic": "图与时空",
+    "q": "(all:\"graph neural\" OR all:spatiotemporal OR all:\"spatio-temporal\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 11
+   }
+  ],
+  "cats": [
+   "06"
+  ]
+ },
+ "2302.09977": {
+  "hits": [
+   {
+    "cat": "06",
+    "subtopic": "图与时空",
+    "q": "(all:\"graph neural\" OR all:spatiotemporal OR all:\"spatio-temporal\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 12
+   }
+  ],
+  "cats": [
+   "06"
+  ]
+ },
+ "2404.14999": {
+  "hits": [
+   {
+    "cat": "06",
+    "subtopic": "图与时空",
+    "q": "(all:\"graph neural\" OR all:spatiotemporal OR all:\"spatio-temporal\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 19
+   }
+  ],
+  "cats": [
+   "06"
+  ]
+ },
+ "2506.11720": {
+  "hits": [
+   {
+    "cat": "06",
+    "subtopic": "图与时空",
+    "q": "(all:\"graph neural\" OR all:spatiotemporal OR all:\"spatio-temporal\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 21
+   }
+  ],
+  "cats": [
+   "06"
+  ]
+ },
+ "2405.03255": {
+  "hits": [
+   {
+    "cat": "06",
+    "subtopic": "图与时空",
+    "q": "(all:\"graph neural\" OR all:spatiotemporal OR all:\"spatio-temporal\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 26
+   }
+  ],
+  "cats": [
+   "06"
+  ]
+ },
+ "2304.12630": {
+  "hits": [
+   {
+    "cat": "06",
+    "subtopic": "图与时空",
+    "q": "(all:\"graph neural\" OR all:spatiotemporal OR all:\"spatio-temporal\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 32
+   }
+  ],
+  "cats": [
+   "06"
+  ]
+ },
+ "2501.03583": {
+  "hits": [
+   {
+    "cat": "06",
+    "subtopic": "图与时空",
+    "q": "(all:\"graph neural\" OR all:spatiotemporal OR all:\"spatio-temporal\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 33
+   }
+  ],
+  "cats": [
+   "06"
+  ]
+ },
+ "2205.13947": {
+  "hits": [
+   {
+    "cat": "06",
+    "subtopic": "图与时空",
+    "q": "(all:\"graph neural\" OR all:spatiotemporal OR all:\"spatio-temporal\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 34
+   }
+  ],
+  "cats": [
+   "06"
+  ]
+ },
+ "2503.15935": {
+  "hits": [
+   {
+    "cat": "06",
+    "subtopic": "图与时空",
+    "q": "(all:\"graph neural\" OR all:spatiotemporal OR all:\"spatio-temporal\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 35
+   }
+  ],
+  "cats": [
+   "06"
+  ]
+ },
+ "2112.05313": {
+  "hits": [
+   {
+    "cat": "06",
+    "subtopic": "图与时空",
+    "q": "(all:\"graph neural\" OR all:spatiotemporal OR all:\"spatio-temporal\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 36
+   }
+  ],
+  "cats": [
+   "06"
+  ]
+ },
+ "2511.20257": {
+  "hits": [
+   {
+    "cat": "06",
+    "subtopic": "图与时空",
+    "q": "(all:\"graph neural\" OR all:spatiotemporal OR all:\"spatio-temporal\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 37
+   },
+   {
+    "cat": "08",
+    "subtopic": "机理混合",
+    "q": "(all:\"bias correction\" OR all:post-processing OR all:\"data assimilation\" OR all:\"physics-guided\" OR all:\"neural ODE\" OR all:CMAQ) AND (all:\"air quality\" OR all:PM2.5) AND (all:forecast OR all:prediction OR all:machine)",
+    "rank": 12
+   },
+   {
+    "cat": "10",
+    "subtopic": "评测基准",
+    "q": "(all:benchmark OR all:evaluation OR all:verification OR all:KnowAir) AND all:\"air quality\" AND (all:forecast OR all:forecasting)",
+    "rank": 38
+   },
+   {
+    "cat": "11",
+    "subtopic": "业务系统",
+    "q": "(all:operational OR all:NAQFC OR all:CAMS OR all:\"real-time\") AND all:\"air quality\" AND all:forecast",
+    "rank": 32
+   }
+  ],
+  "cats": [
+   "06",
+   "08",
+   "10",
+   "11"
+  ]
+ },
+ "2505.05479": {
+  "hits": [
+   {
+    "cat": "06",
+    "subtopic": "图与时空",
+    "q": "(all:\"graph neural\" OR all:spatiotemporal OR all:\"spatio-temporal\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 38
+   }
+  ],
+  "cats": [
+   "06"
+  ]
+ },
+ "2610.11022": {
+  "hits": [
+   {
+    "cat": "06",
+    "subtopic": "图与时空",
+    "q": "(all:\"graph neural\" OR all:spatiotemporal OR all:\"spatio-temporal\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 40
+   },
+   {
+    "cat": "11",
+    "subtopic": "业务系统",
+    "q": "(all:operational OR all:NAQFC OR all:CAMS OR all:\"real-time\") AND all:\"air quality\" AND all:forecast",
+    "rank": 41
+   }
+  ],
+  "cats": [
+   "06",
+   "11"
+  ]
+ },
+ "2507.10014": {
+  "hits": [
+   {
+    "cat": "06",
+    "subtopic": "图与时空",
+    "q": "(all:\"graph neural\" OR all:spatiotemporal OR all:\"spatio-temporal\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 41
+   }
+  ],
+  "cats": [
+   "06"
+  ]
+ },
+ "2208.12719": {
+  "hits": [
+   {
+    "cat": "06",
+    "subtopic": "图与时空",
+    "q": "(all:\"graph neural\" OR all:spatiotemporal OR all:\"spatio-temporal\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 42
+   }
+  ],
+  "cats": [
+   "06"
+  ]
+ },
+ "2511.22500": {
+  "hits": [
+   {
+    "cat": "06",
+    "subtopic": "图与时空",
+    "q": "(all:\"graph neural\" OR all:spatiotemporal OR all:\"spatio-temporal\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 43
+   },
+   {
+    "cat": "09",
+    "subtopic": "数据质量",
+    "q": "(all:PurpleAir OR all:\"low-cost sensor\" OR all:OpenAQ OR all:missing OR all:calibration) AND (all:PM2.5 OR all:\"air quality\")",
+    "rank": 26
+   }
+  ],
+  "cats": [
+   "06",
+   "09"
+  ]
+ },
+ "2412.13966": {
+  "hits": [
+   {
+    "cat": "06",
+    "subtopic": "图与时空",
+    "q": "(all:\"graph neural\" OR all:spatiotemporal OR all:\"spatio-temporal\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 44
+   },
+   {
+    "cat": "09",
+    "subtopic": "数据质量",
+    "q": "(all:PurpleAir OR all:\"low-cost sensor\" OR all:OpenAQ OR all:missing OR all:calibration) AND (all:PM2.5 OR all:\"air quality\")",
+    "rank": 16
+   },
+   {
+    "cat": "05",
+    "subtopic": "会议深度学习",
+    "q": "ti:\"air quality\" AND (all:LSTM OR all:Transformer OR all:\"deep learning\") AND (all:forecast OR all:prediction)",
+    "rank": 33
+   }
+  ],
+  "cats": [
+   "06",
+   "09",
+   "05"
+  ]
+ },
+ "2603.12725": {
+  "hits": [
+   {
+    "cat": "06",
+    "subtopic": "图与时空",
+    "q": "(all:\"graph neural\" OR all:spatiotemporal OR all:\"spatio-temporal\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 45
+   }
+  ],
+  "cats": [
+   "06"
+  ]
+ },
+ "2302.06059": {
+  "hits": [
+   {
+    "cat": "06",
+    "subtopic": "图与时空",
+    "q": "(all:\"graph neural\" OR all:spatiotemporal OR all:\"spatio-temporal\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 46
+   },
+   {
+    "cat": "07",
+    "subtopic": "概率",
+    "q": "(all:probabilistic OR all:quantile OR all:\"conformal prediction\" OR all:CRPS OR all:exceedance) AND (all:\"air quality\" OR all:PM2.5 OR all:ozone) AND (all:forecast OR all:prediction)",
+    "rank": 29
+   }
+  ],
+  "cats": [
+   "06",
+   "07"
+  ]
+ },
+ "2302.09746": {
+  "hits": [
+   {
+    "cat": "06",
+    "subtopic": "图与时空",
+    "q": "(all:\"graph neural\" OR all:spatiotemporal OR all:\"spatio-temporal\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 47
+   },
+   {
+    "cat": "07",
+    "subtopic": "概率",
+    "q": "(all:probabilistic OR all:quantile OR all:\"conformal prediction\" OR all:CRPS OR all:exceedance) AND (all:\"air quality\" OR all:PM2.5 OR all:ozone) AND (all:forecast OR all:prediction)",
+    "rank": 30
+   }
+  ],
+  "cats": [
+   "06",
+   "07"
+  ]
+ },
+ "2404.05324": {
+  "hits": [
+   {
+    "cat": "06",
+    "subtopic": "图与时空",
+    "q": "(all:\"graph neural\" OR all:spatiotemporal OR all:\"spatio-temporal\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 48
+   }
+  ],
+  "cats": [
+   "06"
+  ]
+ },
+ "2407.14501": {
+  "hits": [
+   {
+    "cat": "06",
+    "subtopic": "图与时空",
+    "q": "(all:\"graph neural\" OR all:spatiotemporal OR all:\"spatio-temporal\") AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)",
+    "rank": 49
+   },
+   {
+    "cat": "09",
+    "subtopic": "数据质量",
+    "q": "(all:PurpleAir OR all:\"low-cost sensor\" OR all:OpenAQ OR all:missing OR all:calibration) AND (all:PM2.5 OR all:\"air quality\")",
+    "rank": 44
+   },
+   {
+    "cat": "11",
+    "subtopic": "业务系统",
+    "q": "(all:operational OR all:NAQFC OR all:CAMS OR all:\"real-time\") AND all:\"air quality\" AND all:forecast",
+    "rank": 25
+   }
+  ],
+  "cats": [
+   "06",
+   "09",
+   "11"
+  ]
+ },
+ "2402.17297": {
+  "hits": [
+   {
+    "cat": "07",
+    "subtopic": "概率",
+    "q": "(all:probabilistic OR all:quantile OR all:\"conformal prediction\" OR all:CRPS OR all:exceedance) AND (all:\"air quality\" OR all:PM2.5 OR all:ozone) AND (all:forecast OR all:prediction)",
+    "rank": 8
+   }
+  ],
+  "cats": [
+   "07"
+  ]
+ },
+ "2610.34204": {
+  "hits": [
+   {
+    "cat": "07",
+    "subtopic": "概率",
+    "q": "(all:probabilistic OR all:quantile OR all:\"conformal prediction\" OR all:CRPS OR all:exceedance) AND (all:\"air quality\" OR all:PM2.5 OR all:ozone) AND (all:forecast OR all:prediction)",
+    "rank": 11
+   }
+  ],
+  "cats": [
+   "07"
+  ]
+ },
+ "2610.22577": {
+  "hits": [
+   {
+    "cat": "07",
+    "subtopic": "概率",
+    "q": "(all:probabilistic OR all:quantile OR all:\"conformal prediction\" OR all:CRPS OR all:exceedance) AND (all:\"air quality\" OR all:PM2.5 OR all:ozone) AND (all:forecast OR all:prediction)",
+    "rank": 12
+   }
+  ],
+  "cats": [
+   "07"
+  ]
+ },
+ "2610.10168": {
+  "hits": [
+   {
+    "cat": "07",
+    "subtopic": "概率",
+    "q": "(all:probabilistic OR all:quantile OR all:\"conformal prediction\" OR all:CRPS OR all:exceedance) AND (all:\"air quality\" OR all:PM2.5 OR all:ozone) AND (all:forecast OR all:prediction)",
+    "rank": 13
+   }
+  ],
+  "cats": [
+   "07"
+  ]
+ },
+ "2506.23053": {
+  "hits": [
+   {
+    "cat": "07",
+    "subtopic": "概率",
+    "q": "(all:probabilistic OR all:quantile OR all:\"conformal prediction\" OR all:CRPS OR all:exceedance) AND (all:\"air quality\" OR all:PM2.5 OR all:ozone) AND (all:forecast OR all:prediction)",
+    "rank": 14
+   }
+  ],
+  "cats": [
+   "07"
+  ]
+ },
+ "2508.04885": {
+  "hits": [
+   {
+    "cat": "07",
+    "subtopic": "概率",
+    "q": "(all:probabilistic OR all:quantile OR all:\"conformal prediction\" OR all:CRPS OR all:exceedance) AND (all:\"air quality\" OR all:PM2.5 OR all:ozone) AND (all:forecast OR all:prediction)",
+    "rank": 17
+   }
+  ],
+  "cats": [
+   "07"
+  ]
+ },
+ "2510.16429": {
+  "hits": [
+   {
+    "cat": "07",
+    "subtopic": "概率",
+    "q": "(all:probabilistic OR all:quantile OR all:\"conformal prediction\" OR all:CRPS OR all:exceedance) AND (all:\"air quality\" OR all:PM2.5 OR all:ozone) AND (all:forecast OR all:prediction)",
+    "rank": 20
+   }
+  ],
+  "cats": [
+   "07"
+  ]
+ },
+ "2507.04196": {
+  "hits": [
+   {
+    "cat": "07",
+    "subtopic": "概率",
+    "q": "(all:probabilistic OR all:quantile OR all:\"conformal prediction\" OR all:CRPS OR all:exceedance) AND (all:\"air quality\" OR all:PM2.5 OR all:ozone) AND (all:forecast OR all:prediction)",
+    "rank": 21
+   }
+  ],
+  "cats": [
+   "07"
+  ]
+ },
+ "2407.09757": {
+  "hits": [
+   {
+    "cat": "07",
+    "subtopic": "概率",
+    "q": "(all:probabilistic OR all:quantile OR all:\"conformal prediction\" OR all:CRPS OR all:exceedance) AND (all:\"air quality\" OR all:PM2.5 OR all:ozone) AND (all:forecast OR all:prediction)",
+    "rank": 23
+   }
+  ],
+  "cats": [
+   "07"
+  ]
+ },
+ "2509.13886": {
+  "hits": [
+   {
+    "cat": "07",
+    "subtopic": "概率",
+    "q": "(all:probabilistic OR all:quantile OR all:\"conformal prediction\" OR all:CRPS OR all:exceedance) AND (all:\"air quality\" OR all:PM2.5 OR all:ozone) AND (all:forecast OR all:prediction)",
+    "rank": 24
+   }
+  ],
+  "cats": [
+   "07"
+  ]
+ },
+ "2606.22200": {
+  "hits": [
+   {
+    "cat": "07",
+    "subtopic": "概率",
+    "q": "(all:probabilistic OR all:quantile OR all:\"conformal prediction\" OR all:CRPS OR all:exceedance) AND (all:\"air quality\" OR all:PM2.5 OR all:ozone) AND (all:forecast OR all:prediction)",
+    "rank": 25
+   }
+  ],
+  "cats": [
+   "07"
+  ]
+ },
+ "2209.08618": {
+  "hits": [
+   {
+    "cat": "07",
+    "subtopic": "概率",
+    "q": "(all:probabilistic OR all:quantile OR all:\"conformal prediction\" OR all:CRPS OR all:exceedance) AND (all:\"air quality\" OR all:PM2.5 OR all:ozone) AND (all:forecast OR all:prediction)",
+    "rank": 26
+   }
+  ],
+  "cats": [
+   "07"
+  ]
+ },
+ "2502.06727": {
+  "hits": [
+   {
+    "cat": "07",
+    "subtopic": "概率",
+    "q": "(all:probabilistic OR all:quantile OR all:\"conformal prediction\" OR all:CRPS OR all:exceedance) AND (all:\"air quality\" OR all:PM2.5 OR all:ozone) AND (all:forecast OR all:prediction)",
+    "rank": 27
+   }
+  ],
+  "cats": [
+   "07"
+  ]
+ },
+ "2605.15894": {
+  "hits": [
+   {
+    "cat": "07",
+    "subtopic": "概率",
+    "q": "(all:probabilistic OR all:quantile OR all:\"conformal prediction\" OR all:CRPS OR all:exceedance) AND (all:\"air quality\" OR all:PM2.5 OR all:ozone) AND (all:forecast OR all:prediction)",
+    "rank": 28
+   }
+  ],
+  "cats": [
+   "07"
+  ]
+ },
+ "2609.19337": {
+  "hits": [
+   {
+    "cat": "07",
+    "subtopic": "概率",
+    "q": "(all:probabilistic OR all:quantile OR all:\"conformal prediction\" OR all:CRPS OR all:exceedance) AND (all:\"air quality\" OR all:PM2.5 OR all:ozone) AND (all:forecast OR all:prediction)",
+    "rank": 32
+   }
+  ],
+  "cats": [
+   "07"
+  ]
+ },
+ "2610.35356": {
+  "hits": [
+   {
+    "cat": "07",
+    "subtopic": "概率",
+    "q": "(all:probabilistic OR all:quantile OR all:\"conformal prediction\" OR all:CRPS OR all:exceedance) AND (all:\"air quality\" OR all:PM2.5 OR all:ozone) AND (all:forecast OR all:prediction)",
+    "rank": 33
+   }
+  ],
+  "cats": [
+   "07"
+  ]
+ },
+ "2610.33238": {
+  "hits": [
+   {
+    "cat": "07",
+    "subtopic": "概率",
+    "q": "(all:probabilistic OR all:quantile OR all:\"conformal prediction\" OR all:CRPS OR all:exceedance) AND (all:\"air quality\" OR all:PM2.5 OR all:ozone) AND (all:forecast OR all:prediction)",
+    "rank": 34
+   }
+  ],
+  "cats": [
+   "07"
+  ]
+ },
+ "2607.20377": {
+  "hits": [
+   {
+    "cat": "07",
+    "subtopic": "概率",
+    "q": "(all:probabilistic OR all:quantile OR all:\"conformal prediction\" OR all:CRPS OR all:exceedance) AND (all:\"air quality\" OR all:PM2.5 OR all:ozone) AND (all:forecast OR all:prediction)",
+    "rank": 35
+   }
+  ],
+  "cats": [
+   "07"
+  ]
+ },
+ "2506.06917": {
+  "hits": [
+   {
+    "cat": "08",
+    "subtopic": "机理混合",
+    "q": "(all:\"bias correction\" OR all:post-processing OR all:\"data assimilation\" OR all:\"physics-guided\" OR all:\"neural ODE\" OR all:CMAQ) AND (all:\"air quality\" OR all:PM2.5) AND (all:forecast OR all:prediction OR all:machine)",
+    "rank": 2
+   }
+  ],
+  "cats": [
+   "08"
+  ]
+ },
+ "2406.19154": {
+  "hits": [
+   {
+    "cat": "08",
+    "subtopic": "机理混合",
+    "q": "(all:\"bias correction\" OR all:post-processing OR all:\"data assimilation\" OR all:\"physics-guided\" OR all:\"neural ODE\" OR all:CMAQ) AND (all:\"air quality\" OR all:PM2.5) AND (all:forecast OR all:prediction OR all:machine)",
+    "rank": 4
+   },
+   {
+    "cat": "11",
+    "subtopic": "业务系统",
+    "q": "(all:operational OR all:NAQFC OR all:CAMS OR all:\"real-time\") AND all:\"air quality\" AND all:forecast",
+    "rank": 13
+   },
+   {
+    "cat": "01",
+    "subtopic": "CTM与排放",
+    "q": "(all:CMAQ OR all:\"WRF-Chem\" OR all:\"GEOS-Chem\" OR all:CAMS) AND (all:forecast OR all:evaluation) AND all:\"air quality\"",
+    "rank": 7
+   }
+  ],
+  "cats": [
+   "08",
+   "11",
+   "01"
+  ]
+ },
+ "2506.18018": {
+  "hits": [
+   {
+    "cat": "08",
+    "subtopic": "机理混合",
+    "q": "(all:\"bias correction\" OR all:post-processing OR all:\"data assimilation\" OR all:\"physics-guided\" OR all:\"neural ODE\" OR all:CMAQ) AND (all:\"air quality\" OR all:PM2.5) AND (all:forecast OR all:prediction OR all:machine)",
+    "rank": 6
+   },
+   {
+    "cat": "01",
+    "subtopic": "CTM与排放",
+    "q": "(all:CMAQ OR all:\"WRF-Chem\" OR all:\"GEOS-Chem\" OR all:CAMS) AND (all:forecast OR all:evaluation) AND all:\"air quality\"",
+    "rank": 10
+   }
+  ],
+  "cats": [
+   "08",
+   "01"
+  ]
+ },
+ "2503.09646": {
+  "hits": [
+   {
+    "cat": "08",
+    "subtopic": "机理混合",
+    "q": "(all:\"bias correction\" OR all:post-processing OR all:\"data assimilation\" OR all:\"physics-guided\" OR all:\"neural ODE\" OR all:CMAQ) AND (all:\"air quality\" OR all:PM2.5) AND (all:forecast OR all:prediction OR all:machine)",
+    "rank": 8
+   }
+  ],
+  "cats": [
+   "08"
+  ]
+ },
+ "2307.01157": {
+  "hits": [
+   {
+    "cat": "08",
+    "subtopic": "机理混合",
+    "q": "(all:\"bias correction\" OR all:post-processing OR all:\"data assimilation\" OR all:\"physics-guided\" OR all:\"neural ODE\" OR all:CMAQ) AND (all:\"air quality\" OR all:PM2.5) AND (all:forecast OR all:prediction OR all:machine)",
+    "rank": 9
+   },
+   {
+    "cat": "11",
+    "subtopic": "业务系统",
+    "q": "(all:operational OR all:NAQFC OR all:CAMS OR all:\"real-time\") AND all:\"air quality\" AND all:forecast",
+    "rank": 24
+   }
+  ],
+  "cats": [
+   "08",
+   "11"
+  ]
+ },
+ "2406.14159": {
+  "hits": [
+   {
+    "cat": "08",
+    "subtopic": "机理混合",
+    "q": "(all:\"bias correction\" OR all:post-processing OR all:\"data assimilation\" OR all:\"physics-guided\" OR all:\"neural ODE\" OR all:CMAQ) AND (all:\"air quality\" OR all:PM2.5) AND (all:forecast OR all:prediction OR all:machine)",
+    "rank": 11
+   },
+   {
+    "cat": "11",
+    "subtopic": "业务系统",
+    "q": "(all:operational OR all:NAQFC OR all:CAMS OR all:\"real-time\") AND all:\"air quality\" AND all:forecast",
+    "rank": 11
+   },
+   {
+    "cat": "01",
+    "subtopic": "CTM与排放",
+    "q": "(all:CMAQ OR all:\"WRF-Chem\" OR all:\"GEOS-Chem\" OR all:CAMS) AND (all:forecast OR all:evaluation) AND all:\"air quality\"",
+    "rank": 5
+   }
+  ],
+  "cats": [
+   "08",
+   "11",
+   "01"
+  ]
+ },
+ "2511.16013": {
+  "hits": [
+   {
+    "cat": "08",
+    "subtopic": "机理混合",
+    "q": "(all:\"bias correction\" OR all:post-processing OR all:\"data assimilation\" OR all:\"physics-guided\" OR all:\"neural ODE\" OR all:CMAQ) AND (all:\"air quality\" OR all:PM2.5) AND (all:forecast OR all:prediction OR all:machine)",
+    "rank": 14
+   }
+  ],
+  "cats": [
+   "08"
+  ]
+ },
+ "2407.12539": {
+  "hits": [
+   {
+    "cat": "08",
+    "subtopic": "机理混合",
+    "q": "(all:\"bias correction\" OR all:post-processing OR all:\"data assimilation\" OR all:\"physics-guided\" OR all:\"neural ODE\" OR all:CMAQ) AND (all:\"air quality\" OR all:PM2.5) AND (all:forecast OR all:prediction OR all:machine)",
+    "rank": 17
+   }
+  ],
+  "cats": [
+   "08"
+  ]
+ },
+ "2601.11440": {
+  "hits": [
+   {
+    "cat": "08",
+    "subtopic": "机理混合",
+    "q": "(all:\"bias correction\" OR all:post-processing OR all:\"data assimilation\" OR all:\"physics-guided\" OR all:\"neural ODE\" OR all:CMAQ) AND (all:\"air quality\" OR all:PM2.5) AND (all:forecast OR all:prediction OR all:machine)",
+    "rank": 18
+   }
+  ],
+  "cats": [
+   "08"
+  ]
+ },
+ "2606.24989": {
+  "hits": [
+   {
+    "cat": "08",
+    "subtopic": "机理混合",
+    "q": "(all:\"bias correction\" OR all:post-processing OR all:\"data assimilation\" OR all:\"physics-guided\" OR all:\"neural ODE\" OR all:CMAQ) AND (all:\"air quality\" OR all:PM2.5) AND (all:forecast OR all:prediction OR all:machine)",
+    "rank": 19
+   }
+  ],
+  "cats": [
+   "08"
+  ]
+ },
+ "2510.06140": {
+  "hits": [
+   {
+    "cat": "08",
+    "subtopic": "机理混合",
+    "q": "(all:\"bias correction\" OR all:post-processing OR all:\"data assimilation\" OR all:\"physics-guided\" OR all:\"neural ODE\" OR all:CMAQ) AND (all:\"air quality\" OR all:PM2.5) AND (all:forecast OR all:prediction OR all:machine)",
+    "rank": 20
+   }
+  ],
+  "cats": [
+   "08"
+  ]
+ },
+ "2506.07321": {
+  "hits": [
+   {
+    "cat": "08",
+    "subtopic": "机理混合",
+    "q": "(all:\"bias correction\" OR all:post-processing OR all:\"data assimilation\" OR all:\"physics-guided\" OR all:\"neural ODE\" OR all:CMAQ) AND (all:\"air quality\" OR all:PM2.5) AND (all:forecast OR all:prediction OR all:machine)",
+    "rank": 21
+   },
+   {
+    "cat": "10",
+    "subtopic": "评测基准",
+    "q": "(all:benchmark OR all:evaluation OR all:verification OR all:KnowAir) AND all:\"air quality\" AND (all:forecast OR all:forecasting)",
+    "rank": 42
+   },
+   {
+    "cat": "11",
+    "subtopic": "业务系统",
+    "q": "(all:operational OR all:NAQFC OR all:CAMS OR all:\"real-time\") AND all:\"air quality\" AND all:forecast",
+    "rank": 40
+   }
+  ],
+  "cats": [
+   "08",
+   "10",
+   "11"
+  ]
+ },
+ "2204.05917": {
+  "hits": [
+   {
+    "cat": "08",
+    "subtopic": "机理混合",
+    "q": "(all:\"bias correction\" OR all:post-processing OR all:\"data assimilation\" OR all:\"physics-guided\" OR all:\"neural ODE\" OR all:CMAQ) AND (all:\"air quality\" OR all:PM2.5) AND (all:forecast OR all:prediction OR all:machine)",
+    "rank": 22
+   }
+  ],
+  "cats": [
+   "08"
+  ]
+ },
+ "2610.13804": {
+  "hits": [
+   {
+    "cat": "08",
+    "subtopic": "机理混合",
+    "q": "(all:\"bias correction\" OR all:post-processing OR all:\"data assimilation\" OR all:\"physics-guided\" OR all:\"neural ODE\" OR all:CMAQ) AND (all:\"air quality\" OR all:PM2.5) AND (all:forecast OR all:prediction OR all:machine)",
+    "rank": 23
+   }
+  ],
+  "cats": [
+   "08"
+  ]
+ },
+ "2607.05292": {
+  "hits": [
+   {
+    "cat": "08",
+    "subtopic": "机理混合",
+    "q": "(all:\"bias correction\" OR all:post-processing OR all:\"data assimilation\" OR all:\"physics-guided\" OR all:\"neural ODE\" OR all:CMAQ) AND (all:\"air quality\" OR all:PM2.5) AND (all:forecast OR all:prediction OR all:machine)",
+    "rank": 24
+   },
+   {
+    "cat": "01",
+    "subtopic": "CTM与排放",
+    "q": "(all:CMAQ OR all:\"WRF-Chem\" OR all:\"GEOS-Chem\" OR all:CAMS) AND (all:forecast OR all:evaluation) AND all:\"air quality\"",
+    "rank": 11
+   }
+  ],
+  "cats": [
+   "08",
+   "01"
+  ]
+ },
+ "2607.03571": {
+  "hits": [
+   {
+    "cat": "08",
+    "subtopic": "机理混合",
+    "q": "(all:\"bias correction\" OR all:post-processing OR all:\"data assimilation\" OR all:\"physics-guided\" OR all:\"neural ODE\" OR all:CMAQ) AND (all:\"air quality\" OR all:PM2.5) AND (all:forecast OR all:prediction OR all:machine)",
+    "rank": 25
+   }
+  ],
+  "cats": [
+   "08"
+  ]
+ },
+ "2606.26932": {
+  "hits": [
+   {
+    "cat": "08",
+    "subtopic": "机理混合",
+    "q": "(all:\"bias correction\" OR all:post-processing OR all:\"data assimilation\" OR all:\"physics-guided\" OR all:\"neural ODE\" OR all:CMAQ) AND (all:\"air quality\" OR all:PM2.5) AND (all:forecast OR all:prediction OR all:machine)",
+    "rank": 26
+   }
+  ],
+  "cats": [
+   "08"
+  ]
+ },
+ "2204.00686": {
+  "hits": [
+   {
+    "cat": "08",
+    "subtopic": "机理混合",
+    "q": "(all:\"bias correction\" OR all:post-processing OR all:\"data assimilation\" OR all:\"physics-guided\" OR all:\"neural ODE\" OR all:CMAQ) AND (all:\"air quality\" OR all:PM2.5) AND (all:forecast OR all:prediction OR all:machine)",
+    "rank": 27
+   }
+  ],
+  "cats": [
+   "08"
+  ]
+ },
+ "2405.07910": {
+  "hits": [
+   {
+    "cat": "08",
+    "subtopic": "机理混合",
+    "q": "(all:\"bias correction\" OR all:post-processing OR all:\"data assimilation\" OR all:\"physics-guided\" OR all:\"neural ODE\" OR all:CMAQ) AND (all:\"air quality\" OR all:PM2.5) AND (all:forecast OR all:prediction OR all:machine)",
+    "rank": 28
+   }
+  ],
+  "cats": [
+   "08"
+  ]
+ },
+ "2410.22015": {
+  "hits": [
+   {
+    "cat": "08",
+    "subtopic": "机理混合",
+    "q": "(all:\"bias correction\" OR all:post-processing OR all:\"data assimilation\" OR all:\"physics-guided\" OR all:\"neural ODE\" OR all:CMAQ) AND (all:\"air quality\" OR all:PM2.5) AND (all:forecast OR all:prediction OR all:machine)",
+    "rank": 29
+   }
+  ],
+  "cats": [
+   "08"
+  ]
+ },
+ "2605.00470": {
+  "hits": [
+   {
+    "cat": "08",
+    "subtopic": "机理混合",
+    "q": "(all:\"bias correction\" OR all:post-processing OR all:\"data assimilation\" OR all:\"physics-guided\" OR all:\"neural ODE\" OR all:CMAQ) AND (all:\"air quality\" OR all:PM2.5) AND (all:forecast OR all:prediction OR all:machine)",
+    "rank": 30
+   }
+  ],
+  "cats": [
+   "08"
+  ]
+ },
+ "2510.05646": {
+  "hits": [
+   {
+    "cat": "09",
+    "subtopic": "数据质量",
+    "q": "(all:PurpleAir OR all:\"low-cost sensor\" OR all:OpenAQ OR all:missing OR all:calibration) AND (all:PM2.5 OR all:\"air quality\")",
+    "rank": 0
+   }
+  ],
+  "cats": [
+   "09"
+  ]
+ },
+ "2511.22550": {
+  "hits": [
+   {
+    "cat": "09",
+    "subtopic": "数据质量",
+    "q": "(all:PurpleAir OR all:\"low-cost sensor\" OR all:OpenAQ OR all:missing OR all:calibration) AND (all:PM2.5 OR all:\"air quality\")",
+    "rank": 1
+   },
+   {
+    "cat": "10",
+    "subtopic": "评测基准",
+    "q": "(all:benchmark OR all:evaluation OR all:verification OR all:KnowAir) AND all:\"air quality\" AND (all:forecast OR all:forecasting)",
+    "rank": 23
+   }
+  ],
+  "cats": [
+   "09",
+   "10"
+  ]
+ },
+ "2610.11236": {
+  "hits": [
+   {
+    "cat": "09",
+    "subtopic": "数据质量",
+    "q": "(all:PurpleAir OR all:\"low-cost sensor\" OR all:OpenAQ OR all:missing OR all:calibration) AND (all:PM2.5 OR all:\"air quality\")",
+    "rank": 2
+   }
+  ],
+  "cats": [
+   "09"
+  ]
+ },
+ "2112.09072": {
+  "hits": [
+   {
+    "cat": "09",
+    "subtopic": "数据质量",
+    "q": "(all:PurpleAir OR all:\"low-cost sensor\" OR all:OpenAQ OR all:missing OR all:calibration) AND (all:PM2.5 OR all:\"air quality\")",
+    "rank": 5
+   }
+  ],
+  "cats": [
+   "09"
+  ]
+ },
+ "2411.17627": {
+  "hits": [
+   {
+    "cat": "09",
+    "subtopic": "数据质量",
+    "q": "(all:PurpleAir OR all:\"low-cost sensor\" OR all:OpenAQ OR all:missing OR all:calibration) AND (all:PM2.5 OR all:\"air quality\")",
+    "rank": 6
+   }
+  ],
+  "cats": [
+   "09"
+  ]
+ },
+ "2402.12942": {
+  "hits": [
+   {
+    "cat": "09",
+    "subtopic": "数据质量",
+    "q": "(all:PurpleAir OR all:\"low-cost sensor\" OR all:OpenAQ OR all:missing OR all:calibration) AND (all:PM2.5 OR all:\"air quality\")",
+    "rank": 7
+   }
+  ],
+  "cats": [
+   "09"
+  ]
+ },
+ "2205.03499": {
+  "hits": [
+   {
+    "cat": "09",
+    "subtopic": "数据质量",
+    "q": "(all:PurpleAir OR all:\"low-cost sensor\" OR all:OpenAQ OR all:missing OR all:calibration) AND (all:PM2.5 OR all:\"air quality\")",
+    "rank": 9
+   }
+  ],
+  "cats": [
+   "09"
+  ]
+ },
+ "2203.14775": {
+  "hits": [
+   {
+    "cat": "09",
+    "subtopic": "数据质量",
+    "q": "(all:PurpleAir OR all:\"low-cost sensor\" OR all:OpenAQ OR all:missing OR all:calibration) AND (all:PM2.5 OR all:\"air quality\")",
+    "rank": 10
+   }
+  ],
+  "cats": [
+   "09"
+  ]
+ },
+ "2308.13572": {
+  "hits": [
+   {
+    "cat": "09",
+    "subtopic": "数据质量",
+    "q": "(all:PurpleAir OR all:\"low-cost sensor\" OR all:OpenAQ OR all:missing OR all:calibration) AND (all:PM2.5 OR all:\"air quality\")",
+    "rank": 12
+   }
+  ],
+  "cats": [
+   "09"
+  ]
+ },
+ "2212.14353": {
+  "hits": [
+   {
+    "cat": "09",
+    "subtopic": "数据质量",
+    "q": "(all:PurpleAir OR all:\"low-cost sensor\" OR all:OpenAQ OR all:missing OR all:calibration) AND (all:PM2.5 OR all:\"air quality\")",
+    "rank": 13
+   }
+  ],
+  "cats": [
+   "09"
+  ]
+ },
+ "2506.15840": {
+  "hits": [
+   {
+    "cat": "09",
+    "subtopic": "数据质量",
+    "q": "(all:PurpleAir OR all:\"low-cost sensor\" OR all:OpenAQ OR all:missing OR all:calibration) AND (all:PM2.5 OR all:\"air quality\")",
+    "rank": 14
+   }
+  ],
+  "cats": [
+   "09"
+  ]
+ },
+ "2309.13390": {
+  "hits": [
+   {
+    "cat": "09",
+    "subtopic": "数据质量",
+    "q": "(all:PurpleAir OR all:\"low-cost sensor\" OR all:OpenAQ OR all:missing OR all:calibration) AND (all:PM2.5 OR all:\"air quality\")",
+    "rank": 15
+   }
+  ],
+  "cats": [
+   "09"
+  ]
+ },
+ "2404.08738": {
+  "hits": [
+   {
+    "cat": "09",
+    "subtopic": "数据质量",
+    "q": "(all:PurpleAir OR all:\"low-cost sensor\" OR all:OpenAQ OR all:missing OR all:calibration) AND (all:PM2.5 OR all:\"air quality\")",
+    "rank": 20
+   }
+  ],
+  "cats": [
+   "09"
+  ]
+ },
+ "2310.15837": {
+  "hits": [
+   {
+    "cat": "09",
+    "subtopic": "数据质量",
+    "q": "(all:PurpleAir OR all:\"low-cost sensor\" OR all:OpenAQ OR all:missing OR all:calibration) AND (all:PM2.5 OR all:\"air quality\")",
+    "rank": 21
+   }
+  ],
+  "cats": [
+   "09"
+  ]
+ },
+ "2604.21527": {
+  "hits": [
+   {
+    "cat": "09",
+    "subtopic": "数据质量",
+    "q": "(all:PurpleAir OR all:\"low-cost sensor\" OR all:OpenAQ OR all:missing OR all:calibration) AND (all:PM2.5 OR all:\"air quality\")",
+    "rank": 22
+   }
+  ],
+  "cats": [
+   "09"
+  ]
+ },
+ "2505.17564": {
+  "hits": [
+   {
+    "cat": "09",
+    "subtopic": "数据质量",
+    "q": "(all:PurpleAir OR all:\"low-cost sensor\" OR all:OpenAQ OR all:missing OR all:calibration) AND (all:PM2.5 OR all:\"air quality\")",
+    "rank": 23
+   }
+  ],
+  "cats": [
+   "09"
+  ]
+ },
+ "2511.19810": {
+  "hits": [
+   {
+    "cat": "09",
+    "subtopic": "数据质量",
+    "q": "(all:PurpleAir OR all:\"low-cost sensor\" OR all:OpenAQ OR all:missing OR all:calibration) AND (all:PM2.5 OR all:\"air quality\")",
+    "rank": 24
+   }
+  ],
+  "cats": [
+   "09"
+  ]
+ },
+ "2511.00187": {
+  "hits": [
+   {
+    "cat": "09",
+    "subtopic": "数据质量",
+    "q": "(all:PurpleAir OR all:\"low-cost sensor\" OR all:OpenAQ OR all:missing OR all:calibration) AND (all:PM2.5 OR all:\"air quality\")",
+    "rank": 25
+   }
+  ],
+  "cats": [
+   "09"
+  ]
+ },
+ "2503.12367": {
+  "hits": [
+   {
+    "cat": "09",
+    "subtopic": "数据质量",
+    "q": "(all:PurpleAir OR all:\"low-cost sensor\" OR all:OpenAQ OR all:missing OR all:calibration) AND (all:PM2.5 OR all:\"air quality\")",
+    "rank": 27
+   }
+  ],
+  "cats": [
+   "09"
+  ]
+ },
+ "2508.02724": {
+  "hits": [
+   {
+    "cat": "09",
+    "subtopic": "数据质量",
+    "q": "(all:PurpleAir OR all:\"low-cost sensor\" OR all:OpenAQ OR all:missing OR all:calibration) AND (all:PM2.5 OR all:\"air quality\")",
+    "rank": 28
+   }
+  ],
+  "cats": [
+   "09"
+  ]
+ },
+ "2407.14393": {
+  "hits": [
+   {
+    "cat": "09",
+    "subtopic": "数据质量",
+    "q": "(all:PurpleAir OR all:\"low-cost sensor\" OR all:OpenAQ OR all:missing OR all:calibration) AND (all:PM2.5 OR all:\"air quality\")",
+    "rank": 31
+   }
+  ],
+  "cats": [
+   "09"
+  ]
+ },
+ "2210.00521": {
+  "hits": [
+   {
+    "cat": "09",
+    "subtopic": "数据质量",
+    "q": "(all:PurpleAir OR all:\"low-cost sensor\" OR all:OpenAQ OR all:missing OR all:calibration) AND (all:PM2.5 OR all:\"air quality\")",
+    "rank": 32
+   }
+  ],
+  "cats": [
+   "09"
+  ]
+ },
+ "2301.03847": {
+  "hits": [
+   {
+    "cat": "09",
+    "subtopic": "数据质量",
+    "q": "(all:PurpleAir OR all:\"low-cost sensor\" OR all:OpenAQ OR all:missing OR all:calibration) AND (all:PM2.5 OR all:\"air quality\")",
+    "rank": 33
+   }
+  ],
+  "cats": [
+   "09"
+  ]
+ },
+ "2606.05450": {
+  "hits": [
+   {
+    "cat": "09",
+    "subtopic": "数据质量",
+    "q": "(all:PurpleAir OR all:\"low-cost sensor\" OR all:OpenAQ OR all:missing OR all:calibration) AND (all:PM2.5 OR all:\"air quality\")",
+    "rank": 36
+   }
+  ],
+  "cats": [
+   "09"
+  ]
+ },
+ "2609.30340": {
+  "hits": [
+   {
+    "cat": "09",
+    "subtopic": "数据质量",
+    "q": "(all:PurpleAir OR all:\"low-cost sensor\" OR all:OpenAQ OR all:missing OR all:calibration) AND (all:PM2.5 OR all:\"air quality\")",
+    "rank": 39
+   }
+  ],
+  "cats": [
+   "09"
+  ]
+ },
+ "2210.14759": {
+  "hits": [
+   {
+    "cat": "09",
+    "subtopic": "数据质量",
+    "q": "(all:PurpleAir OR all:\"low-cost sensor\" OR all:OpenAQ OR all:missing OR all:calibration) AND (all:PM2.5 OR all:\"air quality\")",
+    "rank": 40
+   }
+  ],
+  "cats": [
+   "09"
+  ]
+ },
+ "2409.01208": {
+  "hits": [
+   {
+    "cat": "09",
+    "subtopic": "数据质量",
+    "q": "(all:PurpleAir OR all:\"low-cost sensor\" OR all:OpenAQ OR all:missing OR all:calibration) AND (all:PM2.5 OR all:\"air quality\")",
+    "rank": 41
+   }
+  ],
+  "cats": [
+   "09"
+  ]
+ },
+ "2310.18118": {
+  "hits": [
+   {
+    "cat": "09",
+    "subtopic": "数据质量",
+    "q": "(all:PurpleAir OR all:\"low-cost sensor\" OR all:OpenAQ OR all:missing OR all:calibration) AND (all:PM2.5 OR all:\"air quality\")",
+    "rank": 45
+   }
+  ],
+  "cats": [
+   "09"
+  ]
+ },
+ "2410.02998": {
+  "hits": [
+   {
+    "cat": "09",
+    "subtopic": "数据质量",
+    "q": "(all:PurpleAir OR all:\"low-cost sensor\" OR all:OpenAQ OR all:missing OR all:calibration) AND (all:PM2.5 OR all:\"air quality\")",
+    "rank": 46
+   }
+  ],
+  "cats": [
+   "09"
+  ]
+ },
+ "2412.13034": {
+  "hits": [
+   {
+    "cat": "09",
+    "subtopic": "数据质量",
+    "q": "(all:PurpleAir OR all:\"low-cost sensor\" OR all:OpenAQ OR all:missing OR all:calibration) AND (all:PM2.5 OR all:\"air quality\")",
+    "rank": 47
+   }
+  ],
+  "cats": [
+   "09"
+  ]
+ },
+ "2504.03480": {
+  "hits": [
+   {
+    "cat": "09",
+    "subtopic": "数据质量",
+    "q": "(all:PurpleAir OR all:\"low-cost sensor\" OR all:OpenAQ OR all:missing OR all:calibration) AND (all:PM2.5 OR all:\"air quality\")",
+    "rank": 48
+   }
+  ],
+  "cats": [
+   "09"
+  ]
+ },
+ "2408.05216": {
+  "hits": [
+   {
+    "cat": "09",
+    "subtopic": "数据质量",
+    "q": "(all:PurpleAir OR all:\"low-cost sensor\" OR all:OpenAQ OR all:missing OR all:calibration) AND (all:PM2.5 OR all:\"air quality\")",
+    "rank": 49
+   }
+  ],
+  "cats": [
+   "09"
+  ]
+ },
+ "2510.21491": {
+  "hits": [
+   {
+    "cat": "10",
+    "subtopic": "评测基准",
+    "q": "(all:benchmark OR all:evaluation OR all:verification OR all:KnowAir) AND all:\"air quality\" AND (all:forecast OR all:forecasting)",
+    "rank": 19
+   }
+  ],
+  "cats": [
+   "10"
+  ]
+ },
+ "2603.15802": {
+  "hits": [
+   {
+    "cat": "10",
+    "subtopic": "评测基准",
+    "q": "(all:benchmark OR all:evaluation OR all:verification OR all:KnowAir) AND all:\"air quality\" AND (all:forecast OR all:forecasting)",
+    "rank": 32
+   }
+  ],
+  "cats": [
+   "10"
+  ]
+ },
+ "2609.19223": {
+  "hits": [
+   {
+    "cat": "10",
+    "subtopic": "评测基准",
+    "q": "(all:benchmark OR all:evaluation OR all:verification OR all:KnowAir) AND all:\"air quality\" AND (all:forecast OR all:forecasting)",
+    "rank": 34
+   }
+  ],
+  "cats": [
+   "10"
+  ]
+ },
+ "2603.29974": {
+  "hits": [
+   {
+    "cat": "10",
+    "subtopic": "评测基准",
+    "q": "(all:benchmark OR all:evaluation OR all:verification OR all:KnowAir) AND all:\"air quality\" AND (all:forecast OR all:forecasting)",
+    "rank": 36
+   }
+  ],
+  "cats": [
+   "10"
+  ]
+ },
+ "2607.11896": {
+  "hits": [
+   {
+    "cat": "10",
+    "subtopic": "评测基准",
+    "q": "(all:benchmark OR all:evaluation OR all:verification OR all:KnowAir) AND all:\"air quality\" AND (all:forecast OR all:forecasting)",
+    "rank": 39
+   },
+   {
+    "cat": "11",
+    "subtopic": "业务系统",
+    "q": "(all:operational OR all:NAQFC OR all:CAMS OR all:\"real-time\") AND all:\"air quality\" AND all:forecast",
+    "rank": 26
+   },
+   {
+    "cat": "01",
+    "subtopic": "CTM与排放",
+    "q": "(all:CMAQ OR all:\"WRF-Chem\" OR all:\"GEOS-Chem\" OR all:CAMS) AND (all:forecast OR all:evaluation) AND all:\"air quality\"",
+    "rank": 6
+   }
+  ],
+  "cats": [
+   "10",
+   "11",
+   "01"
+  ]
+ },
+ "2608.25898": {
+  "hits": [
+   {
+    "cat": "10",
+    "subtopic": "评测基准",
+    "q": "(all:benchmark OR all:evaluation OR all:verification OR all:KnowAir) AND all:\"air quality\" AND (all:forecast OR all:forecasting)",
+    "rank": 41
+   }
+  ],
+  "cats": [
+   "10"
+  ]
+ },
+ "2509.04449": {
+  "hits": [
+   {
+    "cat": "10",
+    "subtopic": "评测基准",
+    "q": "(all:benchmark OR all:evaluation OR all:verification OR all:KnowAir) AND all:\"air quality\" AND (all:forecast OR all:forecasting)",
+    "rank": 43
+   },
+   {
+    "cat": "11",
+    "subtopic": "业务系统",
+    "q": "(all:operational OR all:NAQFC OR all:CAMS OR all:\"real-time\") AND all:\"air quality\" AND all:forecast",
+    "rank": 42
+   }
+  ],
+  "cats": [
+   "10",
+   "11"
+  ]
+ },
+ "2201.04188": {
+  "hits": [
+   {
+    "cat": "10",
+    "subtopic": "评测基准",
+    "q": "(all:benchmark OR all:evaluation OR all:verification OR all:KnowAir) AND all:\"air quality\" AND (all:forecast OR all:forecasting)",
+    "rank": 44
+   }
+  ],
+  "cats": [
+   "10"
+  ]
+ },
+ "2607.20778": {
+  "hits": [
+   {
+    "cat": "10",
+    "subtopic": "评测基准",
+    "q": "(all:benchmark OR all:evaluation OR all:verification OR all:KnowAir) AND all:\"air quality\" AND (all:forecast OR all:forecasting)",
+    "rank": 47
+   }
+  ],
+  "cats": [
+   "10"
+  ]
+ },
+ "2501.06007": {
+  "hits": [
+   {
+    "cat": "11",
+    "subtopic": "业务系统",
+    "q": "(all:operational OR all:NAQFC OR all:CAMS OR all:\"real-time\") AND all:\"air quality\" AND all:forecast",
+    "rank": 21
+   }
+  ],
+  "cats": [
+   "11"
+  ]
+ },
+ "2508.13891": {
+  "hits": [
+   {
+    "cat": "11",
+    "subtopic": "业务系统",
+    "q": "(all:operational OR all:NAQFC OR all:CAMS OR all:\"real-time\") AND all:\"air quality\" AND all:forecast",
+    "rank": 30
+   }
+  ],
+  "cats": [
+   "11"
+  ]
+ },
+ "2211.05267": {
+  "hits": [
+   {
+    "cat": "11",
+    "subtopic": "业务系统",
+    "q": "(all:operational OR all:NAQFC OR all:CAMS OR all:\"real-time\") AND all:\"air quality\" AND all:forecast",
+    "rank": 34
+   }
+  ],
+  "cats": [
+   "11"
+  ]
+ },
+ "2305.18313": {
+  "hits": [
+   {
+    "cat": "11",
+    "subtopic": "业务系统",
+    "q": "(all:operational OR all:NAQFC OR all:CAMS OR all:\"real-time\") AND all:\"air quality\" AND all:forecast",
+    "rank": 35
+   }
+  ],
+  "cats": [
+   "11"
+  ]
+ },
+ "2606.12318": {
+  "hits": [
+   {
+    "cat": "11",
+    "subtopic": "业务系统",
+    "q": "(all:operational OR all:NAQFC OR all:CAMS OR all:\"real-time\") AND all:\"air quality\" AND all:forecast",
+    "rank": 36
+   }
+  ],
+  "cats": [
+   "11"
+  ]
+ },
+ "2405.13063": {
+  "hits": [
+   {
+    "cat": "11",
+    "subtopic": "业务系统",
+    "q": "(all:operational OR all:NAQFC OR all:CAMS OR all:\"real-time\") AND all:\"air quality\" AND all:forecast",
+    "rank": 39
+   }
+  ],
+  "cats": [
+   "11"
+  ]
+ },
+ "2507.14165": {
+  "hits": [
+   {
+    "cat": "11",
+    "subtopic": "业务系统",
+    "q": "(all:operational OR all:NAQFC OR all:CAMS OR all:\"real-time\") AND all:\"air quality\" AND all:forecast",
+    "rank": 43
+   }
+  ],
+  "cats": [
+   "11"
+  ]
+ },
+ "2605.07960": {
+  "hits": [
+   {
+    "cat": "11",
+    "subtopic": "业务系统",
+    "q": "(all:operational OR all:NAQFC OR all:CAMS OR all:\"real-time\") AND all:\"air quality\" AND all:forecast",
+    "rank": 44
+   }
+  ],
+  "cats": [
+   "11"
+  ]
+ },
+ "2605.16919": {
+  "hits": [
+   {
+    "cat": "11",
+    "subtopic": "业务系统",
+    "q": "(all:operational OR all:NAQFC OR all:CAMS OR all:\"real-time\") AND all:\"air quality\" AND all:forecast",
+    "rank": 45
+   }
+  ],
+  "cats": [
+   "11"
+  ]
+ },
+ "2608.09082": {
+  "hits": [
+   {
+    "cat": "06",
+    "subtopic": "AirFormer等",
+    "q": "all:AirFormer OR all:AirPhyNet OR all:KnowAir OR all:HighAir OR all:PCDCNet OR all:\"Air-DualODE\"",
+    "rank": 4
+   }
+  ],
+  "cats": [
+   "06"
+  ]
+ },
+ "2605.03267": {
+  "hits": [
+   {
+    "cat": "06",
+    "subtopic": "AirFormer等",
+    "q": "all:AirFormer OR all:AirPhyNet OR all:KnowAir OR all:HighAir OR all:PCDCNet OR all:\"Air-DualODE\"",
+    "rank": 6
+   }
+  ],
+  "cats": [
+   "06"
+  ]
+ },
+ "2607.25687": {
+  "hits": [
+   {
+    "cat": "05",
+    "subtopic": "会议深度学习",
+    "q": "ti:\"air quality\" AND (all:LSTM OR all:Transformer OR all:\"deep learning\") AND (all:forecast OR all:prediction)",
+    "rank": 12
+   }
+  ],
+  "cats": [
+   "05"
+  ]
+ },
+ "2111.11848": {
+  "hits": [
+   {
+    "cat": "05",
+    "subtopic": "会议深度学习",
+    "q": "ti:\"air quality\" AND (all:LSTM OR all:Transformer OR all:\"deep learning\") AND (all:forecast OR all:prediction)",
+    "rank": 30
+   }
+  ],
+  "cats": [
+   "05"
+  ]
+ },
+ "2212.04175": {
+  "hits": [
+   {
+    "cat": "05",
+    "subtopic": "会议深度学习",
+    "q": "ti:\"air quality\" AND (all:LSTM OR all:Transformer OR all:\"deep learning\") AND (all:forecast OR all:prediction)",
+    "rank": 32
+   }
+  ],
+  "cats": [
+   "05"
+  ]
+ },
+ "2311.03920": {
+  "hits": [
+   {
+    "cat": "05",
+    "subtopic": "会议深度学习",
+    "q": "ti:\"air quality\" AND (all:LSTM OR all:Transformer OR all:\"deep learning\") AND (all:forecast OR all:prediction)",
+    "rank": 35
+   }
+  ],
+  "cats": [
+   "05"
+  ]
+ }
+}

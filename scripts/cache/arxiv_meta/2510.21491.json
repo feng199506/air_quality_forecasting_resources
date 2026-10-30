@@ -1,0 +1,16 @@
+{
+ "id": "2510.21491",
+ "title": "Benchmarking Catastrophic Forgetting Mitigation Methods in Federated Time Series Forecasting",
+ "authors": [
+  "Khaled Hallak",
+  "Oudom Kem"
+ ],
+ "v1_date": "2025-10-24",
+ "latest_version": 1,
+ "latest_date": "2025-10-24",
+ "journal_ref": "",
+ "doi": "10.1109/flta67013.2025.11336525",
+ "comment": "Accepted for presentation at the FLTA 2025 Conference on Federated Learning. This version corresponds to the camera-ready author manuscript",
+ "abstract": "Catastrophic forgetting (CF) poses a persistent challenge in continual learning (CL), especially within federated learning (FL) environments characterized by non-i.i.d. time series data. While existing research has largely focused on classification tasks in vision domains, the regression-based forecasting setting prevalent in IoT and edge applications remains underexplored. In this paper, we present the first benchmarking framework tailored to investigate CF in federated continual time series forecasting. Using the Beijing Multi-site Air Quality dataset across 12 decentralized clients, we systematically evaluate several CF mitigation strategies, including Replay, Elastic Weight Consolidation, Learning without Forgetting, and Synaptic Intelligence. Key contributions include: (i) introducing a new benchmark for CF in time series FL, (ii) conducting a comprehensive comparative analysis of state-of-the-art methods, and (iii) releasing a reproducible open-source framework. This work provides essential tools and insights for advancing continual learning in federated time-series forecasting systems.",
+ "primary": "cs.LG"
+}

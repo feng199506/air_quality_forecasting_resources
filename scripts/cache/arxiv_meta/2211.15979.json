@@ -1,0 +1,22 @@
+{
+ "id": "2211.15979",
+ "title": "AirFormer: Predicting Nationwide Air Quality in China with Transformers",
+ "authors": [
+  "Yuxuan Liang",
+  "Yutong Xia",
+  "Songyu Ke",
+  "Yiwei Wang",
+  "Qingsong Wen",
+  "Junbo Zhang",
+  "Yu Zheng",
+  "Roger Zimmermann"
+ ],
+ "v1_date": "2022-11-29",
+ "latest_version": 1,
+ "latest_date": "2022-11-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Published at AAAI-23",
+ "abstract": "Air pollution is a crucial issue affecting human health and livelihoods, as well as one of the barriers to economic and social growth. Forecasting air quality has become an increasingly important endeavor with significant social impacts, especially in emerging countries like China. In this paper, we present a novel Transformer architecture termed AirFormer to collectively predict nationwide air quality in China, with an unprecedented fine spatial granularity covering thousands of locations. AirFormer decouples the learning process into two stages -- 1) a bottom-up deterministic stage that contains two new types of self-attention mechanisms to efficiently learn spatio-temporal representations; 2) a top-down stochastic stage with latent variables to capture the intrinsic uncertainty of air quality data. We evaluate AirFormer with 4-year data from 1,085 stations in the Chinese Mainland. Compared to the state-of-the-art model, AirFormer reduces prediction errors by 5%~8% on 72-hour future predictions. Our source code is available at https://github.com/yoshall/airformer.",
+ "primary": "eess.SP"
+}

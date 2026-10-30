@@ -1,0 +1,8 @@
+[
+  {"q": "all:\"graph neural\" AND (all:PM2.5 OR all:\"air quality\") AND (all:forecast OR all:prediction)", "subtopic": "图神经网络"},
+  {"q": "all:spatiotemporal AND all:\"air quality\" AND (all:forecast OR all:prediction)", "subtopic": "时空预报"},
+  {"q": "all:\"multi-station\" AND all:\"air quality\" AND all:forecast", "subtopic": "多站点"},
+  {"q": "(all:\"transfer learning\" OR all:\"domain adaptation\") AND all:\"air quality\" AND (all:forecast OR all:prediction)", "subtopic": "迁移泛化"},
+  {"q": "all:HighAir OR all:\"PM2.5-GNN\" OR all:KnowAir", "subtopic": "KnowAir/HighAir"},
+  {"q": "all:\"unmonitored\" AND all:\"air quality\" AND (all:predict OR all:forecast)", "subtopic": "无监测区"}
+]

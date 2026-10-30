@@ -1,0 +1,18 @@
+{
+ "id": "2503.24043",
+ "title": "Frequency-Aware Attention-LSTM for PM$_{2.5}$ Time Series Forecasting",
+ "authors": [
+  "Jiahui Lu",
+  "Shuang Wu",
+  "Zhenkai Qin",
+  "Guifang Yang"
+ ],
+ "v1_date": "2025-03-31",
+ "latest_version": 3,
+ "latest_date": "2025-04-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "To enhance the accuracy and robustness of PM$_{2.5}$ concentration forecasting, this paper introduces FALNet, a Frequency-Aware LSTM Network that integrates frequency-domain decomposition, temporal modeling, and attention-based refinement. The model first applies STL and FFT to extract trend, seasonal, and denoised residual components, effectively filtering out high-frequency noise. The filtered residuals are then fed into a stacked LSTM to capture long-term dependencies, followed by a multi-head attention mechanism that dynamically focuses on key time steps. Experiments conducted on real-world urban air quality datasets demonstrate that FALNet consistently outperforms conventional models across standard metrics such as MAE, RMSE, and $R^2$. The model shows strong adaptability in capturing sharp fluctuations during pollution peaks and non-stationary conditions. These results validate the effectiveness and generalizability of FALNet for real-time air pollution prediction, environmental risk assessment, and decision-making support.",
+ "primary": "cs.LG"
+}

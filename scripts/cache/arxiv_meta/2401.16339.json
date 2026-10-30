@@ -1,0 +1,19 @@
+{
+ "id": "2401.16339",
+ "title": "SAT-CEP-monitor: An air quality monitoring software architecture combining complex event processing with satellite remote sensing",
+ "authors": [
+  "Badr-Eddine Boudriki Semlali",
+  "Chaker El Amrani",
+  "Guadalupe Ortiz",
+  "Juan Boubeta-Puig",
+  "Alfonso Garcia-de-Prado"
+ ],
+ "v1_date": "2024-01-29",
+ "latest_version": 1,
+ "latest_date": "2024-01-29",
+ "journal_ref": "Comput.Electr.Eng. 93:107257 (2021)",
+ "doi": "10.1016/j.compeleceng.2021.107257",
+ "comment": "",
+ "abstract": "Air pollution is a major problem today that causes serious damage to human health. Urban areas are the most affected by the degradation of air quality caused by anthropogenic gas emissions. Although there are multiple proposals for air quality monitoring, in most cases, two limitations are imposed: the impossibility of processing data in Near Real-Time (NRT) for remote sensing approaches and the impossibility of reaching areas of limited accessibility or low network coverage for ground data approaches. We propose a software architecture that efficiently combines complex event processing with remote sensing data from various satellite sensors to monitor air quality in NRT, giving support to decision-makers. We illustrate the proposed solution by calculating the air quality levels for several areas of Morocco and Spain, extracting and processing satellite information in NRT. This study also validates the air quality measured by ground stations and satellite sensor data.",
+ "primary": "cs.DC"
+}

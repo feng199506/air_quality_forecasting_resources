@@ -1,0 +1,83 @@
+[
+ {
+  "arxiv": "2409.05866",
+  "subtopic": "PM2.5预报",
+  "type": "原始研究论文",
+  "level": "硕士",
+  "difficulty": "中级",
+  "reason": "arXiv 检索命中且标题/摘要同时含空气质量与预报用语。",
+  "summary": "Wildfire frequency is increasing as the climate changes, and the resulting air pollution poses health risks. Just as people routinely use hourly weather forecasts to plan their day's activities around precipitation, reliable hourly air quality forecasts could help individuals red…",
+  "summary_basis": "arXiv 摘要",
+  "task": "future_forecast",
+  "code_kind": "待全文核实"
+ },
+ {
+  "arxiv": "2405.03981",
+  "subtopic": "机器学习",
+  "type": "原始研究论文",
+  "level": "硕士",
+  "difficulty": "中级",
+  "reason": "arXiv 检索命中且标题/摘要同时含空气质量与预报用语。",
+  "summary": "Air pollution is a significant health concern worldwide, contributing to various respiratory diseases. Advances in air quality mapping, driven by the emergence of smart cities and the proliferation of Internet-of-Things sensor devices, have led to an increase in available data, f…",
+  "summary_basis": "arXiv 摘要",
+  "task": "future_forecast",
+  "code_kind": "待全文核实"
+ },
+ {
+  "arxiv": "2312.17517",
+  "subtopic": "深度学习",
+  "type": "原始研究论文",
+  "level": "硕士",
+  "difficulty": "中级",
+  "reason": "arXiv 检索命中且标题/摘要同时含空气质量与预报用语。",
+  "summary": "Time series forecasting plays a crucial role in diverse fields, necessitating the development of robust models that can effectively handle complex temporal patterns. In this article, we present a novel feature selection method embedded in Long Short-Term Memory networks, leveragi…",
+  "summary_basis": "arXiv 摘要",
+  "task": "future_forecast",
+  "code_kind": "待全文核实"
+ },
+ {
+  "arxiv": "2202.10808",
+  "subtopic": "深度学习",
+  "type": "原始研究论文",
+  "level": "硕士",
+  "difficulty": "中级",
+  "reason": "arXiv 检索命中且标题/摘要同时含空气质量与预报用语。",
+  "summary": "Time series forecasting has widespread applications in urban life ranging from air quality monitoring to traffic analysis. However, accurate time series forecasting is challenging because real-world time series suffer from the distribution shift problem, where their statistical p…",
+  "summary_basis": "arXiv 摘要",
+  "task": "future_forecast",
+  "code_kind": "待全文核实"
+ },
+ {
+  "arxiv": "2605.18333",
+  "subtopic": "深度学习",
+  "type": "原始研究论文",
+  "level": "硕士",
+  "difficulty": "中级",
+  "reason": "arXiv 检索命中且标题/摘要同时含空气质量与预报用语。",
+  "summary": "Accurate and efficient time-series forecasting remains a challenging problem for both classical and quantum neural architectures, particularly in multivariate environmental settings. This work adapts the Quantum Leaky Integrate-and-Fire (QLIF) spiking neural network for time-seri…",
+  "summary_basis": "arXiv 摘要",
+  "task": "future_forecast",
+  "code_kind": "待全文核实"
+ },
+ {
+  "pdf_url": "https://gmd.copernicus.org/articles/14/3489/2021/gmd-14-3489-2021.pdf",
+  "title": "The GEOS-CF system and its evaluation (placeholder title; verified on download)",
+  "authors": [
+   "Christoph A. Keller"
+  ],
+  "date": "2021-06-16",
+  "date_basis": "GMD 14, 3489, 2021（待下载核验标题）",
+  "venue": "Geosci. Model Dev.",
+  "landing": "https://gmd.copernicus.org/articles/14/3489/2021/",
+  "subtopic": "GEOS-CF系统",
+  "type": "原始研究论文",
+  "classic_reason": "若确为 GEOS-CF 系统文则保留；否则下载失败不计数。",
+  "reason": "NASA 全球成分预报系统候选文档。",
+  "summary": "待全文核实标题与任务。",
+  "summary_basis": "GMD 卷期",
+  "task": "future_forecast",
+  "spatial_unit": "grid",
+  "code_kind": "official_partial",
+  "reserve": true
+ }
+]

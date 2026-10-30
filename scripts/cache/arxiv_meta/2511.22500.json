@@ -1,0 +1,18 @@
+{
+ "id": "2511.22500",
+ "title": "Improving Spatio-temporal Gaussian Process Modeling with Vecchia Approximation: A Low-Cost Sensor-Driven Approach to Urban Environmental Monitoring",
+ "authors": [
+  "Yacine Mohamed Idir",
+  "Olivier Orfila",
+  "Patrice Chatellier",
+  "Vincent Judalet"
+ ],
+ "v1_date": "2025-11-27",
+ "latest_version": 1,
+ "latest_date": "2025-11-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper explores Vecchia likelihood approximation for modeling physical phenomena sensed by mobile and fixed low-cost sensors in urban environments. A three-level hierarchical model is proposed to simultaneously accounts for the physical process of interest and measurement errors inherent in low-cost sensors. Several innovative configurations of Vecchia's approximation are investigated, including variations in ordering strategies, distance definitions, and sensor-specific conditioning. These configurations are evaluated for approximating the likelihood of a spatio-temporal Gaussian process, using simulated data based on real mobile sensor trajectories across Nantes, France. Our findings highlight the effectiveness of the min-max distance algorithm for ordering, reaffirming existing literature. Additionally, we demonstrate the utility of a random ordering approach that doesn't require prior definition of a spatio-temporal distance. These two ordering configurations achieved, on average, 102\\% better results in log Kullback-Leibler divergence compared with four other ordering schemes studied. Results are supplemented with Asymptotic Relative Efficiency analysis, offering practical recommendations for optimizing parameter estimation. The proposed model and preferred Vecchia configuration are applied to real-world air quality data collected using mobile and fixed low-cost sensors. This application underscores the model's practical value for pollution mapping and prediction in environmental monitoring. This study advances the use of Vecchia's approximation for addressing computational challenges of Gaussian models in large-scale spatio-temporal datasets from environmental monitoring with low-cost sensor networks.",
+ "primary": "stat.ME"
+}

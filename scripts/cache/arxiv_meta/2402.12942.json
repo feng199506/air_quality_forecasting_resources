@@ -1,0 +1,15 @@
+{
+ "id": "2402.12942",
+ "title": "Field calibration and analysis of a low-cost sensor network based on the existing air quality infrastructure of a city",
+ "authors": [
+  "Robert Blaga"
+ ],
+ "v1_date": "2024-02-20",
+ "latest_version": 2,
+ "latest_date": "2024-03-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Low-cost particulate matter sensors (LCS) are an important source of air quality data, improving the spatial and temporal resolution of data gathered by sparsely placed official monitoring stations. Their readings, however, are subject to bias due to unaccounted for effects pertaining to both the physical properties of the aerosol particles and design limitations of the devices. A calibration model is paramount in order to valorize the output of LCS devices. In this paper, a calibration model is developed for the LCS network of the municipality of Timisoara, Romania. A regression approach is used for calibrating PM10. Several models are tested, considering as independent variables the LCS PM10, relative humidity, and temperature. Models with physics-based corrections for relative humidity are found to work best. The calibrated data is tested against data from collocated stations from the National Air Quality Monitoring Network (NAQMN), showing an average performance of nRMSE=7.5μg/m3, R2=0.31. The calibration model is applied to the city-wide LCS network of the municipality. The yearly average PM10 of the network is shown to be similar to that of NAQMN, both being well within the EU yearly PM10 standard. For daily PM10 values, however, several stations are found that regularly exceed the daily threshold set by the European Union. These violations are not witnessed at the NAQMN stations. This is interpreted as due to the small number of reference stations located in the administrative boundaries of the city, which miss particular localized emission sources that are not collocated with these stations.",
+ "primary": "physics.ao-ph"
+}

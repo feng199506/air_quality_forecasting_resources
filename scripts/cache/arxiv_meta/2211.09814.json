@@ -1,0 +1,16 @@
+{
+ "id": "2211.09814",
+ "title": "Data-driven Real-time Short-term Prediction of Air Quality: Comparison of ES, ARIMA, and LSTM",
+ "authors": [
+  "Iryna Talamanova",
+  "Sabri Pllana"
+ ],
+ "v1_date": "2022-11-16",
+ "latest_version": 1,
+ "latest_date": "2022-11-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Air pollution is a worldwide issue that affects the lives of many people in urban areas. It is considered that the air pollution may lead to heart and lung diseases. A careful and timely forecast of the air quality could help to reduce the exposure risk for affected people. In this paper, we use a data-driven approach to predict air quality based on historical data. We compare three popular methods for time series prediction: Exponential Smoothing (ES), Auto-Regressive Integrated Moving Average (ARIMA) and Long short-term memory (LSTM). Considering prediction accuracy and time complexity, our experiments reveal that for short-term air pollution prediction ES performs better than ARIMA and LSTM.",
+ "primary": "cs.LG"
+}

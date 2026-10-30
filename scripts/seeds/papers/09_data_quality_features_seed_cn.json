@@ -1,0 +1,83 @@
+[
+ {
+  "arxiv": "2504.10014",
+  "subtopic": "目标与时效",
+  "type": "原始研究论文",
+  "level": "硕士",
+  "difficulty": "中级",
+  "reason": "arXiv 检索命中且标题/摘要同时含空气质量与预报用语。",
+  "summary": "Air quality prediction plays a crucial role in public health and environmental protection. Accurate air quality prediction is a complex multivariate spatiotemporal problem, that involves interactions across temporal patterns, pollutant correlations, spatial station dependencies, …",
+  "summary_basis": "arXiv 摘要",
+  "task": "future_forecast",
+  "code_kind": "待全文核实"
+ },
+ {
+  "arxiv": "2511.19810",
+  "subtopic": "数据质量",
+  "type": "原始研究论文",
+  "level": "硕士",
+  "difficulty": "中级",
+  "reason": "arXiv 检索命中且标题/摘要同时含空气质量与预报用语。",
+  "summary": "We present a case study for the calibration of Low-cost air-quality (LCAQ) CO sensors from one of the largest multi-site-multi-season-multi-sensor-multi-pollutant mobile air-quality monitoring network deployments in India. LCAQ sensors have been shown to play a critical role in t…",
+  "summary_basis": "arXiv 摘要",
+  "task": "future_forecast",
+  "code_kind": "official_partial",
+  "code_url": "https://github.com/purushottamkar/respire."
+ },
+ {
+  "arxiv": "2412.13966",
+  "subtopic": "图与时空",
+  "type": "原始研究论文",
+  "level": "硕士",
+  "difficulty": "中级",
+  "reason": "arXiv 检索命中且标题/摘要同时含空气质量与预报用语。",
+  "summary": "Urban pollution poses serious health risks, particularly in relation to traffic-related air pollution, which remains a major concern in many cities. Vehicle emissions contribute to respiratory and cardiovascular issues, especially for vulnerable and exposed road users like pedest…",
+  "summary_basis": "arXiv 摘要",
+  "task": "future_forecast",
+  "code_kind": "待全文核实"
+ },
+ {
+  "arxiv": "2409.11640",
+  "subtopic": "目标与时效",
+  "type": "原始研究论文",
+  "level": "硕士",
+  "difficulty": "中级",
+  "reason": "arXiv 检索命中且标题/摘要同时含空气质量与预报用语。",
+  "summary": "Air pollution, particularly particulate matter (PM2.5), poses significant risks to public health and the environment, necessitating accurate prediction and continuous monitoring for effective air quality management. However, air quality monitoring (AQM) data often suffer from mis…",
+  "summary_basis": "arXiv 摘要",
+  "task": "future_forecast",
+  "code_kind": "待全文核实"
+ },
+ {
+  "arxiv": "2312.12003",
+  "subtopic": "深度学习",
+  "type": "原始研究论文",
+  "level": "硕士",
+  "difficulty": "中级",
+  "reason": "arXiv 检索命中且标题/摘要同时含空气质量与预报用语。",
+  "summary": "Air pollution is a result of multiple sources including both natural and anthropogenic activities. The rapid urbanization of the cities such as Bujumbura economic capital of Burundi, is one of these factors. The very first characterization of the spatio-temporal variability of PM…",
+  "summary_basis": "arXiv 摘要",
+  "task": "future_forecast",
+  "code_kind": "待全文核实"
+ },
+ {
+  "pdf_url": "https://gmd.copernicus.org/articles/16/509/2023/gmd-16-509-2023.pdf",
+  "title": "Comparing Sentinel-5P TROPOMI column observations with the CAMS regional air quality ensemble",
+  "authors": [
+   "TROPOMI-CAMS authors"
+  ],
+  "date": "2023-01-18",
+  "date_basis": "GMD 16, 509, 2023（日待全文核对）",
+  "venue": "Geosci. Model Dev.",
+  "landing": "https://gmd.copernicus.org/articles/16/509/2023/",
+  "subtopic": "卫星柱浓度支撑",
+  "type": "原始研究论文",
+  "reason": "遥感柱浓度与预报集合对比，单列为支撑，不是地面浓度未来预报。",
+  "summary": "TROPOMI 与 CAMS 区域集合的 NO2 等比较。",
+  "summary_basis": "GMD 摘要",
+  "task": "inversion_support",
+  "spatial_unit": "grid",
+  "target": "NO2 column",
+  "code_kind": "none"
+ }
+]

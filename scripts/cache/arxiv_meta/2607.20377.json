@@ -1,0 +1,15 @@
+{
+ "id": "2607.20377",
+ "title": "Statevector-to-Hardware Reconstruction of a Four-Qubit ZZ Quantum Kernel: A Single-Backend Case Study of Three Execution Jobs",
+ "authors": [
+  "Rostyslav Sipakov"
+ ],
+ "v1_date": "2026-07-22",
+ "latest_version": 2,
+ "latest_date": "2026-09-03",
+ "journal_ref": "Quantum Reports 8(3), 93 (2026)",
+ "doi": "10.3390/quantum8030093",
+ "comment": "14 pages, 2 figures. v2: retitled and restructured after journal peer review as a single-backend, fixed-kernel, three-job diagnostic case study; main text shortened by about 75%; claims restricted to the three observed jobs; ancillary files contain the Supplementary Methods and Supplementary Notes S1-S3 (four PDFs). Code: https://doi.org/10.5281/zenodo.21438523",
+ "abstract": "Hardware noise and finite sampling perturb the fidelity estimates forming a quantum-kernel Gram matrix. We measured how far three hardware-reconstructed Gram matrices depart from an exact statevector reference for one frozen four-qubit ZZ feature map on N=24 indoor air-quality windows, executed on ibm_fez at 1024 shots per circuit in three single, non-interleaved jobs: baseline, dynamical decoupling alone, and gate twirling alone. All were complete, finite, and positive-semidefinite. Off-diagonal root-mean-squared error (RMSE) against the reference was 0.0878, 0.0864, and 0.0427; full-matrix centered kernel alignment (CKA) ranged 0.933-0.989 and the post hoc diagonal-excluded (U-centered) CKA 0.816-0.986. The gate-twirled job deviated least on every reported geometry axis; its baseline contrasts are deletion-stable for the Spearman, mean-absolute-error, RMSE, and full-matrix CKA diagnostics, while the Pearson and diagonal-excluded contrasts fall just below that convention. Dynamical decoupling was not separated from the baseline. The observed error exceeded both finite-shot reference scales, so, under those sampling-only models, sampling does not explain it. Centered kernel-target alignment did not track reconstruction fidelity and stayed at or below each label-permutation reference: implementation fidelity and task relevance are distinct diagnostic axes. All configuration-level statements describe three realized jobs on one backend; no mitigation-efficacy, classifier-superiority, forecasting, or quantum-advantage claim is made.",
+ "primary": "quant-ph"
+}

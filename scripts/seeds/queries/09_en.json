@@ -1,0 +1,8 @@
+[
+  {"q": "(all:PurpleAir OR all:\"low-cost sensor\") AND (all:calibration OR all:correction) AND (all:PM2.5 OR all:\"air quality\")", "subtopic": "低成本传感器"},
+  {"q": "all:OpenAQ AND (all:\"air quality\" OR all:dataset)", "subtopic": "OpenAQ"},
+  {"q": "all:missing AND (all:PM2.5 OR all:\"air quality\") AND (all:imputation OR all:gap)", "subtopic": "缺测填补"},
+  {"q": "(all:AOD OR all:TROPOMI OR all:satellite) AND all:PM2.5 AND (all:estimate OR all:predict)", "subtopic": "遥感反演支撑"},
+  {"q": "all:\"data quality\" AND all:\"air quality\" AND (all:monitoring OR all:flag)", "subtopic": "质量标记"},
+  {"q": "all:ERA5 AND all:\"air quality\" AND (all:forecast OR all:reanalysis)", "subtopic": "再分析气象"}
+]

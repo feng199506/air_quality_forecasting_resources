@@ -1,0 +1,21 @@
+{
+ "id": "2210.14759",
+ "title": "An analysis of degradation in low-cost particulate matter sensors",
+ "authors": [
+  "Priyanka deSouza",
+  "Karoline Barkjohn",
+  "Andrea Clements",
+  "Jenny Lee",
+  "Ralph Kahn",
+  "Ben Crawford",
+  "Patrick Kinney"
+ ],
+ "v1_date": "2022-10-26",
+ "latest_version": 2,
+ "latest_date": "2022-10-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "28 pages, 5 figures, 4 tables",
+ "abstract": "Low-cost sensors (LCS) are increasingly being used to measure fine particulate matter (PM2.5) concentrations in cities around the world. One of the most commonly deployed LCS is the PurpleAir with about 15,000 sensors deployed in the United States. However, the change in sensor performance over time has not been well studied. It is important to understand the lifespan of these sensors to determine when they should be replaced, and when measurements from these devices should or should not be used for various applications. This paper fills in this gap by leveraging the fact that: 1) Each PurpleAir sensor is comprised of two identical sensors and the divergence between their measurements can be observed, and 2) There are numerous PurpleAir sensors within 50 meters of regulatory monitors allowing for the comparison of measurements between these two instruments. We propose empirically-derived degradation outcomes for the PurpleAir sensors and evaluate how these outcomes change over time. On average, we find that the number of 'flagged' measurements, where the two sensors within each PurpleAir disagree, increases in time to 4 percent after 4 years of operation. Approximately, 2 percent of all PurpleAir sensors were permanently degraded. The largest fraction of permanently degraded PurpleAir sensors appeared to be in the hot and humid climate zone, suggesting that the sensors in this zone may need to be replaced sooner. We also find that the bias of PurpleAir sensors, or the difference between corrected PM2.5 levels and the corresponding reference measurements, changed over time by -0.12 ug/m3 (95% CI: -0.13 ug/m3, -0.11 ug/m3) per year. The average bias increases dramatically after 3.5 years. Climate zone is a significant modifier of the association between degradation outcomes and time.",
+ "primary": "stat.AP"
+}

@@ -1,0 +1,22 @@
+{
+ "id": "2503.12367",
+ "title": "Integrating mobile and fixed monitoring data for high-resolution PM2.5 mapping using machine learning",
+ "authors": [
+  "Rui Xu",
+  "Dawen Yao",
+  "Yuzhuang Pian",
+  "Ruhui Cao",
+  "Yixin Fu",
+  "Xinru Yang",
+  "Ting Gan",
+  "Yonghong Liu"
+ ],
+ "v1_date": "2025-03-16",
+ "latest_version": 1,
+ "latest_date": "2025-03-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Constructing high resolution air pollution maps at lower cost is crucial for sustainable city management and public health risk assessment. However, traditional fixed-site monitoring lacks spatial coverage, while mobile low-cost sensors exhibit significant data instability. This study integrates PM2.5 data from 320 taxi-mounted mobile low-cost sensors and 52 fixed monitoring stations to address these limitations. By employing the machine learning methods, an appropriate mapping relationship was established between fixed and mobile monitoring concentration. The resulting pollution maps achieved 500-meter spatial and 5-minute temporal resolutions, showing close alignment with fixed monitoring data (+4.35% bias) but significant deviation from raw mobile data (-31.77%). The fused map exhibits the fine-scale spatial variability also observed in the mobile pollution map, while showing the stable temporal variability closer to that of the fixed pollution map (fixed: 1.12 plus or minus 0.73%, mobile: 3.15 plus or minus 2.44%, mapped: 1.01 plus or minus 0.65%). These findings demonstrate the potential of large-scale mobile low-cost sensor networks for high-resolution air quality mapping, supporting targeted urban environmental governance and health risk mitigation.",
+ "primary": "cs.LG"
+}

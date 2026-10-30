@@ -1,0 +1,17 @@
+{
+ "id": "2509.15076",
+ "title": "Forecasting and Visualizing Air Quality from Sky Images with Vision-Language Models",
+ "authors": [
+  "Mohammad Saleh Vahdatpour",
+  "Maryam Eyvazi",
+  "Yanqing Zhang"
+ ],
+ "v1_date": "2025-09-18",
+ "latest_version": 1,
+ "latest_date": "2025-09-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Published at ICCVW 2025",
+ "abstract": "Air pollution remains a critical threat to public health and environmental sustainability, yet conventional monitoring systems are often constrained by limited spatial coverage and accessibility. This paper proposes an AI-driven agent that predicts ambient air pollution levels from sky images and synthesizes realistic visualizations of pollution scenarios using generative modeling. Our approach combines statistical texture analysis with supervised learning for pollution classification, and leverages vision-language model (VLM)-guided image generation to produce interpretable representations of air quality conditions. The generated visuals simulate varying degrees of pollution, offering a foundation for user-facing interfaces that improve transparency and support informed environmental decision-making. These outputs can be seamlessly integrated into intelligent applications aimed at enhancing situational awareness and encouraging behavioral responses based on real-time forecasts. We validate our method using a dataset of urban sky images and demonstrate its effectiveness in both pollution level estimation and semantically consistent visual synthesis. The system design further incorporates human-centered user experience principles to ensure accessibility, clarity, and public engagement in air quality forecasting. To support scalable and energy-efficient deployment, future iterations will incorporate a green CNN architecture enhanced with FPGA-based incremental learning, enabling real-time inference on edge platforms.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2506.06917",
+ "title": "Graph-Based Physics-Guided Urban PM2.5 Air Quality Imputation with Constrained Monitoring Data",
+ "authors": [
+  "Shangjie Du",
+  "Hui Wei",
+  "Dong Yoon Lee",
+  "Zhizhang Hu",
+  "Shijia Pan"
+ ],
+ "v1_date": "2025-06-07",
+ "latest_version": 1,
+ "latest_date": "2025-06-07",
+ "journal_ref": "ACM 1550-4859/2025/05-ART00",
+ "doi": "10.1145/3734869",
+ "comment": "Accepted by ACM Transactions on Sensor Networks (TOSN) 2025",
+ "abstract": "This work introduces GraPhy, a graph-based, physics-guided learning framework for high-resolution and accurate air quality modeling in urban areas with limited monitoring data. Fine-grained air quality monitoring information is essential for reducing public exposure to pollutants. However, monitoring networks are often sparse in socioeconomically disadvantaged regions, limiting the accuracy and resolution of air quality modeling. To address this, we propose a physics-guided graph neural network architecture called GraPhy with layers and edge features designed specifically for low-resolution monitoring data. Experiments using data from California's socioeconomically disadvantaged San Joaquin Valley show that GraPhy achieves the overall best performance evaluated by mean squared error (MSE), mean absolute error (MAE), and R-square value (R2), improving the performance by 9%-56% compared to various baseline models. Moreover, GraPhy consistently outperforms baselines across different spatial heterogeneity levels, demonstrating the effectiveness of our model design.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,116 @@
+[
+ {
+  "arxiv": "2402.03784",
+  "subtopic": "目标与时效",
+  "type": "原始研究论文",
+  "level": "硕士",
+  "difficulty": "中级",
+  "reason": "arXiv 检索命中且标题/摘要同时含空气质量与预报用语。",
+  "summary": "Air quality prediction and modelling plays a pivotal role in public health and environment management, for individuals and authorities to make informed decisions. Although traditional data-driven models have shown promise in this domain, their long-term prediction accuracy can be…",
+  "summary_basis": "arXiv 摘要",
+  "task": "future_forecast",
+  "code_kind": "待全文核实"
+ },
+ {
+  "arxiv": "2410.19892",
+  "subtopic": "目标与时效",
+  "type": "原始研究论文",
+  "level": "硕士",
+  "difficulty": "中级",
+  "reason": "arXiv 检索命中且标题/摘要同时含空气质量与预报用语。",
+  "summary": "Air pollution significantly threatens human health and ecosystems, necessitating effective air quality prediction to inform public policy. Traditional approaches are generally categorized into physics-based and data-driven models. Physics-based models usually struggle with high c…",
+  "summary_basis": "arXiv 摘要",
+  "task": "future_forecast",
+  "code_kind": "待全文核实"
+ },
+ {
+  "arxiv": "2505.19842",
+  "subtopic": "目标与时效",
+  "type": "原始研究论文",
+  "level": "硕士",
+  "difficulty": "中级",
+  "reason": "arXiv 检索命中且标题/摘要同时含空气质量与预报用语。",
+  "summary": "Air quality forecasting (AQF) is critical for public health and environmental management, yet remains challenging due to the complex interplay of emissions, meteorology, and chemical transformations. Traditional numerical models, such as CMAQ and WRF-Chem, provide physically grou…",
+  "summary_basis": "arXiv 摘要",
+  "task": "future_forecast",
+  "code_kind": "待全文核实"
+ },
+ {
+  "arxiv": "2506.07321",
+  "subtopic": "机理混合",
+  "type": "原始研究论文",
+  "level": "硕士",
+  "difficulty": "中级",
+  "reason": "arXiv 检索命中且标题/摘要同时含空气质量与预报用语。",
+  "summary": "The launch of the Tropospheric Emissions: Monitoring of Pollution (TEMPO) mission in 2023 marked a new era in air quality monitoring by providing high-frequency, geostationary observations of column NO2 across North America. In this study, we present the first implementation of a…",
+  "summary_basis": "arXiv 摘要",
+  "task": "future_forecast",
+  "code_kind": "待全文核实"
+ },
+ {
+  "arxiv": "2506.18018",
+  "subtopic": "机理混合",
+  "type": "原始研究论文",
+  "level": "硕士",
+  "difficulty": "中级",
+  "reason": "arXiv 检索命中且标题/摘要同时含空气质量与预报用语。",
+  "summary": "Air pollution remains a leading global health threat, with fine particulate matter (PM2.5) contributing to millions of premature deaths annually. Chemical transport models (CTMs) are essential tools for evaluating how emission controls improve air quality and save lives, but they…",
+  "summary_basis": "arXiv 摘要",
+  "task": "future_forecast",
+  "code_kind": "待全文核实"
+ },
+ {
+  "arxiv": "2307.01157",
+  "subtopic": "机理混合",
+  "type": "原始研究论文",
+  "level": "硕士",
+  "difficulty": "中级",
+  "reason": "arXiv 检索命中且标题/摘要同时含空气质量与预报用语。",
+  "summary": "This paper proposes a novel approach to predict epidemiological parameters by integrating new real-time signals from various sources of information, such as novel social media-based population density maps and Air Quality data. We implement an ensemble of Convolutional Neural Net…",
+  "summary_basis": "arXiv 摘要",
+  "task": "future_forecast",
+  "code_kind": "待全文核实"
+ },
+ {
+  "pdf_url": "https://gmd.copernicus.org/articles/15/4129/2022/gmd-15-4129-2022.pdf",
+  "title": "Evaluation of WRF-Chem model (v3.9.1.1) real-time air quality forecasts over the Eastern Mediterranean",
+  "authors": [
+   "WRF-Chem Eastern Mediterranean authors"
+  ],
+  "date": "2022-05-20",
+  "date_basis": "GMD 15, 4129, 2022（日待全文核对）",
+  "venue": "Geosci. Model Dev.",
+  "landing": "https://gmd.copernicus.org/articles/15/4129/2022/",
+  "subtopic": "WRF-Chem实时预报",
+  "type": "原始研究论文",
+  "reason": "在线耦合 3 日实时预报，对照 CAMS。",
+  "summary": "NO2/O3/PM2.5，嵌套网格，塞浦路斯站点。",
+  "summary_basis": "GMD 摘要",
+  "task": "future_forecast",
+  "spatial_unit": "station",
+  "target": "NO2; O3; PM2.5",
+  "horizon": "3d",
+  "meteo": "online_coupled_nwp",
+  "code_kind": "none"
+ },
+ {
+  "pdf_url": "https://gmd.copernicus.org/articles/15/4657/2022/gmd-15-4657-2022.pdf",
+  "title": "Regional evaluation of the performance of the global CAMS chemical modeling system over the United States (IFS cycle 47r1)",
+  "authors": [
+   "CAMS US evaluation authors"
+  ],
+  "date": "2022-06-15",
+  "date_basis": "GMD 15, 4657, 2022（日待全文核对）",
+  "venue": "Geosci. Model Dev.",
+  "landing": "https://gmd.copernicus.org/articles/15/4657/2022/",
+  "subtopic": "CAMS全球预报美国评估",
+  "type": "原始研究论文",
+  "reason": "全球 CAMS 预报在美国的评估，对照 NAQFC。",
+  "summary": "IFS 47r1 全球空气质量预报评估。",
+  "summary_basis": "GMD 摘要",
+  "task": "future_forecast",
+  "spatial_unit": "grid",
+  "target": "O3; PM",
+  "code_kind": "none"
+ }
+]

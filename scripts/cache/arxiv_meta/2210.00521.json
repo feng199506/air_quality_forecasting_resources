@@ -1,0 +1,17 @@
+{
+ "id": "2210.00521",
+ "title": "Leveraging unsupervised data and domain adaptation for deep regression in low-cost sensor calibration",
+ "authors": [
+  "Swapnil Dey",
+  "Vipul Arora",
+  "Sachchida Nand Tripathi"
+ ],
+ "v1_date": "2022-10-02",
+ "latest_version": 1,
+ "latest_date": "2022-10-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "submitted to IEEE Trans. on Neural Networks and Learning Systems as a regular article",
+ "abstract": "Air quality monitoring is becoming an essential task with rising awareness about air quality. Low cost air quality sensors are easy to deploy but are not as reliable as the costly and bulky reference monitors. The low quality sensors can be calibrated against the reference monitors with the help of deep learning. In this paper, we translate the task of sensor calibration into a semi-supervised domain adaptation problem and propose a novel solution for the same. The problem is challenging because it is a regression problem with covariate shift and label gap. We use histogram loss instead of mean squared or mean absolute error, which is commonly used for regression, and find it useful against covariate shift. To handle the label gap, we propose weighting of samples for adversarial entropy optimization. In experimental evaluations, the proposed scheme outperforms many competitive baselines, which are based on semi-supervised and supervised domain adaptation, in terms of R2 score and mean absolute error. Ablation studies show the relevance of each proposed component in the entire scheme.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "2510.23977",
+ "title": "Synergistic Neural Forecasting of Air Pollution with Stochastic Sampling",
+ "authors": [
+  "Yohan Abeysinghe",
+  "Muhammad Akhtar Munir",
+  "Sanoojan Baliah",
+  "Ron Sarafian",
+  "Fahad Shahbaz Khan",
+  "Yinon Rudich",
+  "Salman Khan"
+ ],
+ "v1_date": "2025-10-28",
+ "latest_version": 1,
+ "latest_date": "2025-10-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Air pollution remains a leading global health and environmental risk, particularly in regions vulnerable to episodic air pollution spikes due to wildfires, urban haze and dust storms. Accurate forecasting of particulate matter (PM) concentrations is essential to enable timely public health warnings and interventions, yet existing models often underestimate rare but hazardous pollution events. Here, we present SynCast, a high-resolution neural forecasting model that integrates meteorological and air composition data to improve predictions of both average and extreme pollution levels. Built on a regionally adapted transformer backbone and enhanced with a diffusion-based stochastic refinement module, SynCast captures the nonlinear dynamics driving PM spikes more accurately than existing approaches. Leveraging on harmonized ERA5 and CAMS datasets, our model shows substantial gains in forecasting fidelity across multiple PM variables (PM$_1$, PM$_{2.5}$, PM$_{10}$), especially under extreme conditions. We demonstrate that conventional loss functions underrepresent distributional tails (rare pollution events) and show that SynCast, guided by domain-aware objectives and extreme value theory, significantly enhances performance in highly impacted regions without compromising global accuracy. This approach provides a scalable foundation for next-generation air quality early warning systems and supports climate-health risk mitigation in vulnerable regions.",
+ "primary": "cs.LG"
+}

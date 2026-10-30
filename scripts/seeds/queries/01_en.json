@@ -1,0 +1,9 @@
+[
+  {"q": "ti:\"air quality\" AND (all:emission OR all:dispersion OR all:chemistry)", "subtopic": "排放输送化学"},
+  {"q": "all:CMAQ AND (all:documentation OR all:evaluation OR all:science)", "subtopic": "CMAQ"},
+  {"q": "all:\"WRF-Chem\" AND (all:description OR all:evaluation)", "subtopic": "WRF-Chem"},
+  {"q": "all:\"GEOS-Chem\" AND (all:description OR all:model)", "subtopic": "GEOS-Chem"},
+  {"q": "all:\"chemical transport model\" AND all:\"air quality\" AND (all:review OR all:overview)", "subtopic": "CTM综述"},
+  {"q": "all:CAMS AND all:\"air quality\" AND all:forecast", "subtopic": "CAMS预报"},
+  {"q": "all:\"atmospheric chemistry\" AND all:\"air pollution\" AND (all:review OR all:tutorial)", "subtopic": "大气化学"}
+]

@@ -1,0 +1,20 @@
+{
+ "id": "2605.05854",
+ "title": "AirQualityBench: A Realistic Evaluation Benchmark for Global Air Quality Forecasting",
+ "authors": [
+  "Xing Xu",
+  "Xu Wang",
+  "Yudong Zhang",
+  "Huilin Zhao",
+  "Zhengyang Zhou",
+  "Yang Wang"
+ ],
+ "v1_date": "2026-05-07",
+ "latest_version": 1,
+ "latest_date": "2026-05-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Air-quality forecasting models are commonly evaluated on regional, preprocessed, and normalized datasets, where missing observations are removed or artificially completed. Such protocols simplify comparison but hide the conditions that dominate real monitoring networks: uneven global coverage, structured missingness, heterogeneous pollutant scales, and deployment cost. We introduce \\textbf{AirQualityBench}, a global multi-pollutant benchmark designed to evaluate forecasting models under these realistic conditions. The benchmark contains hourly observations from 3,720 monitoring stations over 2021--2025, covers six major pollutants, and preserves provider-native observation masks. Rather than imputing a dense data tensor, AirQualityBench exposes missingness as part of the forecasting problem and reports errors on valid future observations after inverse transformation to physical concentration scales. Evaluating representative spatio-temporal models under this unified protocol shows that strong performance on sanitized datasets does not reliably transfer to global, fragmented monitoring streams. AirQualityBench therefore serves as a realistic testbed for scalable, mask-aware, and physically interpretable air-quality forecasting. All benchmark data, code, evaluation scripts, and baseline implementations are available at \\href{https://github.com/Star-Learning/AirQualityBench}{GitHub}.",
+ "primary": "cs.AI"
+}

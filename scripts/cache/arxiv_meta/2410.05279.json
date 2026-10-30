@@ -1,0 +1,20 @@
+{
+ "id": "2410.05279",
+ "title": "Wavelet analysis and forecast of pollutants in Puebla City, Mexico",
+ "authors": [
+  "J. A. Martínez-Cadena",
+  "J. M. Sánchez-Cerritos",
+  "A. Marin-Lopez",
+  "J. Delgado-Fernández",
+  "I. Fuentecilla-Carcamo",
+  "E. Varela-Carlos"
+ ],
+ "v1_date": "2024-09-25",
+ "latest_version": 1,
+ "latest_date": "2024-09-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This article presents a detailed analysis of atmospheric pollutants in Puebla City, Mexico, based on data collected between 2016 and 2024. The research focuses on the daily variation of six major pollutants: ozone (O$_3$), particles smaller than 10 microns (PM10), particles smaller than 2.5 microns (PM2.5), sulfur dioxide (SO$_2$), and nitrogen dioxide (NO$_2$). The Mann-Kendall test, Innovate Trend, and Wavelet Transform Analysis were applied to identify significant trends and seasonal patterns. The results indicate an increase in the levels of O$_3$, SO$_2$, and NO$_2$, while the levels of PM10, and PM2.5 have shown a decrease. The study also employs the Prophet Forecasting Model to predict PM2.5 and PM10 concentrations for the year 2022, demonstrating that the model's accuracy increases as the analysis extends over longer periods.",
+ "primary": "physics.soc-ph"
+}
