@@ -1,0 +1,20 @@
+{
+ "status": "verified",
+ "set": "projects",
+ "title": "pyaqsapi: U.S. EPA AQS API Python wrapper (official)",
+ "files": [
+  {
+   "path": "projects/USEPA_pyaqsapi_en",
+   "url": "https://github.com/USEPA/pyaqsapi",
+   "commit": "3a0bb4b28532c938e4db7f5cd43769478071f44a",
+   "files": 136,
+   "archive_sha256": "c931811d18f77b1207fc13dcee873d2687cb5a098650edf0a4b1d5048a82a1a2",
+   "bytes": 290707
+  }
+ ],
+ "commit": "3a0bb4b28532c938e4db7f5cd43769478071f44a",
+ "license_files": [
+  "LICENSE.rst"
+ ],
+ "note": "官方仓库快照 commit 3a0bb4b28532：归档 zip 完整性通过，解压 136 个文件（0 个 notebook）；应有文件已见 ['README.rst']；许可证文件 ['LICENSE.rst']；未发现 LFS 指针文件"
+}

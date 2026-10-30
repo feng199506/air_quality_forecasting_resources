@@ -1,0 +1,15 @@
+{
+ "status": "verified",
+ "set": "software",
+ "title": "NOAA National Air Quality Forecast Capability public forecast portal",
+ "files": [
+  {
+   "path": "software_docs/NOAA_NAQFC_public_forecast_html_en",
+   "url": "https://airquality.weather.gov/",
+   "html_pages": 1,
+   "files": 24,
+   "bytes": 801792
+  }
+ ],
+ "note": "官方 HTML，1 个页面全部 HTTP 200 且正文 ≥ 300 字符；wget 离线保存（页面资源、链接改写），共 24 个文件；页面清单 PAGES_en.txt"
+}

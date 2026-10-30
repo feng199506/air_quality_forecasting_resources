@@ -1,0 +1,20 @@
+{
+ "status": "verified",
+ "set": "projects",
+ "title": "MET Model Evaluation Tools (DTC official)",
+ "files": [
+  {
+   "path": "projects/dtcenter_MET_en",
+   "url": "https://github.com/dtcenter/MET",
+   "commit": "4f0c13abb02ba1b85bbe5d43642f1661c8c73c97",
+   "files": 2899,
+   "archive_sha256": "c11c586e1e8ccccad8ff305f6d15605b10461276c1266c3c78940cbe9d40ba4c",
+   "bytes": 101397421
+  }
+ ],
+ "commit": "4f0c13abb02ba1b85bbe5d43642f1661c8c73c97",
+ "license_files": [
+  "LICENSE.md"
+ ],
+ "note": "官方仓库快照 commit 4f0c13abb02b：归档 zip 完整性通过，解压 2899 个文件（0 个 notebook）；应有文件已见 ['README.md']；许可证文件 ['LICENSE.md']；未发现 LFS 指针文件"
+}

@@ -1,0 +1,15 @@
+{
+ "status": "verified",
+ "set": "books",
+ "title": "HYSPLIT User's Guide (NOAA Air Resources Laboratory, current bundled PDF)",
+ "files": [
+  {
+   "path": "books/HYSPLIT_UsersGuide_en.pdf",
+   "url": "https://www.arl.noaa.gov/wp-content/uploads/documents/reports/hysplit_user_guide.pdf",
+   "pages": 319,
+   "sha256": "b3859f82a821978110c3f131da22d913484a9cd315763b1dea2e8ae621ce7b5f",
+   "bytes": 16885493
+  }
+ ],
+ "note": "HTTP 200；%PDF；pypdf 可解析 319 页；名称短语已见"
+}

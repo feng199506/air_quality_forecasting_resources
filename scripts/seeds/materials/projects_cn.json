@@ -2,15 +2,33 @@
  {
   "mid": "P-01",
   "group": "05",
-  "related": ["06", "07"],
+  "related": [
+   "06",
+   "07"
+  ],
   "kind": "git",
   "name": "yoshall_AirFormer",
   "lang": "en",
   "repo": "https://github.com/yoshall/AirFormer",
   "ref": "HEAD",
-  "max_mb": 80,
-  "must_contain": ["src/models/airformer.py", "experiments/airformer/main.py", "README.md"],
-  "drop_globs": ["*.pt", "*.pth", "*.ckpt", "*.h5", "*.onnx", "*.bin", "*.pkl.gz", "*.npy", "*.npz", "*.csv.gz"],
+  "max_mb": 120,
+  "must_contain": [
+   "src/models/airformer.py",
+   "experiments/airformer/main.py",
+   "README.md"
+  ],
+  "drop_globs": [
+   "*.pt",
+   "*.pth",
+   "*.ckpt",
+   "*.h5",
+   "*.onnx",
+   "*.bin",
+   "*.pkl.gz",
+   "*.npy",
+   "*.npz",
+   "*.csv.gz"
+  ],
   "title": "AirFormer official PyTorch implementation (AAAI-23)",
   "authors": "Yuxuan Liang; Yutong Xia; others",
   "institution": "National University of Singapore / JD iCity",
@@ -25,15 +43,33 @@
  {
   "mid": "P-02",
   "group": "08",
-  "related": ["05", "06"],
+  "related": [
+   "05",
+   "06"
+  ],
   "kind": "git",
   "name": "kethmih_AirPhyNet",
   "lang": "en",
   "repo": "https://github.com/kethmih/AirPhyNet",
   "ref": "HEAD",
   "max_mb": 80,
-  "must_contain": ["main.py", "requirements.txt", "README.md"],
-  "drop_globs": ["*.pt", "*.pth", "*.ckpt", "*.h5", "*.onnx", "*.bin", "*.pkl.gz", "*.npy", "*.npz", "*.csv.gz"],
+  "must_contain": [
+   "main.py",
+   "requirements.txt",
+   "README.md"
+  ],
+  "drop_globs": [
+   "*.pt",
+   "*.pth",
+   "*.ckpt",
+   "*.h5",
+   "*.onnx",
+   "*.bin",
+   "*.pkl.gz",
+   "*.npy",
+   "*.npz",
+   "*.csv.gz"
+  ],
   "title": "AirPhyNet official PyTorch implementation (ICLR 2024)",
   "authors": "Kethmi Hirushini Hettige; Jiahao Ji; others",
   "institution": "NTU / Beihang",
@@ -48,15 +84,31 @@
  {
   "mid": "P-03",
   "group": "06",
-  "related": ["05", "10"],
+  "related": [
+   "05",
+   "10"
+  ],
   "kind": "git",
   "name": "shuowang_PM25_GNN",
   "lang": "en",
   "repo": "https://github.com/shuowang-ai/PM2.5-GNN",
   "ref": "HEAD",
   "max_mb": 80,
-  "must_contain": ["README.md"],
-  "drop_globs": ["*.pt", "*.pth", "*.ckpt", "*.h5", "*.onnx", "*.bin", "*.pkl.gz", "*.npy", "*.npz", "*.csv.gz"],
+  "must_contain": [
+   "README.md"
+  ],
+  "drop_globs": [
+   "*.pt",
+   "*.pth",
+   "*.ckpt",
+   "*.h5",
+   "*.onnx",
+   "*.bin",
+   "*.pkl.gz",
+   "*.npy",
+   "*.npz",
+   "*.csv.gz"
+  ],
   "title": "PM2.5-GNN / KnowAir official implementation",
   "authors": "Shuo Wang; others",
   "institution": "PM2.5-GNN authors",
@@ -71,15 +123,31 @@
  {
   "mid": "P-04",
   "group": "08",
-  "related": ["05", "06"],
+  "related": [
+   "05",
+   "06"
+  ],
   "kind": "git",
   "name": "decisionintelligence_AirDualODE",
   "lang": "en",
   "repo": "https://github.com/decisionintelligence/Air-DualODE",
   "ref": "HEAD",
   "max_mb": 80,
-  "must_contain": ["README.md"],
-  "drop_globs": ["*.pt", "*.pth", "*.ckpt", "*.h5", "*.onnx", "*.bin", "*.pkl.gz", "*.npy", "*.npz", "*.csv.gz"],
+  "must_contain": [
+   "README.md"
+  ],
+  "drop_globs": [
+   "*.pt",
+   "*.pth",
+   "*.ckpt",
+   "*.h5",
+   "*.onnx",
+   "*.bin",
+   "*.pkl.gz",
+   "*.npy",
+   "*.npz",
+   "*.csv.gz"
+  ],
   "title": "Air-DualODE official implementation (ICLR 2025)",
   "authors": "Jindong Tian; Yuxuan Liang; others",
   "institution": "East China Normal University / HKUST(GZ)",
@@ -94,15 +162,30 @@
  {
   "mid": "P-05",
   "group": "06",
-  "related": ["05"],
+  "related": [
+   "05"
+  ],
   "kind": "git",
   "name": "Friger_HighAir",
   "lang": "en",
   "repo": "https://github.com/Friger/HighAir",
   "ref": "HEAD",
   "max_mb": 80,
-  "must_contain": ["README.md"],
-  "drop_globs": ["*.pt", "*.pth", "*.ckpt", "*.h5", "*.onnx", "*.bin", "*.pkl.gz", "*.npy", "*.npz", "*.csv.gz"],
+  "must_contain": [
+   "README.md"
+  ],
+  "drop_globs": [
+   "*.pt",
+   "*.pth",
+   "*.ckpt",
+   "*.h5",
+   "*.onnx",
+   "*.bin",
+   "*.pkl.gz",
+   "*.npy",
+   "*.npz",
+   "*.csv.gz"
+  ],
   "title": "HighAir official implementation (hierarchical GNN air quality forecasting)",
   "authors": "Jiahui Xu; Ling Chen; others",
   "institution": "Zhejiang University",
@@ -117,15 +200,31 @@
  {
   "mid": "P-06",
   "group": "08",
-  "related": ["11", "10"],
+  "related": [
+   "11",
+   "10"
+  ],
   "kind": "git",
   "name": "shuowang_PCDCNet",
   "lang": "en",
   "repo": "https://github.com/shuowang-ai/PCDCNet",
   "ref": "HEAD",
   "max_mb": 80,
-  "must_contain": ["README.md"],
-  "drop_globs": ["*.pt", "*.pth", "*.ckpt", "*.h5", "*.onnx", "*.bin", "*.pkl.gz", "*.npy", "*.npz", "*.csv.gz"],
+  "must_contain": [
+   "README.md"
+  ],
+  "drop_globs": [
+   "*.pt",
+   "*.pth",
+   "*.ckpt",
+   "*.h5",
+   "*.onnx",
+   "*.bin",
+   "*.pkl.gz",
+   "*.npy",
+   "*.npz",
+   "*.csv.gz"
+  ],
   "title": "PCDCNet official implementation (physical-chemical surrogate forecasting)",
   "authors": "Shuo Wang; Yun Cheng; others",
   "institution": "PCDCNet authors",
@@ -140,15 +239,30 @@
  {
   "mid": "P-07",
   "group": "05",
-  "related": ["06"],
+  "related": [
+   "06"
+  ],
   "kind": "git",
   "name": "GestaltCogTeam_MGSFformer",
   "lang": "en",
   "repo": "https://github.com/GestaltCogTeam/MGSFformer",
   "ref": "HEAD",
   "max_mb": 80,
-  "must_contain": ["README.md"],
-  "drop_globs": ["*.pt", "*.pth", "*.ckpt", "*.h5", "*.onnx", "*.bin", "*.pkl.gz", "*.npy", "*.npz", "*.csv.gz"],
+  "must_contain": [
+   "README.md"
+  ],
+  "drop_globs": [
+   "*.pt",
+   "*.pth",
+   "*.ckpt",
+   "*.h5",
+   "*.onnx",
+   "*.bin",
+   "*.pkl.gz",
+   "*.npy",
+   "*.npz",
+   "*.csv.gz"
+  ],
   "title": "MGSFformer official implementation (Information Fusion)",
   "authors": "Chengqing Yu; Fei Wang; others",
   "institution": "GestaltCogTeam",
@@ -163,15 +277,34 @@
  {
   "mid": "P-08",
   "group": "09",
-  "related": ["10", "03"],
+  "related": [
+   "10",
+   "03"
+  ],
   "kind": "git",
   "name": "davidcarslaw_openair",
   "lang": "en",
   "repo": "https://github.com/davidcarslaw/openair",
   "ref": "HEAD",
   "max_mb": 80,
-  "must_contain": ["DESCRIPTION", "README.md"],
-  "drop_globs": ["*.pt", "*.pth", "*.ckpt", "*.h5", "*.onnx", "*.bin", "*.pkl.gz", "*.npy", "*.npz", "*.csv.gz", "*.rda", "*.RData"],
+  "must_contain": [
+   "DESCRIPTION",
+   "README.md"
+  ],
+  "drop_globs": [
+   "*.pt",
+   "*.pth",
+   "*.ckpt",
+   "*.h5",
+   "*.onnx",
+   "*.bin",
+   "*.pkl.gz",
+   "*.npy",
+   "*.npz",
+   "*.csv.gz",
+   "*.rda",
+   "*.RData"
+  ],
   "title": "openair R package official source",
   "authors": "David Carslaw; Karl Ropkins",
   "institution": "University of York",
@@ -186,15 +319,26 @@
  {
   "mid": "P-09",
   "group": "09",
-  "related": ["11"],
+  "related": [
+   "11"
+  ],
   "kind": "git",
   "name": "openaq_openaq_python",
   "lang": "en",
   "repo": "https://github.com/openaq/openaq-python",
   "ref": "HEAD",
   "max_mb": 40,
-  "must_contain": ["README.md"],
-  "drop_globs": ["*.pt", "*.pth", "*.ckpt", "*.h5", "*.onnx", "*.bin"],
+  "must_contain": [
+   "README.md"
+  ],
+  "drop_globs": [
+   "*.pt",
+   "*.pth",
+   "*.ckpt",
+   "*.h5",
+   "*.onnx",
+   "*.bin"
+  ],
   "title": "OpenAQ official Python client",
   "authors": "OpenAQ",
   "institution": "OpenAQ",
@@ -209,15 +353,26 @@
  {
   "mid": "P-10",
   "group": "09",
-  "related": ["11"],
+  "related": [
+   "11"
+  ],
   "kind": "git",
   "name": "USEPA_pyaqsapi",
   "lang": "en",
   "repo": "https://github.com/USEPA/pyaqsapi",
   "ref": "HEAD",
   "max_mb": 40,
-  "must_contain": ["README.md"],
-  "drop_globs": ["*.pt", "*.pth", "*.ckpt", "*.h5", "*.onnx", "*.bin"],
+  "must_contain": [
+   "README.rst"
+  ],
+  "drop_globs": [
+   "*.pt",
+   "*.pth",
+   "*.ckpt",
+   "*.h5",
+   "*.onnx",
+   "*.bin"
+  ],
   "title": "pyaqsapi: U.S. EPA AQS API Python wrapper (official)",
   "authors": "U.S. EPA",
   "institution": "U.S. EPA",
@@ -232,15 +387,27 @@
  {
   "mid": "P-11",
   "group": "10",
-  "related": ["07", "03"],
+  "related": [
+   "07",
+   "03"
+  ],
   "kind": "git",
   "name": "scikit_learn_contrib_MAPIE",
   "lang": "en",
   "repo": "https://github.com/scikit-learn-contrib/MAPIE",
   "ref": "HEAD",
   "max_mb": 60,
-  "must_contain": ["README.md"],
-  "drop_globs": ["*.pt", "*.pth", "*.ckpt", "*.h5", "*.onnx", "*.bin"],
+  "must_contain": [
+   "README.md"
+  ],
+  "drop_globs": [
+   "*.pt",
+   "*.pth",
+   "*.ckpt",
+   "*.h5",
+   "*.onnx",
+   "*.bin"
+  ],
   "title": "MAPIE: Model Agnostic Prediction Interval Estimator (conformal prediction)",
   "authors": "MAPIE developers",
   "institution": "scikit-learn-contrib",
@@ -255,15 +422,29 @@
  {
   "mid": "P-12",
   "group": "10",
-  "related": ["08"],
+  "related": [
+   "08"
+  ],
   "kind": "git",
   "name": "dtcenter_MET",
   "lang": "en",
   "repo": "https://github.com/dtcenter/MET",
   "ref": "HEAD",
   "max_mb": 120,
-  "must_contain": ["README.md"],
-  "drop_globs": ["*.pt", "*.pth", "*.ckpt", "*.h5", "*.onnx", "*.bin", "*.nc", "*.grb", "*.grib2"],
+  "must_contain": [
+   "README.md"
+  ],
+  "drop_globs": [
+   "*.pt",
+   "*.pth",
+   "*.ckpt",
+   "*.h5",
+   "*.onnx",
+   "*.bin",
+   "*.nc",
+   "*.grb",
+   "*.grib2"
+  ],
   "title": "MET Model Evaluation Tools (DTC official)",
   "authors": "Developmental Testbed Center",
   "institution": "NCAR/NOAA DTC",
@@ -278,15 +459,28 @@
  {
   "mid": "P-13",
   "group": "10",
-  "related": ["08", "11"],
+  "related": [
+   "08",
+   "11"
+  ],
   "kind": "git",
   "name": "noaa_oar_arl_MONET",
   "lang": "en",
   "repo": "https://github.com/noaa-oar-arl/monet",
   "ref": "HEAD",
   "max_mb": 60,
-  "must_contain": ["README.md"],
-  "drop_globs": ["*.pt", "*.pth", "*.ckpt", "*.h5", "*.onnx", "*.bin", "*.nc"],
+  "must_contain": [
+   "README.md"
+  ],
+  "drop_globs": [
+   "*.pt",
+   "*.pth",
+   "*.ckpt",
+   "*.h5",
+   "*.onnx",
+   "*.bin",
+   "*.nc"
+  ],
   "title": "MONET: Model and Observation Evaluation Toolkit (NOAA ARL)",
   "authors": "NOAA ARL",
   "institution": "NOAA Air Resources Laboratory",
@@ -301,15 +495,26 @@
  {
   "mid": "P-14",
   "group": "11",
-  "related": ["09"],
+  "related": [
+   "09"
+  ],
   "kind": "git",
   "name": "openaq_openaq_api_v3",
   "lang": "en",
   "repo": "https://github.com/openaq/openaq-api-v3",
   "ref": "HEAD",
   "max_mb": 80,
-  "must_contain": ["README.md"],
-  "drop_globs": ["*.pt", "*.pth", "*.ckpt", "*.h5", "*.onnx", "*.bin"],
+  "must_contain": [
+   "README.md"
+  ],
+  "drop_globs": [
+   "*.pt",
+   "*.pth",
+   "*.ckpt",
+   "*.h5",
+   "*.onnx",
+   "*.bin"
+  ],
   "title": "OpenAQ API v3 official service source",
   "authors": "OpenAQ",
   "institution": "OpenAQ",
@@ -324,15 +529,28 @@
  {
   "mid": "P-15",
   "group": "03",
-  "related": ["04", "10"],
+  "related": [
+   "04",
+   "10"
+  ],
   "kind": "git",
   "name": "statsmodels_statsmodels",
   "lang": "en",
   "repo": "https://github.com/statsmodels/statsmodels",
   "ref": "HEAD",
   "max_mb": 120,
-  "must_contain": ["README.rst", "statsmodels/tsa/"],
-  "drop_globs": ["*.pt", "*.pth", "*.ckpt", "*.h5", "*.onnx", "*.bin"],
+  "must_contain": [
+   "README.md",
+   "statsmodels/tsa/"
+  ],
+  "drop_globs": [
+   "*.pt",
+   "*.pth",
+   "*.ckpt",
+   "*.h5",
+   "*.onnx",
+   "*.bin"
+  ],
   "title": "statsmodels (ARIMA/SARIMAX/state space reference library)",
   "authors": "statsmodels developers",
   "institution": "statsmodels",
@@ -347,15 +565,27 @@
  {
   "mid": "P-16",
   "group": "07",
-  "related": ["03"],
+  "related": [
+   "03"
+  ],
   "kind": "git",
   "name": "properscoring_or_scores",
   "lang": "en",
   "repo": "https://github.com/nci/scores",
   "ref": "HEAD",
   "max_mb": 60,
-  "must_contain": ["README.md"],
-  "drop_globs": ["*.pt", "*.pth", "*.ckpt", "*.h5", "*.onnx", "*.bin", "*.nc"],
+  "must_contain": [
+   "README.md"
+  ],
+  "drop_globs": [
+   "*.pt",
+   "*.pth",
+   "*.ckpt",
+   "*.h5",
+   "*.onnx",
+   "*.bin",
+   "*.nc"
+  ],
   "title": "scores: verification metrics including CRPS (Australian Climate Service / NCI)",
   "authors": "Australian Climate Service / NCI contributors",
   "institution": "NCI / Australian Bureau of Meteorology related",
@@ -370,15 +600,28 @@
  {
   "mid": "P-17",
   "group": "05",
-  "related": ["06"],
+  "related": [
+   "06"
+  ],
   "kind": "git",
   "name": "nnzhan_Graph_WaveNet",
   "lang": "en",
   "repo": "https://github.com/nnzhan/Graph-WaveNet",
   "ref": "HEAD",
   "max_mb": 40,
-  "must_contain": ["README.md"],
-  "drop_globs": ["*.pt", "*.pth", "*.ckpt", "*.h5", "*.onnx", "*.bin", "*.npz", "*.npy"],
+  "must_contain": [
+   "README.md"
+  ],
+  "drop_globs": [
+   "*.pt",
+   "*.pth",
+   "*.ckpt",
+   "*.h5",
+   "*.onnx",
+   "*.bin",
+   "*.npz",
+   "*.npy"
+  ],
   "title": "Graph WaveNet official implementation (often used as AQ spatiotemporal baseline)",
   "authors": "Zonghan Wu; Shirui Pan; others",
   "institution": "University of Technology Sydney",
@@ -393,15 +636,28 @@
  {
   "mid": "P-18",
   "group": "06",
-  "related": ["05"],
+  "related": [
+   "05"
+  ],
   "kind": "git",
   "name": "LeiBAI_AGCRN",
   "lang": "en",
   "repo": "https://github.com/LeiBAI/AGCRN",
   "ref": "HEAD",
   "max_mb": 40,
-  "must_contain": ["README.md"],
-  "drop_globs": ["*.pt", "*.pth", "*.ckpt", "*.h5", "*.onnx", "*.bin", "*.npz", "*.npy"],
+  "must_contain": [
+   "readme.md"
+  ],
+  "drop_globs": [
+   "*.pt",
+   "*.pth",
+   "*.ckpt",
+   "*.h5",
+   "*.onnx",
+   "*.bin",
+   "*.npz",
+   "*.npy"
+  ],
   "title": "AGCRN official implementation (adaptive graph convolutional recurrent network)",
   "authors": "Lei Bai; Lina Yao; others",
   "institution": "UNSW",
@@ -416,15 +672,23 @@
  {
   "mid": "P-19",
   "group": "11",
-  "related": ["09"],
+  "related": [
+   "09"
+  ],
   "kind": "git",
   "name": "davidcarslaw_worldmet",
   "lang": "en",
   "repo": "https://github.com/davidcarslaw/worldmet",
   "ref": "HEAD",
   "max_mb": 30,
-  "must_contain": ["README.md"],
-  "drop_globs": ["*.pt", "*.pth", "*.nc"],
+  "must_contain": [
+   "README.md"
+  ],
+  "drop_globs": [
+   "*.pt",
+   "*.pth",
+   "*.nc"
+  ],
   "title": "worldmet: NOAA ISD meteorological data access for air quality analysis",
   "authors": "David Carslaw",
   "institution": "University of York",
@@ -439,15 +703,27 @@
  {
   "mid": "P-20",
   "group": "04",
-  "related": ["03", "10"],
+  "related": [
+   "03",
+   "10"
+  ],
   "kind": "git",
   "name": "microsoft_LightGBM",
   "lang": "en",
   "repo": "https://github.com/microsoft/LightGBM",
   "ref": "HEAD",
   "max_mb": 80,
-  "must_contain": ["README.md"],
-  "drop_globs": ["*.pt", "*.pth", "*.ckpt", "*.h5", "*.onnx", "*.bin"],
+  "must_contain": [
+   "README.md"
+  ],
+  "drop_globs": [
+   "*.pt",
+   "*.pth",
+   "*.ckpt",
+   "*.h5",
+   "*.onnx",
+   "*.bin"
+  ],
   "title": "LightGBM official library (tree-model baseline toolkit)",
   "authors": "Microsoft LightGBM contributors",
   "institution": "Microsoft",

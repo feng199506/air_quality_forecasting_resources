@@ -1,0 +1,20 @@
+{
+ "status": "verified",
+ "set": "projects",
+ "title": "statsmodels (ARIMA/SARIMAX/state space reference library)",
+ "files": [
+  {
+   "path": "projects/statsmodels_statsmodels_en",
+   "url": "https://github.com/statsmodels/statsmodels",
+   "commit": "e82bcf02f2cb7fd915264f6af79a51ca394965e8",
+   "files": 2302,
+   "archive_sha256": "4fac80f6902123fb33428d501ac94cfbed2a4c014f18c7838bccdf9139ca821a",
+   "bytes": 17299840
+  }
+ ],
+ "commit": "e82bcf02f2cb7fd915264f6af79a51ca394965e8",
+ "license_files": [
+  "LICENSE.txt"
+ ],
+ "note": "官方仓库快照 commit e82bcf02f2cb：归档 zip 完整性通过，解压 2302 个文件（83 个 notebook）；应有文件已见 ['README.md', 'statsmodels/tsa/']；许可证文件 ['LICENSE.txt']；未发现 LFS 指针文件"
+}

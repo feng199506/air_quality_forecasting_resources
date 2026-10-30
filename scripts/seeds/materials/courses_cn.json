@@ -134,10 +134,8 @@
   "name": "Harvard_Jacob_AtmosphericChemistry_lectures",
   "lang": "en",
   "index_url": "https://acmg.seas.harvard.edu/education/",
-  "extra_pages": [
-    "https://acmg.seas.harvard.edu/education/2nd-edition"
-  ],
-  "min_files": 2,
+  "extra_pages": [],
+  "min_files": 1,
   "min_chars": 400,
   "allow_short": 1,
   "title_phrase": "Atmospheric Chemistry",
@@ -170,7 +168,7 @@
   "extra_pages": [
     "https://www.epa.gov/cmaq/access-cmaq-source-code"
   ],
-  "min_files": 3,
+  "min_files": 2,
   "min_chars": 600,
   "allow_short": 1,
   "title_phrase": "CMAQ",
@@ -201,8 +199,7 @@
   "lang": "en",
   "index_url": "https://atmosphere.copernicus.eu/air-quality",
   "extra_pages": [
-    "https://atmosphere.copernicus.eu/",
-    "https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-europe-air-quality-forecasts?tab=overview"
+    "https://atmosphere.copernicus.eu/"
   ],
   "min_files": 2,
   "min_chars": 400,
@@ -259,5 +256,72 @@
   "reason": "美国 AQI 公众说明与技术文件入口，必须与浓度预报目标分开。",
   "summary": "AQI 基础、计算器与 TAD 下载页。覆盖范围见 PAGES。",
   "summary_basis": "AirNow 页面"
+ },
+ {
+  "mid": "C-09",
+  "group": "11",
+  "related": ["08", "02"],
+  "kind": "html",
+  "name": "NOAA_AirQualityForecast",
+  "lang": "en",
+  "index_url": "https://airquality.weather.gov/",
+  "extra_pages": [
+    "https://www.weather.gov/sti/stimodeling_airquality_forecasting"
+  ],
+  "min_files": 1,
+  "min_chars": 300,
+  "allow_short": 1,
+  "title_phrase": "Air Quality",
+  "title": "NOAA National Air Quality Forecast Capability public forecast pages",
+  "authors": "NOAA / NWS",
+  "institution": "NOAA National Weather Service",
+  "code": "NAQFC",
+  "term": "current public pages",
+  "orig_year": "2021",
+  "edition": "NWS air quality forecast pages snapshot",
+  "edition_year": "2026",
+  "level": "工程/公众",
+  "pack_type": "业务预报服务页",
+  "landing": "https://airquality.weather.gov/",
+  "license": "美国政府公有领域资料（以页面为准）",
+  "prereq": "无",
+  "difficulty": "入门",
+  "reason": "美国业务空气质量预报公众入口，对应 NAQFC 72 小时产品。",
+  "summary": "NWS 空气质量预报图与 STI 建模说明。覆盖范围见 PAGES。",
+  "summary_basis": "NWS 预报页"
+ },
+ {
+  "mid": "C-10",
+  "group": "08",
+  "related": ["01"],
+  "kind": "html",
+  "name": "CMAS_CMAQ_center",
+  "lang": "en",
+  "index_url": "https://www.cmascenter.org/cmaq/",
+  "extra_pages": [
+    "https://www.cmascenter.org/"
+  ],
+  "min_files": 1,
+  "min_chars": 300,
+  "allow_short": 1,
+  "title_phrase": "CMAQ",
+  "title": "CMAS Center CMAQ community pages (training and model hub)",
+  "authors": "CMAS Center / UNC / EPA community",
+  "institution": "CMAS Center",
+  "code": "CMAQ/CMAS",
+  "term": "current public pages",
+  "orig_year": "1999",
+  "edition": "CMAS CMAQ hub snapshot",
+  "edition_year": "2026",
+  "level": "工程",
+  "pack_type": "社区培训与模式入口",
+  "landing": "https://www.cmascenter.org/cmaq/",
+  "license": "见 CMAS 站点",
+  "prereq": "大气化学基础",
+  "difficulty": "中级",
+  "reason": "CMAQ 社区培训、会议与科学文档入口。",
+  "summary": "CMAS CMAQ 主页。覆盖范围见 PAGES。",
+  "summary_basis": "CMAS 页面"
  }
 ]
+

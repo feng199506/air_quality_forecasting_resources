@@ -1,0 +1,20 @@
+{
+ "status": "verified",
+ "set": "projects",
+ "title": "AGCRN official implementation (adaptive graph convolutional recurrent network)",
+ "files": [
+  {
+   "path": "projects/LeiBAI_AGCRN_en",
+   "url": "https://github.com/LeiBAI/AGCRN",
+   "commit": "7fbbf2aeb099242098a3cf482b55cd45d7295c28",
+   "files": 20,
+   "archive_sha256": "9a0a5739c92fd635768ce572c8b4363e940928f88010a70c509cbe49294d5ea3",
+   "bytes": 20008
+  }
+ ],
+ "commit": "7fbbf2aeb099242098a3cf482b55cd45d7295c28",
+ "license_files": [
+  "LICENSE"
+ ],
+ "note": "官方仓库快照 commit 7fbbf2aeb099：归档 zip 完整性通过，解压 20 个文件（0 个 notebook）；应有文件已见 ['readme.md']；许可证文件 ['LICENSE']；未发现 LFS 指针文件"
+}

@@ -1,0 +1,6 @@
+{
+ "status": "failed",
+ "set": "projects",
+ "note": "git ls-remote 失败：fatal: could not read Username for 'https://github.com': terminal prompts disabled",
+ "title": "OpenAQ API v3 official service source"
+}

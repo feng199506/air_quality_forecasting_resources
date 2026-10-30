@@ -1,0 +1,15 @@
+{
+ "status": "verified",
+ "set": "courses",
+ "title": "U.S. AirNow AQI basics, calculator and technical assistance document landing pages",
+ "files": [
+  {
+   "path": "courses/EPA_AirNow_AQI_publications_html_en",
+   "url": "https://www.airnow.gov/publications/air-quality-index/technical-assistance-document-for-reporting-the-daily-aqi/",
+   "html_pages": 3,
+   "files": 44,
+   "bytes": 1275325
+  }
+ ],
+ "note": "官方 HTML，3 个页面全部 HTTP 200 且正文 ≥ 400 字符；wget 离线保存（页面资源、链接改写），共 44 个文件；页面清单 PAGES_en.txt"
+}

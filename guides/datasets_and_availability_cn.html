@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8"><title>数据与可得性</title>
+<style>body{font-family:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",sans-serif;max-width:1100px;margin:2em auto;
+padding:0 1em;line-height:1.6;color:#222}table{border-collapse:collapse;margin:1em 0;font-size:14px}th,td{border:1px solid #ccc;
+padding:4px 8px;vertical-align:top}th{background:#f3f3f3}code{background:#f5f5f5;padding:0 3px}pre{background:#f5f5f5;padding:8px;
+overflow:auto}a{color:#0645ad}.muted{color:#888}.nav{font-size:14px;margin-bottom:1em}</style>
+</head><body>
+<div class="nav"><a href="../index_cn.html">← 离线首页 index_cn.html</a></div>
+<h1>数据与可得性</h1>
+<p>本轮只保存说明、字段、许可与接口，不批量下载观测或网格。明细见 <a href="../datasets_catalog_cn.csv"><code>datasets_catalog_cn.csv</code></a>。官方 HTML 范围见各 <code>PAGES_en.txt</code>。</p>
+<h2>地面监测（发报时刻可能可用）</h2>
+<table><thead><tr><th>编号</th><th>名称</th><th>说明页（已存文档）</th><th>要点</th></tr></thead><tbody><tr><td>D-01</td><td>OpenAQ</td><td>S-01、项目 P-09</td><td>全球聚合；单位/时区/频率随源；需密钥</td></tr><tr><td>D-02</td><td>EPA AQS / AirNow</td><td>S-02、S-11、P-10</td><td>AQS 认证值滞后；AirNow 为初步值与预报；不可把认证库当发布时刻数据</td></tr><tr><td>D-03</td><td>EEA / 欧洲 AQI</td><td>S-06</td><td>欧洲指数公式、小时平均、缺测用 CAMS 订正填补；与美国 AQI 不同</td></tr><tr><td>D-10</td><td>NAQFC 公众预报</td><td>S-12、论文 P02-020</td><td>业务 O3/PM2.5 网格预报</td></tr></tbody></table>
+<p>中国生态环境监测网公开接口本轮未取得可核验离线文档，列为缺口。</p>
+<h2>数值预报与成分场</h2>
+<table><thead><tr><th>编号</th><th>名称</th><th>文档</th><th>发报时刻</th></tr></thead><tbody><tr><td>D-04</td><td>CAMS 欧洲空气质量预报</td><td>S-03、P02-021</td><td>NRT 预报场可用；再分析另计</td></tr><tr><td>D-05</td><td>CAMS 全球成分预报</td><td>S-03</td><td>全球网格，分辨率低于区域</td></tr><tr><td>D-06</td><td>GEOS-CF / GEOS-FP</td><td>S-05（GEOS-Chem 内核文档首页）</td><td>预报与分析须分开</td></tr></tbody></table>
+<p>单位：CAMS 下载常为 kg m-3，必须换算。时效：区域产品约 97 h。集合：11 模式 ENSEMBLE。</p>
+<h2>事后场（默认不可部署）</h2>
+<table><thead><tr><th>编号</th><th>名称</th><th>文档</th><th>说明</th></tr></thead><tbody><tr><td>D-07</td><td>MERRA-2 气溶胶诊断</td><td>S-10</td><td>再分析</td></tr><tr><td>D-08</td><td>ERA5 单层</td><td>S-08</td><td>PCDCNet/KnowAir 常用；滞后约 5 日（ERA5T 仍非业务预报）</td></tr><tr><td>D-09</td><td>KnowAir / KnowAir-V2</td><td>P-03、P-06 README</td><td>研究基准；V2 含 PM2.5 与 O3，气象为 ERA5；大型 nc/npy 未下载</td></tr></tbody></table>
+<h2>AQI 与健康阈值（不可混用）</h2>
+<table><thead><tr><th>标准</th><th>本库文本</th><th>地区</th><th>生效</th></tr></thead><tbody><tr><td>美国日 AQI</td><td>B-03 EPA TAD 2018-09；C-08</td><td>美国 AirNow 报告</td><td>以 EPA 最新 TAD 为准；本库保存 2018 文本</td></tr><tr><td>欧洲 AQI</td><td>S-06 方法页</td><td>EEA 成员国站点/1 km 层</td><td>频段参考 WHO 2021 与 AAQD；缺测填补方法见该页</td></tr><tr><td>WHO 指导值</td><td>D-11 登记；<strong>B-02 PDF 未取得</strong></td><td>国际健康阈值，不是 AQI</td><td>2021 版</td></tr><tr><td>中国 HJ</td><td>未取得</td><td>不可用美国断点代替</td><td>—</td></tr></tbody></table>
+<p>平均时段：美国 O3 有 8 h/1 h 等；欧洲指数页写明五物种均用小时浓度。NowCast 与日 AQI 不同。</p>
+<h2>研究基准</h2>
+<p>KnowAir v1：约 2015–2018、184 城、3 小时、PM2.5。KnowAir-V2：2016–2023、BTHSA 228 站与 YRD 127 站、小时、PM2.5+O3、CC BY 4.0（Zenodo）。MEIC 排放另有许可，本轮不下载。AirFormer 全国数据 &gt;500 GB，仅仓库 tiny demo。AirPhyNet 北京样本在 Google Drive，未下载。</p>
+<h2>许可与访问</h2>
+<p>OpenAQ、AQS、AirNow、ADS/CDS、Earthdata 均可能要求注册或密钥。本轮不申请账号、不拉数据。修订机制：AQS 有初步值与认证值；CAMS 有 NRT 与再分析；监测网常有事后修订。</p>
+</body></html>

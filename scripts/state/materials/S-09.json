@@ -1,0 +1,15 @@
+{
+ "status": "verified",
+ "set": "software",
+ "title": "METplus verification framework documentation (DTC)",
+ "files": [
+  {
+   "path": "software_docs/METplus_verification_docs_html_en",
+   "url": "https://metplus.readthedocs.io/en/latest/",
+   "html_pages": 3,
+   "files": 46,
+   "bytes": 4713776
+  }
+ ],
+ "note": "官方 HTML，3 个页面全部 HTTP 200 且正文 ≥ 400 字符；wget 离线保存（页面资源、链接改写），共 46 个文件；页面清单 PAGES_en.txt"
+}

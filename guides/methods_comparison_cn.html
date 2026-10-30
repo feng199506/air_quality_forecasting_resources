@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8"><title>方法对照</title>
+<style>body{font-family:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",sans-serif;max-width:1100px;margin:2em auto;
+padding:0 1em;line-height:1.6;color:#222}table{border-collapse:collapse;margin:1em 0;font-size:14px}th,td{border:1px solid #ccc;
+padding:4px 8px;vertical-align:top}th{background:#f3f3f3}code{background:#f5f5f5;padding:0 3px}pre{background:#f5f5f5;padding:8px;
+overflow:auto}a{color:#0645ad}.muted{color:#888}.nav{font-size:14px;margin-bottom:1em}</style>
+</head><body>
+<div class="nav"><a href="../index_cn.html">← 离线首页 index_cn.html</a></div>
+<h1>方法对照</h1>
+<p>只比较本库已下载论文与源码。套件中的对照方法不自动算原作者实现。</p>
+<h2>统计基线</h2>
+<table><thead><tr><th>方法</th><th>适用</th><th>本库入口</th><th>注意</th></tr></thead><tbody><tr><td>持续性 / 季节持续性</td><td>任何站点小时序列的第一对照</td><td>需自行用观测实现；openair 时间平均见 P-08</td><td>不少深度学习论文未报告，评测不公平</td></tr><tr><td>ARIMA/SARIMAX/状态空间</td><td>单站、外生气象</td><td>P-15 <code>statsmodels/tsa/</code></td><td>多步常为递归；外生变量必须是发报时刻可得</td></tr><tr><td>GAM / 线性回归</td><td>可解释基线</td><td>待全文核实各论文是否公平调参</td><td>滞后特征易泄漏</td></tr><tr><td>GPR / 时空 GP</td><td>稀疏站、不确定性</td><td>P03-009、P03-010</td><td>计算成本；空间 GP 常是插值而非预报</td></tr></tbody></table>
+<h2>机器学习</h2>
+<p>树模型、随机森林、梯度提升、SVR、集成。优点是表格特征与缺失处理成熟。本库 LightGBM（P-20）仅为工具库。04 目录论文覆盖站点/城市预测与部分室内任务；室内结果不可与户外法规浓度混评。</p>
+<p>公平比较要点：同一时间切分、同一外生变量集合、同一多步协议。用未来真实气象的提升结果，不能直接对标只使用 NWP 的业务模型。</p>
+<h2>深度学习</h2>
+<p>RNN/LSTM/GRU 适合单站短临；TCN 与线性分解变体见 05 目录；Transformer 以 AirFormer（P02-001，官方代码 P-01）为代表，目标为全国站点未来 72 h。仓库含 tiny demo，完整数据未下载。</p>
+<p>基础模型适配（05 查询含 foundation model）摘要层可见，权重未下载，不声称可部署。</p>
+<h2>空间时间</h2>
+<table><thead><tr><th>结构</th><th>代表</th><th>代码</th><th>归属</th></tr></thead><tbody><tr><td>领域知识图</td><td>PM2.5-GNN / KnowAir</td><td>P-03</td><td>作者官方</td></tr><tr><td>层次城市–站点图</td><td>HighAir</td><td>P-05</td><td>作者官方</td></tr><tr><td>物理引导 GNN/ODE</td><td>AirPhyNet、Air-DualODE、PCDCNet</td><td>P-02、P-04、P-06</td><td>作者官方</td></tr><tr><td>交通图网络拿来当 AQ 对照</td><td>Graph WaveNet、AGCRN</td><td>P-17、P-18</td><td>原任务是交通</td></tr><tr><td>真实缺测协议</td><td>AirQualityBench</td><td>论文 P06-001；仓库未做本轮快照</td><td>套件方法须逐项标明实现者</td></tr></tbody></table>
+<p>无监测地区与跨城市泛化：若干 06 论文讨论迁移；SPIN 等推理仓库在 PM2.5-GNN README 中指向，本轮未另存。</p>
+<h2>概率预测</h2>
+<p>点预测 MAE/RMSE 不能代替超标预警。需要 CRPS、分位数损失、区间覆盖与宽度、高污染事件的检出/误报和样本数。工具库 MAPIE、scores 不是空气质量模型。07 目录篇数少（6），是真实缺口，不是检索失败后的凑数。</p>
+<h2>机理融合</h2>
+<table><thead><tr><th>角色</th><th>含义</th><th>例子</th></tr></thead><tbody><tr><td>独立预报</td><td>只用观测/特征，不跑 CTM</td><td>多数深度学习论文</td></tr><tr><td>模式订正</td><td>对 CTM/CAMS/NAQFC 输出做偏差订正</td><td>P01-002 CAMS 多模式校准</td></tr><tr><td>模式输出当特征</td><td>把预报场或再分析拼进学习模型</td><td>PCDCNet 用 ERA5；须标信息条件</td></tr><tr><td>可微物理</td><td>扩散/平流/化学残差进网络</td><td>AirPhyNet、Air-DualODE、PCDCNet</td></tr><tr><td>业务 CTM</td><td>数值化学输送本身</td><td>CMAQ、CAMS、NAQFC、WRF-Chem 评估论文</td></tr></tbody></table>
+<p>PCDCNet README 写明 ERA5 通道与可选排放；这是<strong>事后或许可受限信息条件下的实验</strong>，不能默认等于可部署预报。</p>
+</body></html>

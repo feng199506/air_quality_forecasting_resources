@@ -1,0 +1,20 @@
+{
+ "status": "verified",
+ "set": "projects",
+ "title": "Graph WaveNet official implementation (often used as AQ spatiotemporal baseline)",
+ "files": [
+  {
+   "path": "projects/nnzhan_Graph_WaveNet_en",
+   "url": "https://github.com/nnzhan/Graph-WaveNet",
+   "commit": "6b162e80c59a1d494809252eca055cff93dc66b1",
+   "files": 12,
+   "archive_sha256": "a408c705d07678134c48d24faba96db34e9bde6dd8a4de8aa98db99d383c3c95",
+   "bytes": 268643
+  }
+ ],
+ "commit": "6b162e80c59a1d494809252eca055cff93dc66b1",
+ "license_files": [
+  "LICENSE"
+ ],
+ "note": "官方仓库快照 commit 6b162e80c59a：归档 zip 完整性通过，解压 12 个文件（0 个 notebook）；应有文件已见 ['README.md']；许可证文件 ['LICENSE']；未发现 LFS 指针文件"
+}

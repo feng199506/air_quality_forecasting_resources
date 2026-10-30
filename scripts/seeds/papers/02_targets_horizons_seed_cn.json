@@ -9,8 +9,26 @@
   "summary": "Air pollution is a crucial issue affecting human health and livelihoods, as well as one of the barriers to economic and social growth. Forecasting air quality has become an increasingly important endeavor with significant social impacts, especially in emerging countries like Chin…",
   "summary_basis": "arXiv 摘要",
   "task": "future_forecast",
-  "code_kind": "official_partial",
-  "code_url": "https://github.com/yoshall/airformer."
+  "code_kind": "official_full",
+  "code_url": "https://github.com/yoshall/AirFormer",
+  "target": "站点多污染物浓度（非AQI；待全文核实具体物种）",
+  "spatial_unit": "station",
+  "issue_time": "待全文核实",
+  "input_window": "seq_len 历史步（仓库可配）",
+  "horizon": "72h",
+  "output_freq": "小时（仓库默认；待全文核实）",
+  "split": "待全文核实",
+  "meteo": "待全文核实",
+  "post_hoc": "待全文核实",
+  "preprocess_fit": "待全文核实",
+  "leakage": "完整数据>500GB未下载；tiny demo 20/20/20 不可代表论文结果；邻近站点同时刻特征有空间泄漏风险，待全文核实",
+  "baselines": "待全文核实",
+  "multi_step": "联合输出（仓库 horizon 参数）",
+  "breakdown": "待全文核实",
+  "metrics": "MAE/RMSE（仓库 metrics.py）",
+  "prob_metrics": "随机阶段可选；待全文核实",
+  "extremes": "待全文核实",
+  "uncertainty_cost": "仓库称 A6000 48GB；本轮未运行"
  },
  {
   "arxiv": "2511.22169",
@@ -23,7 +41,7 @@
   "summary_basis": "arXiv 摘要",
   "task": "future_forecast",
   "code_kind": "official_partial",
-  "code_url": "https://github.com/kaist-cvml/FAKER-Air."
+  "code_url": "https://github.com/kaist-cvml/FAKER-Air"
  },
  {
   "arxiv": "2412.00994",
@@ -134,7 +152,8 @@
   "summary": "Due to the profound impact of air pollution on human health, livelihoods, and economic development, air quality forecasting is of paramount significance. Initially, we employ the causal graph method to scrutinize the constraints of existing research in comprehensively modeling th…",
   "summary_basis": "arXiv 摘要",
   "task": "future_forecast",
-  "code_kind": "待全文核实"
+  "code_kind": "official_partial",
+  "code_url": "https://github.com/PoorOtterBob/AirCade"
  },
  {
   "arxiv": "2607.07279",
@@ -145,8 +164,9 @@
   "reason": "arXiv 检索命中且标题/摘要同时含空气质量与预报用语。",
   "summary": "Accurate PM2.5 prediction depends on information available when a prediction is issued. Using 420,768 hourly observations from 12 monitoring stations in Beijing between March 2013 and February 2017, we compare same-hour estimation (h = 0) with strict one-, six-, and 24- hour-ahea…",
   "summary_basis": "arXiv 摘要",
-  "task": "future_forecast",
-  "code_kind": "待全文核实"
+  "task": "nowcast_or_mapping_support",
+  "code_kind": "待全文核实",
+  "leakage": "同期估计/Nowcast，不是未来预报主任务"
  },
  {
   "arxiv": "2512.23474",

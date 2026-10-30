@@ -1,0 +1,15 @@
+{
+ "status": "verified",
+ "set": "software",
+ "title": "CAMS Atmosphere Data Store: Europe air quality forecasts and global composition forecasts (overview/docs)",
+ "files": [
+  {
+   "path": "software_docs/CAMS_ADS_europe_forecast_html_en",
+   "url": "https://ads.atmosphere.copernicus.eu/datasets/cams-europe-air-quality-forecasts?tab=overview",
+   "html_pages": 3,
+   "files": 39,
+   "bytes": 4360927
+  }
+ ],
+ "note": "官方 HTML，3 个页面全部 HTTP 200 且正文 ≥ 300 字符；wget 离线保存（页面资源、链接改写），共 39 个文件；页面清单 PAGES_en.txt"
+}

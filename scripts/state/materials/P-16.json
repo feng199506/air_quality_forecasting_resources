@@ -1,0 +1,20 @@
+{
+ "status": "verified",
+ "set": "projects",
+ "title": "scores: verification metrics including CRPS (Australian Climate Service / NCI)",
+ "files": [
+  {
+   "path": "projects/properscoring_or_scores_en",
+   "url": "https://github.com/nci/scores",
+   "commit": "ee679872fc1c232ca5b864206b2bafc0acb1bcad",
+   "files": 221,
+   "archive_sha256": "f2de64daae00bb6f653dce1d19364e27b87e762d7dfe2fe11422f4408f896747",
+   "bytes": 17542023
+  }
+ ],
+ "commit": "ee679872fc1c232ca5b864206b2bafc0acb1bcad",
+ "license_files": [
+  "LICENSE"
+ ],
+ "note": "官方仓库快照 commit ee679872fc1c：归档 zip 完整性通过，解压 221 个文件（40 个 notebook）；应有文件已见 ['README.md']；许可证文件 ['LICENSE']；未发现 LFS 指针文件"
+}

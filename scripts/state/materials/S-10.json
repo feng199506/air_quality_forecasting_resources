@@ -1,0 +1,15 @@
+{
+ "status": "verified",
+ "set": "software",
+ "title": "NASA GMAO MERRA-2 reanalysis product overview",
+ "files": [
+  {
+   "path": "software_docs/GES_DISC_MERRA2_AQ_html_en",
+   "url": "https://gmao.gsfc.nasa.gov/gmao-products/merra-2/",
+   "html_pages": 1,
+   "files": 21,
+   "bytes": 1360975
+  }
+ ],
+ "note": "官方 HTML，1 个页面全部 HTTP 200 且正文 ≥ 300 字符；wget 离线保存（页面资源、链接改写），共 21 个文件；页面清单 PAGES_en.txt"
+}

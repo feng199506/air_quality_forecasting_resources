@@ -1,0 +1,18 @@
+{
+ "status": "verified",
+ "set": "projects",
+ "title": "MGSFformer official implementation (Information Fusion)",
+ "files": [
+  {
+   "path": "projects/GestaltCogTeam_MGSFformer_en",
+   "url": "https://github.com/GestaltCogTeam/MGSFformer",
+   "commit": "ff665a422a0ae001cfdd1b60ec9b4338a5ab406e",
+   "files": 7,
+   "archive_sha256": "9c0a90cf3cd7b8dd59b85cffdf946aaaf6554df6b9aaef30d3f95b076e5f67a0",
+   "bytes": 5965
+  }
+ ],
+ "commit": "ff665a422a0ae001cfdd1b60ec9b4338a5ab406e",
+ "license_files": [],
+ "note": "官方仓库快照 commit ff665a422a0a：归档 zip 完整性通过，解压 7 个文件（0 个 notebook）；应有文件已见 ['README.md']；仓库根目录未见许可证文件；未发现 LFS 指针文件"
+}

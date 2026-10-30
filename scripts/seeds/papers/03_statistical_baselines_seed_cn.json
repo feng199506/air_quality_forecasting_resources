@@ -9,9 +9,27 @@
   "summary": "When predicting PM2.5 concentrations, it is necessary to consider complex information sources since the concentrations are influenced by various factors within a long period. In this paper, we identify a set of critical domain knowledge for PM2.5 forecasting and develop a novel g…",
   "summary_basis": "arXiv 摘要",
   "task": "future_forecast",
-  "code_kind": "official_partial",
-  "code_url": "https://github.com/shawnwang-tech/PM2.5-GNN",
-  "classic_reason": "窗口外 v1=2020-02-10，因方法代表性保留。"
+  "code_kind": "official_full",
+  "code_url": "https://github.com/shuowang-ai/PM2.5-GNN",
+  "classic_reason": "窗口外 v1=2020-02-10，因方法代表性保留。",
+  "target": "PM2.5 浓度",
+  "spatial_unit": "city（原版 184 城）",
+  "issue_time": "研究基准，非实时发布",
+  "input_window": "待全文核实",
+  "horizon": "待全文核实（原版 3 小时步）",
+  "output_freq": "3 小时（KnowAir v1）",
+  "split": "待全文核实",
+  "meteo": "KnowAir 再分析气象",
+  "post_hoc": "是",
+  "preprocess_fit": "待全文核实",
+  "leakage": "领域知识图边若使用同期气象/排放，须核发报时刻可得性",
+  "baselines": "待全文核实",
+  "multi_step": "待全文核实",
+  "breakdown": "待全文核实",
+  "metrics": "待全文核实",
+  "prob_metrics": "点预测",
+  "extremes": "待全文核实",
+  "uncertainty_cost": "本轮未运行；KnowAir npy 未下载"
  },
  {
   "arxiv": "2512.09076",
@@ -131,7 +149,8 @@
   "summary": "Accurate time-series predictions in machine learning are heavily influenced by the selection of appropriate input time length and sampling rate. This paper introduces ATLO-ML, an adaptive time-length optimization system that automatically determines the optimal input time length …",
   "summary_basis": "arXiv 摘要",
   "task": "future_forecast",
-  "code_kind": "待全文核实"
+  "code_kind": "official_partial",
+  "code_url": "https://github.com/sapientml/sapientml"
  },
  {
   "pdf_url": "https://gmd.copernicus.org/articles/16/6029/2023/gmd-16-6029-2023.pdf",

@@ -9,8 +9,27 @@
   "summary": "Accurately forecasting air quality is critical to protecting general public from lung and heart diseases. This is a challenging task due to the complicated interactions among distinct pollution sources and various other influencing factors. Existing air quality forecasting method…",
   "summary_basis": "arXiv 摘要",
   "task": "future_forecast",
-  "code_kind": "待全文核实",
-  "classic_reason": "窗口外 v1=2021-01-12，因方法代表性保留。"
+  "code_kind": "official_full",
+  "classic_reason": "窗口外 v1=2021-01-12，因方法代表性保留。",
+  "code_url": "https://github.com/Friger/HighAir",
+  "target": "空气质量浓度（层次图）",
+  "spatial_unit": "city-station hierarchical",
+  "issue_time": "待全文核实",
+  "input_window": "待全文核实",
+  "horizon": "待全文核实",
+  "output_freq": "待全文核实",
+  "split": "待全文核实",
+  "meteo": "待全文核实",
+  "post_hoc": "待全文核实",
+  "preprocess_fit": "待全文核实",
+  "leakage": "风向动态边权是否使用未来风场待全文核实",
+  "baselines": "待全文核实",
+  "multi_step": "待全文核实",
+  "breakdown": "待全文核实",
+  "metrics": "待全文核实",
+  "prob_metrics": "待全文核实",
+  "extremes": "待全文核实",
+  "uncertainty_cost": "仓库文件很少；本轮未运行"
  },
  {
   "arxiv": "2306.13948",
@@ -22,7 +41,8 @@
   "summary": "Air quality forecasting has garnered significant attention recently, with data-driven models taking center stage due to advancements in machine learning and deep learning models. However, researchers face challenges with complex data acquisition and the lack of open-sourced datas…",
   "summary_basis": "arXiv 摘要",
   "task": "future_forecast",
-  "code_kind": "待全文核实"
+  "code_kind": "official_partial",
+  "code_url": "https://github.com/JingweiZuo/PurpleAirSF"
  },
  {
   "arxiv": "2508.14451",
@@ -58,7 +78,9 @@
   "summary": "Exposure to poor indoor air quality poses significant health risks, necessitating thorough assessment to mitigate associated dangers. This study aims to predict hourly indoor fine particulate matter (PM2.5) concentrations and investigate their correlation with outdoor PM2.5 level…",
   "summary_basis": "arXiv 摘要",
   "task": "future_forecast",
-  "code_kind": "待全文核实"
+  "code_kind": "待全文核实",
+  "spatial_unit": "indoor",
+  "leakage": "室内任务，不可与户外站点法规浓度混评"
  },
  {
   "arxiv": "2509.12051",

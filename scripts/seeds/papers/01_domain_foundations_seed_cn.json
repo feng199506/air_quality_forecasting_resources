@@ -10,7 +10,7 @@
   "summary_basis": "arXiv 摘要",
   "task": "future_forecast",
   "code_kind": "official_partial",
-  "code_url": "https://github.com/polimi-ispl/MAGCRN."
+  "code_url": "https://github.com/polimi-ispl/MAGCRN"
  },
  {
   "arxiv": "2201.13355",
@@ -154,7 +154,8 @@
   "summary": "Urban air pollution in megacities poses critical public health challenges, particularly in Delhi National Capital Region (NCR) where severe degradation affects millions. We present NEXUS (Neural Extraction and Unified Spatiotemporal) architecture for forecasting carbon monoxide, …",
   "summary_basis": "arXiv 摘要",
   "task": "future_forecast",
-  "code_kind": "待全文核实"
+  "code_kind": "official_partial",
+  "code_url": "https://github.com/msdsm03rampunitk-7606/NEXUS-Air-quality-forecasting-DELHI-NCR"
  },
  {
   "arxiv": "2607.11896",

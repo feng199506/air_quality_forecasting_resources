@@ -1,0 +1,15 @@
+{
+ "status": "verified",
+ "set": "software",
+ "title": "USEPA CMAQ documentation site (github.io) and User’s Guide index",
+ "files": [
+  {
+   "path": "software_docs/CMAQ_GitHub_UsersGuide_html_en",
+   "url": "https://usepa.github.io/CMAQ/",
+   "html_pages": 2,
+   "files": 31,
+   "bytes": 4081959
+  }
+ ],
+ "note": "官方 HTML，2 个页面全部 HTTP 200 且正文 ≥ 400 字符；wget 离线保存（页面资源、链接改写），共 31 个文件；页面清单 PAGES_en.txt"
+}

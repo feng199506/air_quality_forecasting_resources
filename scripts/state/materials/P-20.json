@@ -1,0 +1,20 @@
+{
+ "status": "verified",
+ "set": "projects",
+ "title": "LightGBM official library (tree-model baseline toolkit)",
+ "files": [
+  {
+   "path": "projects/microsoft_LightGBM_en",
+   "url": "https://github.com/microsoft/LightGBM",
+   "commit": "39ae188ac3ce62001c455d4dae1ea9622798a9fa",
+   "files": 581,
+   "archive_sha256": "5f8941a161a2dc8695aefa9044b628f48e528da60b727521aa8faaf156ff8324",
+   "bytes": 6723700
+  }
+ ],
+ "commit": "39ae188ac3ce62001c455d4dae1ea9622798a9fa",
+ "license_files": [
+  "LICENSE"
+ ],
+ "note": "官方仓库快照 commit 39ae188ac3ce：归档 zip 完整性通过，解压 581 个文件（1 个 notebook）；应有文件已见 ['README.md']；许可证文件 ['LICENSE']；未发现 LFS 指针文件"
+}

@@ -1,0 +1,15 @@
+{
+ "status": "verified",
+ "set": "books",
+ "title": "Guideline on Air Quality Models (Appendix W to 40 CFR Part 51), 2024 final-rule text",
+ "files": [
+  {
+   "path": "books/EPA_AppendixW_Guideline_AirQualityModels_2024_en.pdf",
+   "url": "https://www.epa.gov/system/files/documents/2024-11/appendix_w-2024.pdf",
+   "pages": 42,
+   "sha256": "14474b74e07b1490db67569eca0687ed5115c4cc365b23b81a2c4ac789d6cbe8",
+   "bytes": 543773
+  }
+ ],
+ "note": "HTTP 200；%PDF；pypdf 可解析 42 页；名称短语已见"
+}

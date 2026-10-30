@@ -10,7 +10,25 @@
   "summary_basis": "arXiv 摘要",
   "task": "future_forecast",
   "code_kind": "official_partial",
-  "code_url": "https://github.com/Star-Learning/AirQualityBench"
+  "code_url": "https://github.com/Star-Learning/AirQualityBench",
+  "target": "空气质量预报（真实监测网协议）",
+  "spatial_unit": "station network",
+  "issue_time": "强调真实缺测条件，不是填补主任务",
+  "input_window": "待全文核实",
+  "horizon": "待全文核实",
+  "output_freq": "待全文核实",
+  "split": "待全文核实",
+  "meteo": "待全文核实",
+  "post_hoc": "待全文核实",
+  "preprocess_fit": "待全文核实",
+  "leakage": "论文批评预处理填补隐藏真实缺测，评测须用官方协议",
+  "baselines": "基准套件；套件中方法不全部是原作者实现",
+  "multi_step": "待全文核实",
+  "breakdown": "待全文核实",
+  "metrics": "待全文核实",
+  "prob_metrics": "待全文核实",
+  "extremes": "待全文核实",
+  "uncertainty_cost": "本轮未下载该仓库快照"
  },
  {
   "arxiv": "2302.09746",
@@ -36,7 +54,7 @@
   "summary_basis": "arXiv 摘要",
   "task": "future_forecast",
   "code_kind": "official_partial",
-  "code_url": "https://github.com/beginner-sketch/MoSSL."
+  "code_url": "https://github.com/beginner-sketch/MoSSL"
  },
  {
   "arxiv": "2501.03583",
@@ -49,7 +67,7 @@
   "summary_basis": "arXiv 摘要",
   "task": "future_forecast",
   "code_kind": "official_partial",
-  "code_url": "https://github.com/Liyue-Chen/STContext."
+  "code_url": "https://github.com/Liyue-Chen/STContext"
  },
  {
   "arxiv": "2312.04291",
@@ -61,7 +79,8 @@
   "summary": "The increasing size and severity of wildfires across the western United States have generated dangerous levels of PM$_{2.5}$ concentrations in recent years. In a changing climate, expanding the use of prescribed fires is widely considered to be the most robust fire mitigation str…",
   "summary_basis": "arXiv 摘要",
   "task": "future_forecast",
-  "code_kind": "待全文核实"
+  "code_kind": "official_partial",
+  "code_url": "https://github.com/kyleenliao/Prescribed_"
  },
  {
   "arxiv": "2509.21260",
@@ -97,7 +116,10 @@
   "summary": "In recent years, indoor air pollution has posed a significant threat to our society, claiming over 3.2 million lives annually. Developing nations, such as India, are most affected since lack of knowledge, inadequate regulation, and outdoor air pollution lead to severe daily expos…",
   "summary_basis": "arXiv 摘要",
   "task": "future_forecast",
-  "code_kind": "待全文核实"
+  "code_kind": "official_partial",
+  "code_url": "https://github.com/prasenjit52282/dalton-dataset",
+  "spatial_unit": "indoor",
+  "leakage": "室内任务，不可与户外站点法规浓度混评"
  },
  {
   "arxiv": "2412.13935",
@@ -109,7 +131,8 @@
   "summary": "In many problem settings that require spatio-temporal forecasting, the values in the time-series not only exhibit spatio-temporal correlations but are also influenced by spatial diffusion across locations. One such example is forecasting the concentration of fine particulate matt…",
   "summary_basis": "arXiv 摘要",
   "task": "future_forecast",
-  "code_kind": "待全文核实"
+  "code_kind": "official_partial",
+  "code_url": "https://github.com/malayp717/pm2.5"
  },
  {
   "arxiv": "2502.11941",
@@ -157,6 +180,7 @@
   "summary": "The widespread deployment of sensing devices leads to a surge in data for spatio-temporal forecasting applications such as traffic flow, air quality, and wind energy. Although spatio-temporal graph neural networks have achieved success in modeling various static spatio-temporal f…",
   "summary_basis": "arXiv 摘要",
   "task": "future_forecast",
-  "code_kind": "待全文核实"
+  "code_kind": "official_partial",
+  "code_url": "https://github.com/Onedean/EAC"
  }
 ]

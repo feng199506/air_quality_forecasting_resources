@@ -1,0 +1,20 @@
+{
+ "status": "verified",
+ "set": "projects",
+ "title": "PCDCNet official implementation (physical-chemical surrogate forecasting)",
+ "files": [
+  {
+   "path": "projects/shuowang_PCDCNet_en",
+   "url": "https://github.com/shuowang-ai/PCDCNet",
+   "commit": "1c9f90424d51e8867cbbdce7bceb6783dd3f3f77",
+   "files": 27,
+   "archive_sha256": "522eea28c7c92ab7e377425ad775a0ce9adacb779f0b85abfda3ef212d5b67d0",
+   "bytes": 3446922
+  }
+ ],
+ "commit": "1c9f90424d51e8867cbbdce7bceb6783dd3f3f77",
+ "license_files": [
+  "LICENSE"
+ ],
+ "note": "官方仓库快照 commit 1c9f90424d51：归档 zip 完整性通过，解压 27 个文件（0 个 notebook）；应有文件已见 ['README.md']；许可证文件 ['LICENSE']；未发现 LFS 指针文件"
+}

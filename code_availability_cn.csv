@@ -1,0 +1,120 @@
+﻿论文编号,标题,代码状态,代码地址,对应项目编号,许可证,版本或commit,核验级别,缺失,备注
+P01-001,Back to the Future: GNN-based NO$_2$ Forecasting via Future Covariates,官方部分代码,https://github.com/polimi-ispl/MAGCRN,,见原文版权页/arXiv 许可,arXiv 2404.05324v1,,本轮未运行；大型数据与权重未下载,future_forecast
+P01-002,Calibrating the CAMS European multi-model air quality forecasts for regional air pollution monitoring,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2201.13355v1,,,future_forecast
+P01-003,AirMPA: A Meteorology-to-Pollution Adapter for Global Air Quality Forecasting,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2610.25797v1,,,future_forecast
+P01-004,NeuroDDAF: Neural Dynamic Diffusion-Advection Fields with Evidential Fusion for Air Quality Forecasting,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2604.01175v1,,,future_forecast
+P01-005,Tackling Incomplete Data in Air Quality Prediction: A Bayesian Deep Learning Framework for Uncertainty Quantification,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2511.02175v1,,,future_forecast
+P01-006,TopoFlow: Topography-aware Pollutant Flow Learning for High-Resolution Air Quality Prediction,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2602.16821v2,,,future_forecast
+P01-007,AeroChem: Closed-loop Physics-Informed State Space Modeling for Long-term Chemically-Reactive Air Quality Forecasting--Extended Version,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2610.16630v1,,,future_forecast
+P01-008,A Model for Forecasting Air Quality Index in Port Harcourt Nigeria Using Bi-LSTM Algorithm,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2302.03930v1,,,future_forecast
+P01-009,Diffusion-based Probabilistic Air Quality Forecasting with Mechanistic Insight,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2603.21131v1,,,future_forecast
+P01-010,Developing Gridded Emission Inventory from High-Resolution Satellite Object Detection for Improved Air Quality Forecasts,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2410.19773v1,,,future_forecast
+P01-012,EmissionNet: Air Quality Pollution Forecasting for Agriculture,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2507.05416v3,,,future_forecast
+P01-013,NEXUS: A compact neural architecture for high-resolution spatiotemporal air quality forecasting in Delhi National Capital Region,官方部分代码,https://github.com/msdsm03rampunitk-7606/NEXUS-Air-quality-forecasting-DELHI-NCR,,见原文版权页/arXiv 许可,arXiv 2602.19654v2,,本轮未运行；大型数据与权重未下载,future_forecast
+P01-014,OmniPMNet: Bridging discrete and gridded PM10 forecasts via omni-query neural processes,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2607.11896v1,,,future_forecast
+P01-015,MVG-KAN: Multi-View Geo-Wind Guided KAN for PM$_{2.5}$ Forecasting,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2606.24347v1,,,future_forecast
+P01-016,The Community Multiscale Air Quality (CMAQ) model versions 5.3 and 5.3.1: system updates and evaluation,官方完整实现,https://github.com/USEPA/CMAQ,,见原文版权页/arXiv 许可,出版方 PDF,,本轮未运行；大型数据与权重未下载,supporting_ctm
+P01-017,The CAMS reanalysis of atmospheric composition,无代码,,,见原文版权页/arXiv 许可,出版方 PDF,,,reanalysis_support
+P02-001,AirFormer: Predicting Nationwide Air Quality in China with Transformers,官方完整实现,https://github.com/yoshall/AirFormer,P-01,见原文版权页/arXiv 许可,arXiv 2211.15979v1,L1,本轮未运行；大型数据与权重未下载,future_forecast
+P02-002,Real-Time Long Horizon Air Quality Forecasting via Group-Relative Policy Optimization,官方部分代码,https://github.com/kaist-cvml/FAKER-Air,,见原文版权页/arXiv 许可,arXiv 2511.22169v2,,本轮未运行；大型数据与权重未下载,future_forecast
+P02-003,PIAD-SRNN: Physics-Informed Adaptive Decomposition in State-Space RNN,官方部分代码,https://github.com/ahmad-shirazi/DSSRNN,,见原文版权页/arXiv 许可,arXiv 2412.00994v2,,本轮未运行；大型数据与权重未下载,future_forecast
+P02-005,GreenEyes: An Air Quality Evaluating Model based on WaveNet,官方部分代码,https://github.com/AI-Huang/IAQI_Dataset,,见原文版权页/arXiv 许可,arXiv 2212.04175v1,,本轮未运行；大型数据与权重未下载,future_forecast
+P02-006,Benchmarking Scientific Machine Learning Models for Air Quality Data,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2603.21039v2,,,future_forecast
+P02-007,E-STGCN: Extreme Spatiotemporal Graph Convolutional Networks for Air Quality Forecasting,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2411.12258v2,,,future_forecast
+P02-008,Evaluating the Generalizability of Foundation Models for Extreme Environmental Events: Case Study of California Wildfire PM2.5,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2607.07951v1,,,future_forecast
+P02-009,Interpretable Air Pollution Forecasting by Physics-Guided Spatiotemporal Decoupling,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2511.20257v2,,,future_forecast
+P02-010,Air Quality Prediction Using LOESS-ARIMA and Multi-Scale CNN-BiLSTM with Residual-Gated Attention,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2510.22818v1,,,future_forecast
+P02-011,Spatiotemporal Causal Decoupling Model for Air Quality Forecasting,官方部分代码,https://github.com/PoorOtterBob/AirCade,,见原文版权页/arXiv 许可,arXiv 2505.20119v1,,本轮未运行；大型数据与权重未下载,future_forecast
+P02-012,Same-Hour Estimation and Multi-Horizon Forecasting of PM2.5 in Beijing: Model Comparison and Feature-Group Contributions,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2607.07279v3,,,nowcast_or_mapping_support
+P02-013,Deep classifier kriging for probabilistic spatial prediction of air quality index,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2512.23474v1,,,future_forecast
+P02-014,Enhanced Artificial Neural Networks Using QHAdamW in Air Quality Forecasting,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2608.21463v1,,,future_forecast
+P02-016,Using Machine Learning to Predict Air Quality Index in New Delhi,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2112.05753v1,,,future_forecast
+P02-017,AQFusionNet: Multimodal Deep Learning for Air Quality Index Prediction with Imagery and Sensor Data,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2509.00353v1,,,future_forecast
+P02-018,Lightweight ML-Based Air Quality Prediction for IoT and Embedded Applications,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2511.21857v1,,,future_forecast
+P02-019,"Spatiotemporal Air Quality Mapping in Urban Areas Using Sparse Sensor Data, Satellite Imagery, Meteorological Factors, and Spatial Features",待全文核实,,,见原文版权页/arXiv 许可,arXiv 2501.11270v1,,,future_forecast
+P02-020,Development and evaluation of an advanced National Air Quality Forecasting Capability using the NOAA Global Forecast System version 16,官方部分代码,,,见原文版权页/arXiv 许可,出版方 PDF,,本轮未运行；大型数据与权重未下载,future_forecast
+P02-021,Copernicus Atmosphere Monitoring Service – Regional Air Quality Production System v1.0,无代码,,,见原文版权页/arXiv 许可,出版方 PDF,,,future_forecast
+P03-001,PM2.5-GNN: A Domain Knowledge Enhanced Graph Neural Network For PM2.5 Forecasting,官方完整实现,https://github.com/shuowang-ai/PM2.5-GNN,P-03,见原文版权页/arXiv 许可,arXiv 2002.12898v2,L1,本轮未运行；大型数据与权重未下载,future_forecast
+P03-002,Beyond the Hype: Comparing Lightweight and Deep Learning Models for Air Quality Forecasting,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2512.09076v1,,,future_forecast
+P03-003,"Data-driven Real-time Short-term Prediction of Air Quality: Comparison of ES, ARIMA, and LSTM",待全文核实,,,见原文版权页/arXiv 许可,arXiv 2211.09814v1,,,future_forecast
+P03-004,Interpretable PM2.5 Forecasting for Urban Air Quality: A Comparative Study of Adaptive Time-Series Models,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2603.25495v2,,,future_forecast
+P03-005,Advancing operational PM2.5 forecasting with dual deep neural networks (D-DNet),待全文核实,,,见原文版权页/arXiv 许可,arXiv 2406.19154v1,,,future_forecast
+P03-006,Time Series Forecasting for Air Pollution in Seoul,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2309.09579v1,,,future_forecast
+P03-007,MMformer with Adaptive Transferable Attention: Advancing Multivariate Time Series Forecasting for Environmental Applications,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2504.14050v2,,,future_forecast
+P03-008,AirFlow: Context Preserving and Multi-Rate State Modeling for Air Quality Forecasting,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2608.09775v1,,,future_forecast
+P03-009,Improving Spatio-temporal Gaussian Process Modeling with Vecchia Approximation: A Low-Cost Sensor-Driven Approach to Urban Environmental Monitoring,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2511.22500v1,,,future_forecast
+P03-010,Gaussian Processes for Monitoring Air-Quality in Kampala,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2311.16625v1,,,future_forecast
+P03-011,ATLO-ML: Adaptive Time-Length Optimizer for Machine Learning -- Insights from Air Quality Forecasting,官方部分代码,https://github.com/sapientml/sapientml,,见原文版权页/arXiv 许可,arXiv 2510.06503v1,,本轮未运行；大型数据与权重未下载,future_forecast
+P03-012,A standardized methodology for the validation of air quality forecast applications (F-MQO): lessons learnt from its application across Europe,无代码,,,见原文版权页/arXiv 许可,出版方 PDF,,,evaluation_protocol
+P04-001,HighAir: A Hierarchical Graph Neural Network-Based Air Quality Forecasting Method,官方完整实现,https://github.com/Friger/HighAir,P-05,见原文版权页/arXiv 许可,arXiv 2101.04264v2,L1,本轮未运行；大型数据与权重未下载,future_forecast
+P04-002,Unleashing Realistic Air Quality Forecasting: Introducing the Ready-to-Use PurpleAirSF Dataset,官方部分代码,https://github.com/JingweiZuo/PurpleAirSF,,见原文版权页/arXiv 许可,arXiv 2306.13948v2,,本轮未运行；大型数据与权重未下载,future_forecast
+P04-003,Design and Evaluation of a Scalable Data Pipeline for AI-Driven Air Quality Monitoring in Low-Resource Settings,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2508.14451v1,,,future_forecast
+P04-004,Conformal PM2.5 Mapping Under Spatial Covariate Shift: Satellite-Reanalysis Fusion for Africa's Green Industrial Transition,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2604.22787v1,,,future_forecast
+P04-005,Indoor PM2.5 forecasting and the association with outdoor air pollution: a modelling study based on sensor data in Australia,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2405.07404v1,,,future_forecast
+P04-006,A comparison between geostatistical and machine learning models for spatio-temporal prediction of PM2.5 data,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2509.12051v2,,,future_forecast
+P04-007,Optimizing PM2.5 Forecasting Accuracy with Hybrid Meta-Heuristic and Machine Learning Models,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2407.01647v1,,,future_forecast
+P04-008,Air Quality Forecasting Using Machine Learning: A Global perspective with Relevance to Low-Resource Settings,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2401.04369v1,,,future_forecast
+P04-009,Novel Approach for Predicting the Air Quality Index of Megacities through Attention-Enhanced Deep Multitask Spatiotemporal Learning,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2407.11283v1,,,future_forecast
+P04-010,"Rolling-Origin Validation Reverses Model Rankings in Multi-Step PM10 Forecasting: XGBoost, SARIMA, and Persistence",待全文核实,,,见原文版权页/arXiv 许可,arXiv 2603.20315v1,,,future_forecast
+P04-011,Mapping urban air quality using mobile and fixed low cost sensors: a model comparison,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2511.22550v1,,,future_forecast
+P04-012,Air Quality Arena: A Large-Scale Multi-Region Ground Monitoring Dataset and Benchmark for Air Quality Forecasting with Time-Series Foundation Models,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2607.19381v1,,,future_forecast
+P04-013,Discretized Linear Regression and Multiclass Support Vector Based Air Pollution Forecasting Technique,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2211.15095v1,,,future_forecast
+P04-014,Global probabilistic forecasting of air pollution,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2610.25941v1,,,future_forecast
+P05-001,Probabilistic Deep Learning to Quantify Uncertainty in Air Quality Forecasting,官方部分代码,https://github.com/Abdulmajid-Murad/deep_probabilistic_forecast,,见原文版权页/arXiv 许可,arXiv 2112.02622v1,,本轮未运行；大型数据与权重未下载,future_forecast
+P05-002,AirDDE: Multifactor Neural Delay Differential Equations for Air Quality Forecasting,官方部分代码,https://github.com/w2obin/airdde-aaai,,见原文版权页/arXiv 许可,arXiv 2603.17529v1,,本轮未运行；大型数据与权重未下载,future_forecast
+P05-003,Variational Mode Decomposition and Linear Embeddings are What You Need For Time-Series Forecasting,官方部分代码,https://github.com/Espalemit/VMD-With-LTSF-Linear.git,,见原文版权页/arXiv 许可,arXiv 2408.16122v2,,本轮未运行；大型数据与权重未下载,future_forecast
+P05-004,WaveCatBoost for Probabilistic Forecasting of Regional Air Quality Data,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2404.05482v1,,,future_forecast
+P05-005,A HEART for the environment: Transformer-Based Spatiotemporal Modeling for Air Quality Prediction,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2502.19042v1,,,future_forecast
+P05-006,DELFI: Deep Mixture Models for Long-term Air Quality Forecasting in the Delhi National Capital Region,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2210.15923v1,,,future_forecast
+P05-007,Difference Learning for Air Quality Forecasting Transport Emulation,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2402.14806v1,,,future_forecast
+P05-008,Predicting Spatiotemporal Mobile Sensing-Based PM2.5 Concentrations Using Low-Rank Adapted Spatially Attentive Graph Neural Network,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2609.04693v1,,,future_forecast
+P05-009,Air Quality Station Simulation via LSTM and Attention-Based Modelling,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2608.11839v1,,,future_forecast
+P05-010,Forecast-Aware Model Driven LSTM,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2303.12963v1,,,future_forecast
+P05-011,Advancing global aerosol forecasting with artificial intelligence,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2412.02498v1,,,future_forecast
+P05-012,Synergistic Neural Forecasting of Air Pollution with Stochastic Sampling,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2510.23977v1,,,future_forecast
+P05-013,Cross-Resolution Attention Network for High-Resolution PM2.5 Prediction,官方部分代码,https://github.com/AmmarKheder/cran_pm,,见原文版权页/arXiv 许可,arXiv 2603.11725v1,,本轮未运行；大型数据与权重未下载,future_forecast
+P05-014,Ada-TransGNN: An Air Quality Prediction Model Based On Adaptive Graph Convolutional Networks,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2508.17867v2,,,future_forecast
+P05-015,Multi-spatial Multi-temporal Air Quality Forecasting with Integrated Monitoring and Reanalysis Data,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2401.00521v1,,,future_forecast
+P05-016,Air Quality PM2.5 Index Prediction Model Based on CNN-LSTM,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2508.11215v1,,,future_forecast
+P05-017,Partial Effective Information Decomposition for Synergistic Causality,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2605.03267v1,,,future_forecast
+P05-018,Forecasting Smog Clouds With Deep Learning,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2410.02759v1,,,future_forecast
+P06-001,AirQualityBench: A Realistic Evaluation Benchmark for Global Air Quality Forecasting,官方部分代码,https://github.com/Star-Learning/AirQualityBench,,见原文版权页/arXiv 许可,arXiv 2605.05854v1,,本轮未运行；大型数据与权重未下载,future_forecast
+P06-003,Multi-Modality Spatio-Temporal Forecasting via Self-Supervised Learning,官方部分代码,https://github.com/beginner-sketch/MoSSL,,见原文版权页/arXiv 许可,arXiv 2405.03255v1,,本轮未运行；大型数据与权重未下载,future_forecast
+P06-004,STContext: A Multifaceted Dataset for Developing Context-aware Spatio-temporal Crowd Mobility Prediction Models,官方部分代码,https://github.com/Liyue-Chen/STContext,,见原文版权页/arXiv 许可,arXiv 2501.03583v1,,本轮未运行；大型数据与权重未下载,future_forecast
+P06-005,Simulating the Air Quality Impact of Prescribed Fires Using Graph Neural Network-Based PM$_{2.5}$ Forecasts,官方部分代码,https://github.com/kyleenliao/Prescribed_,,见原文版权页/arXiv 许可,arXiv 2312.04291v2,,本轮未运行；大型数据与权重未下载,future_forecast
+P06-006,A Causality-Aware Spatiotemporal Model for Multi-Region and Multi-Pollutant Air Quality Forecasting,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2509.21260v1,,,future_forecast
+P06-007,Opportunistic Air Quality Monitoring and Forecasting with Expandable Graph Neural Networks,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2307.15916v1,,,future_forecast
+P06-008,Indoor Air Quality Dataset with Activities of Daily Living in Low to Middle-income Communities,官方部分代码,https://github.com/prasenjit52282/dalton-dataset,,见原文版权页/arXiv 许可,arXiv 2407.14501v3,,本轮未运行；大型数据与权重未下载,future_forecast
+P06-009,Spatio-Temporal Forecasting of PM2.5 via Spatial-Diffusion guided Encoder-Decoder Architecture,官方部分代码,https://github.com/malayp717/pm2.5,,见原文版权页/arXiv 许可,arXiv 2412.13935v1,,本轮未运行；大型数据与权重未下载,future_forecast
+P06-010,Deep Spatio-Temporal Neural Network for Air Quality Reanalysis,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2502.11941v1,,,future_forecast
+P06-011,Locally Adaptive Conformal Inference for Operator Models,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2507.20975v5,,,future_forecast
+P06-012,Spatio-temporal Joint Analysis of PM2.5 and Ozone in California with INLA,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2404.14446v1,,,future_forecast
+P06-013,Expand and Compress: Exploring Tuning Principles for Continual Spatio-Temporal Graph Forecasting,官方部分代码,https://github.com/Onedean/EAC,,见原文版权页/arXiv 许可,arXiv 2410.12593v3,,本轮未运行；大型数据与权重未下载,future_forecast
+P07-001,"Double-Diffusion: Balancing Speed, Accuracy, and Uncertainty in Probabilistic Forecasting for Urban Sensor Networks",官方部分代码,https://github.com/teddyicare/Double-Diffusion,,见原文版权页/arXiv 许可,arXiv 2506.23053v4,,本轮未运行；大型数据与权重未下载,future_forecast
+P07-002,Spatio-temporal fusion of reanalysis and in situ data for censored threshold exceedances of PM2.5,官方部分代码,https://github.com/danicuba-stats/DataFusion_for_Extremes,,见原文版权页/arXiv 许可,arXiv 2504.20268v2,,本轮未运行；大型数据与权重未下载,future_forecast
+P07-003,Image-Derived PM10 Estimation in Cattle Feedlot Using Machine Learning: Addressing Concentration Ranges Beyond Existing Digital Imaging Methods,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2609.20975v1,,,future_forecast
+P07-004,Combined Quantile Forecasting for High-Dimensional Non-Gaussian Data,官方部分代码,https://github.com/p-seeun/combined-quantile-forecasting,,见原文版权页/arXiv 许可,arXiv 2402.17297v1,,本轮未运行；大型数据与权重未下载,future_forecast
+P07-005,Conformal Prediction with Stable Measurement Mechanisms,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2610.34204v1,,,future_forecast
+P07-006,A Bayesian hierarchical model for preferentially sampled spatial extremes data: an application to air quality,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2610.22577v1,,,future_forecast
+P08-001,AirPhyNet: Harnessing Physics-Guided Neural Networks for Air Quality Prediction,官方完整实现,https://github.com/kethmih/AirPhyNet,P-02,见原文版权页/arXiv 许可,arXiv 2402.03784v2,L1,本轮未运行；大型数据与权重未下载,future_forecast
+P08-002,Air Quality Prediction with Physics-Guided Dual Neural ODEs in Open Systems,官方完整实现,https://github.com/decisionintelligence/Air-DualODE,P-04,见原文版权页/arXiv 许可,arXiv 2410.19892v2,L1,本轮未运行；大型数据与权重未下载,future_forecast
+P08-003,PCDCNet: A Surrogate Model for Air Quality Forecasting with Physical-Chemical Dynamics and Constraints,官方完整实现,https://github.com/shuowang-ai/PCDCNet,P-06,见原文版权页/arXiv 许可,arXiv 2505.19842v2,L1,本轮未运行；大型数据与权重未下载,future_forecast
+P08-004,Capability demonstration of a JEDI-based system for TEMPO assimilation: system description and evaluation,官方部分代码,https://github.com/benjaminmenetrier/nicas_doc,,见原文版权页/arXiv 许可,arXiv 2506.07321v1,,本轮未运行；大型数据与权重未下载,future_forecast
+P08-005,A deep-learning model for predicting daily PM2.5 concentration in response to emission reduction,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2506.18018v1,,,future_forecast
+P08-006,A novel approach for predicting epidemiological forecasting parameters based on real-time signals and Data Assimilation,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2307.01157v1,,,supporting_not_aq_forecast
+P08-007,Evaluation of WRF-Chem model (v3.9.1.1) real-time air quality forecasts over the Eastern Mediterranean,无代码,,,见原文版权页/arXiv 许可,出版方 PDF,,,future_forecast
+P08-008,Regional evaluation of the performance of the global CAMS chemical modeling system over the United States (IFS cycle 47r1),无代码,,,见原文版权页/arXiv 许可,出版方 PDF,,,future_forecast
+P09-001,Air Quality Prediction with A Meteorology-Guided Modality-Decoupled Spatio-Temporal Network,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2504.10014v1,,,future_forecast
+P09-002,Provably Outlier-resistant Semi-parametric Regression for Transferable Calibration of Low-cost Air-quality Sensors,官方部分代码,https://github.com/purushottamkar/respire,,见原文版权页/arXiv 许可,arXiv 2511.19810v1,,本轮未运行；大型数据与权重未下载,future_forecast
+P09-003,Comparative Analysis of Machine Learning-Based Imputation Techniques for Air Quality Datasets with High Missing Data Rates,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2412.13966v2,,,future_forecast
+P09-004,Enhancing PM2.5 Data Imputation and Prediction in Air Quality Monitoring Networks Using a KNN-SINDy Hybrid Model,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2409.11640v1,,,future_forecast
+P09-005,Modelling and characterization of fine Particulate Matter dynamics in Bujumbura using low cost sensors,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2312.12003v1,,,future_forecast
+P09-006,Comparing Sentinel-5P TROPOMI column observations with the CAMS regional air quality ensemble,无代码,,,见原文版权页/arXiv 许可,出版方 PDF,,,inversion_support
+P10-001,Are Hourly PM2.5 Forecasts Sufficiently Accurate to Plan Your Day? Individual Decision Making in the Face of Increasing Wildfire Smoke,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2409.05866v2,,,future_forecast
+P10-002,Predicting Lung Disease Severity via Image-Based AQI Analysis using Deep Learning Techniques,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2405.03981v1,,,future_forecast
+P10-003,Embedded feature selection in LSTM networks with multi-objective evolutionary ensemble learning for time series forecasting,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2312.17517v1,,,future_forecast
+P10-004,Combating Distribution Shift for Accurate Time Series Forecasting via Hypernetworks,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2202.10808v2,,,future_forecast
+P10-005,QLIF-CAST: Quantum Leaky-Integrate-and-Fire for Time-Series Weather Forecasting,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2605.18333v3,,,future_forecast
+P11-001,FuXi-Air: Urban Air Quality Forecasting Based on Emission-Meteorology-Pollutant multimodal Machine Learning,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2506.07616v1,,,future_forecast
+P11-002,Forecasting and Visualizing Air Quality from Sky Images with Vision-Language Models,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2509.15076v1,,,future_forecast
+P11-003,Frequency-Aware Attention-LSTM for PM$_{2.5}$ Time Series Forecasting,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2503.24043v3,,,future_forecast

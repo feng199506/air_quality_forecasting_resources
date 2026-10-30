@@ -1,0 +1,15 @@
+{
+ "status": "verified",
+ "set": "software",
+ "title": "Copernicus CDS ERA5 single-level reanalysis dataset overview + ECMWF data documentation",
+ "files": [
+  {
+   "path": "software_docs/CDS_ERA5_docs_html_en",
+   "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview",
+   "html_pages": 2,
+   "files": 38,
+   "bytes": 4601121
+  }
+ ],
+ "note": "官方 HTML，2 个页面全部 HTTP 200 且正文 ≥ 400 字符；wget 离线保存（页面资源、链接改写），共 38 个文件；页面清单 PAGES_en.txt"
+}

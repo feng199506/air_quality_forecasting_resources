@@ -2,18 +2,20 @@
  {
   "mid": "S-01",
   "group": "09",
-  "related": ["11"],
+  "related": [
+   "11"
+  ],
   "kind": "html",
   "name": "OpenAQ_API_docs",
   "lang": "en",
   "index_url": "https://docs.openaq.org/",
   "extra_pages": [
-    "https://docs.openaq.org/using-the-api/quick-start",
-    "https://docs.openaq.org/using-the-api/pagination",
-    "https://docs.openaq.org/resources/sensors",
-    "https://docs.openaq.org/resources/locations",
-    "https://docs.openaq.org/resources/measurements",
-    "https://docs.openaq.org/resources/countries"
+   "https://docs.openaq.org/using-the-api/quick-start",
+   "https://docs.openaq.org/using-the-api/pagination",
+   "https://docs.openaq.org/resources/sensors",
+   "https://docs.openaq.org/resources/locations",
+   "https://docs.openaq.org/resources/measurements",
+   "https://docs.openaq.org/resources/countries"
   ],
   "min_files": 4,
   "min_chars": 400,
@@ -37,14 +39,15 @@
  {
   "mid": "S-02",
   "group": "09",
-  "related": ["02"],
+  "related": [
+   "02"
+  ],
   "kind": "html",
   "name": "EPA_AQS_data_docs",
   "lang": "en",
   "index_url": "https://aqs.epa.gov/aqsweb/documents/data_api.html",
   "extra_pages": [
-    "https://www.epa.gov/aqs",
-    "https://www.epa.gov/outdoor-air-quality-data"
+   "https://www.epa.gov/aqs"
   ],
   "min_files": 2,
   "min_chars": 400,
@@ -68,14 +71,17 @@
  {
   "mid": "S-03",
   "group": "11",
-  "related": ["08", "09"],
+  "related": [
+   "08",
+   "09"
+  ],
   "kind": "html",
   "name": "CAMS_ADS_europe_forecast",
   "lang": "en",
   "index_url": "https://ads.atmosphere.copernicus.eu/datasets/cams-europe-air-quality-forecasts?tab=overview",
   "extra_pages": [
-    "https://ads.atmosphere.copernicus.eu/datasets/cams-europe-air-quality-forecasts?tab=documentation",
-    "https://ads.atmosphere.copernicus.eu/datasets/cams-global-atmospheric-composition-forecasts?tab=overview"
+   "https://ads.atmosphere.copernicus.eu/datasets/cams-europe-air-quality-forecasts?tab=documentation",
+   "https://ads.atmosphere.copernicus.eu/datasets/cams-global-atmospheric-composition-forecasts?tab=overview"
   ],
   "min_files": 2,
   "min_chars": 300,
@@ -99,19 +105,21 @@
  {
   "mid": "S-04",
   "group": "08",
-  "related": ["11"],
+  "related": [
+   "11"
+  ],
   "kind": "html",
   "name": "CMAQ_GitHub_UsersGuide",
   "lang": "en",
-  "index_url": "https://usepa.github.io/cmaq-notes/",
+  "index_url": "https://usepa.github.io/CMAQ/",
   "extra_pages": [
-    "https://github.com/USEPA/CMAQ"
+   "https://usepa.github.io/CMAQ/DOCS/Users_Guide/README.html"
   ],
-  "min_files": 1,
-  "min_chars": 300,
-  "allow_short": 1,
+  "min_files": 2,
+  "min_chars": 400,
+  "allow_short": 0,
   "title_phrase": "CMAQ",
-  "title": "USEPA CMAQ GitHub repository and notes hub",
+  "title": "USEPA CMAQ documentation site (github.io) and User’s Guide index",
   "authors": "U.S. EPA CMAQ developers",
   "institution": "U.S. EPA",
   "orig_year": "2019",
@@ -119,30 +127,29 @@
   "edition_year": "2026",
   "level": "工程",
   "count_as": "官方工具文档",
-  "landing": "https://github.com/USEPA/CMAQ",
+  "landing": "https://usepa.github.io/CMAQ/",
   "license": "EPA Disclaimer / 见仓库",
   "maintain": "活跃",
   "reason": "CMAQ 源码托管与用户笔记入口。本轮不下载完整 Fortran 源码树。",
-  "summary": "CMAQ 仓库说明与 notes 站点。覆盖范围见 PAGES。",
-  "summary_basis": "GitHub 仓库页"
+  "summary": "CMAQ 文档站首页与 User’s Guide 目录。非整站镜像。",
+  "summary_basis": "usepa.github.io/CMAQ"
  },
  {
   "mid": "S-05",
   "group": "08",
-  "related": ["01"],
+  "related": [
+   "01"
+  ],
   "kind": "html",
   "name": "GEOSChem_wiki_docs",
   "lang": "en",
   "index_url": "https://geos-chem.readthedocs.io/en/latest/",
-  "extra_pages": [
-    "https://geos-chem.readthedocs.io/en/latest/geos-chem-shared-docs/supplemental-guides/related-docs.html",
-    "https://geos-chem.readthedocs.io/en/latest/gcc-guide/index.html"
-  ],
-  "min_files": 2,
+  "extra_pages": [],
+  "min_files": 1,
   "min_chars": 400,
-  "allow_short": 1,
+  "allow_short": 0,
   "title_phrase": "GEOS-Chem",
-  "title": "GEOS-Chem documentation (Read the Docs subset)",
+  "title": "GEOS-Chem Classic documentation (Read the Docs subset)",
   "authors": "GEOS-Chem community",
   "institution": "Harvard / Washington University in St. Louis / GEOS-Chem Support Team",
   "orig_year": "2021",
@@ -154,26 +161,27 @@
   "license": "见文档站点",
   "maintain": "活跃",
   "reason": "全球化学输送模式官方文档，GEOS-CF 预报的化学内核说明。",
-  "summary": "GEOS-Chem 入门、相关文档与 GCC 指南入口。非整站镜像。",
+  "summary": "GEOS-Chem Classic 文档首页。用户指南子路径 404，未计入该页。非整站镜像。",
   "summary_basis": "ReadTheDocs 首页"
  },
  {
   "mid": "S-06",
   "group": "09",
-  "related": ["11"],
+  "related": [
+   "11"
+  ],
   "kind": "html",
   "name": "EEA_AirQuality_portal",
   "lang": "en",
   "index_url": "https://www.eea.europa.eu/en/topics/in-depth/air-pollution",
   "extra_pages": [
-    "https://www.eea.europa.eu/en/datahub/datahubitem-view/3b390c9c-4ddc-4e38-9ac1-a52db2269c22",
-    "https://airindex.eea.europa.eu/AQI/index.html"
+   "https://airindex.eea.europa.eu/AQI/index.html"
   ],
   "min_files": 2,
   "min_chars": 300,
-  "allow_short": 2,
+  "allow_short": 1,
   "title_phrase": "air",
-  "title": "European Environment Agency air pollution topic pages and European Air Quality Index",
+  "title": "European Environment Agency air pollution topic page and European Air Quality Index methodology page",
   "authors": "European Environment Agency",
   "institution": "EEA",
   "orig_year": "2020",
@@ -185,26 +193,26 @@
   "license": "EEA 版权（以页面为准）",
   "maintain": "活跃",
   "reason": "欧洲监测与欧洲 AQI 的官方入口；AQI 公式与美国/中国不同。",
-  "summary": "空气污染专题、数据枢纽与欧洲 AQI 页面。",
+  "summary": "EEA 空气污染专题与欧洲 AQI 方法页（含污染物、平均时段、缺测填补与 CAMS 订正说明）。",
   "summary_basis": "EEA 专题页"
  },
  {
   "mid": "S-07",
   "group": "09",
-  "related": ["03", "04"],
+  "related": [
+   "03",
+   "04"
+  ],
   "kind": "html",
   "name": "openair_CRAN_docs",
   "lang": "en",
-  "index_url": "https://davidcarslaw.github.io/openair/",
-  "extra_pages": [
-    "https://cran.r-project.org/web/packages/openair/index.html",
-    "https://davidcarslaw.github.io/openair/reference/index.html"
-  ],
-  "min_files": 2,
-  "min_chars": 300,
-  "allow_short": 1,
+  "index_url": "https://cran.r-project.org/web/packages/openair/index.html",
+  "extra_pages": [],
+  "min_files": 1,
+  "min_chars": 400,
+  "allow_short": 0,
   "title_phrase": "openair",
-  "title": "openair R package documentation (pkgdown + CRAN)",
+  "title": "openair R package CRAN package page",
   "authors": "David Carslaw; Karl Ropkins",
   "institution": "University of York / CRAN",
   "orig_year": "2012",
@@ -212,23 +220,25 @@
   "edition_year": "2026",
   "level": "工程",
   "count_as": "官方工具文档",
-  "landing": "https://davidcarslaw.github.io/openair/",
+  "landing": "https://cran.r-project.org/web/packages/openair/index.html",
   "license": "GPL",
   "maintain": "活跃",
   "reason": "监测数据分析与模式评估的标准 R 工具文档。",
-  "summary": "pkgdown 首页、CRAN 页与函数索引。",
-  "summary_basis": "pkgdown 首页"
+  "summary": "CRAN 包页：版本、依赖与手册入口。完整函数手册见教材 B-08。",
+  "summary_basis": "CRAN openair 页"
  },
  {
   "mid": "S-08",
   "group": "09",
-  "related": ["08"],
+  "related": [
+   "08"
+  ],
   "kind": "html",
   "name": "CDS_ERA5_docs",
   "lang": "en",
   "index_url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview",
   "extra_pages": [
-    "https://confluence.ecmwf.int/display/CKB/ERA5%3A+data+documentation"
+   "https://confluence.ecmwf.int/display/CKB/ERA5%3A+data+documentation"
   ],
   "min_files": 2,
   "min_chars": 400,
@@ -252,14 +262,17 @@
  {
   "mid": "S-09",
   "group": "10",
-  "related": ["08", "11"],
+  "related": [
+   "08",
+   "11"
+  ],
   "kind": "html",
   "name": "METplus_verification_docs",
   "lang": "en",
   "index_url": "https://metplus.readthedocs.io/en/latest/",
   "extra_pages": [
-    "https://metplus.readthedocs.io/en/latest/Users_Guide/index.html",
-    "https://dtcenter.org/community-code/metplus"
+   "https://metplus.readthedocs.io/en/latest/Users_Guide/index.html",
+   "https://dtcenter.org/community-code/metplus"
   ],
   "min_files": 2,
   "min_chars": 400,
@@ -283,19 +296,19 @@
  {
   "mid": "S-10",
   "group": "09",
-  "related": ["04"],
+  "related": [
+   "04"
+  ],
   "kind": "html",
   "name": "GES_DISC_MERRA2_AQ",
   "lang": "en",
-  "index_url": "https://disc.gsfc.nasa.gov/datasets/M2T1NXAER_5.12.4/summary",
-  "extra_pages": [
-    "https://gmao.gsfc.nasa.gov/reanalysis/MERRA-2/"
-  ],
-  "min_files": 2,
-  "min_chars": 400,
+  "index_url": "https://gmao.gsfc.nasa.gov/gmao-products/merra-2/",
+  "extra_pages": [],
+  "min_files": 1,
+  "min_chars": 300,
   "allow_short": 0,
   "title_phrase": "MERRA-2",
-  "title": "NASA GES DISC MERRA-2 aerosol diagnostics (M2T1NXAER) dataset documentation",
+  "title": "NASA GMAO MERRA-2 reanalysis product overview",
   "authors": "NASA GMAO / GES DISC",
   "institution": "NASA",
   "orig_year": "2017",
@@ -303,11 +316,76 @@
   "edition_year": "2026",
   "level": "工程",
   "count_as": "官方数据与工具文档",
-  "landing": "https://disc.gsfc.nasa.gov/datasets/M2T1NXAER_5.12.4/summary",
+  "landing": "https://gmao.gsfc.nasa.gov/gmao-products/merra-2/",
   "license": "NASA 数据政策（以页面为准）",
   "maintain": "活跃",
   "reason": "再分析气溶胶诊断的官方字段说明；用于研究不等于可部署预报输入。",
-  "summary": "M2T1NXAER 摘要页与 MERRA-2 项目页。不下载数据。",
-  "summary_basis": "GES DISC 摘要页"
+  "summary": "MERRA-2 项目页。不下载再分析网格。GES DISC 数据集摘要页因正文过短未计入。",
+  "summary_basis": "GMAO MERRA-2 产品页"
+ },
+ {
+  "mid": "S-11",
+  "group": "11",
+  "related": [
+   "02",
+   "09"
+  ],
+  "kind": "html",
+  "name": "AirNow_API_docs",
+  "lang": "en",
+  "index_url": "https://docs.airnowapi.org/",
+  "extra_pages": [
+   "https://docs.airnowapi.org/faq",
+   "https://docs.airnowapi.org/webservices"
+  ],
+  "min_files": 2,
+  "min_chars": 300,
+  "allow_short": 1,
+  "title_phrase": "AirNow",
+  "title": "U.S. EPA AirNow API documentation (forecasts, observations, AQI web services)",
+  "authors": "U.S. EPA AirNow",
+  "institution": "U.S. EPA",
+  "orig_year": "2010",
+  "edition": "AirNow API docs snapshot",
+  "edition_year": "2026",
+  "level": "工程",
+  "count_as": "官方数据与工具文档",
+  "landing": "https://docs.airnowapi.org/",
+  "license": "美国政府；数据使用须遵守 AirNow 指南",
+  "maintain": "活跃",
+  "reason": "美国公众预报与实时 AQI 的官方接口：预报、观测、NowCast。数据为初步值，不可当作 AQS 认证库。",
+  "summary": "首页、FAQ 与 Web Services 列表。非整站镜像，不申请密钥、不拉数据。",
+  "summary_basis": "docs.airnowapi.org"
+ },
+ {
+  "mid": "S-12",
+  "group": "11",
+  "related": [
+   "08",
+   "02"
+  ],
+  "kind": "html",
+  "name": "NOAA_NAQFC_public_forecast",
+  "lang": "en",
+  "index_url": "https://airquality.weather.gov/",
+  "extra_pages": [],
+  "min_files": 1,
+  "min_chars": 300,
+  "allow_short": 0,
+  "title_phrase": "Air Quality",
+  "title": "NOAA National Air Quality Forecast Capability public forecast portal",
+  "authors": "NOAA / NWS",
+  "institution": "NOAA National Weather Service",
+  "orig_year": "2004",
+  "edition": "public portal snapshot",
+  "edition_year": "2026",
+  "level": "工程",
+  "count_as": "官方数据与工具文档",
+  "landing": "https://airquality.weather.gov/",
+  "license": "美国政府",
+  "maintain": "活跃",
+  "reason": "美国业务空气质量预报公众入口，对应 NAQFC/CMAQ 数值预报产品。",
+  "summary": "公众预报门户首页。旧 STI 建模页 404，改用现行 weather.gov 预报入口。",
+  "summary_basis": "airquality.weather.gov"
  }
 ]

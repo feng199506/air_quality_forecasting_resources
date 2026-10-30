@@ -1,0 +1,15 @@
+{
+ "status": "verified",
+ "set": "courses",
+ "title": "CMAS Center CMAQ community pages (training and model hub)",
+ "files": [
+  {
+   "path": "courses/CMAS_CMAQ_center_html_en",
+   "url": "https://www.cmascenter.org/cmaq/",
+   "html_pages": 2,
+   "files": 13,
+   "bytes": 416874
+  }
+ ],
+ "note": "官方 HTML，2 个页面全部 HTTP 200 且正文 ≥ 300 字符；wget 离线保存（页面资源、链接改写），共 13 个文件；页面清单 PAGES_en.txt"
+}

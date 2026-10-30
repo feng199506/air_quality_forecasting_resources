@@ -1,0 +1,18 @@
+{
+ "status": "verified",
+ "set": "projects",
+ "title": "AirFormer official PyTorch implementation (AAAI-23)",
+ "files": [
+  {
+   "path": "projects/yoshall_AirFormer_en",
+   "url": "https://github.com/yoshall/AirFormer",
+   "commit": "ef7d3933768490e3a06921b8eb0f837c61741194",
+   "files": 25,
+   "archive_sha256": "6bdf5f4cc641ae9d70358d3e4278f3a86328db8131297b62383d327e9fed8240",
+   "bytes": 85156818
+  }
+ ],
+ "commit": "ef7d3933768490e3a06921b8eb0f837c61741194",
+ "license_files": [],
+ "note": "官方仓库快照 commit ef7d39337684：归档 zip 完整性通过，解压 25 个文件（0 个 notebook）；应有文件已见 ['src/models/airformer.py', 'experiments/airformer/main.py', 'README.md']；仓库根目录未见许可证文件；未发现 LFS 指针文件"
+}

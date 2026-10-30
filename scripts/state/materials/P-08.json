@@ -1,0 +1,21 @@
+{
+ "status": "verified",
+ "set": "projects",
+ "title": "openair R package official source",
+ "files": [
+  {
+   "path": "projects/davidcarslaw_openair_en",
+   "url": "https://github.com/davidcarslaw/openair",
+   "commit": "22d3b8c68a9695bb73851340dbce00eea0e795a8",
+   "files": 227,
+   "archive_sha256": "be35389471cc767e729436cbda64004a73c070d61771bea1100e463cd3de4df5",
+   "bytes": 2509992
+  }
+ ],
+ "commit": "22d3b8c68a9695bb73851340dbce00eea0e795a8",
+ "license_files": [
+  "LICENSE",
+  "LICENSE.md"
+ ],
+ "note": "官方仓库快照 commit 22d3b8c68a96：归档 zip 完整性通过，解压 227 个文件（0 个 notebook）；应有文件已见 ['DESCRIPTION', 'README.md']；许可证文件 ['LICENSE', 'LICENSE.md']；未发现 LFS 指针文件"
+}

@@ -1,0 +1,44 @@
+{
+ "arxiv:2506.07616": {
+  "status": "ok",
+  "pdf": "https://arxiv.org/pdf/2506.07616v1",
+  "source": "new",
+  "note": "通过：HTTP 200；%PDF 头；pypdf 可解析 37 页、85494 字符；标题匹配 1.00；第一作者姓氏已见；参考文献节已见",
+  "pages": 37,
+  "chars": 85494,
+  "sha256": "a8aee61f78df7c93af44673e7552765503d50bf23f0c6289d1e3cb5d628a2b57",
+  "bytes": 47275736,
+  "title_match": 1.0,
+  "author_found": true,
+  "refs": true,
+  "path": "11_practical_projects/papers/2025_Geng_FuXiAir_en.pdf"
+ },
+ "arxiv:2509.15076": {
+  "status": "ok",
+  "pdf": "https://arxiv.org/pdf/2509.15076v1",
+  "source": "new",
+  "note": "通过：HTTP 200；%PDF 头；pypdf 可解析 9 页、43228 字符；标题匹配 1.00；第一作者姓氏已见；参考文献节已见",
+  "pages": 9,
+  "chars": 43228,
+  "sha256": "26b77a4ddf560f7390f79b611b3baa5cd62231fb08e8716f73e8e3b359b969b5",
+  "bytes": 20129086,
+  "title_match": 1.0,
+  "author_found": true,
+  "refs": true,
+  "path": "11_practical_projects/papers/2025_Vahdatpour_ForecastingVisualizingAirQuality_en.pdf"
+ },
+ "arxiv:2503.24043": {
+  "status": "ok",
+  "pdf": "https://arxiv.org/pdf/2503.24043v3",
+  "source": "new",
+  "note": "通过：HTTP 200；%PDF 头；pypdf 可解析 8 页、25362 字符；标题匹配 1.00；第一作者姓氏已见；参考文献节已见",
+  "pages": 8,
+  "chars": 25362,
+  "sha256": "3b758e8569fd336676b0f9d9d463fcfec2cf5250d687cf730df3c58dbe713d9a",
+  "bytes": 328668,
+  "title_match": 1.0,
+  "author_found": true,
+  "refs": true,
+  "path": "11_practical_projects/papers/2025_Lu_FrequencyAwareAttentionLSTM_en.pdf"
+ }
+}

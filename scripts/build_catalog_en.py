@@ -276,7 +276,7 @@ def main():
             "子方向": cat, "名称": CATS[cat][1],
             "论文已核验": n, "论文近五年占比": pct, "其中已有复用": n_reuse,
             "教材已核验": books, "课程已核验": courses, "软件已核验": sw, "项目已核验": proj,
-            "失败/待核验": n_fail, "状态": "本轮收集进行中",
+            "失败/待核验": n_fail, "状态": "本轮收集完成",
         })
     pp = ROOT / "progress_cn.csv"
     with pp.open("w", encoding="utf-8-sig", newline="") as f:
@@ -290,24 +290,56 @@ def main():
             continue
         rec = load(MAT_STATE / f"{r['编号']}.json", {})
         note = rec.get("note", "")
-        missing = ""
+        missing_bits = []
         if "发现可能的 LFS" in note:
-            missing = "可能有未保存的 LFS 对象，见核验说明"
+            missing_bits.append("可能有未保存的 LFS 对象，见核验说明")
         nfiles = 0
         if rec.get("files"):
             nfiles = rec["files"][0].get("files") or len(rec.get("files") or [])
         thin = nfiles and nfiles < 5
         if thin:
-            missing = (missing + "；" if missing else "") + "配套仓库文件过少"
-        has_entry = rec.get("status") == "verified" and not thin and (
-            "README" in note or "应有文件" in note or "commit" in note.lower() or True)
-        level = "L1" if rec.get("status") == "verified" and not thin else (
-            "L0" if rec.get("status") == "verified" else "L0/未完成")
+            missing_bits.append("配套仓库文件过少")
+        rel = (r.get("本地路径") or "").split(";")[0].strip()
+        rootp = ROOT / rel if rel else None
+        seen = {"readme": False, "deps": False, "entry": False, "snap": False, "cfg": False}
+        if rootp and rootp.exists():
+            names = []
+            for p in rootp.rglob("*"):
+                if p.is_file():
+                    names.append(p.name.lower())
+            seen["readme"] = any(n.startswith("readme") for n in names)
+            seen["deps"] = any(
+                n.startswith("requirements") or n in {
+                    "environment.yml", "environment.yaml", "pyproject.toml", "description",
+                    "setup.py", "setup.cfg", "pipfile", "uv.lock",
+                } for n in names)
+            seen["entry"] = any(
+                n in {"main.py", "train.py", "evaluate.py", "eval.py", "predict.py", "run.py"}
+                or n.endswith("_trainer.py") for n in names)
+            seen["snap"] = any(n.startswith("snapshot_") for n in names)
+            seen["cfg"] = any(n.endswith((".yaml", ".yml", ".json", ".ini", ".toml")) and n not in {
+                "package.json", ".zenodo.json",
+            } for n in names)
+        if rec.get("status") != "verified":
+            level = "L0/未完成"
+            static = "未完成"
+        elif seen["readme"] and seen["snap"] and (seen["deps"] or seen["entry"] or seen["cfg"]):
+            level = "L1"
+            static = ("静态已见："
+                      + ("README；" if seen["readme"] else "")
+                      + ("SNAPSHOT；" if seen["snap"] else "")
+                      + ("依赖清单；" if seen["deps"] else "依赖仅见 README 文字；")
+                      + ("训练/评测/预测入口；" if seen["entry"] else "未见标准 train/eval/predict 文件名；")
+                      + ("配置文件。" if seen["cfg"] else "未见 yaml/json 配置。"))
+        else:
+            level = "L0"
+            static = "已下载快照；入口或依赖清单未同时静态确认"
+        missing_bits.append("本轮未安装运行依赖；未执行测试；大型数据与权重未下载")
         ready.append({
             "编号": r["编号"], "项目": r["标题"], "本地路径": r["本地路径"],
             "可运行性等级": level,
-            "静态核对": "入口/许可证/应有路径见核验说明" if rec.get("status") == "verified" else "未完成",
-            "缺失依赖": missing or "本轮未安装运行依赖；未执行测试",
+            "静态核对": static,
+            "缺失依赖": "；".join(missing_bits),
             "后续验证条件": "新建隔离环境，按 SNAPSHOT 与 README 安装依赖后做小型预测；禁止把上游 README 演示结果当作本机复现",
             "许可证": r["许可证"], "版本/commit": r["版本"],
         })

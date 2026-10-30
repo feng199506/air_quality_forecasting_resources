@@ -1,0 +1,20 @@
+{
+ "status": "verified",
+ "set": "projects",
+ "title": "MAPIE: Model Agnostic Prediction Interval Estimator (conformal prediction)",
+ "files": [
+  {
+   "path": "projects/scikit_learn_contrib_MAPIE_en",
+   "url": "https://github.com/scikit-learn-contrib/MAPIE",
+   "commit": "5d03b7485e611ad57e67530b4a3a169642740473",
+   "files": 313,
+   "archive_sha256": "9f82ecf86562627c447a648ac31fbcc49fe922ebb51abb2cd31a1ed5d7c088a8",
+   "bytes": 13672112
+  }
+ ],
+ "commit": "5d03b7485e611ad57e67530b4a3a169642740473",
+ "license_files": [
+  "LICENSE"
+ ],
+ "note": "官方仓库快照 commit 5d03b7485e61：归档 zip 完整性通过，解压 313 个文件（17 个 notebook）；应有文件已见 ['README.md']；许可证文件 ['LICENSE']；未发现 LFS 指针文件"
+}

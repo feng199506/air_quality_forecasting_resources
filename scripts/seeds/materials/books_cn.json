@@ -2,7 +2,10 @@
  {
   "mid": "B-01",
   "group": "01",
-  "related": ["08", "03"],
+  "related": [
+   "08",
+   "03"
+  ],
   "kind": "pdf",
   "name": "Stull_PracticalMeteorology_v102b",
   "lang": "en",
@@ -29,7 +32,10 @@
  {
   "mid": "B-02",
   "group": "02",
-  "related": ["01", "07"],
+  "related": [
+   "01",
+   "07"
+  ],
   "kind": "pdf",
   "name": "WHO_AirQualityGuidelines_2021",
   "lang": "en",
@@ -56,7 +62,10 @@
  {
   "mid": "B-03",
   "group": "02",
-  "related": ["09", "11"],
+  "related": [
+   "09",
+   "11"
+  ],
   "kind": "pdf",
   "name": "EPA_AQI_TechnicalAssistanceDocument_2018",
   "lang": "en",
@@ -83,7 +92,9 @@
  {
   "mid": "B-04",
   "group": "01",
-  "related": ["08"],
+  "related": [
+   "08"
+  ],
   "kind": "pdf",
   "name": "Jacob_SupplementalProblems_AtmosphericChemistry_2022",
   "lang": "en",
@@ -110,7 +121,10 @@
  {
   "mid": "B-05",
   "group": "08",
-  "related": ["01", "11"],
+  "related": [
+   "01",
+   "11"
+  ],
   "kind": "pdf",
   "name": "WRFChem_UsersGuide",
   "lang": "en",
@@ -137,13 +151,17 @@
  {
   "mid": "B-06",
   "group": "01",
-  "related": ["08"],
+  "related": [
+   "08"
+  ],
   "kind": "pdfs",
   "name": "CMAQ_ScienceDocumentation_1999",
   "lang": "en",
   "index_url": "https://www.cmascenter.org/cmaq/science_documentation/",
   "link_regex": "\\.pdf($|\\?)",
-  "skip_regex": ["cover"],
+  "skip_regex": [
+   "cover"
+  ],
   "min_files": 8,
   "min_pages": 80,
   "min_pages_each": 4,
@@ -168,7 +186,10 @@
  {
   "mid": "B-07",
   "group": "11",
-  "related": ["08", "09"],
+  "related": [
+   "08",
+   "09"
+  ],
   "kind": "pdf",
   "name": "ARSET_OnlineResourceGuide_2015_2024",
   "lang": "en",
@@ -192,11 +213,13 @@
   "summary": "2015–2024 ARSET 培训目录，含全球空气质量预报与 GEOS 模式输出分析课。",
   "summary_basis": "NASA Earthdata PDF 扉页"
  },
-
  {
   "mid": "B-08",
   "group": "09",
-  "related": ["04", "11"],
+  "related": [
+   "04",
+   "11"
+  ],
   "kind": "pdf",
   "name": "Carslaw_openair_CRAN_manual",
   "lang": "en",
@@ -218,5 +241,65 @@
   "reason": "监测数据分析、时间平均与模式评估函数的官方 CRAN 手册。",
   "summary": "openair 函数、时间平均、风玫瑰、极坐标图与模型评估接口。",
   "summary_basis": "CRAN 手册扉页"
+ },
+ {
+  "mid": "B-09",
+  "group": "01",
+  "related": [
+   "08",
+   "11"
+  ],
+  "kind": "pdf",
+  "name": "HYSPLIT_UsersGuide",
+  "lang": "en",
+  "url": "https://www.arl.noaa.gov/wp-content/uploads/documents/reports/hysplit_user_guide.pdf",
+  "min_pages": 80,
+  "title_phrase": "HYSPLIT",
+  "title": "HYSPLIT User's Guide (NOAA Air Resources Laboratory, current bundled PDF)",
+  "authors": "Roland Draxler; Barbara Stunder; Glenn Rolph; Ariel Stein; others",
+  "institution": "NOAA Air Resources Laboratory",
+  "orig_year": "1999",
+  "edition": "current NOAA ARL user-guide PDF snapshot",
+  "edition_year": "2026",
+  "identifier": "NOAA ARL HYSPLIT User's Guide PDF",
+  "level": "硕士/工程",
+  "book_role": "官方用户手册",
+  "license": "见 NOAA ARL 原文",
+  "landing": "https://www.arl.noaa.gov/hysplit/getrun-hysplit/",
+  "prereq": "气象与扩散基础",
+  "difficulty": "中级",
+  "reason": "拉格朗日轨迹与浓度扩散的官方手册，对应输送/扩散先修与烟羽、沙尘、野火输送应用。",
+  "summary": "HYSPLIT 安装、轨迹与浓度模拟、气象输入格式与输出解释。",
+  "summary_basis": "NOAA ARL 用户指南 PDF 扉页"
+ },
+ {
+  "mid": "B-10",
+  "group": "01",
+  "related": [
+   "08",
+   "10"
+  ],
+  "kind": "pdf",
+  "name": "EPA_AppendixW_Guideline_AirQualityModels_2024",
+  "lang": "en",
+  "url": "https://www.epa.gov/system/files/documents/2024-11/appendix_w-2024.pdf",
+  "min_pages": 20,
+  "title_phrase": "Guideline on Air Quality Models",
+  "title": "Guideline on Air Quality Models (Appendix W to 40 CFR Part 51), 2024 final-rule text",
+  "authors": "U.S. Environmental Protection Agency",
+  "institution": "U.S. EPA OAQPS / SCRAM",
+  "orig_year": "1978",
+  "edition": "2024 Appendix W final rule PDF (89 FR 95034), 11-29-2024",
+  "edition_year": "2024",
+  "identifier": "40 CFR Part 51 Appendix W (2024)",
+  "level": "工程/法规",
+  "book_role": "官方标准/技术文件",
+  "license": "美国政府公有领域资料（以原文为准）",
+  "landing": "https://www.epa.gov/scram/clean-air-act-permit-modeling-guidance",
+  "prereq": "扩散模式基础",
+  "difficulty": "中级",
+  "reason": "美国监管空气质量模式选用与 AERMOD 等推荐技术的现行 Guideline；是机理预报/许可模拟的法规基准，不是站点时序学习模型。",
+  "summary": "推荐模式清单、近场扩散、背景浓度与二次污染物相关条款。42 页量级法规文本。",
+  "summary_basis": "EPA SCRAM 2024 Appendix W PDF"
  }
 ]

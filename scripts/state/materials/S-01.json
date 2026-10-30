@@ -1,0 +1,15 @@
+{
+ "status": "verified",
+ "set": "software",
+ "title": "OpenAQ API documentation (offline HTML subset)",
+ "files": [
+  {
+   "path": "software_docs/OpenAQ_API_docs_html_en",
+   "url": "https://docs.openaq.org/",
+   "html_pages": 7,
+   "files": 24,
+   "bytes": 1511328
+  }
+ ],
+ "note": "官方 HTML，7 个页面全部 HTTP 200 且正文 ≥ 400 字符；wget 离线保存（页面资源、链接改写），共 24 个文件；页面清单 PAGES_en.txt"
+}

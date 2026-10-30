@@ -1,0 +1,20 @@
+{
+ "status": "verified",
+ "set": "projects",
+ "title": "OpenAQ official Python client",
+ "files": [
+  {
+   "path": "projects/openaq_openaq_python_en",
+   "url": "https://github.com/openaq/openaq-python",
+   "commit": "36cddc6af4fe59b2bd02df24558a00d2a648ae91",
+   "files": 162,
+   "archive_sha256": "55d31f32ffc4e0273320a05bccbb10961bf7d08c6a2ad00190ef83c4077b0a3e",
+   "bytes": 505511
+  }
+ ],
+ "commit": "36cddc6af4fe59b2bd02df24558a00d2a648ae91",
+ "license_files": [
+  "LICENSE"
+ ],
+ "note": "官方仓库快照 commit 36cddc6af4fe：归档 zip 完整性通过，解压 162 个文件（0 个 notebook）；应有文件已见 ['README.md']；许可证文件 ['LICENSE']；未发现 LFS 指针文件"
+}

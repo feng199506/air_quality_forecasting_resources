@@ -1,0 +1,18 @@
+{
+ "status": "verified",
+ "set": "projects",
+ "title": "Air-DualODE official implementation (ICLR 2025)",
+ "files": [
+  {
+   "path": "projects/decisionintelligence_AirDualODE_en",
+   "url": "https://github.com/decisionintelligence/Air-DualODE",
+   "commit": "3accfef5d3ab40f685ea29f302f76287706ba821",
+   "files": 37,
+   "archive_sha256": "a3c00743194defcef865dab11c392c5d24299d0b615037ca8cf9c273c4a2d397",
+   "bytes": 755163
+  }
+ ],
+ "commit": "3accfef5d3ab40f685ea29f302f76287706ba821",
+ "license_files": [],
+ "note": "官方仓库快照 commit 3accfef5d3ab：归档 zip 完整性通过，解压 37 个文件（0 个 notebook）；应有文件已见 ['README.md']；仓库根目录未见许可证文件；未发现 LFS 指针文件"
+}

@@ -1,0 +1,20 @@
+{
+ "status": "verified",
+ "set": "projects",
+ "title": "PM2.5-GNN / KnowAir official implementation",
+ "files": [
+  {
+   "path": "projects/shuowang_PM25_GNN_en",
+   "url": "https://github.com/shuowang-ai/PM2.5-GNN",
+   "commit": "5d9efaeb545669318b3f2d7a347aa2543eaae078",
+   "files": 27,
+   "archive_sha256": "29078d0f37349023c70482364fe9ac0e1d408b667a6c712a0a551bc0b7a9dab7",
+   "bytes": 9826782
+  }
+ ],
+ "commit": "5d9efaeb545669318b3f2d7a347aa2543eaae078",
+ "license_files": [
+  "LICENSE"
+ ],
+ "note": "官方仓库快照 commit 5d9efaeb5456：归档 zip 完整性通过，解压 27 个文件（0 个 notebook）；应有文件已见 ['README.md']；许可证文件 ['LICENSE']；未发现 LFS 指针文件"
+}

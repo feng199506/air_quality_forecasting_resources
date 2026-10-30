@@ -1,0 +1,20 @@
+{
+ "status": "verified",
+ "set": "projects",
+ "title": "MONET: Model and Observation Evaluation Toolkit (NOAA ARL)",
+ "files": [
+  {
+   "path": "projects/noaa_oar_arl_MONET_en",
+   "url": "https://github.com/noaa-oar-arl/monet",
+   "commit": "873af16778cd3db1ac8148f471e4dd712aa351cb",
+   "files": 76,
+   "archive_sha256": "8f4a496258b49189ad4ae6f4f15a510df586657f48cbed7fd2ebd9e479c7d324",
+   "bytes": 1893663
+  }
+ ],
+ "commit": "873af16778cd3db1ac8148f471e4dd712aa351cb",
+ "license_files": [
+  "LICENSE"
+ ],
+ "note": "官方仓库快照 commit 873af16778cd：归档 zip 完整性通过，解压 76 个文件（0 个 notebook）；应有文件已见 ['README.md']；许可证文件 ['LICENSE']；未发现 LFS 指针文件"
+}

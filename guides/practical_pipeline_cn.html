@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8"><title>实践流水线</title>
+<style>body{font-family:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",sans-serif;max-width:1100px;margin:2em auto;
+padding:0 1em;line-height:1.6;color:#222}table{border-collapse:collapse;margin:1em 0;font-size:14px}th,td{border:1px solid #ccc;
+padding:4px 8px;vertical-align:top}th{background:#f3f3f3}code{background:#f5f5f5;padding:0 3px}pre{background:#f5f5f5;padding:8px;
+overflow:auto}a{color:#0645ad}.muted{color:#888}.nav{font-size:14px;margin-bottom:1em}</style>
+</head><body>
+<div class="nav"><a href="../index_cn.html">← 离线首页 index_cn.html</a></div>
+<h1>实践流水线</h1>
+<p>对应完整案例类型。配置与入口来自已下载仓库的 README/脚本名，<strong>本轮未执行</strong>。</p>
+<h2>共同步骤（研究原型）</h2>
+<ol><li>明确目标：物种、单位、空间单元、时效、AQI 或浓度。</li><li>只使用发报时刻可获得的观测与气象预报；再分析单独做对照实验。</li><li>按时间切分；填补与标准化只在训练段拟合。</li><li>先跑持续性与统计基线（P-15、P-08），再跑学习模型。</li><li>分层报告时效、季节、高污染事件。</li><li>保留质量标记与缺测，不要静默填满后再声称「真实监测网」。</li></ol>
+<h2>单站点短期</h2>
+<ul><li>数据：OpenAQ 客户端 P-09 或 EPA pyaqsapi P-10（需密钥，本轮未调用）。</li><li>模型：statsmodels 时序（P-15）或 LightGBM 滞后特征（P-20）。</li><li>评测：滚动原点；小时 MAE/RMSE。</li></ul>
+<h2>多站点空间时间</h2>
+<table><thead><tr><th>项目</th><th>路径</th><th>入口（静态）</th><th>数据</th></tr></thead><tbody><tr><td>AirFormer</td><td><a href="../projects/yoshall_AirFormer_en/"><code>projects/yoshall_AirFormer_en/</code></a></td><td><code>experiments/airformer/main.py</code></td><td>tiny zip 需自解压；完整数据未下载</td></tr><tr><td>PM2.5-GNN</td><td><a href="../projects/shuowang_PM25_GNN_en/"><code>projects/shuowang_PM25_GNN_en/</code></a></td><td><code>config.yaml</code> + requirements</td><td>KnowAir npy 未下载</td></tr><tr><td>HighAir</td><td><a href="../projects/Friger_HighAir_en/"><code>projects/Friger_HighAir_en/</code></a></td><td>README 极短，脚本待对照源码</td><td>待仓库文件</td></tr><tr><td>Air-DualODE</td><td><a href="../projects/decisionintelligence_AirDualODE_en/"><code>projects/decisionintelligence_AirDualODE_en/</code></a></td><td><code>Run/train.py</code>、<code>Run/eval.py</code> + yaml</td><td>Beijing / KnowAir 需自备</td></tr><tr><td>PCDCNet</td><td><a href="../projects/shuowang_PCDCNet_en/"><code>projects/shuowang_PCDCNet_en/</code></a></td><td><code>scripts/train.py</code>、<code>predict.py</code>、<code>evaluate.py</code></td><td>自带 BTHSA 2017-01 样本 nc</td></tr></tbody></table>
+<p>PCDCNet demo 是月内切分教学，不是论文基准。AirPhyNet：<code>main.py</code> + <code>configs.yaml</code> + <code>requirements.txt</code>；Google Drive 样本未下载。</p>
+<h2>新站点或跨城市</h2>
+<p>Air-DualODE 提供 <code>Run/create_graph.py</code> 以便换数据集建图。AirQualityBench 论文讨论真实缺测与全球协议；其 GitHub 本轮未做快照。无监测点估计是另一任务（PM2.5-GNN README 指向 SPIN），不要写成预报技能。</p>
+<h2>概率与超标</h2>
+<p>把点预报接到 MAPIE（P-11）或分位数模型；用 scores（P-16）算 CRPS。阈值必须与目标地区的浓度标准或 AQI 断点一致。事件样本数要报告。</p>
+<h2>数值模式偏差订正</h2>
+<p>输入：CAMS 或 NAQFC 预报场（S-03、S-12）+ 当时可得观测。方法：P01-002 这类多模式校准。检验：MET/METplus、MONET。不要用 ERA5 代替当时的气象预报去做「业务订正」实验。</p>
+<h2>缺测、延迟、传感器异常</h2>
+<p>保留质量标记（AQS、EEA e-reporting）。缺测时回退到持续性或上一次成功预报，而不是用未来观测填。AirNow 文档写明数据为初步值。openair（P-08）用于监测诊断，不是预报模型。</p>
+<p>MGSFformer（P-07）仅有 <code>model1/</code> 模块，L0，不能当作完整流水线。</p>
+</body></html>

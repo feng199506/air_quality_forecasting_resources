@@ -23,7 +23,7 @@
   "summary_basis": "arXiv 摘要",
   "task": "future_forecast",
   "code_kind": "official_partial",
-  "code_url": "https://github.com/w2obin/airdde-aaai."
+  "code_url": "https://github.com/w2obin/airdde-aaai"
  },
  {
   "arxiv": "2408.16122",
@@ -156,7 +156,8 @@
   "summary": "Vision Transformers have achieved remarkable success in spatio-temporal prediction, but their scalability remains limited for ultra-high-resolution, continent-scale domains required in real-world environmental monitoring. A single European air-quality map at 1 km resolution compr…",
   "summary_basis": "arXiv 摘要",
   "task": "future_forecast",
-  "code_kind": "待全文核实"
+  "code_kind": "official_partial",
+  "code_url": "https://github.com/AmmarKheder/cran_pm"
  },
  {
   "arxiv": "2508.17867",

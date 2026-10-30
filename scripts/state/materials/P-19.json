@@ -1,0 +1,21 @@
+{
+ "status": "verified",
+ "set": "projects",
+ "title": "worldmet: NOAA ISD meteorological data access for air quality analysis",
+ "files": [
+  {
+   "path": "projects/davidcarslaw_worldmet_en",
+   "url": "https://github.com/davidcarslaw/worldmet",
+   "commit": "0d2cf4fbf6f7efcd11dca22482c6adcde9623a2e",
+   "files": 70,
+   "archive_sha256": "538782307e18b09a3f73b9fb31a082342a5368c2ecd11ecd9b91ee664d7e6d92",
+   "bytes": 580220
+  }
+ ],
+ "commit": "0d2cf4fbf6f7efcd11dca22482c6adcde9623a2e",
+ "license_files": [
+  "LICENSE",
+  "LICENSE.md"
+ ],
+ "note": "官方仓库快照 commit 0d2cf4fbf6f7：归档 zip 完整性通过，解压 70 个文件（0 个 notebook）；应有文件已见 ['README.md']；许可证文件 ['LICENSE', 'LICENSE.md']；未发现 LFS 指针文件"
+}

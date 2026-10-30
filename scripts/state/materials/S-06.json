@@ -1,0 +1,15 @@
+{
+ "status": "verified",
+ "set": "software",
+ "title": "European Environment Agency air pollution topic page and European Air Quality Index methodology page",
+ "files": [
+  {
+   "path": "software_docs/EEA_AirQuality_portal_html_en",
+   "url": "https://www.eea.europa.eu/en/topics/in-depth/air-pollution",
+   "html_pages": 2,
+   "files": 110,
+   "bytes": 20377627
+  }
+ ],
+ "note": "官方 HTML，2 个页面全部 HTTP 200 且正文 ≥ 300 字符；wget 离线保存（页面资源、链接改写），共 110 个文件；页面清单 PAGES_en.txt"
+}

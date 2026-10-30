@@ -1,0 +1,20 @@
+{
+ "status": "verified",
+ "set": "projects",
+ "title": "HighAir official implementation (hierarchical GNN air quality forecasting)",
+ "files": [
+  {
+   "path": "projects/Friger_HighAir_en",
+   "url": "https://github.com/Friger/HighAir",
+   "commit": "f751f3fb65595c1018c98a0c91bfbbeb1ab87a3e",
+   "files": 9,
+   "archive_sha256": "671155dc436fb4e637cd203dd4ef83c2c506875f9ae82d7a1b29d5b6185c1833",
+   "bytes": 8920
+  }
+ ],
+ "commit": "f751f3fb65595c1018c98a0c91bfbbeb1ab87a3e",
+ "license_files": [
+  "LICENSE"
+ ],
+ "note": "官方仓库快照 commit f751f3fb6559：归档 zip 完整性通过，解压 9 个文件（0 个 notebook）；应有文件已见 ['README.md']；许可证文件 ['LICENSE']；未发现 LFS 指针文件"
+}

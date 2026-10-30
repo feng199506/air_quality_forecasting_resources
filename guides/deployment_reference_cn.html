@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8"><title>部署参考</title>
+<style>body{font-family:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",sans-serif;max-width:1100px;margin:2em auto;
+padding:0 1em;line-height:1.6;color:#222}table{border-collapse:collapse;margin:1em 0;font-size:14px}th,td{border:1px solid #ccc;
+padding:4px 8px;vertical-align:top}th{background:#f3f3f3}code{background:#f5f5f5;padding:0 3px}pre{background:#f5f5f5;padding:8px;
+overflow:auto}a{color:#0645ad}.muted{color:#888}.nav{font-size:14px;margin-bottom:1em}</style>
+</head><body>
+<div class="nav"><a href="../index_cn.html">← 离线首页 index_cn.html</a></div>
+<h1>部署参考</h1>
+<p>区分教学演示、研究原型、有公开运行证据的系统。本轮不部署、不验证在线服务。</p>
+<h2>有公开「运行中」陈述但未在本机验证</h2>
+<ul><li><strong>PCDCNet</strong>：README 指向彩云空气质量地图公共服务。本库只保存代码快照与论文，<strong>不声称已验证生产效果、延迟或准确度</strong>。</li><li><strong>NAQFC / AirNow / CAMS</strong>：国家或区域业务系统。文档与系统论文已存（S-11、S-12、S-03、P02-020、P02-021）。接入方式以现行官方页为准，需账号处本轮未申请。</li></ul>
+<h2>研究原型（有训练/评测入口，无业务证据）</h2>
+<p>AirFormer、AirPhyNet、Air-DualODE、PM2.5-GNN、HighAir。依赖见各 README。共同缺失：完整训练数据、权重、按发报时刻对齐的气象预报存档。</p>
+<h2>教学演示</h2>
+<ul><li>PCDCNet <code>--demo</code> 一个月样本。</li><li>AirFormer <code>AIR_TINY</code> 各 20 条样本。</li><li>MIT/Harvard/CMAQ/CAMS 课包与文档站（C-01、C-05、C-06、C-07、C-10）。</li></ul>
+<h2>定时推理与接口（文档层）</h2>
+<table><thead><tr><th>需求</th><th>参考</th><th>限制</th></tr></thead><tbody><tr><td>观测到达</td><td>OpenAQ API（S-01）、AirNow（S-11）、AQS（S-02）</td><td>密钥、速率、初步值</td></tr><tr><td>模式预报到达</td><td>CAMS ADS、NAQFC 门户</td><td>发布延迟、单位、网格</td></tr><tr><td>检验作业</td><td>METplus、MET、MONET</td><td>需模式输出与观测匹配</td></tr><tr><td>区间/预警</td><td>MAPIE、scores</td><td>自行接到浓度阈值</td></tr></tbody></table>
+<p>AirNow FAQ 建议按小时缓存观测、按日缓存预报；超限不返回。AQS 认证库滞后数月，不能做实时输入。</p>
+<h2>模型更新与回退</h2>
+<ul><li>更新：按季节或污染体制重训；保留旧模型作对照。</li><li>回退：输入缺测或传感器异常 → 持续性或上一份有效预报 → 标记质量。不要静默用再分析补洞后对外发布。</li><li>单位与时区：在接口层固定；CAMS kg m-3、AQS ppm/ppb、中国公开 µg m-3 常见混用。</li><li>AQI：按发布地区公式计算，版本与生效日期写入配置。美国用 B-03；欧洲用 S-06；其他地区本轮无完整官方文本。</li></ul>
+<h2>依赖与许可证</h2>
+<p>各项目 <code>SNAPSHOT_en.txt</code> 记录 commit。许可证文件在仓库根目录（有的仓库没有 LICENSE，如 Air-DualODE、MGSFformer）。统计库与检验工具是通用软件，部署空气质量服务仍需自备数据许可。</p>
+</body></html>

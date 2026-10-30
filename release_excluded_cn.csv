@@ -1,0 +1,16 @@
+﻿发布包内路径,状态,原因,说明
+01_domain_foundations/{papers}/,未打包,空目录,资料库构建脚本中未展开的花括号留下的空目录，没有任何文件；论文在同级的 papers/ 中
+02_targets_horizons/{papers}/,未打包,空目录,资料库构建脚本中未展开的花括号留下的空目录，没有任何文件；论文在同级的 papers/ 中
+03_statistical_baselines/{papers}/,未打包,空目录,资料库构建脚本中未展开的花括号留下的空目录，没有任何文件；论文在同级的 papers/ 中
+04_machine_learning/{papers}/,未打包,空目录,资料库构建脚本中未展开的花括号留下的空目录，没有任何文件；论文在同级的 papers/ 中
+05_deep_learning/{papers}/,未打包,空目录,资料库构建脚本中未展开的花括号留下的空目录，没有任何文件；论文在同级的 papers/ 中
+06_spatiotemporal/{papers}/,未打包,空目录,资料库构建脚本中未展开的花括号留下的空目录，没有任何文件；论文在同级的 papers/ 中
+07_probabilistic_forecasting/{papers}/,未打包,空目录,资料库构建脚本中未展开的花括号留下的空目录，没有任何文件；论文在同级的 papers/ 中
+08_physics_hybrid/{papers}/,未打包,空目录,资料库构建脚本中未展开的花括号留下的空目录，没有任何文件；论文在同级的 papers/ 中
+09_data_quality_features/{papers}/,未打包,空目录,资料库构建脚本中未展开的花括号留下的空目录，没有任何文件；论文在同级的 papers/ 中
+10_evaluation_reproducibility/{papers}/,未打包,空目录,资料库构建脚本中未展开的花括号留下的空目录，没有任何文件；论文在同级的 papers/ 中
+11_practical_projects/{papers}/,未打包,空目录,资料库构建脚本中未展开的花括号留下的空目录，没有任何文件；论文在同级的 papers/ 中
+.git/,未打包,本地 Git 数据,资料库自身的版本库数据，阅读用不到
+projects/decisionintelligence_AirDualODE_en/,单独打包,未声明开源许可证,放在 …_batch003_code_nolicense_cn_en.tar 中，目录内附 _NO_LICENSE_NOTICE_cn.txt；仅供个人学习研究对照论文阅读
+projects/GestaltCogTeam_MGSFformer_en/,单独打包,未声明开源许可证,放在 …_batch003_code_nolicense_cn_en.tar 中，目录内附 _NO_LICENSE_NOTICE_cn.txt；仅供个人学习研究对照论文阅读
+projects/yoshall_AirFormer_en/,单独打包,未声明开源许可证,放在 …_batch003_code_nolicense_cn_en.tar 中，目录内附 _NO_LICENSE_NOTICE_cn.txt；仅供个人学习研究对照论文阅读

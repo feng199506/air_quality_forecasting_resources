@@ -84,10 +84,10 @@
   "path": "01_domain_foundations/papers/2026_Kheder_TopoFlow_en.pdf"
  },
  "arxiv:2610.16630": {
-  "status": "pending",
+  "status": "ok",
   "pdf": "https://arxiv.org/pdf/2610.16630v1",
   "source": "new",
-  "note": "标题词匹配 0.88；第一作者姓氏未见",
+  "note": "人工核对通过：第一作者为 Kien Le（种子元数据姓氏变音/顺序导致未见 Trung）；标题与空气质量长期预报一致。；自动检查：标题词匹配 0.88；第一作者姓氏未见",
   "pages": 25,
   "chars": 84374,
   "sha256": "9f505eccb90b1e3606d140598c31e5e2739575fa0cfcdf8423e85e7ca400be0b",

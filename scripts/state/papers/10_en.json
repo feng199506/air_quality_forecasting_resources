@@ -1,0 +1,78 @@
+{
+ "arxiv:2409.05866": {
+  "status": "ok",
+  "pdf": "https://arxiv.org/pdf/2409.05866v2",
+  "source": "new",
+  "note": "通过：HTTP 200；%PDF 头；pypdf 可解析 20 页、59119 字符；标题匹配 1.00；第一作者姓氏已见；参考文献节已见",
+  "pages": 20,
+  "chars": 59119,
+  "sha256": "365a8093bbfb69b6576b3abd971c6ea971005ad0da436357bb75a1ab151c5e4a",
+  "bytes": 490429,
+  "title_match": 1.0,
+  "author_found": true,
+  "refs": true,
+  "path": "10_evaluation_reproducibility/papers/2024_Berlinghieri_HourlyPM25Forecasts_en.pdf"
+ },
+ "arxiv:2405.03981": {
+  "status": "ok",
+  "pdf": "https://arxiv.org/pdf/2405.03981v1",
+  "source": "new",
+  "note": "通过：HTTP 200；%PDF 头；pypdf 可解析 11 页、26941 字符；标题匹配 1.00；第一作者姓氏已见；参考文献节已见",
+  "pages": 11,
+  "chars": 26941,
+  "sha256": "66d8d5793adfc15178b9cc72b5b8c8134920adceaa9fd760b4268a36ec6e0dda",
+  "bytes": 878369,
+  "title_match": 1.0,
+  "author_found": true,
+  "refs": true,
+  "path": "10_evaluation_reproducibility/papers/2024_Mahajan_PredictingLungDiseaseSeverity_en.pdf"
+ },
+ "arxiv:2312.17517": {
+  "status": "ok",
+  "pdf": "https://arxiv.org/pdf/2312.17517v1",
+  "source": "new",
+  "note": "通过：HTTP 200；%PDF 头；pypdf 可解析 25 页、78747 字符；标题匹配 1.00；第一作者姓氏已见；参考文献节已见",
+  "pages": 25,
+  "chars": 78747,
+  "sha256": "0192d3b3ba7051b783d764516111fc867cae6e56f9467a7f579d2fd76315969a",
+  "bytes": 1280561,
+  "title_match": 1.0,
+  "author_found": true,
+  "refs": true,
+  "path": "10_evaluation_reproducibility/papers/2023_Espinosa_EmbeddedFeatureSelectionLSTM_en.pdf"
+ },
+ "arxiv:2202.10808": {
+  "status": "ok",
+  "pdf": "https://arxiv.org/pdf/2202.10808v2",
+  "source": "new",
+  "note": "通过：HTTP 200；%PDF 头；pypdf 可解析 10 页、48868 字符；标题匹配 1.00；第一作者姓氏已见；参考文献节已见",
+  "pages": 10,
+  "chars": 48868,
+  "sha256": "4cd8a1bbd8439efd6b524d4db776b9fb8bc8c5b6758f9b06b14d93ee27b5eb06",
+  "bytes": 2826089,
+  "title_match": 1.0,
+  "author_found": true,
+  "refs": true,
+  "path": "10_evaluation_reproducibility/papers/2022_Duan_CombatingDistributionShiftAccurate_en.pdf"
+ },
+ "arxiv:2605.18333": {
+  "status": "ok",
+  "pdf": "https://arxiv.org/pdf/2605.18333v3",
+  "source": "new",
+  "note": "通过：HTTP 200；%PDF 头；pypdf 可解析 8 页、47156 字符；标题匹配 1.00；第一作者姓氏已见；参考文献节已见",
+  "pages": 8,
+  "chars": 47156,
+  "sha256": "6aa76f8b6590e557413625f57780c8087a687a8dd049465745a6b4ee3fe35546",
+  "bytes": 1362872,
+  "title_match": 1.0,
+  "author_found": true,
+  "refs": true,
+  "path": "10_evaluation_reproducibility/papers/2026_Marchisio_QLIFCAST_en.pdf"
+ },
+ "url:https://gmd.copernicus.org/articles/14/3489/2021/gmd-14-3489-2021.pdf": {
+  "status": "fail",
+  "pdf": "https://gmd.copernicus.org/articles/14/3489/2021/gmd-14-3489-2021.pdf",
+  "source": "new",
+  "note": "下载失败：HTTP 404 "
+ }
+}

@@ -1,0 +1,20 @@
+{
+ "status": "verified",
+ "set": "projects",
+ "title": "AirPhyNet official PyTorch implementation (ICLR 2024)",
+ "files": [
+  {
+   "path": "projects/kethmih_AirPhyNet_en",
+   "url": "https://github.com/kethmih/AirPhyNet",
+   "commit": "e77576cfea777e8cd07f2ae198c560a8790f4b91",
+   "files": 13,
+   "archive_sha256": "c53529cb711148500bc69bd066ce0f081e2c16dce1c8b637c3abb0c960602d59",
+   "bytes": 371020
+  }
+ ],
+ "commit": "e77576cfea777e8cd07f2ae198c560a8790f4b91",
+ "license_files": [
+  "LICENSE"
+ ],
+ "note": "官方仓库快照 commit e77576cfea77：归档 zip 完整性通过，解压 13 个文件（0 个 notebook）；应有文件已见 ['main.py', 'requirements.txt', 'README.md']；许可证文件 ['LICENSE']；未发现 LFS 指针文件"
+}

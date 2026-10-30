@@ -1,0 +1,15 @@
+﻿编号,资料类型,标题,状态,说明,地址
+P01-011,论文/综述/教程,GraphSVR: A Graph Convolutional Support Vector Regression Framework for Robust Spatiotemporal Air Pollution Forecasting,fail,下载失败：HTTP 404 ,https://arxiv.org/pdf/2605.03795
+P02-004,论文/综述/教程,"Predicting Air Pollution in Cork, Ireland Using Machine Learning",fail,下载失败：HTTP 404 ,https://arxiv.org/pdf/2507.04196
+P02-015,论文/综述/教程,Long-Term PM2.5 Forecasting Using a DTW-Enhanced CNN-GRU Model,fail,下载失败：HTTP 404 ,https://arxiv.org/pdf/2510.22863
+P06-002,论文/综述/教程,PriSTI: A Conditional Diffusion Framework for Spatiotemporal Imputation,rejected,人工拒收：PriSTI 为时空缺失填补扩散框架，不是未来空气质量预报主任务，不计入主集合。,https://arxiv.org/pdf/2302.09746
+P10-006,论文/综述/教程,The GEOS-CF system and its evaluation (placeholder title; verified on download),fail,下载失败：HTTP 404 ,https://gmd.copernicus.org/articles/14/3489/2021/gmd-14-3489-2021.pdf
+B-02,教科书/专著/参考书,"WHO global air quality guidelines: particulate matter (PM2.5 and PM10), ozone, nitrogen dioxide, sulfur dioxide and carbon monoxide (2021)",failed,无 %PDF- 头,https://apps.who.int/iris/bitstream/handle/10665/345329/9789240034228-eng.pdf
+B-04,教科书/专著/参考书,"Supplemental Questions and Problems for Introduction to Atmospheric Chemistry (14th edition, August 2022)",failed,HTTP 404,https://acmg.seas.harvard.edu/sites/projects.iq.harvard.edu/files/acmg/files/jacob_atmchem_problems_aug_2022.pdf
+B-05,教科书/专著/参考书,WRF-Chem Version 4.4 User's Guide (NOAA/NCAR),failed,HTTP None,https://ruc.noaa.gov/wrf/wrf-chem/Users_guide.pdf
+B-07,教科书/专著/参考书,Applied Remote Sensing Training (ARSET) Program Online Resource Guide 2015–2024,failed,无 %PDF- 头,https://appliedsciences.nasa.gov/sites/default/files/2024-11/OnlineResourceGuide_2024_Revised_V2.pdf
+C-02,大学课程/讲义,NASA ARSET: Introduction and Access to Global Air Quality Forecasting Data and Tools (2021) + GEOS/MERRA-2 review slides,failed,第 1 个文件 HTTP 403: https://www.earthdata.nasa.gov/s3fs-public/2025-10/ARSET-IntroAQ2021-part2-slides.pdf,
+C-03,大学课程/讲义,NASA ARSET: Tools for Analyzing NASA Air Quality Model Output (Feb–Mar 2022) lecture slides,failed,第 1 个文件 HTTP 403: https://earthdata.nasa.gov/s3fs-public/2025-08/ARSET-AQModel2022-part1-slides.pdf,
+C-04,大学课程/讲义,NASA ARSET: Lidar Profiling Satellite Observations for Air Quality Applications (June 2025),failed,未从索引页取得文件链接（索引页 HTTP 403）,https://www.earthdata.nasa.gov/learn/trainings/lidar-profiling-satellite-observations-air-quality-applications
+C-09,大学课程/讲义,NOAA National Air Quality Forecast Capability public forecast pages,failed,页面 HTTP 404 : https://www.weather.gov/sti/stimodeling_airquality_forecasting,https://airquality.weather.gov/
+P-14,参考项目/实验,OpenAQ API v3 official service source,failed,git ls-remote 失败：fatal: could not read Username for 'https://github.com': terminal prompts disabled,https://github.com/openaq/openaq-api-v3
